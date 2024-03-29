@@ -1,0 +1,206 @@
+genome T2T-CHM13v2.0
+twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
+chromSizes T2T-CHM13v2.0/chm13v2.0.sizes
+chromAlias T2T-CHM13v2.0/chm13v2.0.alias
+trackDb T2T-CHM13v2.0/trackDb.txt
+description T2T-CHM13v2.0 wi HG002Y (Human, hs1)
+organism Homo sapiens
+defaultPos chr13:11,650,644-13,154,093
+orderKey 1
+scientificName Homo sapiens
+groups T2T-CHM13v2.0/groups.txt
+htmlPath T2T-CHM13v2.0/description.html
+
+genome mGorGor1_v2.0_pri
+twoBitPath https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0_pri.2bit
+chromSizes mGorGor1_v2.0_pri/mGorGor1_v2.0_pri.sizes
+chromAlias mGorGor1_v2.0/mGorGor1_v2.0.alias
+defaultPos chr14_pat_hsa13:1-10,789,646
+trackDb mGorGor1_v2.0/trackDb.txt
+description mGorGor1 v2.0 Pri (Gorilla)
+organism Gorilla gorilla
+orderKey 2
+scientificName Gorilla gorilla
+groups groups.txt
+htmlPath mGorGor1_v2.0_pri/description.html
+
+genome mGorGor1_v2.0
+twoBitPath https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
+chromSizes mGorGor1_v2.0/mGorGor1_v2.0.sizes
+chromAlias mGorGor1_v2.0/mGorGor1_v2.0.alias
+defaultPos chr14_mat_hsa13:1-10,789,646
+trackDb mGorGor1_v2.0/trackDb.txt
+description mGorGor1 v2.0 (Gorilla)
+organism Gorilla gorilla
+orderKey 3
+scientificName Gorilla gorilla
+groups groups.txt
+htmlPath mGorGor1_v2.0/description.html
+
+genome mPanPan1_v2.0_pri
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0_pri.2bit
+chromSizes mPanPan1_v2.0_pri/mPanPan1_v2.0_pri.sizes
+chromAlias mPanPan1_v2.0/mPanPan1_v2.0.alias
+defaultPos chr14_pat_hsa13:1-10,000,000
+trackDb mPanPan1_v2.0/trackDb.txt
+description mPanPan1 v2.0 Pri (Bonobo)
+organism Pan paniscus
+orderKey 2
+scientificName Pan paniscus
+groups groups.txt
+htmlPath mPanPan1_v2.0_pri/description.html
+
+genome mPanPan1_v2.0
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
+chromSizes mPanPan1_v2.0/mPanPan1_v2.0.sizes
+chromAlias mPanPan1_v2.0/mPanPan1_v2.0.alias
+defaultPos chr14_mat_hsa13:1-10,000,000
+trackDb mPanPan1_v2.0/trackDb.txt
+description mPanPan1 v2.0 (Bonobo)
+organism Pan paniscus
+orderKey 3
+scientificName Pan paniscus
+groups groups.txt
+htmlPath mPanPan1_v2.0/description.html
+
+genome mPanTro3_v2.0_pri
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
+chromSizes mPanTro3_v2.0_pri/mPanTro3_v2.0_pri.sizes
+chromAlias mPanTro3_v2.0/mPanTro3_v2.0.alias
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb mPanTro3_v2.0/trackDb.txt
+description mPanTro3 v2.0 Pri (Chimpanzee)
+organism Pan troglodytes
+orderKey 2
+scientificName Pan troglodytes
+groups groups.txt
+htmlPath mPanTro3_v2.0_pri/description.html
+
+genome mPanTro3_v2.0
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanPan1/assembly_curated/mPanTro3_v2.0.2bit
+chromSizes mPanTro3_v2.0/mPanTro3_v2.0.sizes
+chromAlias mPanTro3_v2.0/mPanTro3_v2.0.alias
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb mPanTro3_v2.0/trackDb.txt
+description mPanTro3 v2.0 (Chimpanzee)
+organism Pan troglodytes
+orderKey 3
+scientificName Pan troglodytes
+groups groups.txt
+htmlPath mPanTro3_v2.0/description.html
+
+genome mPonAbe1_v2.0_pri
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
+chromSizes mPonAbe1_v2.0_pri/mPonAbe1_v2.0_pri.sizes
+chromAlias mPonAbe1_v2.0/mPonAbe1_v2.0.alias
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb mPonAbe1_v2.0/trackDb.txt
+description mPonAbe1 v2.0 Pri (S. orangutan)
+organism Pongo abelii
+orderKey 2
+scientificName Pongo abelii
+groups groups.txt
+htmlPath mPonAbe1_v2.0_pri/description.html
+
+genome mPonAbe1_v2.0
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
+chromSizes mPonAbe1_v2.0/mPonAbe1_v2.0.sizes
+chromAlias mPonAbe1_v2.0/mPonAbe1_v2.0.alias
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb mPonAbe1_v2.0/trackDb.txt
+description mPonAbe1 v2.0 (S. orangutan)
+organism Pongo abelii
+orderKey 3
+scientificName Pongo abelii
+groups groups.txt
+htmlPath mPonAbe1_v2.0/description.html
+
+genome mPonPyg2_v2.0_pri
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0_pri.2bit
+chromSizes mPonPyg2_v2.0_pri/mPonPyg2_v2.0_pri.sizes
+chromAlias mPonPyg2_v2.0/mPonPyg2_v2.0.alias
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb mPonPyg2_v2.0/trackDb.txt
+description mPonPyg2 v2.0 Pri (B. orangutan)
+organism Pongo pygmaeus
+orderKey 2
+scientificName Pongo pygmaeus
+groups groups.txt
+htmlPath mPonPyg2_v2.0_pri/description.html
+
+genome mPonPyg2_v2.0
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
+chromSizes mPonPyg2_v2.0/mPonPyg2_v2.0.sizes
+chromAlias mPonPyg2_v2.0/mPonPyg2_v2.0.alias
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb mPonPyg2_v2.0/trackDb.txt
+description mPonPyg2 v2.0 (B. orangutan)
+organism Pongo pygmaeus
+orderKey 3
+scientificName Pongo pygmaeus
+groups groups.txt
+htmlPath mPonPyg2_v2.0/description.html
+
+genome mSymSyn1_v2.0_pri
+twoBitPath https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0_pri.2bit
+chromSizes mSymSyn1_v2.0_pri/mSymSyn1_v2.0_pri.sizes
+chromAlias mSymSyn1_v2.0/mSymSyn1_v2.0.alias
+defaultPos chr14_hap1:1-10,000,000
+trackDb mSymSyn1_v2.0/trackDb.txt
+description mSymSyn1 v2.0 Pri (Siamang)
+organism Symphalangus syndactylus
+orderKey 2
+scientificName Symphalangus syndactylus
+groups groups.txt
+htmlPath mSymSyn1_v2.0_pri/description.html
+
+genome mSymSyn1_v2.0
+twoBitPath https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
+chromSizes mSymSyn1_v2.0/mSymSyn1_v2.0.sizes
+chromAlias mSymSyn1_v2.0/mSymSyn1_v2.0.alias
+defaultPos chr14_hap1:1-10,000,000
+trackDb mSymSyn1_v2.0/trackDb.txt
+description mSymSyn1 v2.0 (Siamang)
+organism Symphalangus syndactylus
+orderKey 3
+scientificName Symphalangus syndactylus
+groups groups.txt
+htmlPath mSymSyn1_v2.0/description.html
+
+genome HG002v1.0.1.PAT
+taxId 9606
+trackDb HG002v1.0.1.PAT/trackDb.txt
+groups groups.txt
+description HG002 Q100 v1.0.1 (Human, PAT)
+twoBitPath https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.2bit
+twoBitBptUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.2bit.bpt
+chromSizes https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.chrom.sizes.txt
+chromAliasBb https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.chromAlias.bb
+chromAuthority ucsc
+organism ASM1885260v2 Dec. 2023
+defaultPos CP139546.1:83617812-84291154
+orderKey 4
+scientificName Homo sapiens
+htmlPath ../HG002_Q100/GCA_018852605.2_ASM1885260v2.description.html
+#blat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/605/GCA_018852605.2
+#transBlat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/605/GCA_018852605.2
+#isPcr dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/605/GCA_018852605.2
+
+genome HG002v1.0.1.MAT
+taxId 9606
+trackDb HG002v1.0.1.MAT/trackDb.txt
+groups groups.txt
+description HG002 Q100 v1.0.1 (Human, MAT)
+twoBitPath https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.2bit
+twoBitBptUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.2bit.bpt
+chromSizes https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.chrom.sizes.txt
+chromAliasBb https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.chromAlias.bb
+chromAuthority ucsc
+organism ASM1885261v2 Dec. 2023
+defaultPos CP139523.1:83529864-84203105
+orderKey 4
+scientificName Homo sapiens
+htmlPath ../HG002_Q100/GCA_018852615.2_ASM1885261v2.description.html
+#blat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/615/GCA_018852615.2
+#transBlat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/615/GCA_018852615.2
+#isPcr dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/615/GCA_018852615.2

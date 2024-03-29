@@ -1,0 +1,125 @@
+track feature
+shortLabel Genome Feature
+longLabel Genome Feature
+group asm
+visibility dense
+itemRgb on
+type bigBed 9
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/pattern/mPanTro3_v2.0.GenomeFeature_v0.9.bb
+html ../html/genomeFeature.html
+mouseOverField name
+priority 1
+
+track microsatellites
+compositeTrack on
+visibility hide
+shortLabel Microsatellites
+longLabel Microsatellite Repeats
+type bigWig
+group asm
+html ../html/microsatellites.html
+maxHeightPixels 100:32:16
+viewLimits 0:100
+autoScale off
+alwaysZero on
+graphTypeDefault points
+gridDefault on
+priority 1
+
+    track microsatellites_GA
+    parent microsatellites
+    shortLabel GA
+    longLabel GA Microsatellite Repeats
+    type bigWig
+    color 83,105,255
+    priority 1.1
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/pattern/mPanTro3_v2.0/mPanTro3_v2.0.microsatellite.GA.128.bw
+
+    track microsatellites_TC
+    parent microsatellites
+    shortLabel TC
+    longLabel TC Microsatellite Repeats
+    type bigWig
+    color 102,0,102
+    priority 1.2
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/pattern/mPanTro3_v2.0/mPanTro3_v2.0.microsatellite.TC.128.bw
+
+    track microsatellites_GC
+    parent microsatellites
+    shortLabel GC
+    longLabel GC Microsatellite Repeats
+    type bigWig
+    color 188,115,19
+    priority 1.3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/pattern/mPanTro3_v2.0/mPanTro3_v2.0.microsatellite.GC.128.bw
+
+    track microsatellites_AT
+    parent microsatellites
+    shortLabel AT
+    longLabel AT Microsatellite Repeats
+    type bigWig
+    color 51,102,0
+    priority 1.4
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/pattern/mPanTro3_v2.0/mPanTro3_v2.0.microsatellite.AT.128.bw
+
+track validation
+shortLabel Validation
+longLabel Validation
+superTrack on
+visibility hide
+group asm
+html ../html/readCoverage.html
+priority 3
+
+    track readCoverageHiFi
+    parent validation
+    shortLabel HiFi Coverage
+    longLabel HiFi primary alignment, mapped to both haplotypes
+    viewLimits 0:130
+    maxHeightPixels 100:32:8
+    visibility full
+    priority 3.1
+    html ../html/readCoverage.html
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/issues/mPanTro3_v2.0.dip.HiFi.pri.cov.bw
+    color 255,182,193
+    type bigWig 0 130
+    html ../html/readCoverage.html
+
+    track issuesHiFi
+    parent validation
+    shortLabel HiFi Issues
+    longLabel Assembly Issues by HiFi
+    visibility dense
+    itemRgb on
+    maxItems 100000
+    type bigBed 9
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/issues/mPanTro3_v2.0.dip.HiFi.pri.issues.bb
+    html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
+    priority 3.2
+
+    track readCoverageONT
+    parent validation
+    shortLabel ONT Coverage
+    longLabel  ONT primary alignment, mapped to both haplotypes
+    viewLimits 0:180
+    maxHeightPixels 100:32:8
+    visibility full
+    priority 3.3
+    html ../html/readCoverage.html
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/issues/mPanTro3_v2.0.dip.ONT.pri.cov.bw
+    color 173,216,230
+    type bigWig 0 180
+    html ../html/readCoverage.html
+    
+    track issuesONT
+    parent validation
+    shortLabel ONT Issues
+    longLabel Assembly Issues by ONT
+    visibility dense
+    itemRgb on
+    maxItems 100000
+    type bigBed 9
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/issues/mPanTro3_v2.0.dip.ONT.pri.issues.bb
+    html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
+    priority 3.4
+

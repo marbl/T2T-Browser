@@ -1,0 +1,62 @@
+<h2>Description</h2>
+<p>5mC CpG and 5mC Methylation call</p>
+
+<h2>Methods</h2>
+<p>
+<ul>
+  <li><u>ONT 5mC CpG methylation</u>: This methylation track is based on ONT data that was base-called using Guppy version 6.3.7 with model "dna_r9.4.1_450bps_modbases_5hmc_5mc_cg_sup_prom.cfg". Minimap2 was utilized to align the sequences to the v2.0 reference, and modbam2bed was employed to aggregate the counts of modified bases (5mC) at each cytosine position in the CpG context. The options used were <code>minimap2 --secondary=no --eqx -a -x map-ont</code> for Minimap2 and <code>modbam2bed -m 5mC -e --aggregate --cpg</code> for modbam2bed.<br>
+Given that 5mC in the CpG context is symmetrical, additional steps were incorporated to represent the methylation of each CpG site. To calculate the average methylation levels of cytosines on the positive and negative strands at CpG sites, the modified base (5mC) counts, alternative modification counts, and canonical (unmodified) base counts from two cytosines were aggregated. For the CpGs with a sum of counts of at least 5, the methylation level at each CpG site was calculated by determining the ratio of the total modified base counts to the sum of the total modified base counts, total alternative modification calls, and total canonical base count.
+</ul>
+</p>
+
+<p>
+<ul>
+  <li><u>ONT 5mC methylation</u>: ONT reads were basecalled with Guppy v6.3.8 and aligned to the v2.0 reference with Winnowmap (v2.03) with a k-mer size of 15. 5mC methylation frequency was obtained using <code>modkit pileup $BAM $OUT.pileup.bed --preset traditional --force-allow-implicit --suppress-progress --log-filepath $LOG --ref $REF -t $CPU</code>. Pileup coordinates and results were collected and transformed to <code>wig</code> and <code>bigWig</code> for visualization.<br>
+Input fastqs with methylation tags (for mGorGor1 only):
+  <li>PAG26046_guppy-6.3.8.fastq.gz
+  <li>PAG26815_guppy-6.3.8.fastq.gz
+  <li>PAI19139_guppy-6.3.8.fastq.gz
+  <li>PAI19180_guppy-6.3.8.fastq.gz
+  <li>PAI19210_guppy-6.3.8.fastq.gz
+</ul>
+</p>
+
+<h2>Data access</h2>
+<ul>
+  <li>bigWig files can be obtained from the Vertebrate Genomes Project
+</ul>
+
+<h2>Release history</h2>
+<ol>
+  <li> 2024-01-05 5mC release
+  <li> 2024-03-11 5mC CpG release
+</ol>
+
+<h2>Contacts</h2>
+<p>
+5mC track
+<ul>
+  <li>Arang Rhie &lt;rhiea_at_nih.gov&gt;</a>
+  <li>Steven Solar &lt;steven.solar_at_nih.gov&gt;</a>
+</ul>
+</p>
+<p>
+5mC CpG track
+<ul>
+  <li>DongAhn Yoo, Eichler Lab, University of Washington: Data processing with minimap2/modbam2bed.</li>
+  <li>Dongmin Son, Soojin Yi Lab, University of California, Santa Barbara: Generating processed files for CpG methylation levels. </li>
+</ul>
+</p>
+<p>For inquiries, please contact us at the following address:
+<ul>
+  <li> Dongmin Son <a href="mailto:d_son@ucsb.edu">d_son@ucsb.edu</a></li>
+  <li> Soojin Yi <a href="mailto:soojinyi@ucsb.edu">soojinyi@ucsb.edu</a></li>
+  <li> DongAhn Yoo <a href="mailto:day92@uw.edu">day92@uw.edu</a></li>
+</ul>
+
+<h2>Credits</h2>
+<ol>
+  <li>Makova KD, Pickett BD, Harris RS, Hartley GA, Cechova M <em>et al</em>., The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes, bioRxiv (2023). DOI: <a href="https://doi.org/10.1101/2023.11.30.569198" target="_blank" rel="noopener noreferrer">https://doi.org/10.1101/2023.11.30.569198</a>
+</ol>
+
+

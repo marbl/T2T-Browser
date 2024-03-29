@@ -1,0 +1,27 @@
+# ucsc	assembly	genbank	refseq	chr	hsa
+chr1_hap1_hsa1	1	CM054434.2	NC_072398.2	chr1	hsa1
+chr2_hap1_hsa3	2	CM068905.1	NC_086015.1	chr2	hsa3
+chr3_hap1_hsa4	3	CM054437.2	NC_072401.2	chr3	hsa4
+chr4_hap1_hsa5	4	CM054438.2	NC_072402.2	chr4	hsa5
+chr5_hap1_hsa6	5	CM054439.2	NC_072403.2	chr5	hsa6
+chr6_hap1_hsa7	6	CM054440.2	NC_072404.2	chr6	hsa7
+chr7_hap1_hsa8	7	CM054441.2	NC_072405.2	chr7	hsa8
+chr8_hap1_hsa10	8	CM054442.2	NC_072406.2	chr8	hsa10
+chr9_hap1_hsa11	9	CM054443.2	NC_072407.2	chr9	hsa11
+chr10_hap1_hsa12	10	CM054444.2	NC_072408.2	chr10	hsa12
+chr11_hap1_hsa9	11	CM054445.2	NC_072409.2	chr11	hsa9
+chr12_hap1_hsa2a	12	CM054446.2	NC_072410.2	chr12	hsa2a
+chr13_hap1_hsa2b	13	CM054447.2	NC_072411.2	chr13	hsa2b
+chr14_hap1_hsa13	14	CM054448.2	NC_072412.2	chr14	hsa13
+chr15_hap1_hsa14	15	CM054449.2	NC_072413.2	chr15	hsa14
+chr16_hap1_hsa15	16	CM054450.2	NC_072414.2	chr16	hsa15
+chr17_hap1_hsa18	17	CM054451.2	NC_072415.2	chr17	hsa18
+chr18_hap1_hsa16	18	CM054452.2	NC_072416.2	chr18	hsa16
+chr19_hap1_hsa17	19	CM054453.2	NC_072417.2	chr19	hsa17
+chr20_hap1_hsa19	20	CM054454.2	NC_072418.2	chr20	hsa19
+chr21_hap1_hsa20	21	CM054455.2	NC_072419.2	chr21	hsa20
+chr22_hap1_hsa21	22	CM054456.2	NC_072420.2	chr22	hsa21
+chr23_hap1_hsa22	23	CM068906.1	NC_086016.1	chr23	hsa22
+chrX_hap1_hsaX	X	CM054457.2	NC_072421.2	chrX	hsaX
+chrY_hap2_hsaY	Y	CM054458.2	NC_072422.2	chrY	hsaY
+MT	MT	na	NC_001643.1	chrM	chrM

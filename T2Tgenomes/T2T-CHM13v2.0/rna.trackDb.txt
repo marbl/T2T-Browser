@@ -1,0 +1,174 @@
+
+track isoSeq
+group rna
+compositeTrack on
+shortLabel CHM13 IsoSeq
+longLabel CHM13 IsoSeq
+dragAndDrop subTracks
+visibility hide
+type bam
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/isoseq.html
+priority 5
+
+    track chm13_isoseq_1
+    parent isoSeq
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13v2.0.Iso-Seq_CHM13_pbmm2_1.bam
+    shortLabel CHM13 IsoSeq 1
+    longLabel CHM13 IsoSeq 1
+    type bam
+    priority 5.1
+
+    track chm13_isoseq_2
+    parent isoSeq
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13v2.0.Iso-Seq_CHM13_pbmm2_2.bam
+    shortLabel CHM13 IsoSeq 2
+    longLabel CHM13 IsoSeq 2
+    type bam
+    priority 5.2
+
+track proseq
+compositeTrack off
+visibility hide
+shortLabel CHM13 PROseq
+longLabel CHM13 PROseq stranded with unique genome-wide kmer filtering
+color 255,0,0
+altColor 0,0,255
+maxHeightPixels 100:32:16
+type bigWig
+group rna
+priority 6
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html
+    
+    track proseq_default_POS
+    parent proseq
+    shortLabel PROseq default POS
+    longLabel PROseq default POS no kmer filtering
+    type bigWig
+    visibility dense
+    maxHeightPixels 100:32:16
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_default_pos.bw
+
+    track proseq_default_NEG
+    parent proseq
+    shortLabel PROseq default NEG
+    longLabel PROseq default NEG no kmer filtering
+    type bigWig
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues off
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_default_neg.bw
+
+    track proseq_k100_POS
+    parent proseq
+    shortLabel PROseq k100 POS
+    longLabel PROseq k100 POS no kmer filtering
+    type bigWig
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues on
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_pos.bw
+
+    track proseq_k100_NEG
+    parent proseq
+    shortLabel PROseq k100 NEG
+    longLabel PROseq k100 NEG no kmer filtering
+    type bigWig 
+    visibility dense
+    maxHeightPixels 100:32:16
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_neg.bw
+    
+    track proseq_k100-21mer_POS
+    parent proseq
+    shortLabel PROseq k100-21mer POS
+    longLabel PROseq k100 POS 21mer filtering
+    type bigWig
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues off
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_21mer_pos.bw
+
+    track proseq_k100-21mer_NEG
+    parent proseq
+    shortLabel PROseq k100-21mer NEG
+    longLabel PROseq k100 NEG 21mer filtering
+    type bigWig
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues on
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_21mer_neg.bw
+
+    track proseq_k100-dual-21mer_POS
+    parent proseq
+    shortLabel PROseq k100-dual-21mer POS
+    longLabel PROseq k100 POS dual 21mer filtering
+    type bigWig
+    visibility dense
+    maxHeightPixels 100:32:16
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_dual-21mer_pos.bw
+    
+    track proseq_k100-dual-21mer_NEG
+    parent proseq
+    shortLabel PROseq k100-dual-21mer NEG
+    longLabel PROseq k100 NEG dual 21mer filtering
+    type bigWig 
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues off
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.proseq/PROseq_k100_dual-21mer_neg.bw
+
+track rnaseq
+compositeTrack off
+visibility hide
+shortLabel CHM13 RNA-Seq
+longLabel CHM13 RNA-Seq (paired-end) unique genome-wide kmer filtering (unstranded)
+color 255,0,0
+maxHeightPixels 100:32:16
+type bigWig
+group rna
+priority 7
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.rnaseq.html
+    
+    track rnaseq_default
+    parent rnaseq
+    shortLabel RNA-Seq default
+    longLabel RNA-Seq default no kmer filtering
+    type bigWig 
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues off
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_default.bw
+
+    track rnaseq_k100
+    parent rnaseq
+    shortLabel RNA-Seq k100
+    longLabel RNA-Seq k100 no kmer filtering
+    type bigWig 
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues off
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_k100.bw
+
+    track rnaseq_k100-21mer
+    parent rnaseq
+    shortLabel RNA-Seq k100 21mer
+    longLabel RNA-Seq k100 21mer filtering
+    type bigWig 
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues off
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_k100_21mer.bw
+    
+    track rnaseq_k100-dual-21mer
+    parent rnaseq
+    shortLabel RNA-Seq k100 dual 21mer
+    longLabel RNA-Seq k100 dual 21mer filtering
+    type bigWig 
+    visibility dense
+    maxHeightPixels 100:32:16
+    negateValues off
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.rnaseq/RNAseq_k100_dual_21mer.bw

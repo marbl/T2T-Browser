@@ -1,0 +1,30 @@
+track isoSeq
+group rna
+compositeTrack on
+shortLabel IsoSeq
+longLabel IsoSeq Alignments
+dragAndDrop subTracks
+visibility hide
+type bam
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+pairEndsByName on
+
+    track isoSeqBam1
+    parent isoSeq
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/expression/mPonPyg2_v2.0.IsoSeq_1_v0.9.bam
+    shortLabel IsoSeq 1
+    longLabel IsoSeq 1
+    type bam
+    priority 10
+
+    track isoSeqBam2
+    parent isoSeq
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/expression/mPonPyg2_v2.0.IsoSeq_2_v0.9.bam
+    shortLabel IsoSeq 2
+    longLabel IsoSeq 2
+    type bam
+    priority 10

@@ -1,0 +1,27 @@
+# ucsc	assembly	genbank	refseq	chr	hsa
+chr1_pat_hsa1	1	CM055446.2	NC_073224.2	chr1	hsa1
+chr2_pat_hsa3	2	CM068950.1	NC_086017.1	chr2	hsa3
+chr3_pat_hsa4	3	CM055449.2	NC_073227.2	chr3	hsa4
+chr4_pat_hsa17x5	4	CM055450.2	NC_073228.2	chr4	hsa17x5
+chr5_mat_hsa6	5	CM055451.2	NC_073229.2	chr5	hsa6
+chr6_mat_hsa7	6	CM055452.2	NC_073230.2	chr6	hsa7
+chr7_pat_hsa8	7	CM055453.2	NC_073231.2	chr7	hsa8
+chr8_pat_hsa10	8	CM055454.2	NC_073232.2	chr8	hsa10
+chr9_pat_hsa11	9	CM055455.2	NC_073233.2	chr9	hsa11
+chr10_mat_hsa12	10	CM055456.2	NC_073234.2	chr10	hsa12
+chr11_mat_hsa2b	11	CM055457.2	NC_073235.2	chr11	hsa2b
+chr12_pat_hsa2a	12	CM055458.2	NC_073236.2	chr12	hsa2a
+chr13_pat_hsa9	13	CM055459.2	NC_073237.2	chr13	hsa9
+chr14_pat_hsa13	14	CM055460.2	NC_073238.2	chr14	hsa13
+chr15_pat_hsa14	15	CM055461.2	NC_073239.2	chr15	hsa14
+chr16_pat_hsa15	16	CM055462.2	NC_073240.2	chr16	hsa15
+chr17_mat_hsa18	17	CM055463.2	NC_073241.2	chr17	hsa18
+chr18_pat_hsa16	18	CM055464.2	NC_073242.2	chr18	hsa16
+chr19_pat_hsa5x17	19	CM055465.2	NC_073243.2	chr19	hsa5x17
+chr20_mat_hsa19	20	CM055466.2	NC_073244.2	chr20	hsa19
+chr21_pat_hsa20	21	CM055467.2	NC_073245.2	chr21	hsa20
+chr22_mat_hsa21	22	CM055468.2	NC_073246.2	chr22	hsa21
+chr23_mat_hsa22	23	CM068951.1	NC_086018.1	chr23	hsa22
+chrX_mat_hsaX	X	CM055469.2	NC_073247.2	chrX	hsaX
+chrY_pat_hsaY	Y	CM055470.2	NC_073248.2	chrY	hsaY
+MT	MT	na	NC_011120.1	chrM	chrM

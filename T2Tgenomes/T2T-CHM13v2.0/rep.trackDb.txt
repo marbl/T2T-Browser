@@ -1,0 +1,65 @@
+
+track censat
+shortLabel Cen/Sat
+longLabel Centromeric Satellite Annotation
+group rep
+visibility dense
+itemRgb on
+maxItems 100000
+type bigBed 9 +
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censat_v2.0.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+mouseOverField component
+priority 1
+
+track rmsk
+shortLabel RepeatMasker
+longLabel RepeatMasker Repetitive Elements
+type bigRmsk 9 +
+visibility dense
+group rep
+bigDataUrl  https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.t2tRepeatMasker/chm13v2.0_rmsk.bb
+xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.t2tRepeatMasker/chm13v2.0_rmsk.align.bb
+maxWindowToDraw 5000000
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/rmsk.html
+priority 2
+
+track sedefSegDups
+shortLabel Segmental Dups (2022)
+longLabel SEDEF Segmental Duplications (Vollger, 2022)
+group rep
+type bigBed 9 35
+visibility hide
+itemRgb on
+maxItems 100000
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sedefSegDups/sedefSegDups.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/sedefSegDups.html
+priority 3
+
+track segDups2024
+shortLabel Segmental Dups (2024)
+longLabel SEDEF Segmental Duplications (Yoo, 2024)
+group rep
+type bigBed 9 35
+visibility hide
+itemRgb on
+maxItems 100000
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/segDups_2024.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/segDups.html
+priority 4
+
+track phr
+shortLabel PHR
+longLabel Pseudo-Homologous Regions
+group rep
+type bigWig
+itemRgb on
+maxHeightPixels 100:32:16
+autoScale on
+viewLimits 0:1
+alwaysZero on
+visibility dense
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/phrs.bw
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/phr.html
+priority 5
+

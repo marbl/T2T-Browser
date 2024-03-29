@@ -1,0 +1,221 @@
+track wfmash
+superTrack on show
+visibility dense
+shortLabel WFMASH
+longLabel wfmash v0.13.0 16-way chain
+group compGeno
+type bigChain
+mouseOverField name
+priority 1
+
+	track wfmashCHM13
+	parent wfmash
+	type bigChain T2T-CHM13v2.0
+	shortLabel CHM13
+	longLabel CHM13v2.0 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/CHM13_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/CHM13_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb T2T-CHM13v2.0
+	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
+	priority 1
+
+	track wfmashHG002mat
+	parent wfmash
+	type bigChain HG002v1.0.1.MAT
+	shortLabel HG002#mat
+	longLabel HG002v1.0.1 mat to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/HG002mat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/HG002mat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb HG002v1.0.1.MAT
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.2bit
+	priority 2.1
+
+	track wfmashHG002pat
+	parent wfmash
+	type bigChain HG002v1.0.1.PAT
+	shortLabel HG002#pat
+	longLabel HG002v1.0.1 pat to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/HG002pat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/HG002pat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb HG002v1.0.1.PAT
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.2bit
+	priority 2.2
+
+	track wfmashGRCh38
+	parent wfmash
+	type bigChain hg38
+	shortLabel GRCh38
+	longLabel GRCh38 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/GRCh38_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/GRCh38_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb hg38
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
+	priority 3
+
+
+	track wfmashmGorGor1mat
+	parent wfmash
+	type bigChain mGorGor1_v2.0
+	shortLabel mGorGor1#mat
+	longLabel mGorGor1_v2.0 mat to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mGorGor1mat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mGorGor1mat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mGorGor1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
+	priority 4
+
+	track wfmashmGorGor1pat
+	parent wfmash
+	type bigChain mGorGor1_v2.0
+	shortLabel mGorGor1#pat
+	longLabel mGorGor1_v2.0 pat to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mGorGor1pat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mGorGor1pat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mGorGor1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
+	priority 4
+
+	track wfmashmPanPan1mat
+	parent wfmash
+	type bigChain mPanPan1_v2.0
+	shortLabel mPanPan1#mat
+	longLabel mPanPan1_v2.0 mat to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanPan1mat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanPan1mat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPanPan1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
+	priority 4
+
+	track wfmashmPanPan1pat
+	parent wfmash
+	type bigChain mPanPan1_v2.0
+	shortLabel mPanPan1#pat
+	longLabel mPanPan1_v2.0 pat to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanPan1pat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanPan1pat_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPanPan1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
+	priority 4
+
+	track wfmashmPanTro3hap1
+	parent wfmash
+	type bigChain mPanTro3_v2.0
+	shortLabel mPanTro3#hap1
+	longLabel mPanTro3_v2.0 hap1 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanTro3hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanTro3hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPanTro3_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanPan1/assembly_curated/mPanTro3_v2.0.2bit
+	priority 4
+
+	track wfmashmPanTro3hap2
+	parent wfmash
+	type bigChain mPanTro3_v2.0
+	shortLabel mPanTro3#hap2
+	longLabel mPanTro3_v2.0 hap2 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanTro3hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPanTro3hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPanTro3_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanPan1/assembly_curated/mPanTro3_v2.0.2bit
+	priority 4
+
+	track wfmashmPonAbe1hap1
+	parent wfmash
+	type bigChain mPonAbe1_v2.0
+	shortLabel mPonAbe1#hap1
+	longLabel mPonAbe1_v2.0 hap1 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonAbe1hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonAbe1hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPonAbe1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
+	priority 4
+
+	track wfmashmPonAbe1hap2
+	parent wfmash
+	type bigChain mPonAbe1_v2.0
+	shortLabel mPonAbe1#hap2
+	longLabel mPonAbe1_v2.0 hap2 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonAbe1hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonAbe1hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPonAbe1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
+	priority 4
+
+	track wfmashmPonPyg2hap1
+	parent wfmash
+	type bigChain mPonPyg2_v2.0
+	shortLabel mPonPyg2#hap1
+	longLabel mPonPyg2_v2.0 hap1 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonPyg2hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonPyg2hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPonPyg2_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
+	priority 4
+
+	track wfmashmPonPyg2hap2
+	parent wfmash
+	type bigChain mPonPyg2_v2.0
+	shortLabel mPonPyg2#hap2
+	longLabel mPonPyg2_v2.0 hap2 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonPyg2hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mPonPyg2hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mPonPyg2_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
+	priority 4
+
+	track wfmashmSymSyn1hap1
+	parent wfmash
+	type bigChain mSymSyn1_v2.0
+	shortLabel mSymSyn1#hap1
+	longLabel mSymSyn1_v2.0 hap1 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mSymSyn1hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mSymSyn1hap1_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mSymSyn1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
+	priority 4
+
+	track wfmashmSymSyn1hap2
+	parent wfmash
+	type bigChain mSymSyn1_v2.0
+	shortLabel mSymSyn1#hap2
+	longLabel mSymSyn1_v2.0 hap2 to mGorGor1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mSymSyn1hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/comparative/mSymSyn1hap2_to_mGorGor1_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb mSymSyn1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
+	priority 4
+
+include ../hal.trackDb.txt
+# include cactus.trackDb.txt

@@ -1,0 +1,17 @@
+## CACTUS-8 MAF ##
+track 8-t2t-apes-2023v2.GCA_029281585.2
+shortLabel CACTUS-8 MAF
+longLabel CACTUS 8-way primary progressive alignment
+group compGeno
+priority 20
+visibility full
+type bigMaf
+bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.GCA_029281585.2.bigmaf.bb
+summary https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.GCA_029281585.2.bigmaf.summary.bb
+speciesGroups Apes_Primary
+sGroup_Apes_Primary T2T-CHM13v2.0 hg38 GCA_028858775.2
+# GCA_029289425.2 GCA_029281585.2 GCA_028885655.2 GCA_028885625.2 GCA_028878055.2
+speciesOrder hs1 hg38 GCA_028858775.2
+# GCA_029289425.2 GCA_029281585.2 GCA_028885655.2 GCA_028885625.2 GCA_028878055.2
+speciesLabels hs1="CHM13" hg38="GRCh38" GCA_028858775.2="mPanTro3_v2"
+# GCA_029289425.2="mPanPan1_pri" GCA_029281585.2="mGorGor1_pri" GCA_028885655.2="mPonAbe1_pri" GCA_028885625.2="mPonPyg2_pri" GCA_028878055.2="mSymSyn1_pri"
