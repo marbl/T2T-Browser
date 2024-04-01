@@ -1,5 +1,5 @@
 track clinVar20220313
-shortLabel ClinVar Variants
+shortLabel ClinVar
 longLabel ClinVar Variants 2022-03-13 (lifted)
 type vcfTabix
 hapClusterEnabled false
@@ -9,7 +9,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 group var
 
 track gwasSNPs2022-03-08
-shortLabel GWAS Variants
+shortLabel GWAS
 longLabel  GWAS Variants 2022-03-08 (lifted)
 type vcfTabix
 hapClusterEnabled false

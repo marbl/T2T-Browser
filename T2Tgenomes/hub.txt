@@ -2,4 +2,4 @@ hub T2T Genome Assembly Hub
 shortLabel T2T Genomes
 longLabel T2T Genomes
 genomesFile genomes.txt
-email rhiea@nih.gov
+email rhiea@nih.gov,nhansen@mail.nih.gov

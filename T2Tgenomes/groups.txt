@@ -12,8 +12,13 @@ priority 1.5
 defaultIsClosed 1
 
 name asm
-label Assembly
+label Assembly and Validation
 priority 2
+defaultIsClosed 0
+
+name genark
+label GenArk
+priority 2.1
 defaultIsClosed 0
 
 name rep
@@ -39,12 +44,12 @@ defaultIsClosed 0
 name hg38
 label GRCh38
 priority 7
-defaultIsClosed 1
+defaultIsClosed 0
 
 name var
 label Variation
 priority 8
-defaultIsClosed 1
+defaultIsClosed 0
 
 name pub
 label Phenotype and Literature
