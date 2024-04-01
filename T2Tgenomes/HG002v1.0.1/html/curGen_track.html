@@ -1,0 +1,31 @@
+<h2>Description</h2>
+This track showcases comprehensive transcript annotations, which include manually curated gene annotations of CHM13 and novel transcripts from ISOSEQ data of HG002. The track encompasses protein-coding genes, non-coding RNA genes, and pseudo-genes, with annotations provided for the diploid reference chromosomes as Maternal and Paternal haplotypes.
+
+<h2>Display Conventions and Configuration</h2>
+<p>
+The colours used for each of the gene function classification follow the GENECODE gene annotation standard:
+</p>
+<ul> 
+<li><font color="#191970"><b> coding&nbsp </b> </font> - Protein coding transcfripts
+<li><font color="#4169E1"><b> pseudogene</b> </font> - Pseudogene transcript annotation
+<li><font color="#1FE01F"><b> non-coding</b> </font> - ncRNA, miRNA, antisense_RNA, lncRNA, rRNA.. 
+<li><font color="#808080"><b> Novel</b> </font> - Novel transcripts discovered by ISOSEQ data
+</ul>
+
+<h2>Methods</h2>
+
+<p>
+<h3>Liftoff gene annotation from chm13 coordinate to each haplotype of HG002 v1.0.1</h3>
+We utilized Liftoff to project gene annotations and identify additional copies of genes that exhibit a similarity greater than 0.95 with other genes in the CHM13 gene annotation.
+
+<h3>Novel transcript identification</h3>
+Next, we align ISOSEQ data to each haplotype separately to mitigate multimapping issues. Using IsoQuant, we catalog novel transcripts that are not present in the CHM13 gene annotation. To validate these novel transcripts, we employed SQANTI3 for quality control, filtering out transcripts that do not meet the default rules in SQANTI3. The final step involved merging all existing transcripts with the cleaned novel transcripts.
+
+<h3>Track generation</h3>
+To create the track, we merged the complete gene annotations from each haplotype and added the suffix "_mat" or "_pat" to the end of the gene name or transcript ID, distinguishing transcripts originating from each haplotype.
+</p>
+
+<h2>Credits</h2>
+Juhyun Kim : &#60;juhyun.kim2@nih.gov&#62; <br>
+Arang Rhie : &#60;rhiea@nih.gov&#62; <br>
+Nancy Hansen : &#60;nhansen@mail.nih.gov&#62; <br>

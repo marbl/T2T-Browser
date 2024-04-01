@@ -1,0 +1,43 @@
+##
+# Comparative alignment chains to other genomes
+
+track ChainToCHM13
+shortLabel CHM13
+longLabel Chain to CHM13
+visibility full
+view filledChain
+group compGeno
+priority 12.1
+type bigChain T2T-CHM13v2.0
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.0.1_to_chm13v2.0.bigChain.bb
+linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.0.1_to_chm13v2.0.bigChain.link.bb
+otherDb T2T-CHM13v2.0
+otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
+
+
+##
+# Comparison to Other HG002 Assemblies
+##
+#track Ash1_assembly_errors
+#shortLabel Ash1 errors
+#longLabel Locations of variants found in alignments of Ash1 contigs to the diploid v1.0.1 assembly
+#group assemblycomp
+#visibility dense
+#itemRgb on
+#maxItems 1000000
+#maxWindowToDraw 100000000
+#type bigBed 9
+#bigDataUrl ash1.errortype.v1.0.1.forbrowser.bb
+#priority 1
+
+#track Ash1_aligned_sequence
+#shortLabel Ash1 aligned
+#longLabel Locations of alignments of Ash1 contigs to the diploid v1.0.1 assembly
+#group assemblycomp
+#visibility dense
+#itemRgb on
+#maxItems 1000000
+#maxWindowToDraw 100000000
+#type bigBed 9
+#bigDataUrl ash1.benchcovered.v1.0.1.merged.forbrowser.bb
+#priority 2

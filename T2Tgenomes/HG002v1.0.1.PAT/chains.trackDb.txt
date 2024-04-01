@@ -1,0 +1,16 @@
+##
+# Chains to alt Haplotype - two different chains per haplotype
+##
+
+track AltHapChain
+shortLabel AltLoc(Chain)
+longLabel Chain to Maternal Haplotype
+visibility full
+view filledChain
+group var
+priority 9.2
+type bigChain HG002v1.0.1.MAT
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.0.1.pat2mat.bigChain.bb
+linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.0.1.pat2mat.bigChain.link.bb
+otherDb HG002v1.0.1.MAT
+otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.2bit

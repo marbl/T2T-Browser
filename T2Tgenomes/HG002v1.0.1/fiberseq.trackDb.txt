@@ -1,0 +1,323 @@
+##
+# FiberSeq tracks
+##
+
+# grouping for fibers 
+track HG002v1.0.1-fibers
+compositeTrack on
+shortLabel HG002v1.0.1-fibers
+longLabel HG002v1.0.1-fibers
+type bigBed 12 +
+maxItems 100000
+group reg
+visibility hide
+priority 2.5
+
+# grouping for peaks
+track HG002v1.0.1-peaks
+compositeTrack on
+shortLabel HG002v1.0.1-peaks
+longLabel HG002v1.0.1-peaks
+type bigBed 12 +
+maxItems 100000
+group reg
+visibility hide
+priority 2.3
+
+# grouping for coverage
+track HG002v1.0.1-coverage
+superTrack on show
+shortLabel HG002v1.0.1-coverage
+longLabel HG002v1.0.1-coverage
+group reg
+priority 2.6
+
+# cpg
+track 5mC-fiberseq-methylation
+shortLabel 5mC fiberseq methylation
+longLabel  5mC fiberseq methylation
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/aligned_bam_to_cpg_scores.combined.bw
+type bigWig
+visibility full
+group reg
+color 0,0,0
+priority 2.1
+maxHeightPixels 100:50:8
+viewLimits 0:100
+
+
+track HG002v1.0.1-all-coverage
+parent HG002v1.0.1-coverage
+longLabel HG002v1.0.1-all-coverage
+shortLabel HG002v1.0.1-all-coverage
+container multiWig
+aggregate stacked
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale off
+alwaysZero on
+viewLimits 0:43
+visibility full
+group reg
+maxHeightPixels 100:50:8
+    
+    track HG002v1.0.1-all-accessible
+    parent HG002v1.0.1-all-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/all.fire.coverage.bw
+    type bigWig
+    color 139,0,0
+    
+    track HG002v1.0.1-all-linker
+    parent HG002v1.0.1-all-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/all.linker.coverage.bw
+    type bigWig
+    color 147,112,219
+    
+    track HG002v1.0.1-all-nucleosome
+    parent HG002v1.0.1-all-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/all.nucleosome.coverage.bw
+    type bigWig
+    color 169,169,169
+    
+    track HG002v1.0.1-FIRE-peaks
+    parent HG002v1.0.1-peaks
+    type bigNarrowPeak
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/FDR-FIRE-peaks.bb
+    shortLabel HG002v1.0.1-FIRE-peaks
+    longLabel HG002v1.0.1-FIRE-peaks
+    visibility hide
+    maxHeightPixels 50:50:1
+
+    #track HG002v1.0.1-hap-differences
+    #parent HG002v1.0.1-peaks
+    #type bigBed 9 +
+    #itemRgb on
+    #bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/hap_differences.bb
+    #shortLabel HG002v1.0.1-hap-differences
+    #longLabel HG002v1.0.1-hap-differences
+    #visibility dense
+    #maxHeightPixels 25:25:1
+
+    track HG002v1.0.1-FDR-wide-peaks
+    parent HG002v1.0.1-peaks
+    shortLabel HG002v1.0.1-FDR-wide-peaks
+    longLabel HG002v1.0.1-FDR-wide-peaks
+    type bigBed 
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/FDR-wide-peaks.bb
+    visibility hide
+    maxItems 100000
+
+track HG002v1.0.1-percent-accessible
+shortLabel HG002v1.0.1-percent-accessible
+longLabel  HG002v1.0.1-percent-accessible
+container multiWig
+aggregate none 
+showSubtrackColorOnUi on
+type bigWig 0 1000
+group reg
+alwaysZero on
+viewLimits 0:100
+autoScale off
+maxItems 100000
+visibility full
+maxHeightPixels 100:50:8
+priority 2.7
+
+track HG002v1.0.1-FIRE-score
+shortLabel HG002v1.0.1-FIRE-score
+longLabel  HG002v1.0.1-FIRE-score
+#graphTypeDefault points
+#aggregate transparentOverlay
+container multiWig
+aggregate none 
+showSubtrackColorOnUi on
+type bigWig 0 1000
+alwaysZero on
+viewLimits 0:100
+autoScale off
+maxItems 100000
+maxHeightPixels 100:50:8
+group reg
+visibility hide
+priority 2.2
+
+    track HG002v1.0.1-all-percent-accessible
+    parent HG002v1.0.1-percent-accessible
+    shortLabel HG002v1.0.1-all-percent-accessible
+    longLabel  HG002v1.0.1-all-percent-accessible
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/all.percent.accessible.bw
+    type bigWig
+    visibility full
+    color 0,0,0
+
+    track HG002v1.0.1-all-FIRE-score
+    parent HG002v1.0.1-FIRE-score
+    shortLabel HG002v1.0.1-all-FIRE-score
+    longLabel  HG002v1.0.1-all-FIRE-score
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/score.bw
+    type bigWig
+    visibility hide
+    color 0,0,0
+
+    track HG002v1.0.1-all-fibers
+    parent HG002v1.0.1-fibers
+    shortLabel HG002v1.0.1-all-fibers
+    longLabel HG002v1.0.1-all-fibers
+    visibility hide
+    type bigBed 12 +
+    itemRgb On
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/fire-fibers.bb 
+    decorator.default.bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/fire-fiber-decorators.bb 
+    decorator.default.filterValues.keywords 5mC,m6A,NUC,LINKER,FIRE
+    decorator.default.filterValuesDefault.keywords LINKER,FIRE
+
+    track HG002v1.0.1-filtered-fibers
+    parent HG002v1.0.1-fibers
+    shortLabel HG002v1.0.1-filtered-fibers
+    longLabel HG002v1.0.1-filtered-fibers
+    visibility hide
+    type bigBed 12 +
+    itemRgb On
+    filterText.keywords H1
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/fire-fibers.bb 
+    decorator.default.bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/fire-fiber-decorators.bb 
+    decorator.default.filterValues.keywords 5mC,m6A,NUC,LINKER,FIRE
+    decorator.default.filterValuesDefault.keywords LINKER,FIRE
+
+    track HG002v1.0.1-UNK-fibers
+    parent HG002v1.0.1-fibers
+    shortLabel HG002v1.0.1-UNK-fibers
+    longLabel HG002v1.0.1-UNK-fibers
+    visibility hide
+    type bigBed 12 +
+    itemRgb On
+    filterText.keywords UNK
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/fire-fibers.bb 
+    decorator.default.bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bb/fire-fiber-decorators.bb 
+    decorator.default.filterValues.keywords 5mC,m6A,NUC,LINKER,FIRE
+    decorator.default.filterValuesDefault.keywords LINKER,FIRE
+
+track HG002v1.0.1-hap1-coverage
+parent HG002v1.0.1-coverage
+longLabel HG002v1.0.1-hap1-coverage
+shortLabel HG002v1.0.1-hap1-coverage
+container multiWig
+aggregate stacked
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale off
+alwaysZero on
+viewLimits 0:43
+visibility hide
+group reg
+maxHeightPixels 100:50:8
+    
+    track HG002v1.0.1-hap1-accessible
+    parent HG002v1.0.1-hap1-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap1.fire.coverage.bw
+    type bigWig
+    color 139,0,0
+    
+    track HG002v1.0.1-hap1-linker
+    parent HG002v1.0.1-hap1-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap1.linker.coverage.bw
+    type bigWig
+    color 147,112,219
+    
+    track HG002v1.0.1-hap1-nucleosome
+    parent HG002v1.0.1-hap1-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap1.nucleosome.coverage.bw
+    type bigWig
+    color 169,169,169
+    
+    track HG002v1.0.1-hap1-percent-accessible
+    parent HG002v1.0.1-percent-accessible off
+    shortLabel HG002v1.0.1-hap1-percent-accessible
+    longLabel  HG002v1.0.1-hap1-percent-accessible
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap1.percent.accessible.bw
+    type bigWig
+    visibility full
+    color 0,0,255
+
+    track HG002v1.0.1-hap1-FIRE-score
+    parent HG002v1.0.1-FIRE-score off
+    shortLabel HG002v1.0.1-hap1-FIRE-score
+    longLabel  HG002v1.0.1-hap1-FIRE-score
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/score_H1.bw
+    type bigWig
+    visibility hide
+    color 0,0,255
+
+track HG002v1.0.1-hap2-coverage
+parent HG002v1.0.1-coverage
+longLabel HG002v1.0.1-hap2-coverage
+shortLabel HG002v1.0.1-hap2-coverage
+container multiWig
+aggregate stacked
+showSubtrackColorOnUi on
+type bigWig 0 1000
+autoScale off
+alwaysZero on
+viewLimits 0:43
+visibility hide
+group reg
+maxHeightPixels 100:50:8
+    
+    track HG002v1.0.1-hap2-accessible
+    parent HG002v1.0.1-hap2-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap2.fire.coverage.bw
+    type bigWig
+    color 139,0,0
+    
+    track HG002v1.0.1-hap2-linker
+    parent HG002v1.0.1-hap2-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap2.linker.coverage.bw
+    type bigWig
+    color 147,112,219
+    
+    track HG002v1.0.1-hap2-nucleosome
+    parent HG002v1.0.1-hap2-coverage
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap2.nucleosome.coverage.bw
+    type bigWig
+    color 169,169,169
+    
+    track HG002v1.0.1-hap2-percent-accessible
+    parent HG002v1.0.1-percent-accessible off
+    shortLabel HG002v1.0.1-hap2-percent-accessible
+    longLabel  HG002v1.0.1-hap2-percent-accessible
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/hap2.percent.accessible.bw
+    type bigWig
+    visibility full
+    color 255,0,0
+
+    track HG002v1.0.1-hap2-FIRE-score
+    parent HG002v1.0.1-FIRE-score off
+    shortLabel HG002v1.0.1-hap2-FIRE-score
+    longLabel  HG002v1.0.1-hap2-FIRE-score
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/score_H2.bw
+    type bigWig
+    visibility hide
+    color 255,0,0
+
+track HG002v1.0.1-FIRE-FDR
+compositeTrack on
+shortLabel HG002v1.0.1-FIRE-FDR
+longLabel HG002v1.0.1-FIRE-FDR
+group reg
+visibility hide
+type bigWig 0 1000
+maxItems 100000
+maxHeightPixels 100:50:1
+alwaysZero on
+priority 2.25
+
+    track HG002v1.0.1-log-fdr
+    parent HG002v1.0.1-FIRE-FDR
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/Jan2024/bw/log_FDR.bw
+    shortLabel HG002v1.0.1 -10log10 FDR
+    longLabel HG002v1.0.1 -10log10 FDR
+    autoScale on
+    visibility hide
+    yLineOnOff on
+    yLineMark 13.010299956639813
+    gridDefault on

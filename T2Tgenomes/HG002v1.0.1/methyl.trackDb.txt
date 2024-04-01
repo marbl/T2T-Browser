@@ -1,0 +1,70 @@
+##
+# Expression and Regulation
+##
+
+track methylation
+compositeTrack on
+visibility full
+shortLabel Methylation
+longLabel Methylation Frequency
+type bigWig
+group reg
+maxHeightPixels 100:32:16
+autoScale off
+graphTypeDefault bar
+gridDefault on
+priority 1
+
+    track hg002hifi5mc
+    parent methylation
+    shortLabel HG002 5mC HiFi
+    longLabel HG002 5mC Methylation (HiFi-based)
+    type bigWig
+    visibility full
+    viewLimits 0:100
+    priority 1.1
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/regulation/hg002v1.0_HG002_5mC_hifi_revio.bw
+
+    track hg002ont5mc_ignore5hmc
+    parent methylation
+    shortLabel HG002 5mC ONT
+    longLabel HG002 5mC Methylation (ONT-based, ignoring 5hmC calls)
+    type bigWig
+    visibility full
+    viewLimits 0:100
+    priority 1.2
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/regulation/hg002v1.0_HG002_5mC_ont_r10_ul_dorado.bw
+
+track methylationwith5hmc
+compositeTrack on
+visibility hide
+shortLabel Methylation (with 5hmC)
+longLabel Methylation Frequency (with 5hmC calls)
+type bigWig
+group reg
+maxHeightPixels 100:32:16
+autoScale off
+graphTypeDefault bar
+gridDefault on
+priority 1
+
+    track hg002ont5mc_with5hmc
+    parent methylationwith5hmc
+    shortLabel HG002 5mC ONT with 5hmC
+    longLabel HG002 5mC Methylation (ONT-based, including 5hmC calls)
+    type bigWig
+    visibility full
+    viewLimits 0:100
+    priority 1.3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/regulation/hg002v1.0_HG002_5mC_ont_r10_ul_dorado_with_5hmC.bw
+
+    track hg002ont5hmc_with5mc
+    parent methylationwith5hmc
+    shortLabel HG002 5hmC ONT with 5mC
+    longLabel HG002 5hmC Methylation (ONT-based, including 5mC calls)
+    type bigWig
+    visibility full
+    viewLimits 0:100
+    priority 1.4
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/regulation/hg002v1.0_HG002_5hmC_ont_r10_ul_dorado_with_5mC.bw
+

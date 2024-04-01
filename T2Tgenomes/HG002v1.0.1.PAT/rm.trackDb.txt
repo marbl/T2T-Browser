@@ -1,0 +1,18 @@
+
+##
+# Repeat Masker
+##
+
+track repeatannots
+shortLabel HG002 Repeat Elements
+longLabel HG002 RepeatMasker Repeat Elements
+group rep
+visibility pack
+itemRgb on
+type bigRmsk 9 +
+priority 2.1
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/repeatmasker/hg002v1.0.1.paternal.final.bb
+xrefDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/repeatmasker/hg002v1.0.1.paternal.final.align.bb
+maxWindowToDraw 5000000
+html html/rmsk.html
+

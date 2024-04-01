@@ -1,0 +1,16 @@
+##
+# Repeat tracks
+##
+
+track segdups
+shortLabel SEDEF Segmental Dups
+longLabel SEDEF Segmental Duplications from UWash
+group rep
+visibility pack
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 100000000
+type bigBed 9
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/segdups/HG002.SDs.010624.45col.bb 
+priority 2
+html html/SD_track.hg002v1.0.1.010624.html

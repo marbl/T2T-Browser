@@ -1,0 +1,41 @@
+##
+# Haplotype Properties
+##
+
+track AltLocIdentity
+shortLabel AltLoc
+longLabel Location on alternate haplotype
+group var
+visibility hide
+itemRgb on
+maxItems 100
+maxWindowToDraw 100000
+type bigBed 9
+bigDataUrl hg002v1.0.haplotypemapping.pri.wm.withsimscores.bb
+priority 9.1
+
+track HetSites
+shortLabel Het Sites in HG002
+longLabel HG002 Heterozygous Sites
+group var
+visibility dense
+itemRgb on
+maxItems 100
+maxWindowToDraw 100000
+type bigBed 4
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/haplotypes/v1.0.1.hetsites.bb
+html html/hetsitesDescription.html
+priority 9.3
+
+track Heterozygosity
+shortLabel Heterozygosity
+longLabel Heterozygosity across the two HG002 haplotypes
+group var
+visibility hide
+itemRgb on
+maxItems 200
+maxWindowToDraw 20000000
+type bigBed 9
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/haplotypes/v1.0.1.mataut_vs_pataut.1to1alignable.windows.withhetcounts.heatmap.9col.bb
+priority 9.4
+
