@@ -77,7 +77,7 @@ groups groups.txt
 htmlPath mPanTro3_v2.0_pri/description.html
 
 genome mPanTro3_v2.0
-twoBitPath https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanPan1/assembly_curated/mPanTro3_v2.0.2bit
+twoBitPath https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
 chromSizes mPanTro3_v2.0/mPanTro3_v2.0.sizes
 chromAlias mPanTro3_v2.0/mPanTro3_v2.0.alias
 defaultPos chr14_hap1_hsa13:1-10,000,000
