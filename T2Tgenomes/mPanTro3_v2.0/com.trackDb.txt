@@ -218,3 +218,4 @@ priority 1
 	priority 4
 
 #include ../maf.trackDb.txt ## Not ready
+include ../hal.trackDb.txt

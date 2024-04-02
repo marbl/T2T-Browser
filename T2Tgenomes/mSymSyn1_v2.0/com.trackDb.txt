@@ -216,3 +216,5 @@ priority 1
 	otherDb mSymSyn1_v2.0
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
 	priority 4
+
+include ../hal.trackDb.txt

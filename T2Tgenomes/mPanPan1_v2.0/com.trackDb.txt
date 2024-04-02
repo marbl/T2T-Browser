@@ -217,3 +217,5 @@ priority 1
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
 	priority 4
 
+
+include ../hal.trackDb.txt

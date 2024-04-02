@@ -10,7 +10,8 @@ dimensions dimensionX=view dimensionY=orgs
 noInherit on
 priority 5
 centerLabelsDense on
-visibility full
+visibility hide
+maxWindowToDraw 100000
 type bigBed 3
 
     track cactus8Alignments
