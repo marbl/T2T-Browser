@@ -1,3 +1,4 @@
+# ucsc	assembly	genbank	refseq	chr	hsa
 chr1_hap1_hsa1	1	CM054630.2	NC_072373.2	chr1	hsa1
 chr2_hap1_hsa3	2	CM068907.1	NC_085930.1	chr2	hsa3
 chr3_hap1_hsa4	3	CM054633.2	NC_072376.2	chr3	hsa4
