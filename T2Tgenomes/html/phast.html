@@ -1,0 +1,37 @@
+<h2>Description</h2>
+<p>
+This set of tracks provides per base conservation scores and conserved elements using PhastCons (Siepel et al., 2005).
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+No colors specified.
+
+<h2>Methods</h2>
+
+<ul>
+<h3>Multiple Sequence Alignment (MSA)</h3>
+Alignments were generated using <a href="https://github.com/waveygang/wfmash">wfmash</a> all-to-all, producing one PAF with each assembly as a target / reference.
+Next, <a href="github.com/wjwei-handsome/wgatools">wgatools</a> was used to filter PAF (16 PAFs) for min alignment len >10 Mbp and then convert PAF>MAF (384 MAFs).
+
+<h3>Conservation scores and conserved elements (CEs)</h3>
+Tracks have been produced according to <a href="http://compgen.cshl.edu/phast/phastCons-HOWTO.html">PhastCons HOWTO</a> similarly to similarly to as in <a href="https://github.com/SwallowGenomics/BarnSwallow/tree/main/Analyses/Selection%20analysis">Secomandi et al. 2023</a> using both default parameters (unsupervised EM learning) and a 4-fold degenerate site model.
+The 4d model was further refined by fine tuning of the model parameters --target-coverage and --expected-length maximizing enrichment (Jaccard/IoU) in CHM13 exon sequences. Code is available in the associated <a href="https://github.com/T2T-apes/MSA">Github</a>.
+The initial model estimated with ML and a tree from <a href="https://timetree.org">TimeTree</a>.
+For each chromosome, alignments were split in 1 Mbp chunks, and predictions were combined.
+
+<h3>Notes</h3>
+Additional data is available at s3://garrisonlab/t2t-primates/PHAST/all-vs-all/
+</ul>
+
+<h2>Credits</h2>
+<p>
+The workflow was developed by Giulio Formenti (The Rockefeller University) with support from Andrea Guarracino, Peter Sudmant, Erik Garrison, Erin Molloy, Craig Lowe, and Raven Luo.
+</p>
+
+<h2>References</h2>
+<p>
+Siepel A, Bejerano G, Pedersen JS, Hinrichs AS, Hou M, Rosenbloom K, Clawson H, Spieth J, Hillier LW, Richards S, Weinstock GM, Wilson RK, Gibbs RA, Kent WJ, Miller W, Haussler D. Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes. Genome Res. 2005 Aug;15(8):1034-50. doi: 10.1101/gr.3715005. Epub 2005 Jul 15. PMID: 16024819; PMCID: PMC1182216.
+</p>
+<p>
+Secomandi S, Gallo GR, Sozzoni M, Iannucci A, Galati E, Abueg L, Balacco J, Caprioli M, Chow W, Ciofi C, Collins J, Fedrigo O, Ferretti L, Fungtammasan A, Haase B, Howe K, Kwak W, Lombardo G, Masterson P, Messina G, Møller AP, Mountcastle J, Mousseau TA, Ferrer Obiol J, Olivieri A, Rhie A, Rubolini D, Saclier M, Stanyon R, Stucki D, Thibaud-Nissen F, Torrance J, Torroni A, Weber K, Ambrosini R, Bonisoli-Alquati A, Jarvis ED, Gianfranceschi L, Formenti G. A chromosome-level reference genome and pangenome for barn swallow population genomics. Cell Rep. 2023 Jan 31;42(1):111992. doi: 10.1016/j.celrep.2023.111992. Epub 2023 Jan 19. PMID: 36662619; PMCID: PMC10044405.
+</p>
