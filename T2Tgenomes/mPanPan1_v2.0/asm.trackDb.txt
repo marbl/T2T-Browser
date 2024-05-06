@@ -5,7 +5,7 @@ group asm
 visibility dense
 itemRgb on
 type bigBed 9
-bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/pattern/mPanPan1_v2.0.GenomeFeature_v0.9.bb
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/pattern/mPanPan1_v2.0.GenomeFeature_v1.0.bb
 html ../html/genomeFeature.html
 mouseOverField name
 priority 1
