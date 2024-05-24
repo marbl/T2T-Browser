@@ -1,3 +1,14 @@
+track censat
+shortLabel CenSat
+longLabel Centromeric Satellite Annotation
+group rep
+type bigBed 9
+visibility dense
+itemRgb on
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/repeats/mPonPyg2_v2.0_CenSat_v0.1.bb
+html ../html/censat.html
+priority 20
+
 track centro
 compositeTrack on
 visibility dense

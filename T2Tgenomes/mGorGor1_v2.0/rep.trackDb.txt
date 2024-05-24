@@ -2,10 +2,10 @@ track censat
 shortLabel CenSat
 longLabel Centromeric Satellite Annotation
 group rep
-type bigBed 10
+type bigBed 9
 visibility dense
 itemRgb on
-bigDataUrl https://raw.githubusercontent.com/hloucks/CenSatData/main/T2TPrimates/GorGor/GorGor.cenSatv0.1.bed
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0_CenSat_v0.1.bb
 html ../html/censat.html
 priority 20
 
