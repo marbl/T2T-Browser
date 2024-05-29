@@ -1,28 +1,67 @@
-# ucsc	assembly	genbank	refseq	chr
-chr1_hap1	1	CM054509.2	NC_072423.2	chr1
-chr2_hap1	2	CM054510.2	NC_072424.2	chr2
-chr3_hap1	3	CM054511.2	NC_072425.2	chr3
-chr4_hap1	4	CM054512.2	NC_072426.2	chr4
-chr5_hap1	5	CM054513.2	NC_072427.2	chr5
-chr6_hap1	6	CM054514.2	NC_072428.2	chr6
-chr7_hap1	7	CM054515.2	NC_072429.2	chr7
-chr8_hap1	8	CM054516.2	NC_072430.2	chr8
-chr9_hap1	9	CM054517.2	NC_072431.2	chr9
-chr10_hap1	10	CM054518.2	NC_072432.2	chr10
-chr11_hap1	11	CM054519.2	NC_072433.2	chr11
-chr12_hap1	12	CM054520.2	NC_072434.2	chr12
-chr13_hap1	13	CM054521.2	NC_072435.2	chr13
-chr14_hap1	14	CM054522.2	NC_072436.2	chr14
-chr15_hap1	15	CM054523.2	NC_072437.2	chr15
-chr16_hap1	16	CM054524.2	NC_072438.2	chr16
-chr17_hap1	17	CM054525.2	NC_072439.2	chr17
-chr18_hap1	18	CM054526.2	NC_072440.2	chr18
-chr19_hap1	19	CM054527.2	NC_072441.2	chr19
-chr20_hap1	20	CM054528.2	NC_072442.2	chr20
-chr21_hap1	21	CM054529.2	NC_072443.2	chr21
-chr22_hap1	22	CM054530.2	NC_072444.2	chr22
-chr23_hap1	23	CM054531.2	NC_072445.2	chr23
-chr24_hap1	24	CM054532.2	NC_072446.2	chr24
-chrX_hap1	X	CM054533.2	NC_072447.2	chrX
-chrY_hap2	Y	CM054534.2	NC_072448.2	chrY
-MT	MT	na	NC_014047.1	chrM
+# ucsc	pangenome	genbank	assembly	genbank_pri	refseq	chr
+chr1_hap1	mSymSyn1#1#chr1_hap1	CM054509.2	1	CM054509.2	NC_072423.2	chr1
+chr2_hap1	mSymSyn1#1#chr2_hap1	CM054510.2	2	CM054510.2	NC_072424.2	chr2
+chr3_hap1	mSymSyn1#1#chr3_hap1	CM054511.2	3	CM054511.2	NC_072425.2	chr3
+chr4_hap1	mSymSyn1#1#chr4_hap1	CM054512.2	4	CM054512.2	NC_072426.2	chr4
+chr5_hap1	mSymSyn1#1#chr5_hap1	CM054513.2	5	CM054513.2	NC_072427.2	chr5
+chr6_hap1	mSymSyn1#1#chr6_hap1	CM054514.2	6	CM054514.2	NC_072428.2	chr6
+chr7_hap1	mSymSyn1#1#chr7_hap1	CM054515.2	7	CM054515.2	NC_072429.2	chr7
+chr8_hap1	mSymSyn1#1#chr8_hap1	CM054516.2	8	CM054516.2	NC_072430.2	chr8
+chr9_hap1	mSymSyn1#1#chr9_hap1	CM054517.2	9	CM054517.2	NC_072431.2	chr9
+chr10_hap1	mSymSyn1#1#chr10_hap1	CM054518.2	10	CM054518.2	NC_072432.2	chr10
+chr11_hap1	mSymSyn1#1#chr11_hap1	CM054519.2	11	CM054519.2	NC_072433.2	chr11
+chr12_hap1	mSymSyn1#1#chr12_hap1	CM054520.2	12	CM054520.2	NC_072434.2	chr12
+chr13_hap1	mSymSyn1#1#chr13_hap1	CM054521.2	13	CM054521.2	NC_072435.2	chr13
+chr14_hap1	mSymSyn1#1#chr14_hap1	CM054522.2	14	CM054522.2	NC_072436.2	chr14
+chr15_hap1	mSymSyn1#1#chr15_hap1	CM054523.2	15	CM054523.2	NC_072437.2	chr15
+chr16_hap1	mSymSyn1#1#chr16_hap1	CM054524.2	16	CM054524.2	NC_072438.2	chr16
+chr17_hap1	mSymSyn1#1#chr17_hap1	CM054525.2	17	CM054525.2	NC_072439.2	chr17
+chr18_hap1	mSymSyn1#1#chr18_hap1	CM054526.2	18	CM054526.2	NC_072440.2	chr18
+chr19_hap1	mSymSyn1#1#chr19_hap1	CM054527.2	19	CM054527.2	NC_072441.2	chr19
+chr20_hap1	mSymSyn1#1#chr20_hap1	CM054528.2	20	CM054528.2	NC_072442.2	chr20
+chr21_hap1	mSymSyn1#1#chr21_hap1	CM054529.2	21	CM054529.2	NC_072443.2	chr21
+chr22_hap1	mSymSyn1#1#chr22_hap1	CM054530.2	22	CM054530.2	NC_072444.2	chr22
+chr23_hap1	mSymSyn1#1#chr23_hap1	CM054531.2	23	CM054531.2	NC_072445.2	chr23
+chr24_hap1	mSymSyn1#1#chr24_hap1	CM054532.2	24	CM054532.2	NC_072446.2	chr24
+chrX_hap1	mSymSyn1#1#chrX_hap1	CM054533.2	X	CM054533.2	NC_072447.2	chrX
+chrY_hap2	mSymSyn1#2#chrY_hap2	CM054534.2	Y	CM054534.2	NC_072448.2	chrY
+MT	mSymSyn1#1#MT	na	MT	na	NC_014047.1	chrM
+chr16_hap2_random_utig4-1287	mSymSyn1#2#chr16_hap2_random_utig4-1287	JAQQLH020000017.1	chr16_JAQQLH020000017v1_random			
+chr16_hap2_random_utig4-1288	mSymSyn1#2#chr16_hap2_random_utig4-1288	JAQQLH020000018.1	chr16_JAQQLH020000018v1_random			
+chr16_hap2_random_utig4-1627	mSymSyn1#2#chr16_hap2_random_utig4-1627	JAQQLH020000019.1	chr16_JAQQLH020000019v1_random			
+chr16_hap2_random_utig4-1628	mSymSyn1#2#chr16_hap2_random_utig4-1628	JAQQLH020000020.1	chr16_JAQQLH020000020v1_random			
+chr16_hap2_random_utig4-1629	mSymSyn1#2#chr16_hap2_random_utig4-1629	JAQQLH020000021.1	chr16_JAQQLH020000021v1_random			
+chr16_hap2_random_utig4-1630	mSymSyn1#2#chr16_hap2_random_utig4-1630	JAQQLH020000022.1	chr16_JAQQLH020000022v1_random			
+chr16_hap2_random_utig4-1640	mSymSyn1#2#chr16_hap2_random_utig4-1640	JAQQLH020000023.1	chr16_JAQQLH020000023v1_random			
+chr16_hap2_random_utig4-2146	mSymSyn1#2#chr16_hap2_random_utig4-2146	JAQQLH020000024.1	chr16_JAQQLH020000024v1_random			
+chr16_hap2_random_utig4-2147	mSymSyn1#2#chr16_hap2_random_utig4-2147	JAQQLH020000025.1	chr16_JAQQLH020000025v1_random			
+chr21_hap2_random_utig4-1605	mSymSyn1#2#chr21_hap2_random_utig4-1605	JAQQLH020000031.1	chr21_JAQQLH020000031v1_random			
+chr21_hap2_random_utig4-1606	mSymSyn1#2#chr21_hap2_random_utig4-1606	JAQQLH020000032.1	chr21_JAQQLH020000032v1_random			
+chr21_hap2_random_utig4-1608	mSymSyn1#2#chr21_hap2_random_utig4-1608	JAQQLH020000033.1	chr21_JAQQLH020000033v1_random			
+chr21_hap2_random_utig4-1609	mSymSyn1#2#chr21_hap2_random_utig4-1609	JAQQLH020000034.1	chr21_JAQQLH020000034v1_random			
+chr21_hap2_random_utig4-1610	mSymSyn1#2#chr21_hap2_random_utig4-1610	JAQQLH020000035.1	chr21_JAQQLH020000035v1_random			
+chr21_hap2_random_utig4-1611	mSymSyn1#2#chr21_hap2_random_utig4-1611	JAQQLH020000036.1	chr21_JAQQLH020000036v1_random			
+chr21_hap2_random_utig4-1612	mSymSyn1#2#chr21_hap2_random_utig4-1612	JAQQLH020000037.1	chr21_JAQQLH020000037v1_random			
+chr1_hap2	mSymSyn1#2#chr1_hap2	CM054536.2				
+chr2_hap2	mSymSyn1#2#chr2_hap2	CM054537.2				
+chr3_hap2	mSymSyn1#2#chr3_hap2	CM054538.2				
+chr4_hap2	mSymSyn1#2#chr4_hap2	CM054539.2				
+chr5_hap2	mSymSyn1#2#chr5_hap2	CM054540.2				
+chr6_hap2	mSymSyn1#2#chr6_hap2	CM054541.2				
+chr7_hap2	mSymSyn1#2#chr7_hap2	CM054542.2				
+chr8_hap2	mSymSyn1#2#chr8_hap2	CM054543.2				
+chr9_hap2	mSymSyn1#2#chr9_hap2	CM054544.2				
+chr10_hap2	mSymSyn1#2#chr10_hap2	CM054545.2				
+chr11_hap2	mSymSyn1#2#chr11_hap2	CM054546.2				
+chr12_hap2	mSymSyn1#2#chr12_hap2	CM068822.1				
+chr13_hap2	mSymSyn1#2#chr13_hap2	CM054547.2				
+chr14_hap2	mSymSyn1#2#chr14_hap2	CM054548.2				
+chr15_hap2	mSymSyn1#2#chr15_hap2	CM054549.2				
+chr16_hap2	mSymSyn1#2#chr16_hap2	CM054550.2				
+chr17_hap2	mSymSyn1#2#chr17_hap2	CM054551.2				
+chr18_hap2	mSymSyn1#2#chr18_hap2	CM054552.2				
+chr19_hap2	mSymSyn1#2#chr19_hap2	CM068823.1				
+chr20_hap2	mSymSyn1#2#chr20_hap2	CM054553.2				
+chr21_hap2	mSymSyn1#2#chr21_hap2	CM054554.2				
+chr22_hap2	mSymSyn1#2#chr22_hap2	CM054555.2				
+chr23_hap2	mSymSyn1#2#chr23_hap2	CM054556.2				

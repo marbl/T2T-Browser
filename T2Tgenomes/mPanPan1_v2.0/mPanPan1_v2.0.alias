@@ -1,32 +1,72 @@
-# ucsc	assembly	genbank	refseq	chr	hsa
-chr1_pat_hsa1	1	CM055472.2	NC_073249.2	chr1	hsa1
-chr2_mat_hsa3	2	CM068944.1	NC_085926.1	chr2	hsa3
-chr3_pat_hsa4	3	CM055475.2	NC_073252.2	chr3	hsa4
-chr4_mat_hsa5	4	CM055476.2	NC_073253.2	chr4	hsa5
-chr5_pat_hsa6	5	CM055477.2	NC_073254.2	chr5	hsa6
-chr6_mat_hsa7	6	CM055478.2	NC_073255.2	chr6	hsa7
-chr7_pat_hsa8	7	CM055479.2	NC_073256.2	chr7	hsa8
-chr8_mat_hsa10	8	CM055480.2	NC_073257.2	chr8	hsa10
-chr9_pat_hsa11	9	CM055481.2	NC_073258.2	chr9	hsa11
-chr10_mat_hsa12	10	CM055482.2	NC_073259.2	chr10	hsa12
-chr11_mat_hsa9	11	CM055483.2	NC_073260.2	chr11	hsa9
-chr12_mat_hsa2a	12	CM055484.2	NC_073261.2	chr12	hsa2a
-chr13_mat_hsa2b	13	CM055485.2	NC_073262.2	chr13	hsa2b
-chr14_pat_hsa13	14	CM055486.2	NC_073263.2	chr14	hsa13
-chr15_mat_hsa14	15	CM055487.2	NC_073264.2	chr15	hsa14
-chr16_pat_hsa15	16	CM055488.2	NC_073265.2	chr16	hsa15
-chr17_mat_hsa18	17	CM055489.2	NC_073266.2	chr17	hsa18
-chr18_pat_hsa16	18	CM055490.2	NC_073267.2	chr18	hsa16
-chr19_pat_hsa17	19	CM055491.2	NC_073268.2	chr19	hsa17
-chr20_pat_hsa19	20	CM055492.2	NC_073269.2	chr20	hsa19
-chr21_mat_hsa20	21	CM055493.2	NC_073270.2	chr21	hsa20
-chr22_pat_hsa21	22	CM055494.2	NC_073271.2	chr22	hsa21
-chr23_pat_hsa22	23	CM068945.1	NC_085927.1	chr23	hsa22
-chrX_mat_hsaX	X	CM055495.2	NC_073272.2	chrX	hsaX
-chrY_pat_hsaY	Y	CM055496.2	NC_073273.2	chrY	hsaY
-chr1522_pat_hsa1421_random_utig4-145	na	JARIFH020000026.1	NW_026946709.1	chr1522_pat_hsa1421_random_utig4-145	na
-chr1522_pat_hsa1421_random_utig4-147	na	JARIFH020000027.1	NW_026946710.1	chr1522_pat_hsa1421_random_utig4-147	na
-chr1522_pat_hsa1421_random_utig4-839	na	JARIFH020000028.1	NW_026946711.1	chr1522_pat_hsa1421_random_utig4-839	na
-chr1522_pat_hsa1421_random_utig4-95	na	JARIFH020000029.1	NW_026946712.1	chr1522_pat_hsa1421_random_utig4-95	na
-chr1522_pat_hsa1421_random_utig4-325	na	JARIFH020000030.1	NW_026946713.1	chr1522_pat_hsa1421_random_utig4-325	na
-MT	MT	na	NC_001644.1	chrM	chrM
+# ucsc	pangenome	genbank	assembly	genbank_pri	refseq	chr	hsa
+chr1_pat_hsa1	mPanPan1#P#chr1_pat_hsa1	CM054460.2	1	CM055472.2	NC_073249.2	chr1	hsa1
+chr2_mat_hsa3	mPanPan1#M#chr2_mat_hsa3	CM068946.1	2	CM068944.1	NC_085926.1	chr2	hsa3
+chr3_pat_hsa4	mPanPan1#P#chr3_pat_hsa4	CM054463.2	3	CM055475.2	NC_073252.2	chr3	hsa4
+chr4_mat_hsa5	mPanPan1#M#chr4_mat_hsa5	CM054488.2	4	CM055476.2	NC_073253.2	chr4	hsa5
+chr5_pat_hsa6	mPanPan1#P#chr5_pat_hsa6	CM054465.2	5	CM055477.2	NC_073254.2	chr5	hsa6
+chr6_mat_hsa7	mPanPan1#M#chr6_mat_hsa7	CM054490.2	6	CM055478.2	NC_073255.2	chr6	hsa7
+chr7_pat_hsa8	mPanPan1#P#chr7_pat_hsa8	CM054467.2	7	CM055479.2	NC_073256.2	chr7	hsa8
+chr8_mat_hsa10	mPanPan1#M#chr8_mat_hsa10	CM054492.2	8	CM055480.2	NC_073257.2	chr8	hsa10
+chr9_pat_hsa11	mPanPan1#P#chr9_pat_hsa11	CM054469.2	9	CM055481.2	NC_073258.2	chr9	hsa11
+chr10_mat_hsa12	mPanPan1#M#chr10_mat_hsa12	CM054494.2	10	CM055482.2	NC_073259.2	chr10	hsa12
+chr11_mat_hsa9	mPanPan1#M#chr11_mat_hsa9	CM054495.2	11	CM055483.2	NC_073260.2	chr11	hsa9
+chr12_mat_hsa2a	mPanPan1#M#chr12_mat_hsa2a	CM054496.2	12	CM055484.2	NC_073261.2	chr12	hsa2a
+chr13_mat_hsa2b	mPanPan1#M#chr13_mat_hsa2b	CM054497.2	13	CM055485.2	NC_073262.2	chr13	hsa2b
+chr14_pat_hsa13	mPanPan1#P#chr14_pat_hsa13	CM054474.2	14	CM055486.2	NC_073263.2	chr14	hsa13
+chr15_mat_hsa14	mPanPan1#M#chr15_mat_hsa14	CM054499.2	15	CM055487.2	NC_073264.2	chr15	hsa14
+chr16_pat_hsa15	mPanPan1#P#chr16_pat_hsa15	CM054476.2	16	CM055488.2	NC_073265.2	chr16	hsa15
+chr17_mat_hsa18	mPanPan1#M#chr17_mat_hsa18	CM054501.2	17	CM055489.2	NC_073266.2	chr17	hsa18
+chr18_pat_hsa16	mPanPan1#P#chr18_pat_hsa16	CM054478.2	18	CM055490.2	NC_073267.2	chr18	hsa16
+chr19_pat_hsa17	mPanPan1#P#chr19_pat_hsa17	CM054479.2	19	CM055491.2	NC_073268.2	chr19	hsa17
+chr20_pat_hsa19	mPanPan1#P#chr20_pat_hsa19	CM054480.2	20	CM055492.2	NC_073269.2	chr20	hsa19
+chr21_mat_hsa20	mPanPan1#M#chr21_mat_hsa20	CM054505.2	21	CM055493.2	NC_073270.2	chr21	hsa20
+chr22_pat_hsa21	mPanPan1#P#chr22_pat_hsa21	CM054482.2	22	CM055494.2	NC_073271.2	chr22	hsa21
+chr23_pat_hsa22	mPanPan1#P#chr23_pat_hsa22	CM068941.1	23	CM068945.1	NC_085927.1	chr23	hsa22
+chrX_mat_hsaX	mPanPan1#M#chrX_mat_hsaX	CM054507.2	X	CM055495.2	NC_073272.2	chrX	hsaX
+chrY_pat_hsaY	mPanPan1#P#chrY_pat_hsaY	CM054483.2	Y	CM055496.2	NC_073273.2	chrY	hsaY
+MT	mPanPan1#M#MT		MT	na	NC_001644.1	chrM	
+chr14_mat_hsa13_random_utig4-822	mPanPan1#M#chr14_mat_hsa13_random_utig4-822	JAQQLL020000015.1	chr14_JAQQLL020000015v1_random				
+chr14_mat_hsa13_random_utig4-823	mPanPan1#M#chr14_mat_hsa13_random_utig4-823	JAQQLL020000016.1	chr14_JAQQLL020000016v1_random				
+chr14_mat_hsa13_random_utig4-824	mPanPan1#M#chr14_mat_hsa13_random_utig4-824	JAQQLL020000017.1	chr14_JAQQLL020000017v1_random				
+chr14_mat_hsa13_random_utig4-825	mPanPan1#M#chr14_mat_hsa13_random_utig4-825	JAQQLL020000018.1	chr14_JAQQLL020000018v1_random				
+chr14_mat_hsa13_random_utig4-826	mPanPan1#M#chr14_mat_hsa13_random_utig4-826	JAQQLL020000019.1	chr14_JAQQLL020000019v1_random				
+chr14_mat_hsa13_random_utig4-827	mPanPan1#M#chr14_mat_hsa13_random_utig4-827	JAQQLL020000020.1	chr14_JAQQLL020000020v1_random				
+chr14_mat_hsa13_random_utig4-2241	mPanPan1#M#chr14_mat_hsa13_random_utig4-2241	JAQQLL020000021.1	chr14_JAQQLL020000021v1_random				
+chr14_mat_hsa13_random_utig4-2242	mPanPan1#M#chr14_mat_hsa13_random_utig4-2242	JAQQLL020000022.1	chr14_JAQQLL020000022v1_random				
+chr1522_pat_hsa1421_random_utig4-95	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-95	JAQQLM020000024.1	chrUn_JAQQLM020000024v1	JARIFH020000029.1	NW_026946712.1		
+chr1522_pat_hsa1421_random_utig4-96	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-96	JAQQLM020000025.1	chrUn_JAQQLM020000025v1				
+chr1522_pat_hsa1421_random_utig4-97	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-97	JAQQLM020000026.1	chrUn_JAQQLM020000026v1				
+chr1522_pat_hsa1421_random_utig4-99	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-99	JAQQLM020000027.1	chrUn_JAQQLM020000027v1				
+chr1522_pat_hsa1421_random_utig4-100	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-100	JAQQLM020000028.1	chrUn_JAQQLM020000028v1				
+chr1522_pat_hsa1421_random_utig4-145	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-145	JAQQLM020000029.1	chrUn_JAQQLM020000029v1	JARIFH020000026.1	NW_026946709.1		
+chr1522_pat_hsa1421_random_utig4-147	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-147	JAQQLM020000030.1	chrUn_JAQQLM020000030v1	JARIFH020000027.1	NW_026946710.1		
+chr1522_pat_hsa1421_random_utig4-325	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-325	JAQQLM020000031.1	chrUn_JAQQLM020000031v1	JARIFH020000030.1	NW_026946713.1		
+chr1522_pat_hsa1421_random_utig4-327	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-327	JAQQLM020000032.1	chrUn_JAQQLM020000032v1				
+chr1522_pat_hsa1421_random_utig4-839	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-839	JAQQLM020000033.1	chrUn_JAQQLM020000033v1	JARIFH020000028.1	NW_026946711.1		
+chr1522_pat_hsa1421_random_utig4-996	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-996	JAQQLM020000034.1	chrUn_JAQQLM020000034v1				
+chr1522_pat_hsa1421_random_utig4-997	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-997	JAQQLM020000035.1	chrUn_JAQQLM020000035v1				
+chr1522_pat_hsa1421_random_utig4-1011	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-1011	JAQQLM020000036.1	chrUn_JAQQLM020000036v1				
+chr1522_pat_hsa1421_random_utig4-2055	mPanPan1#P#chr1522_pat_hsa1421_random_utig4-2055	JAQQLM020000037.1	chrUn_JAQQLM020000037v1				
+chr1_mat_hsa1	mPanPan1#M#chr1_mat_hsa1	CM054484.2					
+chr10_pat_hsa12	mPanPan1#P#chr10_pat_hsa12	CM054470.2					
+chr11_pat_hsa9	mPanPan1#P#chr11_pat_hsa9	CM054471.2					
+chr12_pat_hsa2a	mPanPan1#P#chr12_pat_hsa2a	CM054472.2					
+chr13_pat_hsa2b	mPanPan1#P#chr13_pat_hsa2b	CM054473.2					
+chr14_mat_hsa13	mPanPan1#M#chr14_mat_hsa13	CM054498.2					
+chr15_pat_hsa14	mPanPan1#P#chr15_pat_hsa14	CM054475.2					
+chr16_mat_hsa15	mPanPan1#M#chr16_mat_hsa15	CM054500.2					
+chr17_pat_hsa18	mPanPan1#P#chr17_pat_hsa18	CM054477.2					
+chr18_mat_hsa16	mPanPan1#M#chr18_mat_hsa16	CM054502.2					
+chr19_mat_hsa17	mPanPan1#M#chr19_mat_hsa17	CM054503.2					
+chr2_pat_hsa3	mPanPan1#P#chr2_pat_hsa3	CM068940.1					
+chr20_mat_hsa19	mPanPan1#M#chr20_mat_hsa19	CM054504.2					
+chr21_pat_hsa20	mPanPan1#P#chr21_pat_hsa20	CM054481.2					
+chr22_mat_hsa21	mPanPan1#M#chr22_mat_hsa21	CM054506.2					
+chr23_mat_hsa22	mPanPan1#M#chr23_mat_hsa22	CM068947.1					
+chr3_mat_hsa4	mPanPan1#M#chr3_mat_hsa4	CM054487.2					
+chr4_pat_hsa5	mPanPan1#P#chr4_pat_hsa5	CM054464.2					
+chr5_mat_hsa6	mPanPan1#M#chr5_mat_hsa6	CM054489.2					
+chr6_pat_hsa7	mPanPan1#P#chr6_pat_hsa7	CM054466.2					
+chr7_mat_hsa8	mPanPan1#M#chr7_mat_hsa8	CM054491.2					
+chr8_pat_hsa10	mPanPan1#P#chr8_pat_hsa10	CM054468.2					
+chr9_mat_hsa11	mPanPan1#M#chr9_mat_hsa11	CM054493.2					

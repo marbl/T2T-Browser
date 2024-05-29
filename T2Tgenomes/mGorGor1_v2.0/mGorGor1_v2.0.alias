@@ -1,50 +1,251 @@
-# ucsc	assembly	genbank	refseq	chr	hsa
-chr1_pat_hsa1	mGorGor1#P#chr1_pat_hsa1	1	CM055446.2	NC_073224.2	chr1	hsa1
-chr2_pat_hsa3	mGorGor1#P#chr2_pat_hsa3	2	CM068950.1	NC_086017.1	chr2	hsa3
-chr3_pat_hsa4	mGorGor1#P#chr3_pat_hsa4	3	CM055449.2	NC_073227.2	chr3	hsa4
-chr4_pat_hsa17x5	mGorGor1#P#chr4_pat_hsa17x5	4	CM055450.2	NC_073228.2	chr4	hsa17x5
-chr5_mat_hsa6	mGorGor1#M#chr5_mat_hsa6	5	CM055451.2	NC_073229.2	chr5	hsa6
-chr6_mat_hsa7	mGorGor1#M#chr6_mat_hsa7	6	CM055452.2	NC_073230.2	chr6	hsa7
-chr7_pat_hsa8	mGorGor1#P#chr7_pat_hsa8	7	CM055453.2	NC_073231.2	chr7	hsa8
-chr8_pat_hsa10	mGorGor1#P#chr8_pat_hsa10	8	CM055454.2	NC_073232.2	chr8	hsa10
-chr9_pat_hsa11	mGorGor1#P#chr9_pat_hsa11	9	CM055455.2	NC_073233.2	chr9	hsa11
-chr10_mat_hsa12	mGorGor1#M#chr10_mat_hsa12	10	CM055456.2	NC_073234.2	chr10	hsa12
-chr11_mat_hsa2b	mGorGor1#M#chr11_mat_hsa2b	11	CM055457.2	NC_073235.2	chr11	hsa2b
-chr12_pat_hsa2a	mGorGor1#P#chr12_pat_hsa2a	12	CM055458.2	NC_073236.2	chr12	hsa2a
-chr13_pat_hsa9	mGorGor1#P#chr13_pat_hsa9	13	CM055459.2	NC_073237.2	chr13	hsa9
-chr14_pat_hsa13	mGorGor1#P#chr14_pat_hsa13	14	CM055460.2	NC_073238.2	chr14	hsa13
-chr15_pat_hsa14	mGorGor1#P#chr15_pat_hsa14	15	CM055461.2	NC_073239.2	chr15	hsa14
-chr16_pat_hsa15	mGorGor1#P#chr16_pat_hsa15	16	CM055462.2	NC_073240.2	chr16	hsa15
-chr17_mat_hsa18	mGorGor1#M#chr17_mat_hsa18	17	CM055463.2	NC_073241.2	chr17	hsa18
-chr18_pat_hsa16	mGorGor1#P#chr18_pat_hsa16	18	CM055464.2	NC_073242.2	chr18	hsa16
-chr19_pat_hsa5x17	mGorGor1#P#chr19_pat_hsa5x17	19	CM055465.2	NC_073243.2	chr19	hsa5x17
-chr20_mat_hsa19	mGorGor1#M#chr20_mat_hsa19	20	CM055466.2	NC_073244.2	chr20	hsa19
-chr21_pat_hsa20	mGorGor1#P#chr21_pat_hsa20	21	CM055467.2	NC_073245.2	chr21	hsa20
-chr22_mat_hsa21	mGorGor1#M#chr22_mat_hsa21	22	CM055468.2	NC_073246.2	chr22	hsa21
-chr23_mat_hsa22	mGorGor1#M#chr23_mat_hsa22	23	CM068951.1	NC_086018.1	chr23	hsa22
-chrX_mat_hsaX	mGorGor1#M#chrX_mat_hsaX	X	CM055469.2	NC_073247.2	chrX	hsaX
-chrY_pat_hsaY	mGorGor1#P#chrY_pat_hsaY	Y	CM055470.2	NC_073248.2	chrY	hsaY
-MT	chrM	MT	na	NC_011120.1	chrM	chrM
-chr1_mat_hsa1	mGorGor1#M#chr1_mat_hsa1					
-chr10_pat_hsa12	mGorGor1#P#chr10_pat_hsa12					
-chr11_pat_hsa2b	mGorGor1#P#chr11_pat_hsa2b					
-chr12_mat_hsa2a	mGorGor1#M#chr12_mat_hsa2a					
-chr13_mat_hsa9	mGorGor1#M#chr13_mat_hsa9					
-chr14_mat_hsa13	mGorGor1#M#chr14_mat_hsa13					
-chr15_mat_hsa14	mGorGor1#M#chr15_mat_hsa14					
-chr16_mat_hsa15	mGorGor1#M#chr16_mat_hsa15					
-chr17_pat_hsa18	mGorGor1#P#chr17_pat_hsa18					
-chr18_mat_hsa16	mGorGor1#M#chr18_mat_hsa16					
-chr19_mat_hsa5x17	mGorGor1#M#chr19_mat_hsa5x17					
-chr2_mat_hsa3	mGorGor1#M#chr2_mat_hsa3					
-chr20_pat_hsa19	mGorGor1#P#chr20_pat_hsa19					
-chr21_mat_hsa20	mGorGor1#M#chr21_mat_hsa20					
-chr22_pat_hsa21	mGorGor1#P#chr22_pat_hsa21					
-chr23_pat_hsa22	mGorGor1#P#chr23_pat_hsa22					
-chr3_mat_hsa4	mGorGor1#M#chr3_mat_hsa4					
-chr4_mat_hsa17x5	mGorGor1#M#chr4_mat_hsa17x5					
-chr5_pat_hsa6	mGorGor1#P#chr5_pat_hsa6					
-chr6_pat_hsa7	mGorGor1#P#chr6_pat_hsa7					
-chr7_mat_hsa8	mGorGor1#M#chr7_mat_hsa8					
-chr8_mat_hsa10	mGorGor1#M#chr8_mat_hsa10					
-chr9_mat_hsa11	mGorGor1#M#chr9_mat_hsa11					
+# ucsc	pangenome	genbank	assembly	genbank_pri	refseq	chr	hsa
+chr1_pat_hsa1	mGorGor1#P#chr1_pat_hsa1	CM054558.2	1	CM055446.2	NC_073224.2	chr1	hsa1
+chr10_mat_hsa12	mGorGor1#M#chr10_mat_hsa12	CM054592.2	10	CM055456.2	NC_073234.2	chr10	hsa12
+chr11_mat_hsa2b	mGorGor1#M#chr11_mat_hsa2b	CM054593.2	11	CM055457.2	NC_073235.2	chr11	hsa2b
+chr12_pat_hsa2a	mGorGor1#P#chr12_pat_hsa2a	CM054570.2	12	CM055458.2	NC_073236.2	chr12	hsa2a
+chr13_pat_hsa9	mGorGor1#P#chr13_pat_hsa9	CM054571.2	13	CM055459.2	NC_073237.2	chr13	hsa9
+chr14_pat_hsa13	mGorGor1#P#chr14_pat_hsa13	CM054572.2	14	CM055460.2	NC_073238.2	chr14	hsa13
+chr15_pat_hsa14	mGorGor1#P#chr15_pat_hsa14	CM054573.2	15	CM055461.2	NC_073239.2	chr15	hsa14
+chr16_pat_hsa15	mGorGor1#P#chr16_pat_hsa15	CM054574.2	16	CM055462.2	NC_073240.2	chr16	hsa15
+chr17_mat_hsa18	mGorGor1#M#chr17_mat_hsa18	CM054599.2	17	CM055463.2	NC_073241.2	chr17	hsa18
+chr18_pat_hsa16	mGorGor1#P#chr18_pat_hsa16	CM054576.2	18	CM055464.2	NC_073242.2	chr18	hsa16
+chr19_pat_hsa5x17	mGorGor1#P#chr19_pat_hsa5x17	CM054577.2	19	CM055465.2	NC_073243.2	chr19	hsa5x17
+chr2_pat_hsa3	mGorGor1#P#chr2_pat_hsa3	CM068948.1	2	CM068950.1	NC_086017.1	chr2	hsa3
+chr20_mat_hsa19	mGorGor1#M#chr20_mat_hsa19	CM054602.2	20	CM055466.2	NC_073244.2	chr20	hsa19
+chr21_pat_hsa20	mGorGor1#P#chr21_pat_hsa20	CM054579.2	21	CM055467.2	NC_073245.2	chr21	hsa20
+chr22_mat_hsa21	mGorGor1#M#chr22_mat_hsa21	CM054604.2	22	CM055468.2	NC_073246.2	chr22	hsa21
+chr23_mat_hsa22	mGorGor1#M#chr23_mat_hsa22	CM068943.1	23	CM068951.1	NC_086018.1	chr23	hsa22
+chr3_pat_hsa4	mGorGor1#P#chr3_pat_hsa4	CM054561.2	3	CM055449.2	NC_073227.2	chr3	hsa4
+chr4_pat_hsa17x5	mGorGor1#P#chr4_pat_hsa17x5	CM054562.2	4	CM055450.2	NC_073228.2	chr4	hsa17x5
+chr5_mat_hsa6	mGorGor1#M#chr5_mat_hsa6	CM054587.2	5	CM055451.2	NC_073229.2	chr5	hsa6
+chr6_mat_hsa7	mGorGor1#M#chr6_mat_hsa7	CM054588.2	6	CM055452.2	NC_073230.2	chr6	hsa7
+chr7_pat_hsa8	mGorGor1#P#chr7_pat_hsa8	CM054565.2	7	CM055453.2	NC_073231.2	chr7	hsa8
+chr8_pat_hsa10	mGorGor1#P#chr8_pat_hsa10	CM054566.2	8	CM055454.2	NC_073232.2	chr8	hsa10
+chr9_pat_hsa11	mGorGor1#P#chr9_pat_hsa11	CM054567.2	9	CM055455.2	NC_073233.2	chr9	hsa11
+chrX_mat_hsaX	mGorGor1#M#chrX_mat_hsaX	CM054605.2	X	CM055469.2	NC_073247.2	chrX	hsaX
+chrY_pat_hsaY	mGorGor1#P#chrY_pat_hsaY	CM054581.2	Y	CM055470.2	NC_073248.2	chrY	hsaY
+MT	mGorGor1#M#MT	NC_011120.1	MT	na	NC_011120.1	chrM	chrM
+chr16_mat_hsa15_random_utig4-369	mGorGor1#M#chr16_mat_hsa15_random_utig4-369	JAQQLJ020000067.1	chr16_JAQQLJ020000067v1_random				
+chr16_mat_hsa15_random_utig4-370	mGorGor1#M#chr16_mat_hsa15_random_utig4-370	JAQQLJ020000068.1	chr16_JAQQLJ020000068v1_random				
+chr16_mat_hsa15_random_utig4-371	mGorGor1#M#chr16_mat_hsa15_random_utig4-371	JAQQLJ020000069.1	chr16_JAQQLJ020000069v1_random				
+chr16_mat_hsa15_random_utig4-884	mGorGor1#M#chr16_mat_hsa15_random_utig4-884	JAQQLJ020000070.1	chr16_JAQQLJ020000070v1_random				
+chr16_mat_hsa15_random_utig4-885	mGorGor1#M#chr16_mat_hsa15_random_utig4-885	JAQQLJ020000071.1	chr16_JAQQLJ020000071v1_random				
+chr16_mat_hsa15_random_utig4-887	mGorGor1#M#chr16_mat_hsa15_random_utig4-887	JAQQLJ020000072.1	chr16_JAQQLJ020000072v1_random				
+chr16_mat_hsa15_random_utig4-888	mGorGor1#M#chr16_mat_hsa15_random_utig4-888	JAQQLJ020000073.1	chr16_JAQQLJ020000073v1_random				
+chr16_mat_hsa15_random_utig4-1056	mGorGor1#M#chr16_mat_hsa15_random_utig4-1056	JAQQLJ020000074.1	chr16_JAQQLJ020000074v1_random				
+chr16_mat_hsa15_random_utig4-1333	mGorGor1#M#chr16_mat_hsa15_random_utig4-1333	JAQQLJ020000075.1	chr16_JAQQLJ020000075v1_random				
+chr16_mat_hsa15_random_utig4-1336	mGorGor1#M#chr16_mat_hsa15_random_utig4-1336	JAQQLJ020000076.1	chr16_JAQQLJ020000076v1_random				
+chr16_mat_hsa15_random_utig4-1597	mGorGor1#M#chr16_mat_hsa15_random_utig4-1597	JAQQLJ020000077.1	chr16_JAQQLJ020000077v1_random				
+chr16_mat_hsa15_random_utig4-1598	mGorGor1#M#chr16_mat_hsa15_random_utig4-1598	JAQQLJ020000078.1	chr16_JAQQLJ020000078v1_random				
+chr16_mat_hsa15_random_utig4-1599	mGorGor1#M#chr16_mat_hsa15_random_utig4-1599	JAQQLJ020000079.1	chr16_JAQQLJ020000079v1_random				
+chr16_mat_hsa15_random_utig4-1600	mGorGor1#M#chr16_mat_hsa15_random_utig4-1600	JAQQLJ020000080.1	chr16_JAQQLJ020000080v1_random				
+chr16_mat_hsa15_random_utig4-1627	mGorGor1#M#chr16_mat_hsa15_random_utig4-1627	JAQQLJ020000081.1	chr16_JAQQLJ020000081v1_random				
+chr16_mat_hsa15_random_utig4-1632	mGorGor1#M#chr16_mat_hsa15_random_utig4-1632	JAQQLJ020000082.1	chr16_JAQQLJ020000082v1_random				
+chr16_mat_hsa15_random_utig4-1637	mGorGor1#M#chr16_mat_hsa15_random_utig4-1637	JAQQLJ020000083.1	chr16_JAQQLJ020000083v1_random				
+chr16_mat_hsa15_random_utig4-1815	mGorGor1#M#chr16_mat_hsa15_random_utig4-1815	JAQQLJ020000084.1	chr16_JAQQLJ020000084v1_random				
+chr16_mat_hsa15_random_utig4-1816	mGorGor1#M#chr16_mat_hsa15_random_utig4-1816	JAQQLJ020000085.1	chr16_JAQQLJ020000085v1_random				
+chr16_mat_hsa15_random_utig4-1817	mGorGor1#M#chr16_mat_hsa15_random_utig4-1817	JAQQLJ020000086.1	chr16_JAQQLJ020000086v1_random				
+chr16_mat_hsa15_random_utig4-1818	mGorGor1#M#chr16_mat_hsa15_random_utig4-1818	JAQQLJ020000087.1	chr16_JAQQLJ020000087v1_random				
+chr16_mat_hsa15_random_utig4-1819	mGorGor1#M#chr16_mat_hsa15_random_utig4-1819	JAQQLJ020000088.1	chr16_JAQQLJ020000088v1_random				
+chr16_mat_hsa15_random_utig4-1849	mGorGor1#M#chr16_mat_hsa15_random_utig4-1849	JAQQLJ020000089.1	chr16_JAQQLJ020000089v1_random				
+chr16_mat_hsa15_random_utig4-1850	mGorGor1#M#chr16_mat_hsa15_random_utig4-1850	JAQQLJ020000090.1	chr16_JAQQLJ020000090v1_random				
+chr16_mat_hsa15_random_utig4-1851	mGorGor1#M#chr16_mat_hsa15_random_utig4-1851	JAQQLJ020000091.1	chr16_JAQQLJ020000091v1_random				
+chr16_mat_hsa15_random_utig4-1852	mGorGor1#M#chr16_mat_hsa15_random_utig4-1852	JAQQLJ020000092.1	chr16_JAQQLJ020000092v1_random				
+chr16_mat_hsa15_random_utig4-1853	mGorGor1#M#chr16_mat_hsa15_random_utig4-1853	JAQQLJ020000093.1	chr16_JAQQLJ020000093v1_random				
+chr16_mat_hsa15_random_utig4-1885	mGorGor1#M#chr16_mat_hsa15_random_utig4-1885	JAQQLJ020000094.1	chr16_JAQQLJ020000094v1_random				
+chr16_mat_hsa15_random_utig4-1888	mGorGor1#M#chr16_mat_hsa15_random_utig4-1888	JAQQLJ020000095.1	chr16_JAQQLJ020000095v1_random				
+chr16_mat_hsa15_random_utig4-1890	mGorGor1#M#chr16_mat_hsa15_random_utig4-1890	JAQQLJ020000096.1	chr16_JAQQLJ020000096v1_random				
+chr16_mat_hsa15_random_utig4-1891	mGorGor1#M#chr16_mat_hsa15_random_utig4-1891	JAQQLJ020000097.1	chr16_JAQQLJ020000097v1_random				
+chr16_mat_hsa15_random_utig4-1915	mGorGor1#M#chr16_mat_hsa15_random_utig4-1915	JAQQLJ020000098.1	chr16_JAQQLJ020000098v1_random				
+chr16_mat_hsa15_random_utig4-1916	mGorGor1#M#chr16_mat_hsa15_random_utig4-1916	JAQQLJ020000099.1	chr16_JAQQLJ020000099v1_random				
+chr16_mat_hsa15_random_utig4-1917	mGorGor1#M#chr16_mat_hsa15_random_utig4-1917	JAQQLJ020000100.1	chr16_JAQQLJ020000100v1_random				
+chr16_mat_hsa15_random_utig4-1931	mGorGor1#M#chr16_mat_hsa15_random_utig4-1931	JAQQLJ020000101.1	chr16_JAQQLJ020000101v1_random				
+chr16_mat_hsa15_random_utig4-1932	mGorGor1#M#chr16_mat_hsa15_random_utig4-1932	JAQQLJ020000102.1	chr16_JAQQLJ020000102v1_random				
+chr16_mat_hsa15_random_utig4-1933	mGorGor1#M#chr16_mat_hsa15_random_utig4-1933	JAQQLJ020000103.1	chr16_JAQQLJ020000103v1_random				
+chr16_mat_hsa15_random_utig4-1962	mGorGor1#M#chr16_mat_hsa15_random_utig4-1962	JAQQLJ020000104.1	chr16_JAQQLJ020000104v1_random				
+chr16_mat_hsa15_random_utig4-2028	mGorGor1#M#chr16_mat_hsa15_random_utig4-2028	JAQQLJ020000105.1	chr16_JAQQLJ020000105v1_random				
+chr16_mat_hsa15_random_utig4-2056	mGorGor1#M#chr16_mat_hsa15_random_utig4-2056	JAQQLJ020000106.1	chr16_JAQQLJ020000106v1_random				
+chr16_mat_hsa15_random_utig4-2058	mGorGor1#M#chr16_mat_hsa15_random_utig4-2058	JAQQLJ020000107.1	chr16_JAQQLJ020000107v1_random				
+chr16_mat_hsa15_random_utig4-2059	mGorGor1#M#chr16_mat_hsa15_random_utig4-2059	JAQQLJ020000108.1	chr16_JAQQLJ020000108v1_random				
+chr16_mat_hsa15_random_utig4-2060	mGorGor1#M#chr16_mat_hsa15_random_utig4-2060	JAQQLJ020000109.1	chr16_JAQQLJ020000109v1_random				
+chr16_mat_hsa15_random_utig4-2061	mGorGor1#M#chr16_mat_hsa15_random_utig4-2061	JAQQLJ020000110.1	chr16_JAQQLJ020000110v1_random				
+chr16_mat_hsa15_random_utig4-2062	mGorGor1#M#chr16_mat_hsa15_random_utig4-2062	JAQQLJ020000111.1	chr16_JAQQLJ020000111v1_random				
+chr16_mat_hsa15_random_utig4-2094	mGorGor1#M#chr16_mat_hsa15_random_utig4-2094	JAQQLJ020000112.1	chr16_JAQQLJ020000112v1_random				
+chr16_mat_hsa15_random_utig4-2095	mGorGor1#M#chr16_mat_hsa15_random_utig4-2095	JAQQLJ020000113.1	chr16_JAQQLJ020000113v1_random				
+chr16_mat_hsa15_random_utig4-2096	mGorGor1#M#chr16_mat_hsa15_random_utig4-2096	JAQQLJ020000114.1	chr16_JAQQLJ020000114v1_random				
+chr16_mat_hsa15_random_utig4-2097	mGorGor1#M#chr16_mat_hsa15_random_utig4-2097	JAQQLJ020000115.1	chr16_JAQQLJ020000115v1_random				
+chr16_mat_hsa15_random_utig4-2107	mGorGor1#M#chr16_mat_hsa15_random_utig4-2107	JAQQLJ020000116.1	chr16_JAQQLJ020000116v1_random				
+chr16_mat_hsa15_random_utig4-2108	mGorGor1#M#chr16_mat_hsa15_random_utig4-2108	JAQQLJ020000117.1	chr16_JAQQLJ020000117v1_random				
+chr16_mat_hsa15_random_utig4-2109	mGorGor1#M#chr16_mat_hsa15_random_utig4-2109	JAQQLJ020000118.1	chr16_JAQQLJ020000118v1_random				
+chr16_mat_hsa15_random_utig4-2110	mGorGor1#M#chr16_mat_hsa15_random_utig4-2110	JAQQLJ020000119.1	chr16_JAQQLJ020000119v1_random				
+chr16_mat_hsa15_random_utig4-2111	mGorGor1#M#chr16_mat_hsa15_random_utig4-2111	JAQQLJ020000120.1	chr16_JAQQLJ020000120v1_random				
+chr16_mat_hsa15_random_utig4-2112	mGorGor1#M#chr16_mat_hsa15_random_utig4-2112	JAQQLJ020000121.1	chr16_JAQQLJ020000121v1_random				
+chr16_mat_hsa15_random_utig4-2113	mGorGor1#M#chr16_mat_hsa15_random_utig4-2113	JAQQLJ020000122.1	chr16_JAQQLJ020000122v1_random				
+chr16_mat_hsa15_random_utig4-2126	mGorGor1#M#chr16_mat_hsa15_random_utig4-2126	JAQQLJ020000123.1	chr16_JAQQLJ020000123v1_random				
+chr16_mat_hsa15_random_utig4-2144	mGorGor1#M#chr16_mat_hsa15_random_utig4-2144	JAQQLJ020000124.1	chr16_JAQQLJ020000124v1_random				
+chr16_mat_hsa15_random_utig4-2145	mGorGor1#M#chr16_mat_hsa15_random_utig4-2145	JAQQLJ020000125.1	chr16_JAQQLJ020000125v1_random				
+chr16_mat_hsa15_random_utig4-2146	mGorGor1#M#chr16_mat_hsa15_random_utig4-2146	JAQQLJ020000126.1	chr16_JAQQLJ020000126v1_random				
+chr16_mat_hsa15_random_utig4-2161	mGorGor1#M#chr16_mat_hsa15_random_utig4-2161	JAQQLJ020000127.1	chr16_JAQQLJ020000127v1_random				
+chr16_mat_hsa15_random_utig4-2179	mGorGor1#M#chr16_mat_hsa15_random_utig4-2179	JAQQLJ020000128.1	chr16_JAQQLJ020000128v1_random				
+chr16_mat_hsa15_random_utig4-2181	mGorGor1#M#chr16_mat_hsa15_random_utig4-2181	JAQQLJ020000129.1	chr16_JAQQLJ020000129v1_random				
+chr16_mat_hsa15_random_utig4-2182	mGorGor1#M#chr16_mat_hsa15_random_utig4-2182	JAQQLJ020000130.1	chr16_JAQQLJ020000130v1_random				
+chr16_mat_hsa15_random_utig4-2184	mGorGor1#M#chr16_mat_hsa15_random_utig4-2184	JAQQLJ020000131.1	chr16_JAQQLJ020000131v1_random				
+chr16_mat_hsa15_random_utig4-2186	mGorGor1#M#chr16_mat_hsa15_random_utig4-2186	JAQQLJ020000132.1	chr16_JAQQLJ020000132v1_random				
+chr16_mat_hsa15_random_utig4-2207	mGorGor1#M#chr16_mat_hsa15_random_utig4-2207	JAQQLJ020000133.1	chr16_JAQQLJ020000133v1_random				
+chr16_mat_hsa15_random_utig4-2209	mGorGor1#M#chr16_mat_hsa15_random_utig4-2209	JAQQLJ020000134.1	chr16_JAQQLJ020000134v1_random				
+chr16_mat_hsa15_random_utig4-2210	mGorGor1#M#chr16_mat_hsa15_random_utig4-2210	JAQQLJ020000135.1	chr16_JAQQLJ020000135v1_random				
+chr16_mat_hsa15_random_utig4-2211	mGorGor1#M#chr16_mat_hsa15_random_utig4-2211	JAQQLJ020000136.1	chr16_JAQQLJ020000136v1_random				
+chr16_mat_hsa15_random_utig4-2212	mGorGor1#M#chr16_mat_hsa15_random_utig4-2212	JAQQLJ020000137.1	chr16_JAQQLJ020000137v1_random				
+chr16_mat_hsa15_random_utig4-2213	mGorGor1#M#chr16_mat_hsa15_random_utig4-2213	JAQQLJ020000138.1	chr16_JAQQLJ020000138v1_random				
+chr16_mat_hsa15_random_utig4-2229	mGorGor1#M#chr16_mat_hsa15_random_utig4-2229	JAQQLJ020000139.1	chr16_JAQQLJ020000139v1_random				
+chr16_mat_hsa15_random_utig4-2230	mGorGor1#M#chr16_mat_hsa15_random_utig4-2230	JAQQLJ020000140.1	chr16_JAQQLJ020000140v1_random				
+chr16_mat_hsa15_random_utig4-2231	mGorGor1#M#chr16_mat_hsa15_random_utig4-2231	JAQQLJ020000141.1	chr16_JAQQLJ020000141v1_random				
+chr16_mat_hsa15_random_utig4-2232	mGorGor1#M#chr16_mat_hsa15_random_utig4-2232	JAQQLJ020000142.1	chr16_JAQQLJ020000142v1_random				
+chr16_mat_hsa15_random_utig4-2233	mGorGor1#M#chr16_mat_hsa15_random_utig4-2233	JAQQLJ020000143.1	chr16_JAQQLJ020000143v1_random				
+chr16_mat_hsa15_random_utig4-2234	mGorGor1#M#chr16_mat_hsa15_random_utig4-2234	JAQQLJ020000144.1	chr16_JAQQLJ020000144v1_random				
+chr16_mat_hsa15_random_utig4-2235	mGorGor1#M#chr16_mat_hsa15_random_utig4-2235	JAQQLJ020000145.1	chr16_JAQQLJ020000145v1_random				
+chr16_mat_hsa15_random_utig4-2236	mGorGor1#M#chr16_mat_hsa15_random_utig4-2236	JAQQLJ020000146.1	chr16_JAQQLJ020000146v1_random				
+chr16_mat_hsa15_random_utig4-2237	mGorGor1#M#chr16_mat_hsa15_random_utig4-2237	JAQQLJ020000147.1	chr16_JAQQLJ020000147v1_random				
+chr16_mat_hsa15_random_utig4-2238	mGorGor1#M#chr16_mat_hsa15_random_utig4-2238	JAQQLJ020000148.1	chr16_JAQQLJ020000148v1_random				
+chr16_mat_hsa15_random_utig4-2239	mGorGor1#M#chr16_mat_hsa15_random_utig4-2239	JAQQLJ020000149.1	chr16_JAQQLJ020000149v1_random				
+chr16_mat_hsa15_random_utig4-2240	mGorGor1#M#chr16_mat_hsa15_random_utig4-2240	JAQQLJ020000150.1	chr16_JAQQLJ020000150v1_random				
+chr16_mat_hsa15_random_utig4-2241	mGorGor1#M#chr16_mat_hsa15_random_utig4-2241	JAQQLJ020000151.1	chr16_JAQQLJ020000151v1_random				
+chr16_mat_hsa15_random_utig4-2266	mGorGor1#M#chr16_mat_hsa15_random_utig4-2266	JAQQLJ020000152.1	chr16_JAQQLJ020000152v1_random				
+chr16_mat_hsa15_random_utig4-2267	mGorGor1#M#chr16_mat_hsa15_random_utig4-2267	JAQQLJ020000153.1	chr16_JAQQLJ020000153v1_random				
+chr16_mat_hsa15_random_utig4-2268	mGorGor1#M#chr16_mat_hsa15_random_utig4-2268	JAQQLJ020000154.1	chr16_JAQQLJ020000154v1_random				
+chr16_mat_hsa15_random_utig4-2269	mGorGor1#M#chr16_mat_hsa15_random_utig4-2269	JAQQLJ020000155.1	chr16_JAQQLJ020000155v1_random				
+chr16_mat_hsa15_random_utig4-2270	mGorGor1#M#chr16_mat_hsa15_random_utig4-2270	JAQQLJ020000156.1	chr16_JAQQLJ020000156v1_random				
+chr16_mat_hsa15_random_utig4-2318	mGorGor1#M#chr16_mat_hsa15_random_utig4-2318	JAQQLJ020000157.1	chr16_JAQQLJ020000157v1_random				
+chr16_mat_hsa15_random_utig4-2319	mGorGor1#M#chr16_mat_hsa15_random_utig4-2319	JAQQLJ020000158.1	chr16_JAQQLJ020000158v1_random				
+chr16_mat_hsa15_random_utig4-2320	mGorGor1#M#chr16_mat_hsa15_random_utig4-2320	JAQQLJ020000159.1	chr16_JAQQLJ020000159v1_random				
+chr16_mat_hsa15_random_utig4-2343	mGorGor1#M#chr16_mat_hsa15_random_utig4-2343	JAQQLJ020000160.1	chr16_JAQQLJ020000160v1_random				
+chr16_mat_hsa15_random_utig4-2344	mGorGor1#M#chr16_mat_hsa15_random_utig4-2344	JAQQLJ020000161.1	chr16_JAQQLJ020000161v1_random				
+chr16_mat_hsa15_random_utig4-2345	mGorGor1#M#chr16_mat_hsa15_random_utig4-2345	JAQQLJ020000162.1	chr16_JAQQLJ020000162v1_random				
+chr16_mat_hsa15_random_utig4-2346	mGorGor1#M#chr16_mat_hsa15_random_utig4-2346	JAQQLJ020000163.1	chr16_JAQQLJ020000163v1_random				
+chr16_mat_hsa15_random_utig4-2347	mGorGor1#M#chr16_mat_hsa15_random_utig4-2347	JAQQLJ020000164.1	chr16_JAQQLJ020000164v1_random				
+chr16_mat_hsa15_random_utig4-2355	mGorGor1#M#chr16_mat_hsa15_random_utig4-2355	JAQQLJ020000165.1	chr16_JAQQLJ020000165v1_random				
+chr16_mat_hsa15_random_utig4-2356	mGorGor1#M#chr16_mat_hsa15_random_utig4-2356	JAQQLJ020000166.1	chr16_JAQQLJ020000166v1_random				
+chr16_mat_hsa15_random_utig4-2357	mGorGor1#M#chr16_mat_hsa15_random_utig4-2357	JAQQLJ020000167.1	chr16_JAQQLJ020000167v1_random				
+chr16_mat_hsa15_random_utig4-2358	mGorGor1#M#chr16_mat_hsa15_random_utig4-2358	JAQQLJ020000168.1	chr16_JAQQLJ020000168v1_random				
+chr16_mat_hsa15_random_utig4-2359	mGorGor1#M#chr16_mat_hsa15_random_utig4-2359	JAQQLJ020000169.1	chr16_JAQQLJ020000169v1_random				
+chr16_mat_hsa15_random_utig4-2404	mGorGor1#M#chr16_mat_hsa15_random_utig4-2404	JAQQLJ020000170.1	chr16_JAQQLJ020000170v1_random				
+chr16_mat_hsa15_random_utig4-2405	mGorGor1#M#chr16_mat_hsa15_random_utig4-2405	JAQQLJ020000171.1	chr16_JAQQLJ020000171v1_random				
+chr16_mat_hsa15_random_utig4-2442	mGorGor1#M#chr16_mat_hsa15_random_utig4-2442	JAQQLJ020000172.1	chr16_JAQQLJ020000172v1_random				
+chr16_mat_hsa15_random_utig4-2443	mGorGor1#M#chr16_mat_hsa15_random_utig4-2443	JAQQLJ020000173.1	chr16_JAQQLJ020000173v1_random				
+chr16_mat_hsa15_random_utig4-2445	mGorGor1#M#chr16_mat_hsa15_random_utig4-2445	JAQQLJ020000174.1	chr16_JAQQLJ020000174v1_random				
+chr16_mat_hsa15_random_utig4-2446	mGorGor1#M#chr16_mat_hsa15_random_utig4-2446	JAQQLJ020000175.1	chr16_JAQQLJ020000175v1_random				
+chr16_mat_hsa15_random_utig4-2447	mGorGor1#M#chr16_mat_hsa15_random_utig4-2447	JAQQLJ020000176.1	chr16_JAQQLJ020000176v1_random				
+chr16_mat_hsa15_random_utig4-2448	mGorGor1#M#chr16_mat_hsa15_random_utig4-2448	JAQQLJ020000177.1	chr16_JAQQLJ020000177v1_random				
+chr16_mat_hsa15_random_utig4-2484	mGorGor1#M#chr16_mat_hsa15_random_utig4-2484	JAQQLJ020000178.1	chr16_JAQQLJ020000178v1_random				
+chr16_mat_hsa15_random_utig4-2596	mGorGor1#M#chr16_mat_hsa15_random_utig4-2596	JAQQLJ020000179.1	chr16_JAQQLJ020000179v1_random				
+chr16_mat_hsa15_random_utig4-2597	mGorGor1#M#chr16_mat_hsa15_random_utig4-2597	JAQQLJ020000180.1	chr16_JAQQLJ020000180v1_random				
+chr16_mat_hsa15_random_utig4-2609	mGorGor1#M#chr16_mat_hsa15_random_utig4-2609	JAQQLJ020000181.1	chr16_JAQQLJ020000181v1_random				
+chr16_mat_hsa15_random_utig4-2611	mGorGor1#M#chr16_mat_hsa15_random_utig4-2611	JAQQLJ020000182.1	chr16_JAQQLJ020000182v1_random				
+chr16_mat_hsa15_random_utig4-2612	mGorGor1#M#chr16_mat_hsa15_random_utig4-2612	JAQQLJ020000183.1	chr16_JAQQLJ020000183v1_random				
+chr16_mat_hsa15_random_utig4-2613	mGorGor1#M#chr16_mat_hsa15_random_utig4-2613	JAQQLJ020000184.1	chr16_JAQQLJ020000184v1_random				
+chr16_mat_hsa15_random_utig4-2621	mGorGor1#M#chr16_mat_hsa15_random_utig4-2621	JAQQLJ020000185.1	chr16_JAQQLJ020000185v1_random				
+chr16_mat_hsa15_random_utig4-2622	mGorGor1#M#chr16_mat_hsa15_random_utig4-2622	JAQQLJ020000186.1	chr16_JAQQLJ020000186v1_random				
+chr16_mat_hsa15_random_utig4-2623	mGorGor1#M#chr16_mat_hsa15_random_utig4-2623	JAQQLJ020000187.1	chr16_JAQQLJ020000187v1_random				
+chr16_mat_hsa15_random_utig4-2624	mGorGor1#M#chr16_mat_hsa15_random_utig4-2624	JAQQLJ020000188.1	chr16_JAQQLJ020000188v1_random				
+chr16_mat_hsa15_random_utig4-2625	mGorGor1#M#chr16_mat_hsa15_random_utig4-2625	JAQQLJ020000189.1	chr16_JAQQLJ020000189v1_random				
+chr16_mat_hsa15_random_utig4-2626	mGorGor1#M#chr16_mat_hsa15_random_utig4-2626	JAQQLJ020000190.1	chr16_JAQQLJ020000190v1_random				
+chr16_mat_hsa15_random_utig4-2627	mGorGor1#M#chr16_mat_hsa15_random_utig4-2627	JAQQLJ020000191.1	chr16_JAQQLJ020000191v1_random				
+chr16_mat_hsa15_random_utig4-2628	mGorGor1#M#chr16_mat_hsa15_random_utig4-2628	JAQQLJ020000192.1	chr16_JAQQLJ020000192v1_random				
+chr16_mat_hsa15_random_utig4-2649	mGorGor1#M#chr16_mat_hsa15_random_utig4-2649	JAQQLJ020000193.1	chr16_JAQQLJ020000193v1_random				
+chr16_mat_hsa15_random_utig4-2651	mGorGor1#M#chr16_mat_hsa15_random_utig4-2651	JAQQLJ020000194.1	chr16_JAQQLJ020000194v1_random				
+chr16_mat_hsa15_random_utig4-2704	mGorGor1#M#chr16_mat_hsa15_random_utig4-2704	JAQQLJ020000195.1	chr16_JAQQLJ020000195v1_random				
+chr16_mat_hsa15_random_utig4-2713	mGorGor1#M#chr16_mat_hsa15_random_utig4-2713	JAQQLJ020000196.1	chr16_JAQQLJ020000196v1_random				
+chr16_mat_hsa15_random_utig4-2714	mGorGor1#M#chr16_mat_hsa15_random_utig4-2714	JAQQLJ020000197.1	chr16_JAQQLJ020000197v1_random				
+chr16_mat_hsa15_random_utig4-2715	mGorGor1#M#chr16_mat_hsa15_random_utig4-2715	JAQQLJ020000198.1	chr16_JAQQLJ020000198v1_random				
+chr16_mat_hsa15_random_utig4-2745	mGorGor1#M#chr16_mat_hsa15_random_utig4-2745	JAQQLJ020000199.1	chr16_JAQQLJ020000199v1_random				
+chr16_mat_hsa15_random_utig4-2748	mGorGor1#M#chr16_mat_hsa15_random_utig4-2748	JAQQLJ020000200.1	chr16_JAQQLJ020000200v1_random				
+chr16_mat_hsa15_random_utig4-2749	mGorGor1#M#chr16_mat_hsa15_random_utig4-2749	JAQQLJ020000201.1	chr16_JAQQLJ020000201v1_random				
+chr16_mat_hsa15_random_utig4-2750	mGorGor1#M#chr16_mat_hsa15_random_utig4-2750	JAQQLJ020000202.1	chr16_JAQQLJ020000202v1_random				
+chr16_mat_hsa15_random_utig4-2751	mGorGor1#M#chr16_mat_hsa15_random_utig4-2751	JAQQLJ020000203.1	chr16_JAQQLJ020000203v1_random				
+chr16_mat_hsa15_random_utig4-2752	mGorGor1#M#chr16_mat_hsa15_random_utig4-2752	JAQQLJ020000204.1	chr16_JAQQLJ020000204v1_random				
+chr16_mat_hsa15_random_utig4-2754	mGorGor1#M#chr16_mat_hsa15_random_utig4-2754	JAQQLJ020000205.1	chr16_JAQQLJ020000205v1_random				
+chr16_mat_hsa15_random_utig4-2755	mGorGor1#M#chr16_mat_hsa15_random_utig4-2755	JAQQLJ020000206.1	chr16_JAQQLJ020000206v1_random				
+chr16_mat_hsa15_random_utig4-2756	mGorGor1#M#chr16_mat_hsa15_random_utig4-2756	JAQQLJ020000207.1	chr16_JAQQLJ020000207v1_random				
+chr16_mat_hsa15_random_utig4-2761	mGorGor1#M#chr16_mat_hsa15_random_utig4-2761	JAQQLJ020000208.1	chr16_JAQQLJ020000208v1_random				
+chr16_mat_hsa15_random_utig4-2770	mGorGor1#M#chr16_mat_hsa15_random_utig4-2770	JAQQLJ020000209.1	chr16_JAQQLJ020000209v1_random				
+chr16_mat_hsa15_random_utig4-2771	mGorGor1#M#chr16_mat_hsa15_random_utig4-2771	JAQQLJ020000210.1	chr16_JAQQLJ020000210v1_random				
+chr16_mat_hsa15_random_utig4-2778	mGorGor1#M#chr16_mat_hsa15_random_utig4-2778	JAQQLJ020000211.1	chr16_JAQQLJ020000211v1_random				
+chr16_mat_hsa15_random_utig4-2779	mGorGor1#M#chr16_mat_hsa15_random_utig4-2779	JAQQLJ020000212.1	chr16_JAQQLJ020000212v1_random				
+chr16_mat_hsa15_random_utig4-2780	mGorGor1#M#chr16_mat_hsa15_random_utig4-2780	JAQQLJ020000213.1	chr16_JAQQLJ020000213v1_random				
+chr16_mat_hsa15_random_utig4-2972	mGorGor1#M#chr16_mat_hsa15_random_utig4-2972	JAQQLJ020000214.1	chr16_JAQQLJ020000214v1_random				
+chr16_mat_hsa15_random_utig4-2973	mGorGor1#M#chr16_mat_hsa15_random_utig4-2973	JAQQLJ020000215.1	chr16_JAQQLJ020000215v1_random				
+chr16_mat_hsa15_random_utig4-2985	mGorGor1#M#chr16_mat_hsa15_random_utig4-2985	JAQQLJ020000216.1	chr16_JAQQLJ020000216v1_random				
+chr16_mat_hsa15_random_utig4-3016	mGorGor1#M#chr16_mat_hsa15_random_utig4-3016	JAQQLJ020000217.1	chr16_JAQQLJ020000217v1_random				
+chr3_mat_hsa4_random_utig4-32	mGorGor1#M#chr3_mat_hsa4_random_utig4-32	JAQQLJ020000004.1	chr3_JAQQLJ020000004v1_random				
+chr3_mat_hsa4_random_utig4-33	mGorGor1#M#chr3_mat_hsa4_random_utig4-33	JAQQLJ020000005.1	chr3_JAQQLJ020000005v1_random				
+chr3_mat_hsa4_random_utig4-34	mGorGor1#M#chr3_mat_hsa4_random_utig4-34	JAQQLJ020000006.1	chr3_JAQQLJ020000006v1_random				
+chr3_mat_hsa4_random_utig4-35	mGorGor1#M#chr3_mat_hsa4_random_utig4-35	JAQQLJ020000007.1	chr3_JAQQLJ020000007v1_random				
+chr3_mat_hsa4_random_utig4-36	mGorGor1#M#chr3_mat_hsa4_random_utig4-36	JAQQLJ020000008.1	chr3_JAQQLJ020000008v1_random				
+chr3_mat_hsa4_random_utig4-37	mGorGor1#M#chr3_mat_hsa4_random_utig4-37	JAQQLJ020000009.1	chr3_JAQQLJ020000009v1_random				
+chr3_mat_hsa4_random_utig4-38	mGorGor1#M#chr3_mat_hsa4_random_utig4-38	JAQQLJ020000010.1	chr3_JAQQLJ020000010v1_random				
+chr3_mat_hsa4_random_utig4-39	mGorGor1#M#chr3_mat_hsa4_random_utig4-39	JAQQLJ020000011.1	chr3_JAQQLJ020000011v1_random				
+chr3_mat_hsa4_random_utig4-40	mGorGor1#M#chr3_mat_hsa4_random_utig4-40	JAQQLJ020000012.1	chr3_JAQQLJ020000012v1_random				
+chr3_mat_hsa4_random_utig4-41	mGorGor1#M#chr3_mat_hsa4_random_utig4-41	JAQQLJ020000013.1	chr3_JAQQLJ020000013v1_random				
+chr3_mat_hsa4_random_utig4-634	mGorGor1#M#chr3_mat_hsa4_random_utig4-634	JAQQLJ020000014.1	chr3_JAQQLJ020000014v1_random				
+chr3_mat_hsa4_random_utig4-853	mGorGor1#M#chr3_mat_hsa4_random_utig4-853	JAQQLJ020000015.1	chr3_JAQQLJ020000015v1_random				
+chr3_mat_hsa4_random_utig4-855	mGorGor1#M#chr3_mat_hsa4_random_utig4-855	JAQQLJ020000016.1	chr3_JAQQLJ020000016v1_random				
+chr3_mat_hsa4_random_utig4-865	mGorGor1#M#chr3_mat_hsa4_random_utig4-865	JAQQLJ020000017.1	chr3_JAQQLJ020000017v1_random				
+chr3_mat_hsa4_random_utig4-905	mGorGor1#M#chr3_mat_hsa4_random_utig4-905	JAQQLJ020000018.1	chr3_JAQQLJ020000018v1_random				
+chr3_mat_hsa4_random_utig4-907	mGorGor1#M#chr3_mat_hsa4_random_utig4-907	JAQQLJ020000019.1	chr3_JAQQLJ020000019v1_random				
+chr3_mat_hsa4_random_utig4-911	mGorGor1#M#chr3_mat_hsa4_random_utig4-911	JAQQLJ020000020.1	chr3_JAQQLJ020000020v1_random				
+chr3_mat_hsa4_random_utig4-913	mGorGor1#M#chr3_mat_hsa4_random_utig4-913	JAQQLJ020000021.1	chr3_JAQQLJ020000021v1_random				
+chr3_mat_hsa4_random_utig4-939	mGorGor1#M#chr3_mat_hsa4_random_utig4-939	JAQQLJ020000022.1	chr3_JAQQLJ020000022v1_random				
+chr3_mat_hsa4_random_utig4-940	mGorGor1#M#chr3_mat_hsa4_random_utig4-940	JAQQLJ020000023.1	chr3_JAQQLJ020000023v1_random				
+chr3_mat_hsa4_random_utig4-967	mGorGor1#M#chr3_mat_hsa4_random_utig4-967	JAQQLJ020000024.1	chr3_JAQQLJ020000024v1_random				
+chr3_mat_hsa4_random_utig4-968	mGorGor1#M#chr3_mat_hsa4_random_utig4-968	JAQQLJ020000025.1	chr3_JAQQLJ020000025v1_random				
+chr3_mat_hsa4_random_utig4-971	mGorGor1#M#chr3_mat_hsa4_random_utig4-971	JAQQLJ020000026.1	chr3_JAQQLJ020000026v1_random				
+chr3_mat_hsa4_random_utig4-1031	mGorGor1#M#chr3_mat_hsa4_random_utig4-1031	JAQQLJ020000027.1	chr3_JAQQLJ020000027v1_random				
+chr3_mat_hsa4_random_utig4-1486	mGorGor1#M#chr3_mat_hsa4_random_utig4-1486	JAQQLJ020000028.1	chr3_JAQQLJ020000028v1_random				
+chr3_mat_hsa4_random_utig4-1487	mGorGor1#M#chr3_mat_hsa4_random_utig4-1487	JAQQLJ020000029.1	chr3_JAQQLJ020000029v1_random				
+chr3_mat_hsa4_random_utig4-1749	mGorGor1#M#chr3_mat_hsa4_random_utig4-1749	JAQQLJ020000030.1	chr3_JAQQLJ020000030v1_random				
+chr3_mat_hsa4_random_utig4-1755	mGorGor1#M#chr3_mat_hsa4_random_utig4-1755	JAQQLJ020000031.1	chr3_JAQQLJ020000031v1_random				
+chr3_mat_hsa4_random_utig4-1779	mGorGor1#M#chr3_mat_hsa4_random_utig4-1779	JAQQLJ020000032.1	chr3_JAQQLJ020000032v1_random				
+chr3_mat_hsa4_random_utig4-1783	mGorGor1#M#chr3_mat_hsa4_random_utig4-1783	JAQQLJ020000033.1	chr3_JAQQLJ020000033v1_random				
+chr3_mat_hsa4_random_utig4-2068	mGorGor1#M#chr3_mat_hsa4_random_utig4-2068	JAQQLJ020000034.1	chr3_JAQQLJ020000034v1_random				
+chr3_mat_hsa4_random_utig4-2071	mGorGor1#M#chr3_mat_hsa4_random_utig4-2071	JAQQLJ020000035.1	chr3_JAQQLJ020000035v1_random				
+chr3_mat_hsa4_random_utig4-2100	mGorGor1#M#chr3_mat_hsa4_random_utig4-2100	JAQQLJ020000036.1	chr3_JAQQLJ020000036v1_random				
+chr3_mat_hsa4_random_utig4-2102	mGorGor1#M#chr3_mat_hsa4_random_utig4-2102	JAQQLJ020000037.1	chr3_JAQQLJ020000037v1_random				
+chr3_mat_hsa4_random_utig4-2103	mGorGor1#M#chr3_mat_hsa4_random_utig4-2103	JAQQLJ020000038.1	chr3_JAQQLJ020000038v1_random				
+chr3_mat_hsa4_random_utig4-2215	mGorGor1#M#chr3_mat_hsa4_random_utig4-2215	JAQQLJ020000039.1	chr3_JAQQLJ020000039v1_random				
+chr3_mat_hsa4_random_utig4-2220	mGorGor1#M#chr3_mat_hsa4_random_utig4-2220	JAQQLJ020000040.1	chr3_JAQQLJ020000040v1_random				
+chr3_mat_hsa4_random_utig4-2309	mGorGor1#M#chr3_mat_hsa4_random_utig4-2309	JAQQLJ020000041.1	chr3_JAQQLJ020000041v1_random				
+chr3_mat_hsa4_random_utig4-2312	mGorGor1#M#chr3_mat_hsa4_random_utig4-2312	JAQQLJ020000042.1	chr3_JAQQLJ020000042v1_random				
+chr3_mat_hsa4_random_utig4-2313	mGorGor1#M#chr3_mat_hsa4_random_utig4-2313	JAQQLJ020000043.1	chr3_JAQQLJ020000043v1_random				
+chr3_mat_hsa4_random_utig4-2314	mGorGor1#M#chr3_mat_hsa4_random_utig4-2314	JAQQLJ020000044.1	chr3_JAQQLJ020000044v1_random				
+chr3_mat_hsa4_random_utig4-2325	mGorGor1#M#chr3_mat_hsa4_random_utig4-2325	JAQQLJ020000045.1	chr3_JAQQLJ020000045v1_random				
+chr3_mat_hsa4_random_utig4-2326	mGorGor1#M#chr3_mat_hsa4_random_utig4-2326	JAQQLJ020000046.1	chr3_JAQQLJ020000046v1_random				
+chr3_mat_hsa4_random_utig4-2463	mGorGor1#M#chr3_mat_hsa4_random_utig4-2463	JAQQLJ020000047.1	chr3_JAQQLJ020000047v1_random				
+chr3_mat_hsa4_random_utig4-2717	mGorGor1#M#chr3_mat_hsa4_random_utig4-2717	JAQQLJ020000048.1	chr3_JAQQLJ020000048v1_random				
+chr3_mat_hsa4_random_utig4-2823	mGorGor1#M#chr3_mat_hsa4_random_utig4-2823	JAQQLJ020000049.1	chr3_JAQQLJ020000049v1_random				
+chr3_mat_hsa4_random_utig4-2825	mGorGor1#M#chr3_mat_hsa4_random_utig4-2825	JAQQLJ020000050.1	chr3_JAQQLJ020000050v1_random				
+chr3_mat_hsa4_random_utig4-2906	mGorGor1#M#chr3_mat_hsa4_random_utig4-2906	JAQQLJ020000051.1	chr3_JAQQLJ020000051v1_random				
+chr3_mat_hsa4_random_utig4-2983	mGorGor1#M#chr3_mat_hsa4_random_utig4-2983	JAQQLJ020000052.1	chr3_JAQQLJ020000052v1_random				
+chr3_mat_hsa4_random_utig4-2984	mGorGor1#M#chr3_mat_hsa4_random_utig4-2984	JAQQLJ020000053.1	chr3_JAQQLJ020000053v1_random				
+chr1_mat_hsa1	mGorGor1#M#chr1_mat_hsa1	CM054582.2					
+chr10_pat_hsa12	mGorGor1#P#chr10_pat_hsa12	CM054568.2					
+chr11_pat_hsa2b	mGorGor1#P#chr11_pat_hsa2b	CM054569.2					
+chr12_mat_hsa2a	mGorGor1#M#chr12_mat_hsa2a	CM054594.2					
+chr13_mat_hsa9	mGorGor1#M#chr13_mat_hsa9	CM054595.2					
+chr14_mat_hsa13	mGorGor1#M#chr14_mat_hsa13	CM054596.2					
+chr15_mat_hsa14	mGorGor1#M#chr15_mat_hsa14	CM054597.2					
+chr16_mat_hsa15	mGorGor1#M#chr16_mat_hsa15	CM054598.2					
+chr17_pat_hsa18	mGorGor1#P#chr17_pat_hsa18	CM054575.2					
+chr18_mat_hsa16	mGorGor1#M#chr18_mat_hsa16	CM054600.2					
+chr19_mat_hsa5x17	mGorGor1#M#chr19_mat_hsa5x17	CM054601.2					
+chr2_mat_hsa3	mGorGor1#M#chr2_mat_hsa3	CM068942.1					
+chr20_pat_hsa19	mGorGor1#P#chr20_pat_hsa19	CM054578.2					
+chr21_mat_hsa20	mGorGor1#M#chr21_mat_hsa20	CM054603.2					
+chr22_pat_hsa21	mGorGor1#P#chr22_pat_hsa21	CM054580.2					
+chr23_pat_hsa22	mGorGor1#P#chr23_pat_hsa22	CM068949.1					
+chr3_mat_hsa4	mGorGor1#M#chr3_mat_hsa4	CM054585.2					
+chr4_mat_hsa17x5	mGorGor1#M#chr4_mat_hsa17x5	CM054586.2					
+chr5_pat_hsa6	mGorGor1#P#chr5_pat_hsa6	CM054563.2					
+chr6_pat_hsa7	mGorGor1#P#chr6_pat_hsa7	CM054564.2					
+chr7_mat_hsa8	mGorGor1#M#chr7_mat_hsa8	CM054589.2					
+chr8_mat_hsa10	mGorGor1#M#chr8_mat_hsa10	CM054590.2					
+chr9_mat_hsa11	mGorGor1#M#chr9_mat_hsa11	CM054591.2					

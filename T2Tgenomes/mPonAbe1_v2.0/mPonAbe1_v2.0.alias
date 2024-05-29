@@ -1,31 +1,79 @@
-# ucsc	assembly	genbank	refseq	chr	hsa
-chr1_hap1_hsa1	1	CM054679.2	NC_071985.2	chr1	hsa1
-chr2_hap1_hsa3	2	CM068843.1	NC_085928.1	chr2	hsa3
-chr3_hap1_hsa4	3	CM054682.2	NC_071988.2	chr3	hsa4
-chr4_hap1_hsa5	4	CM054683.2	NC_071989.2	chr4	hsa5
-chr5_hap1_hsa6	5	CM054684.2	NC_071990.2	chr5	hsa6
-chr6_hap1_hsa7	6	CM054685.2	NC_071991.2	chr6	hsa7
-chr7_hap1_hsa8	7	CM054686.2	NC_071992.2	chr7	hsa8
-chr8_hap1_hsa10	8	CM054687.2	NC_071993.2	chr8	hsa10
-chr9_hap1_hsa11	9	CM054688.2	NC_071994.2	chr9	hsa11
-chr10_hap1_hsa12	10	CM054689.2	NC_071995.2	chr10	hsa12
-chr11_hap1_hsa2b	11	CM054690.2	NC_071996.2	chr11	hsa2b
-chr12_hap1_hsa2a	12	CM054691.2	NC_071997.2	chr12	hsa2a
-chr13_hap1_hsa9	13	CM054692.2	NC_071998.2	chr13	hsa9
-chr14_hap1_hsa13	14	CM054693.2	NC_071999.2	chr14	hsa13
-chr15_hap1_hsa14	15	CM054694.2	NC_072000.2	chr15	hsa14
-chr16_hap1_hsa15	16	CM054695.2	NC_072001.2	chr16	hsa15
-chr17_hap1_hsa18	17	CM054696.2	NC_072002.2	chr17	hsa18
-chr18_hap1_hsa16	18	CM054697.2	NC_072003.2	chr18	hsa16
-chr19_hap1_hsa17	19	CM054698.2	NC_072004.2	chr19	hsa17
-chr20_hap1_hsa19	20	CM054699.2	NC_072005.2	chr20	hsa19
-chr21_hap1_hsa20	21	CM054700.2	NC_072006.2	chr21	hsa20
-chr22_hap1_hsa21	22	CM054701.2	NC_072007.2	chr22	hsa21
-chr23_hap1_hsa22	23	CM068844.1	NC_085929.1	chr23	hsa22
-chrX_hap1_hsaX	X	CM054702.2	NC_072008.2	chrX	hsaX
-chrY_hap2_hsaY	Y	CM054703.2	NC_072009.2	chrY	hsaY
-chr18_hap1_hsa16_random_utig4-1074	18	JAQQLQ020000019.1	NW_026946739.1	chr18_hap1_hsa16_random_utig4-1074	chr18_hap1_hsa16_random_utig4-1074
-chr18_hap1_hsa16_random_utig4-1076	18	JAQQLQ020000020.1	NW_026946740.1	chr18_hap1_hsa16_random_utig4-1076	chr18_hap1_hsa16_random_utig4-1076
-chr18_hap1_hsa16_random_utig4-3743	18	JAQQLQ020000021.1	NW_026946741.1	chr18_hap1_hsa16_random_utig4-3743	chr18_hap1_hsa16_random_utig4-3743
-chr18_hap1_hsa16_random_utig4-3745	18	JAQQLQ020000022.1	NW_026946742.1	chr18_hap1_hsa16_random_utig4-3745	chr18_hap1_hsa16_random_utig4-3745
-MT	MT	na	NC_002083.1	chrM	chrM
+# ucsc	pangenome	genbank	assembly	genbank_pri	refseq	chr	hsa
+chr1_hap1_hsa1	mPonAbe1#1#chr1_hap1_hsa1	CM054679.2	1	CM054679.2	NC_071985.2	chr1	hsa1
+chr2_hap1_hsa3	mPonAbe1#1#chr2_hap1_hsa3	CM068843.1	2	CM068843.1	NC_085928.1	chr2	hsa3
+chr3_hap1_hsa4	mPonAbe1#1#chr3_hap1_hsa4	CM054682.2	3	CM054682.2	NC_071988.2	chr3	hsa4
+chr4_hap1_hsa5	mPonAbe1#1#chr4_hap1_hsa5	CM054683.2	4	CM054683.2	NC_071989.2	chr4	hsa5
+chr5_hap1_hsa6	mPonAbe1#1#chr5_hap1_hsa6	CM054684.2	5	CM054684.2	NC_071990.2	chr5	hsa6
+chr6_hap1_hsa7	mPonAbe1#1#chr6_hap1_hsa7	CM054685.2	6	CM054685.2	NC_071991.2	chr6	hsa7
+chr7_hap1_hsa8	mPonAbe1#1#chr7_hap1_hsa8	CM054686.2	7	CM054686.2	NC_071992.2	chr7	hsa8
+chr8_hap1_hsa10	mPonAbe1#1#chr8_hap1_hsa10	CM054687.2	8	CM054687.2	NC_071993.2	chr8	hsa10
+chr9_hap1_hsa11	mPonAbe1#1#chr9_hap1_hsa11	CM054688.2	9	CM054688.2	NC_071994.2	chr9	hsa11
+chr10_hap1_hsa12	mPonAbe1#1#chr10_hap1_hsa12	CM054689.2	10	CM054689.2	NC_071995.2	chr10	hsa12
+chr11_hap1_hsa2b	mPonAbe1#1#chr11_hap1_hsa2b	CM054690.2	11	CM054690.2	NC_071996.2	chr11	hsa2b
+chr12_hap1_hsa2a	mPonAbe1#1#chr12_hap1_hsa2a	CM054691.2	12	CM054691.2	NC_071997.2	chr12	hsa2a
+chr13_hap1_hsa9	mPonAbe1#1#chr13_hap1_hsa9	CM054692.2	13	CM054692.2	NC_071998.2	chr13	hsa9
+chr14_hap1_hsa13	mPonAbe1#1#chr14_hap1_hsa13	CM054693.2	14	CM054693.2	NC_071999.2	chr14	hsa13
+chr15_hap1_hsa14	mPonAbe1#1#chr15_hap1_hsa14	CM054694.2	15	CM054694.2	NC_072000.2	chr15	hsa14
+chr16_hap1_hsa15	mPonAbe1#1#chr16_hap1_hsa15	CM054695.2	16	CM054695.2	NC_072001.2	chr16	hsa15
+chr17_hap1_hsa18	mPonAbe1#1#chr17_hap1_hsa18	CM054696.2	17	CM054696.2	NC_072002.2	chr17	hsa18
+chr18_hap1_hsa16	mPonAbe1#1#chr18_hap1_hsa16	CM054697.2	18	CM054697.2	NC_072003.2	chr18	hsa16
+chr19_hap1_hsa17	mPonAbe1#1#chr19_hap1_hsa17	CM054698.2	19	CM054698.2	NC_072004.2	chr19	hsa17
+chr20_hap1_hsa19	mPonAbe1#1#chr20_hap1_hsa19	CM054699.2	20	CM054699.2	NC_072005.2	chr20	hsa19
+chr21_hap1_hsa20	mPonAbe1#1#chr21_hap1_hsa20	CM054700.2	21	CM054700.2	NC_072006.2	chr21	hsa20
+chr22_hap1_hsa21	mPonAbe1#1#chr22_hap1_hsa21	CM054701.2	22	CM054701.2	NC_072007.2	chr22	hsa21
+chr23_hap1_hsa22	mPonAbe1#1#chr23_hap1_hsa22	CM068844.1	23	CM068844.1	NC_085929.1	chr23	hsa22
+chrX_hap1_hsaX	mPonAbe1#1#chrX_hap1_hsaX	CM054702.2	X	CM054702.2	NC_072008.2	chrX	hsaX
+chrY_hap2_hsaY	mPonAbe1#2#chrY_hap2_hsaY	CM054703.2	Y	CM054703.2	NC_072009.2	chrY	hsaY
+chr18_hap1_hsa16_random_utig4-1074	mPonAbe1#1#chr18_hap1_hsa16_random_utig4-1074	JAQQLQ020000019.1	18	JAQQLQ020000019.1	NW_026946739.1	chr18_JAQQLQ020000019v1_random	chr18_hap1_hsa16_random_utig4-1074
+chr18_hap1_hsa16_random_utig4-1076	mPonAbe1#1#chr18_hap1_hsa16_random_utig4-1076	JAQQLQ020000020.1	18	JAQQLQ020000020.1	NW_026946740.1	chr18_JAQQLQ020000020v1_random	chr18_hap1_hsa16_random_utig4-1076
+chr18_hap1_hsa16_random_utig4-3743	mPonAbe1#1#chr18_hap1_hsa16_random_utig4-3743	JAQQLQ020000021.1	18	JAQQLQ020000021.1	NW_026946741.1	chr18_JAQQLQ020000021v1_random	chr18_hap1_hsa16_random_utig4-3743
+chr18_hap1_hsa16_random_utig4-3745	mPonAbe1#1#chr18_hap1_hsa16_random_utig4-3745	JAQQLQ020000022.1	18	JAQQLQ020000022.1	NW_026946742.1	chr18_JAQQLQ020000022v1_random	chr18_hap1_hsa16_random_utig4-3745
+MT	mPonAbe1#1#MT	NC_002083.1	MT	na	NC_002083.1	chrM	chrM
+chr9_hap2_hsa11_random_utig4-877	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-877	JAQQLR020000010.1	chr9_JAQQLR020000010v1_random				
+chr9_hap2_hsa11_random_utig4-878	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-878	JAQQLR020000011.1	chr9_JAQQLR020000011v1_random				
+chr9_hap2_hsa11_random_utig4-879	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-879	JAQQLR020000012.1	chr9_JAQQLR020000012v1_random				
+chr9_hap2_hsa11_random_utig4-974	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-974	JAQQLR020000013.1	chr9_JAQQLR020000013v1_random				
+chr9_hap2_hsa11_random_utig4-975	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-975	JAQQLR020000014.1	chr9_JAQQLR020000014v1_random				
+chr9_hap2_hsa11_random_utig4-976	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-976	JAQQLR020000015.1	chr9_JAQQLR020000015v1_random				
+chr9_hap2_hsa11_random_utig4-977	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-977	JAQQLR020000016.1	chr9_JAQQLR020000016v1_random				
+chr9_hap2_hsa11_random_utig4-990	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-990	JAQQLR020000017.1	chr9_JAQQLR020000017v1_random				
+chr9_hap2_hsa11_random_utig4-1108	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-1108	JAQQLR020000018.1	chr9_JAQQLR020000018v1_random				
+chr9_hap2_hsa11_random_utig4-1467	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-1467	JAQQLR020000019.1	chr9_JAQQLR020000019v1_random				
+chr9_hap2_hsa11_random_utig4-1468	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-1468	JAQQLR020000020.1	chr9_JAQQLR020000020v1_random				
+chr9_hap2_hsa11_random_utig4-1469	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-1469	JAQQLR020000021.1	chr9_JAQQLR020000021v1_random				
+chr9_hap2_hsa11_random_utig4-2086	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-2086	JAQQLR020000022.1	chr9_JAQQLR020000022v1_random				
+chr9_hap2_hsa11_random_utig4-2088	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-2088	JAQQLR020000023.1	chr9_JAQQLR020000023v1_random				
+chr9_hap2_hsa11_random_utig4-2699	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-2699	JAQQLR020000024.1	chr9_JAQQLR020000024v1_random				
+chr9_hap2_hsa11_random_utig4-3119	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-3119	JAQQLR020000025.1	chr9_JAQQLR020000025v1_random				
+chr9_hap2_hsa11_random_utig4-3120	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-3120	JAQQLR020000026.1	chr9_JAQQLR020000026v1_random				
+chr9_hap2_hsa11_random_utig4-3148	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-3148	JAQQLR020000027.1	chr9_JAQQLR020000027v1_random				
+chr9_hap2_hsa11_random_utig4-3149	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-3149	JAQQLR020000028.1	chr9_JAQQLR020000028v1_random				
+chr9_hap2_hsa11_random_utig4-3150	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-3150	JAQQLR020000029.1	chr9_JAQQLR020000029v1_random				
+chr9_hap2_hsa11_random_utig4-3725	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-3725	JAQQLR020000030.1	chr9_JAQQLR020000030v1_random				
+chr9_hap2_hsa11_random_utig4-3726	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-3726	JAQQLR020000031.1	chr9_JAQQLR020000031v1_random				
+chr9_hap2_hsa11_random_utig4-4279	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-4279	JAQQLR020000032.1	chr9_JAQQLR020000032v1_random				
+chr9_hap2_hsa11_random_utig4-4280	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-4280	JAQQLR020000033.1	chr9_JAQQLR020000033v1_random				
+chr9_hap2_hsa11_random_utig4-5532	mPonAbe1#2#chr9_hap2_hsa11_random_utig4-5532	JAQQLR020000034.1	chr9_JAQQLR020000034v1_random				
+chr1_hap2_hsa1	mPonAbe1#2#chr1_hap2_hsa1	CM054656.2					
+chr2_hap2_hsa3	mPonAbe1#2#chr2_hap2_hsa3	CM068845.1					
+chr3_hap2_hsa4	mPonAbe1#2#chr3_hap2_hsa4	CM054659.2					
+chr4_hap2_hsa5	mPonAbe1#2#chr4_hap2_hsa5	CM054660.2					
+chr5_hap2_hsa6	mPonAbe1#2#chr5_hap2_hsa6	CM054661.2					
+chr6_hap2_hsa7	mPonAbe1#2#chr6_hap2_hsa7	CM054662.2					
+chr7_hap2_hsa8	mPonAbe1#2#chr7_hap2_hsa8	CM054663.2					
+chr8_hap2_hsa10	mPonAbe1#2#chr8_hap2_hsa10	CM054664.2					
+chr9_hap2_hsa11	mPonAbe1#2#chr9_hap2_hsa11	CM054665.2					
+chr10_hap2_hsa12	mPonAbe1#2#chr10_hap2_hsa12	CM054666.2					
+chr11_hap2_hsa2b	mPonAbe1#2#chr11_hap2_hsa2b	CM054667.2					
+chr12_hap2_hsa2a	mPonAbe1#2#chr12_hap2_hsa2a	CM054668.2					
+chr13_hap2_hsa9	mPonAbe1#2#chr13_hap2_hsa9	CM054669.2					
+chr14_hap2_hsa13	mPonAbe1#2#chr14_hap2_hsa13	CM054670.2					
+chr15_hap2_hsa14	mPonAbe1#2#chr15_hap2_hsa14	CM054671.2					
+chr16_hap2_hsa15	mPonAbe1#2#chr16_hap2_hsa15	CM054672.2					
+chr17_hap2_hsa18	mPonAbe1#2#chr17_hap2_hsa18	CM054673.2					
+chr18_hap2_hsa16	mPonAbe1#2#chr18_hap2_hsa16	CM054674.2					
+chr19_hap2_hsa17	mPonAbe1#2#chr19_hap2_hsa17	CM054675.2					
+chr20_hap2_hsa19	mPonAbe1#2#chr20_hap2_hsa19	CM054676.2					
+chr21_hap2_hsa20	mPonAbe1#2#chr21_hap2_hsa20	CM054677.2					
+chr22_hap2_hsa21	mPonAbe1#2#chr22_hap2_hsa21	CM054678.2					
+chr23_hap2_hsa22	mPonAbe1#2#chr23_hap2_hsa22	CM068846.1					

@@ -1,27 +1,60 @@
-# ucsc	assembly	genbank	refseq	chr	hsa
-chr1_hap1_hsa1	1	CM054630.2	NC_072373.2	chr1	hsa1
-chr2_hap1_hsa3	2	CM068907.1	NC_085930.1	chr2	hsa3
-chr3_hap1_hsa4	3	CM054633.2	NC_072376.2	chr3	hsa4
-chr4_hap1_hsa5	4	CM054634.2	NC_072377.2	chr4	hsa5
-chr5_hap1_hsa6	5	CM054635.2	NC_072378.2	chr5	hsa6
-chr6_hap1_hsa7	6	CM054636.2	NC_072379.2	chr6	hsa7
-chr7_hap1_hsa8	7	CM054637.2	NC_072380.2	chr7	hsa8
-chr8_hap1_hsa10	8	CM054638.2	NC_072381.2	chr8	hsa10
-chr9_hap1_hsa11	9	CM054639.2	NC_072382.2	chr9	hsa11
-chr10_hap1_hsa12	10	CM054640.2	NC_072383.2	chr10	hsa12
-chr11_hap1_hsa2b	11	CM054641.2	NC_072384.2	chr11	hsa2b
-chr12_hap1_hsa2a	12	CM054642.2	NC_072385.2	chr12	hsa2a
-chr13_hap1_hsa9	13	CM054643.2	NC_072386.2	chr13	hsa9
-chr14_hap1_hsa13	14	CM054644.2	NC_072387.2	chr14	hsa13
-chr15_hap1_hsa14	15	CM054645.2	NC_072388.2	chr15	hsa14
-chr16_hap1_hsa15	16	CM054646.2	NC_072389.2	chr16	hsa15
-chr17_hap1_hsa18	17	CM054647.2	NC_072390.2	chr17	hsa18
-chr18_hap1_hsa16	18	CM054648.2	NC_072391.2	chr18	hsa16
-chr19_hap1_hsa17	19	CM054649.2	NC_072392.2	chr19	hsa17
-chr20_hap1_hsa19	20	CM054650.2	NC_072393.2	chr20	hsa19
-chr21_hap1_hsa20	21	CM054651.2	NC_072394.2	chr21	hsa20
-chr22_hap1_hsa21	22	CM054652.2	NC_072395.2	chr22	hsa21
-chr23_hap1_hsa22	23	CM068908.1	NC_085931.1	chr23	hsa22
-chrX_hap1_hsaX	X	CM054653.2	NC_072396.2	chrX	hsaX
-chrY_hap2_hsaY	Y	CM054654.2	NC_072397.2	chrY	hsaY
-MT	MT	na	NC_001646.1	chrM	chrM
+# ucsc	pangenome	genbank	assembly	genbank_pri	refseq	chr	hsa
+chr1_hap1_hsa1	mPonPyg2#1#chr1_hap1_hsa1	CM054630.2	1	CM054630.2	NC_072373.2	chr1	hsa1
+chr2_hap1_hsa3	mPonPyg2#1#chr2_hap1_hsa3	CM068907.1	2	CM068907.1	NC_085930.1	chr2	hsa3
+chr3_hap1_hsa4	mPonPyg2#1#chr3_hap1_hsa4	CM054633.2	3	CM054633.2	NC_072376.2	chr3	hsa4
+chr4_hap1_hsa5	mPonPyg2#1#chr4_hap1_hsa5	CM054634.2	4	CM054634.2	NC_072377.2	chr4	hsa5
+chr5_hap1_hsa6	mPonPyg2#1#chr5_hap1_hsa6	CM054635.2	5	CM054635.2	NC_072378.2	chr5	hsa6
+chr6_hap1_hsa7	mPonPyg2#1#chr6_hap1_hsa7	CM054636.2	6	CM054636.2	NC_072379.2	chr6	hsa7
+chr7_hap1_hsa8	mPonPyg2#1#chr7_hap1_hsa8	CM054637.2	7	CM054637.2	NC_072380.2	chr7	hsa8
+chr8_hap1_hsa10	mPonPyg2#1#chr8_hap1_hsa10	CM054638.2	8	CM054638.2	NC_072381.2	chr8	hsa10
+chr9_hap1_hsa11	mPonPyg2#1#chr9_hap1_hsa11	CM054639.2	9	CM054639.2	NC_072382.2	chr9	hsa11
+chr10_hap1_hsa12	mPonPyg2#1#chr10_hap1_hsa12	CM054640.2	10	CM054640.2	NC_072383.2	chr10	hsa12
+chr11_hap1_hsa2b	mPonPyg2#1#chr11_hap1_hsa2b	CM054641.2	11	CM054641.2	NC_072384.2	chr11	hsa2b
+chr12_hap1_hsa2a	mPonPyg2#1#chr12_hap1_hsa2a	CM054642.2	12	CM054642.2	NC_072385.2	chr12	hsa2a
+chr13_hap1_hsa9	mPonPyg2#1#chr13_hap1_hsa9	CM054643.2	13	CM054643.2	NC_072386.2	chr13	hsa9
+chr14_hap1_hsa13	mPonPyg2#1#chr14_hap1_hsa13	CM054644.2	14	CM054644.2	NC_072387.2	chr14	hsa13
+chr15_hap1_hsa14	mPonPyg2#1#chr15_hap1_hsa14	CM054645.2	15	CM054645.2	NC_072388.2	chr15	hsa14
+chr16_hap1_hsa15	mPonPyg2#1#chr16_hap1_hsa15	CM054646.2	16	CM054646.2	NC_072389.2	chr16	hsa15
+chr17_hap1_hsa18	mPonPyg2#1#chr17_hap1_hsa18	CM054647.2	17	CM054647.2	NC_072390.2	chr17	hsa18
+chr18_hap1_hsa16	mPonPyg2#1#chr18_hap1_hsa16	CM054648.2	18	CM054648.2	NC_072391.2	chr18	hsa16
+chr19_hap1_hsa17	mPonPyg2#1#chr19_hap1_hsa17	CM054649.2	19	CM054649.2	NC_072392.2	chr19	hsa17
+chr20_hap1_hsa19	mPonPyg2#1#chr20_hap1_hsa19	CM054650.2	20	CM054650.2	NC_072393.2	chr20	hsa19
+chr21_hap1_hsa20	mPonPyg2#1#chr21_hap1_hsa20	CM054651.2	21	CM054651.2	NC_072394.2	chr21	hsa20
+chr22_hap1_hsa21	mPonPyg2#1#chr22_hap1_hsa21	CM054652.2	22	CM054652.2	NC_072395.2	chr22	hsa21
+chr23_hap1_hsa22	mPonPyg2#1#chr23_hap1_hsa22	CM068908.1	23	CM068908.1	NC_085931.1	chr23	hsa22
+chrX_hap1_hsaX	mPonPyg2#1#chrX_hap1_hsaX	CM054653.2	X	CM054653.2	NC_072396.2	chrX	hsaX
+chrY_hap2_hsaY	mPonPyg2#2#chrY_hap2_hsaY	CM054654.2	Y	CM054654.2	NC_072397.2	chrY	hsaY
+MT	mPonPyg2#1#MT	na	MT	na	NC_001646.1	chrM	chrM
+chr9_hap2_hsa11_random_utig4-828	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-828	JAQQLT020000010.1	chr9_JAQQLT020000010v1_random				
+chr9_hap2_hsa11_random_utig4-830	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-830	JAQQLT020000011.1	chr9_JAQQLT020000011v1_random				
+chr9_hap2_hsa11_random_utig4-832	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-832	JAQQLT020000012.1	chr9_JAQQLT020000012v1_random				
+chr9_hap2_hsa11_random_utig4-838	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-838	JAQQLT020000013.1	chr9_JAQQLT020000013v1_random				
+chr9_hap2_hsa11_random_utig4-901	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-901	JAQQLT020000014.1	chr9_JAQQLT020000014v1_random				
+chr9_hap2_hsa11_random_utig4-905	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-905	JAQQLT020000015.1	chr9_JAQQLT020000015v1_random				
+chr9_hap2_hsa11_random_utig4-1961	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-1961	JAQQLT020000016.1	chr9_JAQQLT020000016v1_random				
+chr9_hap2_hsa11_random_utig4-2776	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-2776	JAQQLT020000017.1	chr9_JAQQLT020000017v1_random				
+chr9_hap2_hsa11_random_utig4-3431	mPonPyg2#2#chr9_hap2_hsa11_random_utig4-3431	JAQQLT020000018.1	chr9_JAQQLT020000018v1_random				
+chr119_hap2_hsa2b11_random_utig4-3201	mPonPyg2#2#chr119_hap2_hsa2b11_random_utig4-3201	JAQQLT020000033.1	chrUn_JAQQLT020000033v1				
+chr1_hap2_hsa1	mPonPyg2#2#chr1_hap2_hsa1	CM054607.2					
+chr2_hap2_hsa3	mPonPyg2#2#chr2_hap2_hsa3	CM068909.1					
+chr3_hap2_hsa4	mPonPyg2#2#chr3_hap2_hsa4	CM054610.2					
+chr4_hap2_hsa5	mPonPyg2#2#chr4_hap2_hsa5	CM054611.2					
+chr5_hap2_hsa6	mPonPyg2#2#chr5_hap2_hsa6	CM054612.2					
+chr6_hap2_hsa7	mPonPyg2#2#chr6_hap2_hsa7	CM054613.2					
+chr7_hap2_hsa8	mPonPyg2#2#chr7_hap2_hsa8	CM054614.2					
+chr8_hap2_hsa10	mPonPyg2#2#chr8_hap2_hsa10	CM054615.2					
+chr9_hap2_hsa11	mPonPyg2#2#chr9_hap2_hsa11	CM054616.2					
+chr10_hap2_hsa12	mPonPyg2#2#chr10_hap2_hsa12	CM054617.2					
+chr11_hap2_hsa2b	mPonPyg2#2#chr11_hap2_hsa2b	CM054618.2					
+chr12_hap2_hsa2a	mPonPyg2#2#chr12_hap2_hsa2a	CM054619.2					
+chr13_hap2_hsa9	mPonPyg2#2#chr13_hap2_hsa9	CM054620.2					
+chr14_hap2_hsa13	mPonPyg2#2#chr14_hap2_hsa13	CM054621.2					
+chr15_hap2_hsa14	mPonPyg2#2#chr15_hap2_hsa14	CM054622.2					
+chr16_hap2_hsa15	mPonPyg2#2#chr16_hap2_hsa15	CM054623.2					
+chr17_hap2_hsa18	mPonPyg2#2#chr17_hap2_hsa18	CM054624.2					
+chr18_hap2_hsa16	mPonPyg2#2#chr18_hap2_hsa16	CM054625.2					
+chr19_hap2_hsa17	mPonPyg2#2#chr19_hap2_hsa17	CM054626.2					
+chr20_hap2_hsa19	mPonPyg2#2#chr20_hap2_hsa19	CM054627.2					
+chr21_hap2_hsa20	mPonPyg2#2#chr21_hap2_hsa20	CM054628.2					
+chr22_hap2_hsa21	mPonPyg2#2#chr22_hap2_hsa21	CM054629.2					
+chr23_hap2_hsa22	mPonPyg2#2#chr23_hap2_hsa22	CM068910.1					
