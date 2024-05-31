@@ -70,8 +70,8 @@ longLabel RepeatMasker Repetitive Elements
 type bigRmsk
 visibility dense
 group rep
-bigDataUrl  https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0_pri.RepeatMasker_v1.1.bb
-xrefDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0_pri.RepeatMasker_v1.1.align.bb
+bigDataUrl  https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.RepeatMasker_v1.1.bb
+xrefDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.RepeatMasker_v1.1.align.bb
 maxWindowToDraw 5000000
 html ../html/rmsk.html
 priority 22
