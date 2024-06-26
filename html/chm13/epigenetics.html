@@ -1,0 +1,40 @@
+<h2>Description</h2>
+<p>These tracks contain epigenetic analysis of CHM13 and HG002 cells using nanopore sequencing aligned to the CHM13 v2.0 genome</p>
+
+<h2>Methods</h2>
+<ul>
+  <li><u>CHM13 nanopore CpG methylation</u>: CHM13 ultra-long nanopore reads were aligned to the CHM13 reference with Winnowmap (v2.0) with a k-mer size of 15. CpG methylation was measured with Nanopolish (v0.13.2) with a log-likelihood ratio (LLR) cutoff of &lt–1.5 (unmethylated) and &gt1.5 (methylated).
+  <li><u>HG002 nanopore CpG methylation</u>: HG002 ultra-long ONT nanopore sequencing data was basecalled with Guppy v6.1.2 using "dna_r9.4.1_450bps_modbases_5mc_cg_sup_prom.cfg" configuration to call CpG methylation, processed with samtools (v1.15.1), aligned to the CHM13 reference with Winnowmap (v2.0.3) with a k-mer size of 15. Aggregated methylation percentages at all CpGs were calculated using modbam2bed (v0.6.2) with bases having &gt0.8 probability called “methylated” and bases having &lt0.2 probability called “unmethylated.” 
+  <li><u>HG002 nanoNOMe nanopore CpG methylation</u>: nanoNOMe experiments were performed on HG002 cells as described in <a href="https://doi.org/10.1126/science.abj5089" target="_blank" rel="noopener noreferrer">Gershman <em>et al</em>. (2022)</a>. HG002 ultra-long nanopore nanoNOMe reads were aligned to the CHM13 reference with Winnowmap (v2.0.3) with a k-mer size of 15. CpG methylation was measured with Nanopolish (v0.13.2) with a log-likelihood ratio (LLR) cutoff of &lt–1.5 (unmethylated) and &gt1.5 (methylated). Note that this track excludes Cs in GCG motifs due to an enrichment of ambiguous calls (see <a href="https://doi.org/10.1038%2Fs41592-020-01000-7" target="_blank" rel="noopener noreferrer">Lee <em>et al</em>. (2020)</a>) 
+  <li><u>HG002 nanoNOMe nanopore GpC methylation</u>: nanoNOMe experiments were performed on HG002 cells as described in <a href="https://doi.org/10.1126/science.abj5089" target="_blank" rel="noopener noreferrer">Gershman <em>et al</em>. (2022)</a>. HG002 ultra-long nanopore nanoNOMe reads were aligned to the CHM13 reference with Winnowmap (v2.0.3) with a k-mer size of 15. GpC methylation was measured with Nanopolish (v0.13.2) with a log-likelihood ratio (LLR) cutoff of &lt–1.0 (unmethylated) and &gt1.0 (methylated). Note that this track excludes Cs in GCG motifs (see <a href="https://doi.org/10.1038%2Fs41592-020-01000-7" target="_blank" rel="noopener noreferrer">Lee <em>et al</em>. (2020)</a>). These tracks include methylation percentages and the Z-score of methylation percentages. 
+</ul>
+
+<h2>Display Conventions and Configuration</h2>
+<!-- if there are special conventions, like colors, describe them here -->
+<p></p>
+
+
+<h2>Data access</h2>
+<ul>
+  <li>bigWig and BED files can be obtained from the Human Pangenomics Consortium <a href="https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html?prefix=T2T/CHM13/assemblies/annotation/regulation/" target="_blank" rel="noopener noreferrer">here</a>
+  <li>Code for associated analyses can be found both <a href="https://github.com/timplab/T2T-Epigenetics" target="_blank" rel="noopener noreferrer">here</a> and <a href="https://github.com/arangrhie/T2T-HG002Y" target="_blank" rel="noopener noreferrer">here</a>
+</ul>
+
+<h2>Release history</h2>
+<ol>
+  <li> CHM13 v2.0 release
+</ol>
+
+<h2>Contacts</h2>
+<ul>
+  <li><a href="mailto:agershm2@jhmi.edu">Ariel Gershman &lt;agershm2@jhmi.edu&gt;</a>
+  <li><a href="mailto:phook2@jhmi.edu">Paul Hook &lt;phook2@jhmi.edu&gt;</a>
+  <li><a href="mailto:wtimp@jhu.edu">Winston Timp &lt;wtimp@jhu.edu&gt;</a>	  
+</ul>
+
+<h2>Credits</h2>
+<p>Please cite:</p>
+<ol>
+  <li>Gershman <em>et al</em>., Epigenetic patterns in a complete human genome, Science (2022). DOI: <a href="https://doi.org/10.1126/science.abj5089" target="_blank" rel="noopener noreferrer">10.1126/science.abj5089</a>
+  <li>Rhie A, Nurk S, Cechova M, Hoyt SJ, Taylor DJ, <em>et al</em>., The complete sequence of a human Y chromosome, bioRxiv (2022). DOI: <a href="https://doi.org/10.1101/2022.12.01.518724" target="_blank" rel="noopener noreferrer">https://doi.org/10.1101/2022.12.01.518724</a>
+</ol>

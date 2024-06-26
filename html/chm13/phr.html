@@ -1,0 +1,44 @@
+<h2>Description</h2>
+
+This track represents the <a href="https://doi.org/10.1038/s41586-023-05976-y">pseudo-homologous regions (PHRs)</a> identified with the
+<a href="https://doi.org/10.1038/s41586-023-05896-x">draft human pangenome</a> from the <a href="https://humanpangenome.org/">Human Pangenome Reference Consortium</a>.
+The PHRs are regions indicative of recombination between heterologous (non-homologous) human acrocentric chromosomes. 
+For each PHR, the average Shannon Diversity Index is reported (see the Methods section below).
+
+<h2>Methods</h2>
+
+<ul>
+    <li>
+        We applied <a href="10.1101/2023.04.05.535718">PGGB</a> to construct a pangenome variation graph from centromere-spanning acrocentric contigs of the human pangenome.
+    </li>
+    <li>
+        We untangled the pangenome variation graph by applying <a href="https://doi.org/10.1093/bioinformatics/btac308">ODGI</a> UNTANGLE.
+    </li>
+    <li>
+        To quantify the degree of disorder in the untangling result, we calculated the Shannon diversity index (SDI) in windows 50 kb long  across the different acrocentrics. 
+    </li>
+    <li>
+        We merged intervals that were less than 30 kbps apart and then removed intervals shorter than 30 kbps.
+    </li>
+</ul>
+
+For a full or a description of the methods used, refer to <a href="https://doi.org/10.1038/s41586-023-05976-y">Guarracino <em>et al</em>. (2023)</a> in the References section below.
+
+<h2>Credits</h2>
+Track supplied by <a href="mailto:aguarra1@uthsc.edu">Andrea Guarracino <aguarra1@uthsc.edu></a> and <a href="mailto:egarris5@uthsc.edu">Erik Garrison <egarris5@uthsc.edu></a> in the University of Tennessee Health Science Center.
+
+<h2>References</h2>
+<ul>
+    <li>
+        Guarracino <em>et al</em>. Recombination between heterologous human acrocentric chromosomes. Nature 617, 335-343 (2023). <a href="https://doi.org/10.1038/s41586-023-05976-y">https://doi.org/10.1038/s41586-023-05976-y</a>
+    </li>
+    <li>
+        Liao, Asri, Ebler <em>et al</em>. A draft human pangenome reference. Nature 617, 312-324 (2023). <a href="https://doi.org/10.1038/s41586-023-05896-x">https://doi.org/10.1038/s41586-023-05896-x</a>
+    </li>
+    <li>
+        Garrison, Guarracino <em>et al</em>. Building pangenome graphs. bioRxiv [Preprint]. 2023 Apr 6:2023.04.05.535718. doi: <a href="https://doi.org/10.1101/2023.04.05.535718">10.1101/2023.04.05.535718</a>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37066137/">37066137</a>; PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/pmc10104075/">PMC10104075</a>.
+    </li>
+    <li>
+        Guarracino, Heumos <em>et al</em>. ODGI: understanding pangenome graphs, Bioinformatics, Volume 38, Issue 13, July 2022, Pages 3319-3326, <a href="https://doi.org/10.1093/bioinformatics/btac308">https://doi.org/10.1093/bioinformatics/btac308</a>
+    </li>
+</ul>

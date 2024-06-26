@@ -1,0 +1,30 @@
+<h2>Description</h2>
+This track represents Human Ancestor Quickly Evolved Regions (HAQERs), as defined using telomere-to-telomere great ape and human genomes. HAQERs are highly divergent from the inferred human-chimpanzee ancestor. The identification of HAQERs is not limited to conserved regions, but rather screens the entire genome, including elements that descended from previously neutral regions. This distinguishes HAQERs from many other searches for the genetic underpinnings of uniquely human traits, which have focused on human-specific divergence in conserved genomic regions and reflects modifications of existing functional elements.
+
+<h2>Display Conventions and Configuration</h2>
+This track displays HAQER regions in the bigBed format with 4 fields: chrom, chromStart, chromEnd, name. The coordinates are on the hs1 human assembly. The name field is displayed as HAQER_T2T_number, where the number represents the divergences between hs1 and the inferred human-chimpanzee ancestor. HAQERs were ranked by the number of divergences in descending order. The HAQER with the most divergences was numbered HAQER_T2T_1.
+
+<h2>Methods</h2>
+HAQERs were identified in 3 steps.
+
+<p>
+<ul>
+<h3>Step 1: Genome-wide multiple alignment</h3>
+First, chimpanzee, bonobo, gorilla, and Sumatran orangutan assemblies <a href="https://github.com/marbl/Primates" target="_blank">(Telomere-to-Telomere consortium primates project v2.0 (November 2023) assembly release, both primary and alternate haplotypes)</a> were aligned to the human assembly (hs1). Alignment fragments scoring greater than 60,000 (approximately 20 kb) were retained. 
+
+<h3>Step 2: Ancestral state inference</h3>
+Then, the sequence of the human-chimpanzee ancestor (HCA) was inferred, in a conservative fashion that is biased towards the human sequence when uncertain. 
+
+<h3>Step 3: HAQER Identification</h3>
+Finally, the number of mutations that separate hs1 and the inferred HCA were counted in sliding windows of 500bp along the hs1 assembly. Windows with significantly more divergences than expected were identified as HAQERs (>29 mutations in a 500 bp window).
+
+<h3>Notes</h3>
+For a full or a description of the methods used, refer to Mangan <em>et al</em>. (2022) in the References section below.
+</p>
+</ul>
+
+<h2>Credits</h2>
+The primate assemblies were provided by the Telomere-to-Telomere consortium. This research was supported by the Duke Whitehead Scholarship, National Human Genome Research Institute (R35HG011332), the Sigma Xi Grants in Aid of Research Program, North Carolina Biotechnology Center (2016-IDG-1013 and 2020-IIG-2109), and the Triangle Center for Evolutionary Medicine. For inquiries, please contact us at the following address: craig.lowe (at) duke.edu
+
+<h2>References</h2>
+Mangan RJ, Alsina FC, Mosti F <em>et al</em>. <a href="https://doi.org/10.1016/j.cell.2022.10.016" target="_blank">Adaptive sequence divergence forged new neurodevelopmental enhancers in humans</a>. <em>Cell</em>. Volume 185, Issue 24, p4587-4603.e23, November 23, 2022. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/36423581/" target="_blank">36423581</a>; PMC: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10013929/" target="_blank">PMC10013929</a>

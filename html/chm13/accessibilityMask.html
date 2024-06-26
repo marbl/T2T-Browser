@@ -1,0 +1,54 @@
+<h2>Description</h2>
+<p>
+We provide three genome masks, which were generated according to the three criteria described in the following article: <a href="https://www.illumina.com/science/genomics-research/articles/identifying-genomic-regions-with-high-quality-single-nucleotide-.html">https://www.illumina.com/science/genomics-research/articles/identifying-genomic-regions-with-high-quality-single-nucleotide-.html</a></p>
+  
+<p>These masks define regions of the genome where short-read SNV discovery and genotyping is relatively reliable. The three masks were then intersected to create one combined mask.</p>
+
+<h2>Methods</h2>
+<p>
+Code for producing these masks is provided at <a href="https://github.com/arangrhie/T2T-HG002Y/tree/main/accessibility_masks">https://github.com/arangrhie/T2T-HG002Y/tree/main/accessibility_masks</a>. The following 29 samples were used for the analysis, for consistency with the original work of Bekritsky et al. (link above):</p>
+
+<p>
+HG00448<br>
+HG00449<br>
+HG00450<br>
+HG01619<br>
+HG01620<br>
+HG01621<br>
+HG01706<br>
+HG01707<br>
+HG01708<br>
+HG01770<br>
+HG01771<br>
+HG01772<br>
+HG02068<br>
+HG02069<br>
+HG02070<br>
+HG02521<br>
+HG02522<br>
+HG02523<br>
+HG02768<br>
+HG02770<br>
+HG03120<br>
+HG03121<br>
+HG03122<br>
+HG03246<br>
+HG03247<br>
+HG03248<br>
+HG03306<br>
+HG03307<br>
+HG03308<br>
+</p>
+
+<p>Also in following with Bekritsky et al., we defined "high quality" bases as those with 	&ge; 90% aligned reads possessing base quality scores of 20 or more, mean mapping quality scores 	&ge; 50, and average normalized depth of coverage within 25% of the target (see <a href="https://www.illumina.com/science/genomics-research/articles/identifying-genomic-regions-with-high-quality-single-nucleotide-.html">https://www.illumina.com/science/genomics-research/articles/identifying-genomic-regions-with-high-quality-single-nucleotide-.html</a> for more details). 
+</p>
+
+<h2>Contacts</h2>
+<ul>
+  <li><a href="mailto:dtaylo95@jhu.edu">Dylan Taylor &lt;dtaylo95 at jhu.edu&gt;</a>
+  <li><a href="mailto:rajiv.mccoy@jhu.edu">Rajiv McCoy &lt;rajiv.mccoy at jhu.edu&gt;</a>
+</ul>
+<h2>Credits</h2>
+<p>
+Thank you to Mitchell A. Bekritsky, Camilla Colombo, and Michael A. Eberle for providing details of their analysis.
+</p>

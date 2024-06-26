@@ -1,0 +1,34 @@
+<h2>Description</h2>
+<p>Read coverage</p>
+
+<h2>Methods</h2>
+<p>
+Input reads: HiFi and ONT reads (guppy 3.6.0)<br>
+Mapper: Winnowmap v2.01 release (--MD -W repetitive_k15.txt -ax [map-pb | map-ont])<br>
+Filter: Primary read alignments extracted with samtools view -F0x104<br>
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+<!-- if there are special conventions, like colors, describe them here -->
+<p>
+Gray: Primary alignments. ONT reads were further filtered for alignment block lengths > 1 kb and > 85 % identity<br>
+Black: Marker assisted alignments
+</p>
+
+<h2>Data access</h2>
+<!-- Optional, links for downloading the data if there is a separate source beside the
+  browser  -->
+<p>Data is available on globus: team-curation/tracks/v1/coverage/*.cov.wig</p>
+
+<h2>Release history</h2>
+<ol>
+  <li> 2021 Apr 20: Initial upload for v1.0 release
+</ol>
+
+<h2>Contact</h2>
+<p>Contact <a href="mailto:arang.rhie@nih.gov">Arang Rhie &lt;arang.rhie@nih.gov&gt;</a>
+</p>
+
+<h2>Credits</h2>
+<p>Polishing Team</p>
+

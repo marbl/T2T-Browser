@@ -1,0 +1,16 @@
+<h2>Description</h2>
+<p>These tracks contain the minimum unique k-mer lengths, left- and right-anchored</p>
+
+<h2>Methods</h2>
+<p>All chromosome fasta sequences were concatenated. This concatenated sequence was then reverse complimented and appended to the original concatenated sequence. A suffix array was created from the combined sequence. Then for each position in the suffix array, the minimum unique k-mer length was found by taking the maximum longest common prefix value with the previous and next suffices and adding one. If the suffix originated from the forward orientation sequnce, it was assigned to the corresponding genomic position for the minimum unique k-mer length, left-anchored (MUL). Otherwise, the value was assigned to the corresponding genomic position for the minimum unique k-mer length, right-anchored (MUR). All positions whose MUL or MUR overlapped either 'N' bases or the start or end of a chromosome were marked as invalid in their respective tracks.</p>
+
+<h2>Release history</h2>
+<ol>
+  <li>2021/05/20 released for CHM13v1.0
+  <li>2022/03/26 released for CHM13v2.0
+</ol>
+
+<h2>Contacts</h2>
+<ul>
+  <li><a href="mailto:msauria@jhu.edu">Michael Sauria &lt;msauria@jhu.edu&gt;</a>
+</ul>
