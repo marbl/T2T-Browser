@@ -5,7 +5,7 @@ group rep
 type bigBed 9
 visibility dense
 itemRgb on
-bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0_CenSat_v1.1.bb
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0_CenSat_v1.1.rDNAfix.bb
 html ../html/censat.html
 priority 20
 
