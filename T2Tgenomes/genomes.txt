@@ -167,6 +167,19 @@ scientificName Symphalangus syndactylus
 groups groups.txt
 htmlPath mSymSyn1_v2.0/description.html
 
+genome mSymSyn1_v2.1
+twoBitPath https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.1.2bit
+chromSizes mSymSyn1_v2.1/mSymSyn1_v2.1.sizes
+chromAlias mSymSyn1_v2.1/mSymSyn1_v2.1.alias
+defaultPos chr14_hap1:1-10,000,000
+trackDb mSymSyn1_v2.1/trackDb.txt
+description mSymSyn1 v2.1 (Siamang)
+organism Symphalangus syndactylus
+orderKey 3
+scientificName Symphalangus syndactylus
+groups groups.txt
+htmlPath mSymSyn1_v2.1/description.html
+
 genome HG002v1.0.1.PAT
 taxId 9606
 trackDb HG002v1.0.1.PAT/trackDb.txt

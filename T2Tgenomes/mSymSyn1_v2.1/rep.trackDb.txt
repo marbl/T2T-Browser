@@ -1,0 +1,552 @@
+track censat
+shortLabel CenSat
+longLabel Centromeric Satellite Annotation
+group rep
+type bigBed 9
+visibility dense
+itemRgb on
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1_CenSat_v1.1.bb
+html ../html/censat.html
+priority 20
+
+# track centro
+# compositeTrack on
+# visibility dense
+# superTrack on show
+# shortLabel Centromere
+# longLabel Centromere Annotation
+# group rep
+# mouseOverField component
+# priority 21
+# 
+#     track cenpa
+#     parent centro
+#     shortLabel CENP-A
+#     longLabel CENP-A
+#     type bigWig
+#     maxHeightPixels 100:32:8
+#     visibility full
+#     priority 21.1
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/cen/mSymSyn1.CENPA.bw
+#     html ../html/cenp-a.html
+# 
+#     track supFam
+#     parent centro
+#     shortLabel SuperFamily
+#     longLabel Centromere Super Family
+#     type bigBed 9
+#     visibility dense
+#     itemRgb on
+#     priority 21.2
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/cen/mSymSyn1_v2.1.SF_v1.0.bb
+#     html ../html/aSatSF.html
+# 
+#     track sfStrand
+#     parent centro
+#     shortLabel Strand
+#     longLabel Strand
+#     type bigBed 9
+#     visibility dense
+#     itemRgb on
+#     priority 21.3
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/cen/mSymSyn1_v2.1.Strand_v1.0.bb
+#     html ../html/aSatStrand.html
+# 
+# track rmsk
+# shortLabel RepeatMasker
+# longLabel RepeatMasker Repetitive Elements
+# type bigRmsk
+# visibility dense
+# group rep
+# bigDataUrl  https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.RepeatMasker_v1.2.bb
+# xrefDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.RepeatMasker_v1.2.align.bb
+# maxWindowToDraw 5000000
+# html ../html/rmsk.html
+# priority 22
+# 
+# track segDups
+# shortLabel SEDEF SegDups
+# longLabel SEDEF Segmental Duplications
+# group rep
+# type bigBed 9 35
+# visibility dense
+# itemRgb on
+# maxItems 100000
+# bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.SD_v1.0.bb
+# html ../html/segDups.html
+# priority 23
+# 
+# track seqidyAcro
+# superTrack on show
+# visibility dense
+# shortLabel SeqIdy (Acro)
+# longLabel Sequence Identity in 10kb, Acrocentric Chromosomes
+# group rep
+# type bigBed 9
+# itemRgb on
+# mouseOverField name
+# html ../html/seqIdy.html
+# priority 24
+# 
+#     track seqIdychr21_hap1
+#     parent seqidyAcro
+#     type bigBed 9
+#     shortLabel chr21_hap1
+#     longLabel mSymSyn1#chr21_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr21_hap1.bb
+#     priority 24.41
+# 
+#     track seqIdychr21_hap2
+#     parent seqidyAcro
+#     type bigBed 9
+#     shortLabel chr21_hap2
+#     longLabel mSymSyn1#chr21_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr21_hap2.bb
+#     priority 24.42
+# 
+#     track seqIdychrY_hap2
+#     parent seqidyAcro
+#     type bigBed 9
+#     shortLabel chrY_hap2
+#     longLabel mSymSyn1#chrY_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chrY_hap2.bb
+#     priority 24.51
+# 
+# track seqidy
+# superTrack on hide
+# visibility dense
+# shortLabel SeqIdy (Non-Acro)
+# longLabel Sequence Identity in 10kb, Acrocentric Chromosomes
+# group rep
+# type bigBed 9
+# itemRgb on
+# mouseOverField name
+# html ../html/seqIdy.html
+# priority 25
+# 
+# 
+#     track seqIdychr1_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr1_hap1
+#     longLabel mSymSyn1#chr1_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr1_hap1.bb
+#     priority 25.1
+# 
+#     track seqIdychr1_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr1_hap2
+#     longLabel mSymSyn1#chr1_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr1_hap2.bb
+#     priority 25.2
+# 
+#     track seqIdychr2_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr2_hap1
+#     longLabel mSymSyn1#chr2_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr2_hap1.bb
+#     priority 25.3
+# 
+#     track seqIdychr2_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr2_hap2
+#     longLabel mSymSyn1#chr2_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr2_hap2.bb
+#     priority 25.4
+# 
+#     track seqIdychr3_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr3_hap1
+#     longLabel mSymSyn1#chr3_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr3_hap1.bb
+#     priority 25.5
+# 
+#     track seqIdychr3_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr3_hap2
+#     longLabel mSymSyn1#chr3_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr3_hap2.bb
+#     priority 25.6
+# 
+#     track seqIdychr4_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr4_hap1
+#     longLabel mSymSyn1#chr4_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr4_hap1.bb
+#     priority 25.7
+# 
+#     track seqIdychr4_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr4_hap2
+#     longLabel mSymSyn1#chr4_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr4_hap2.bb
+#     priority 25.8
+# 
+#     track seqIdychr5_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr5_hap1
+#     longLabel mSymSyn1#chr5_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr5_hap1.bb
+#     priority 25.9
+# 
+#     track seqIdychr5_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr5_hap2
+#     longLabel mSymSyn1#chr5_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr5_hap2.bb
+#     priority 25.10
+# 
+#     track seqIdychr6_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr6_hap1
+#     longLabel mSymSyn1#chr6_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr6_hap1.bb
+#     priority 25.11
+# 
+#     track seqIdychr6_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr6_hap2
+#     longLabel mSymSyn1#chr6_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr6_hap2.bb
+#     priority 25.12
+# 
+#     track seqIdychr7_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr7_hap1
+#     longLabel mSymSyn1#chr7_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr7_hap1.bb
+#     priority 25.13
+# 
+#     track seqIdychr7_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr7_hap2
+#     longLabel mSymSyn1#chr7_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr7_hap2.bb
+#     priority 25.14
+# 
+#     track seqIdychr8_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr8_hap1
+#     longLabel mSymSyn1#chr8_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr8_hap1.bb
+#     priority 25.15
+# 
+#     track seqIdychr8_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr8_hap2
+#     longLabel mSymSyn1#chr8_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr8_hap2.bb
+#     priority 25.16
+# 
+#     track seqIdychr9_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr9_hap1
+#     longLabel mSymSyn1#chr9_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr9_hap1.bb
+#     priority 25.17
+# 
+#     track seqIdychr9_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr9_hap2
+#     longLabel mSymSyn1#chr9_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr9_hap2.bb
+#     priority 25.18
+# 
+#     track seqIdychr10_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr10_hap1
+#     longLabel mSymSyn1#chr10_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr10_hap1.bb
+#     priority 25.19
+# 
+#     track seqIdychr10_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr10_hap2
+#     longLabel mSymSyn1#chr10_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr10_hap2.bb
+#     priority 25.20
+# 
+#     track seqIdychr11_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr11_hap1
+#     longLabel mSymSyn1#chr11_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr11_hap1.bb
+#     priority 25.21
+# 
+#     track seqIdychr11_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr11_hap2
+#     longLabel mSymSyn1#chr11_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr11_hap2.bb
+#     priority 25.22
+# 
+#     track seqIdychr12_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr12_hap1
+#     longLabel mSymSyn1#chr12_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr12_hap1.bb
+#     priority 25.23
+# 
+#     track seqIdychr12_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr12_hap2
+#     longLabel mSymSyn1#chr12_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr12_hap2.bb
+#     priority 25.24
+# 
+#     track seqIdychr13_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr13_hap1
+#     longLabel mSymSyn1#chr13_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr13_hap1.bb
+#     priority 25.25
+# 
+#     track seqIdychr13_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr13_hap2
+#     longLabel mSymSyn1#chr13_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr13_hap2.bb
+#     priority 25.26
+# 
+#     track seqIdychr14_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr14_hap1
+#     longLabel mSymSyn1#chr14_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr14_hap1.bb
+#     priority 25.27
+# 
+#     track seqIdychr14_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr14_hap2
+#     longLabel mSymSyn1#chr14_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr14_hap2.bb
+#     priority 25.28
+# 
+#     track seqIdychr15_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr15_hap1
+#     longLabel mSymSyn1#chr15_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr15_hap1.bb
+#     priority 25.29
+# 
+#     track seqIdychr15_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr15_hap2
+#     longLabel mSymSyn1#chr15_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr15_hap2.bb
+#     priority 25.30
+# 
+#     track seqIdychr16_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr16_hap1
+#     longLabel mSymSyn1#chr16_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr16_hap1.bb
+#     priority 25.31
+# 
+#     track seqIdychr16_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr16_hap2
+#     longLabel mSymSyn1#chr16_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr16_hap2.bb
+#     priority 25.32
+# 
+#     track seqIdychr17_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr17_hap1
+#     longLabel mSymSyn1#chr17_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr17_hap1.bb
+#     priority 25.33
+# 
+#     track seqIdychr17_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr17_hap2
+#     longLabel mSymSyn1#chr17_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr17_hap2.bb
+#     priority 25.34
+# 
+#     track seqIdychr18_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr18_hap1
+#     longLabel mSymSyn1#chr18_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr18_hap1.bb
+#     priority 25.35
+# 
+#     track seqIdychr18_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr18_hap2
+#     longLabel mSymSyn1#chr18_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr18_hap2.bb
+#     priority 25.36
+# 
+#     track seqIdychr19_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr19_hap1
+#     longLabel mSymSyn1#chr19_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr19_hap1.bb
+#     priority 25.37
+# 
+#     track seqIdychr19_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr19_hap2
+#     longLabel mSymSyn1#chr19_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr19_hap2.bb
+#     priority 25.38
+# 
+#     track seqIdychr20_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr20_hap1
+#     longLabel mSymSyn1#chr20_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr20_hap1.bb
+#     priority 25.39
+# 
+#     track seqIdychr20_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr20_hap2
+#     longLabel mSymSyn1#chr20_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr20_hap2.bb
+#     priority 25.40
+# 
+#     track seqIdychr22_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr22_hap1
+#     longLabel mSymSyn1#chr22_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr22_hap1.bb
+#     priority 25.43
+# 
+#     track seqIdychr22_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr22_hap2
+#     longLabel mSymSyn1#chr22_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr22_hap2.bb
+#     priority 25.44
+# 
+#     track seqIdychr23_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr23_hap1
+#     longLabel mSymSyn1#chr23_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr23_hap1.bb
+#     priority 25.45
+# 
+#     track seqIdychr23_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr23_hap2
+#     longLabel mSymSyn1#chr23_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr23_hap2.bb
+#     priority 25.46
+# 
+#     track seqIdychr24_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr24_hap1
+#     longLabel mSymSyn1#chr24_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr24_hap1.bb
+#     priority 25.47
+# 
+#     track seqIdychr24_hap2
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chr24_hap2
+#     longLabel mSymSyn1#chr24_hap2
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chr24_hap2.bb
+#     priority 25.48
+# 
+#     track seqIdychrX_hap1
+#     parent seqidy
+#     type bigBed 9
+#     shortLabel chrX_hap1
+#     longLabel mSymSyn1#chrX_hap1
+#     visibility dense
+#     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chrX_hap1.bb
+#     priority 25.50
