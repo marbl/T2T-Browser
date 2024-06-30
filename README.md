@@ -7,9 +7,9 @@ UCSC Genome browser hub for the T2T genomes and resources
   - Hub Connect: [US](https://genome.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt)
    | [Euro](https://genome-euro.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt)
    | [Asia](https://genome-asia.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt)
-  - Hub gateway: [US](http://genome.ucsc.edu/cgi-bin/hgGateway?genome=T2T-CHM13v2.0&hubUtl=https://research.nhgri.nih.gov/CustomTracks/T2Tgenomes/T2Tgenomes/hub.txt)
-    | [Euro](http://genome-euro.ucsc.edu/cgi-bin/hgGateway?genome=T2T-CHM13v2.0&hubUtl=https://research.nhgri.nih.gov/CustomTracks/T2Tgenomes/T2Tgenomes/hub.txt)
-    | [Asia](http://genome-asia.ucsc.edu/cgi-bin/hgGateway?genome=T2T-CHM13v2.0&hubUtl=https://research.nhgri.nih.gov/CustomTracks/T2Tgenomes/T2Tgenomes/hub.txt) 
+  - Hub gateway: [US](http://genome.ucsc.edu/cgi-bin/hgGateway?genome=T2T-CHM13v2.0&hubUtl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt)
+    | [Euro](http://genome-euro.ucsc.edu/cgi-bin/hgGateway?genome=T2T-CHM13v2.0&hubUtl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt)
+    | [Asia](http://genome-asia.ucsc.edu/cgi-bin/hgGateway?genome=T2T-CHM13v2.0&hubUtl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt) 
   - Hub URL: https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2Tgenomes/hub.txt
 
 - Developmental version
