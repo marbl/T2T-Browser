@@ -194,10 +194,7 @@ organism ASM1885260v2 Dec. 2023
 defaultPos CP139546.1:83617812-84291154
 orderKey 4
 scientificName Homo sapiens
-htmlPath ../HG002_Q100/GCA_018852605.2_ASM1885260v2.description.html
-#blat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/605/GCA_018852605.2
-#transBlat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/605/GCA_018852605.2
-#isPcr dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/605/GCA_018852605.2
+htmlPath HG002v1.0.1/html/GCA_018852605.2_ASM1885260v2.description.html
 
 genome HG002v1.0.1.MAT
 taxId 9606
@@ -213,7 +210,31 @@ organism ASM1885261v2 Dec. 2023
 defaultPos CP139523.1:83529864-84203105
 orderKey 4
 scientificName Homo sapiens
-htmlPath ../HG002_Q100/GCA_018852615.2_ASM1885261v2.description.html
-#blat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/615/GCA_018852615.2
-#transBlat dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/615/GCA_018852615.2
-#isPcr dynablat-01.soe.ucsc.edu 4040 dynamic GCA/018/852/615/GCA_018852615.2
+htmlPath HG002v1.0.1/html/GCA_018852615.2_ASM1885261v2.description.html
+
+genome HG002v1.1.PAT
+taxId 9606
+trackDb HG002v1.1.PAT/trackDb.txt
+groups groups.txt
+description HG002 Q100 v1.1 (Human, PAT)
+twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.pat.2bit
+chromSizes https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.pat.chrom.sizes
+organism Human
+defaultPos chr1_PATERNAL:83617812-84291154
+orderKey 4
+scientificName Homo sapiens
+htmlPath HG002v1.1/html/HG002v1.1.description.html
+
+genome HG002v1.1.MAT
+taxId 9606
+trackDb HG002v1.1.MAT/trackDb.txt
+groups groups.txt
+description HG002 Q100 v1.1 (Human, MAT)
+twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.mat.2bit
+chromSizes https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.mat.chrom.sizes
+organism Human
+defaultPos chr1_MATERNAL:83529864-84203105
+orderKey 4
+scientificName Homo sapiens
+htmlPath HG002v1.1/html/HG002v1.1.description.html
+
