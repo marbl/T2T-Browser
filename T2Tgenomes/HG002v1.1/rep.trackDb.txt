@@ -1,0 +1,28 @@
+##
+# Repeat tracks
+##
+
+#track HG002v1.1.segdups_lifted
+#shortLabel SEDEF SegDups lifted from v1.0.1
+#longLabel SEDEF SegDups from UWash lifted from v1.0.1
+#group rep
+#visibility pack
+#itemRgb on
+#maxItems 1000000
+#maxWindowToDraw 100000000
+#type bigBed 9
+#bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/segdups/HG002.SDs.010624.45col.liftedfromv1.0.1_to_v1.1.bb 
+#priority 2
+#html html/SD_track.hg002v1.0.1.010624.html
+
+track HG002v1.1.cenSat_lifted
+shortLabel cenSat lifted from v1.0.1
+longLabel cenSat annotation from UCSC lifted from v1.0.1
+group rep
+visibility pack
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 500000000
+type bigBed 9
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0_lifted_from_v1.0.1/hg002v1.1.cenSatv2.0.noheader.lifted_from_v1.0.1.bb
+priority 1
