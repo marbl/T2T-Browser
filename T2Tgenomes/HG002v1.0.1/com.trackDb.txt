@@ -1,7 +1,7 @@
 ##
 # Comparative alignment chains to other genomes
 
-track ChainToCHM13
+track HG002v1.0.1.ChainToCHM13
 shortLabel CHM13
 longLabel Chain to CHM13
 visibility full
@@ -14,7 +14,19 @@ linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assem
 otherDb T2T-CHM13v2.0
 otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
 
-track wfmash
+track HG002v1.0.1.ChainToGRCh38
+shortLabel GRCh38
+longLabel Chain to GRCh38
+visibility hide
+view filledChain
+group compGeno
+priority 12.2
+type bigChain hg38
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.0.1_to_GRCh38.bigChain.bb
+linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.0.1_to_GRCh38.bigChain.link.bb
+otherDb hg38
+
+track HG002v1.0.1.wfmash
 superTrack on show
 visibility dense
 shortLabel WFMASH
@@ -22,10 +34,10 @@ longLabel wfmash v0.13.0 16-way chain
 group compGeno
 type bigChain
 mouseOverField name
-priority 12.2
+priority 12.3
 
 	track wfmashHG002mat
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain HG002v1.0.1.MAT
 	shortLabel HG002#mat
 	longLabel HG002v1.0.1 mat to HG002v1.0.1
@@ -38,7 +50,7 @@ priority 12.2
 	priority 12.3
 
 	track wfmashHG002pat
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain HG002v1.0.1.PAT
 	shortLabel HG002#pat
 	longLabel HG002v1.0.1 pat to HG002v1.0.1
@@ -51,7 +63,7 @@ priority 12.2
 	priority 12.4
 
 	track wfmashCHM13
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain T2T-CHM13v2.0
 	shortLabel CHM13
 	longLabel CHM13v2.0 to HG002v1.0.1
@@ -64,7 +76,7 @@ priority 12.2
 	priority 12.5
 
 	track wfmashGRCh38
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain hg38
 	shortLabel GRCh38
 	longLabel GRCh38 to HG002v1.0.1
@@ -77,7 +89,7 @@ priority 12.2
 	priority 12.6
 
 	track wfmashmGorGor1mat
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mGorGor1_v2.0
 	shortLabel mGorGor1#mat
 	longLabel mGorGor1_v2.0 mat to HG002v1.0.1
@@ -90,7 +102,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmGorGor1pat
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mGorGor1_v2.0
 	shortLabel mGorGor1#pat
 	longLabel mGorGor1_v2.0 pat to HG002v1.0.1
@@ -103,7 +115,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPanPan1mat
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPanPan1_v2.0
 	shortLabel mPanPan1#mat
 	longLabel mPanPan1_v2.0 mat to HG002v1.0.1
@@ -116,7 +128,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPanPan1pat
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPanPan1_v2.0
 	shortLabel mPanPan1#pat
 	longLabel mPanPan1_v2.0 pat to HG002v1.0.1
@@ -129,7 +141,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPanTro3hap1
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPanTro3_v2.0
 	shortLabel mPanTro3#hap1
 	longLabel mPanTro3_v2.0 hap1 to HG002v1.0.1
@@ -142,7 +154,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPanTro3hap2
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPanTro3_v2.0
 	shortLabel mPanTro3#hap2
 	longLabel mPanTro3_v2.0 hap2 to HG002v1.0.1
@@ -155,7 +167,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPonAbe1hap1
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPonAbe1_v2.0
 	shortLabel mPonAbe1#hap1
 	longLabel mPonAbe1_v2.0 hap1 to HG002v1.0.1
@@ -168,7 +180,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPonAbe1hap2
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPonAbe1_v2.0
 	shortLabel mPonAbe1#hap2
 	longLabel mPonAbe1_v2.0 hap2 to HG002v1.0.1
@@ -181,7 +193,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPonPyg2hap1
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPonPyg2_v2.0
 	shortLabel mPonPyg2#hap1
 	longLabel mPonPyg2_v2.0 hap1 to HG002v1.0.1
@@ -194,7 +206,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmPonPyg2hap2
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mPonPyg2_v2.0
 	shortLabel mPonPyg2#hap2
 	longLabel mPonPyg2_v2.0 hap2 to HG002v1.0.1
@@ -207,7 +219,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmSymSyn1hap1
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mSymSyn1_v2.0
 	shortLabel mSymSyn1#hap1
 	longLabel mSymSyn1_v2.0 hap1 to HG002v1.0.1
@@ -220,7 +232,7 @@ priority 12.2
 	priority 12.8
 
 	track wfmashmSymSyn1hap2
-	parent wfmash
+	parent HG002v1.0.1.wfmash
 	type bigChain mSymSyn1_v2.0
 	shortLabel mSymSyn1#hap2
 	longLabel mSymSyn1_v2.0 hap2 to HG002v1.0.1
