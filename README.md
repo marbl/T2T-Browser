@@ -32,6 +32,8 @@ Latest tracks made publicly available for the following genomes:
 - mSymSyn1_v2.0
 - HG002v1.0.1.MAT
 - HG002v1.0.1.PAT
+- HG002v1.1.MAT
+- HG002v1.1.PAT
 
 For convenience, the non-human primate genome browsers are available for its primary assembly versions as well in addition to the diploid version.
 
