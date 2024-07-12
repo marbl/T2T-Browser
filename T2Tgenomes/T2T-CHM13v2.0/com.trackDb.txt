@@ -31,7 +31,7 @@ priority 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.link.bb
 	otherDb HG002v1.0.1.MAT
-	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.2bit
+	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.mat.2bit
 	priority 2.1
 
 	track wfmashHG002pat
@@ -44,7 +44,7 @@ priority 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.link.bb
 	otherDb HG002v1.0.1.PAT
-	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.2bit
+	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.pat.2bit
 	priority 2.2
 
 	track wfmashmGorGor1mat
