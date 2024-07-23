@@ -11,7 +11,7 @@ include ../HG002v1.1/rep.trackDb.txt
 #include ../HG002v1.1/methyl.trackDb.txt
 include ../HG002v1.1/com.trackDb.txt
 include chains.trackDb.txt
-#include ../HG002v1.1/var.trackDb.txt
+include ../HG002v1.1/var.trackDb.txt
 #include genark.trackDb.txt
 #
 
