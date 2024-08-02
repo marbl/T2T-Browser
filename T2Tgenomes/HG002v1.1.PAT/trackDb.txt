@@ -6,33 +6,13 @@ type bigBed 5
 
 include ../HG002v1.1/asm.trackDb.txt
 include ../HG002v1.1/rep.trackDb.txt
-#include rm.trackDb.txt
 #include ../HG002v1.1/fiberseq.trackDb.txt
 #include ../HG002v1.1/methyl.trackDb.txt
+include ../HG002v1.1/genes.trackDb.txt
 include ../HG002v1.1/com.trackDb.txt
 include chains.trackDb.txt
+include rm.trackDb.txt
 include ../HG002v1.1/var.trackDb.txt
 #include genark.trackDb.txt
 #
-
-###
-## Gene annotation
-##
-
-#track curGeneLiftofNovel
-#type bigGenePred
-#visibility pack
-#group genes
-#bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/LiftoffIsoseq/hg002v101.MAT_PAT.curated.addNovel.bb
-#itemRgb on
-#shortLabel Curated RefSeq v5.1 
-#longLabel Curated RefSeq + LiftOff gene annotation v5.1 from CHM13 + Novel transcript from ISOSEQ
-#baseColorDefault genomicCodons
-#labelFields name2
-#html html/curGen_track.html
-#priority 1
-#searchIndex name,name2
-##searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/LiftoffIsoseq/hg002v101.MAT_PAT.curated.addNovel.ix
-#searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/LiftoffIsoseq/hg002v101.MAT.curated.addNovel.ix
-
 

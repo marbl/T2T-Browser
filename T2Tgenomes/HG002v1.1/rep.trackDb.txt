@@ -15,14 +15,15 @@
 #priority 2
 #html html/SD_track.hg002v1.0.1.010624.html
 
-track HG002v1.1.cenSat_lifted
-shortLabel cenSat lifted from v1.0.1
-longLabel cenSat annotation from UCSC lifted from v1.0.1
+track HG002v1.1.cenSat_v1.1
+shortLabel cenSat 
+longLabel cenSat annotation from UCSC
 group rep
 visibility pack
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 500000000
 type bigBed 9
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0_lifted_from_v1.0.1/hg002v1.1.cenSatv2.0.noheader.lifted_from_v1.0.1.bb
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/hg002v1.1.cenSatv2.0.noheader.bb
 priority 1
+
