@@ -10,7 +10,7 @@ maxHeightPixels 100:32:16
 autoScale off
 graphTypeDefault bar
 gridDefault on
-priority 1
+priority 51
 
     track chm13cpg
     parent methylation
@@ -19,7 +19,7 @@ priority 1
     type bigWig
     visibility full
     viewLimits 0:1
-    priority 1.1
+    priority 51
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_CHM13_CpG_ont_guppy3.6.0_nanopolish0.13.2.bw
 
     track hg002_5mC_hifi
@@ -29,7 +29,7 @@ priority 1
     type bigWig 0 100
     visibility full
     viewLimits 0:100
-    priority 1.5
+    priority 52
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_5mC_hifi_revio_modkit0.1.11.bw
     
     track hg002cpg
@@ -39,7 +39,7 @@ priority 1
     type bigWig
     visibility full
     viewLimits 0:1
-    priority 2
+    priority 53
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_CpG_ont_guppy6.1.2.bw
 
     track hg002cpgOld
@@ -49,7 +49,7 @@ priority 1
     type bigWig
     visibility hide
     viewLimits 0:1
-    priority 2.1
+    priority 54
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_CpG_ont_guppy5.0.7_nanopolish0.13.2.bw
 
     track hg002gpc
@@ -59,7 +59,7 @@ priority 1
     type bigWig
     visibility dense
     viewLimits 0:1
-    priority 2.2
+    priority 55
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_GpC_ont_guppy5.0.7_nanopolish0.13.2.bw
 
     track hg002gpcZ
@@ -69,7 +69,7 @@ priority 1
     type bigWig
     visibility dense
     viewLimits -1:1
-    priority 2.3
+    priority 56
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_GpC_ont_guppy5.0.7_nanopolish0.13.2.bw
 
 
@@ -82,7 +82,7 @@ superTrack on show
 group reg
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/fire.html
 maxHeightPixels 100:32:16
-priority 2
+priority 60
 
     track log-fdr
     parent fire
@@ -98,7 +98,7 @@ priority 2
     yLineOnOff on
     yLineMark 13.010299956639813
     gridDefault on
-    priority 20
+    priority 61
 
     track FDR-wide-peaks
     parent fire
@@ -108,7 +108,7 @@ priority 2
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/FDR-wide-peaks.bb
     visibility dense
     maxItems 100000
-    priority 30
+    priority 62
 
     track peaks
     parent fire
@@ -118,7 +118,7 @@ priority 2
     longLabel FIRE (Fiber-seq Inferred Regulatory Elements) peaks
     visibility dense
     maxHeightPixels 50:50:1
-    priority 40
+    priority 63
 
     track all-accessible
     parent fire
@@ -132,13 +132,14 @@ priority 2
     maxItems 100000
     visibility hide
     color 0,0,0
-    priority 50
+    priority 64
 
 track T2T_Encode
 shortLabel T2T Encode
 html encode/encode_description.html
 longLabel T2T Encode Reanalysis
 group reg
+priority 65
 compositeTrack on
 subGroup1 cell Cell_Line \
   22Rv1=22Rv1 \
@@ -1733,3 +1734,4 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     parent T2T_Encode_LOPeaks
     subGroups cell=ecopm ab=H3K27ac view=LOpeaks
     type bigBed 6 +
+

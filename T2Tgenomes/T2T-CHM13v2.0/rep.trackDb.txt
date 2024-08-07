@@ -10,7 +10,7 @@ type bigBed 9 +
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censat_v2.1.bb
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
 mouseOverField component
-priority 1
+priority 21
 
 track rmsk
 shortLabel RepeatMasker
@@ -22,7 +22,7 @@ bigDataUrl  https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4
 xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.t2tRepeatMasker/chm13v2.0_rmsk.align.bb
 maxWindowToDraw 5000000
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/rmsk.html
-priority 2
+priority 22
 
 track sedefSegDups
 shortLabel Segmental Dups (2022)
@@ -34,7 +34,7 @@ itemRgb on
 maxItems 100000
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sedefSegDups/sedefSegDups.bb
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/sedefSegDups.html
-priority 3
+priority 23
 
 track segDups2024
 shortLabel Segmental Dups (2024)
@@ -46,7 +46,7 @@ itemRgb on
 maxItems 100000
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/segDups_2024.bb
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/segDups.html
-priority 4
+priority 24
 
 track phr
 shortLabel PHR
@@ -61,5 +61,13 @@ alwaysZero on
 visibility dense
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/phrs.bw
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/phr.html
-priority 5
+priority 25
 
+track prdm9sites
+visibility hide
+shortLabel PRDM9 Sites
+longLabel PRDM9 Sites (beta)
+group rep
+type bigBed 4
+bigDataUrl chm13v2.0.CCNCCNTNNCCNC.4col.bb
+priority 26

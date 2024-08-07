@@ -13,7 +13,7 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/isoseq.html
-priority 5
+priority 41
 
     track chm13_isoseq_1
     parent isoSeq
@@ -21,7 +21,7 @@ priority 5
     shortLabel CHM13 IsoSeq 1
     longLabel CHM13 IsoSeq 1
     type bam
-    priority 5.1
+    priority 42.1
 
     track chm13_isoseq_2
     parent isoSeq
@@ -29,7 +29,7 @@ priority 5
     shortLabel CHM13 IsoSeq 2
     longLabel CHM13 IsoSeq 2
     type bam
-    priority 5.2
+    priority 42.2
 
 track proseq
 compositeTrack off
@@ -41,7 +41,7 @@ altColor 0,0,255
 maxHeightPixels 100:32:16
 type bigWig
 group rna
-priority 6
+priority 42
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.proseq.html
     
     track proseq_default_POS
@@ -130,7 +130,7 @@ color 255,0,0
 maxHeightPixels 100:32:16
 type bigWig
 group rna
-priority 7
+priority 43
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.rnaseq.html
     
     track rnaseq_default

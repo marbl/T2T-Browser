@@ -8,7 +8,7 @@ subGroup2 orgs Organisms mGorGor1_v2.0=mGorGor1 mPanPan1_v2.0=mPanPan1 mPanTro3_
 dragAndDrop subTracks
 dimensions dimensionX=view dimensionY=orgs
 noInherit on
-priority 5
+priority 300
 centerLabelsDense on
 visibility hide
 maxWindowToDraw 100000
@@ -26,7 +26,7 @@ type bigBed 3
         otherSpecies hg38
         visibility hide
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake
@@ -38,7 +38,7 @@ type bigBed 3
         otherSpecies T2T-CHM13v2.0
         visibility full
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake
@@ -50,7 +50,7 @@ type bigBed 3
         otherSpecies mGorGor1_v2.0
         visibility hide
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake
@@ -62,7 +62,7 @@ type bigBed 3
         otherSpecies mPanPan1_v2.0
         visibility hide
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake
@@ -74,7 +74,7 @@ type bigBed 3
         otherSpecies mPanTro3_v2.0
         visibility hide
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake
@@ -86,7 +86,7 @@ type bigBed 3
         otherSpecies mPonAbe1_v2.0
         visibility hide
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake
@@ -98,7 +98,7 @@ type bigBed 3
         otherSpecies mPonPyg2_v2.0
         visibility hide
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake
@@ -110,7 +110,7 @@ type bigBed 3
         otherSpecies mSymSyn1_v2.0
         visibility hide
         parent cactus8Alignments off
-        priority 53
+        priority 301
         bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
         type halSnake
         group snake

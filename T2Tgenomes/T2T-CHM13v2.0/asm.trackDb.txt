@@ -42,7 +42,7 @@ autoScale off
 alwaysZero on
 graphTypeDefault points
 gridDefault on
-priority 2
+priority 13
 
     track microsatellites_GA
     parent microsatellites
@@ -50,7 +50,7 @@ priority 2
     longLabel GA Microsatellite Repeats
     type bigWig
     color 83,105,255
-    priority 2.1
+    priority 13.1
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.GA.128.bw
 
     track microsatellites_TC
@@ -59,7 +59,7 @@ priority 2
     longLabel TC Microsatellite Repeats
     type bigWig
     color 102,0,102
-    priority 2.2
+    priority 13.2
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.TC.128.bw 
 
     track microsatellites_GC
@@ -68,7 +68,7 @@ priority 2
     longLabel GC Microsatellite Repeats
     type bigWig
     color 188,115,19
-    priority 2.3
+    priority 13.3
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.GC.128.bw
 
     track microsatellites_AT
@@ -77,7 +77,7 @@ priority 2
     longLabel AT Microsatellite Repeats
     type bigWig
     color 51,102,0
-    priority 2.4
+    priority 13.4
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.AT.128.bw
 
 track validation
@@ -86,7 +86,7 @@ longLabel Validation of T2T-CHM13 assembly
 visibility hide
 superTrack on show
 group asm
-priority 3
+priority 18
 
     track issues
     parent validation
@@ -98,7 +98,7 @@ priority 3
     type bigBed 9
     bigDataUrl https://raw.githubusercontent.com/marbl/CHM13-issues/main/v2.0/v2.0_issues.bb
     html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
-    priority 3.1
+    priority 18.1
 
     track readCoverageHiFi
     container multiWig
@@ -112,7 +112,7 @@ priority 3
     showSubtrackColorOnUi on
     maxHeightPixels 100:32:8
     visibility full
-    priority 3.2
+    priority 18.2
     html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/readCoverage.html
 
         track readCoverageHiFiPri
@@ -145,7 +145,7 @@ priority 3
     viewLimits 0:300
     maxHeightPixels 100:32:8
     visibility full
-    priority 3.4
+    priority 18.4
     html hhttps://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/tml/readCoverage.html
 
         track readCoverageONTPri
@@ -173,7 +173,7 @@ visibility hide
 shortLabel Mappability
 longLabel Uniquely Mappabile Region
 group asm
-priority 4
+priority 19
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/mappability.html
 
     track kmersMul
@@ -187,7 +187,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     maxHeightPixels 100:32:16
     viewLimits 1:255
     windowingFunction mean
-    priority 4.1
+    priority 19.1
     html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/min_unique_kmer.html
 
     track kmersMur
@@ -201,7 +201,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     maxHeightPixels 100:32:16
     viewLimits 1:255
     windowingFunction mean
-    priority 4.2
+    priority 19.2
     html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/min_unique_kmer.html
 
     track uniq21density
@@ -216,7 +216,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     gridDefault on
     color 0,102,51
     itemRgb on
-    priority 4.3
+    priority 19.3
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k21.bw
     html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
 
@@ -228,7 +228,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     color 128,128,128
     itemRgb on
     visibility hide
-    priority 4.4
+    priority 19.4
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k21.desert.bb
     html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
 
@@ -243,7 +243,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     autoScale off
     gridDefault on
     color 0,102,51
-    priority 4.5
+    priority 19.5
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k51.bw
     html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
 
@@ -255,7 +255,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     visibility hide
     color 128,128,128
     itemRgb on
-    priority 4.6
+    priority 19.6
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k51.desert.bb
     html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
 
