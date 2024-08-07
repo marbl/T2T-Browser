@@ -8,7 +8,25 @@ type bigBed 9 +
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/genomeFeature_v1.1.bb
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/genomeFeature.html
 mouseOverField name
-priority 1
+priority 11
+
+track gc5Base
+shortLabel GC Percent
+longLabel GC Percent in 5-Base Windows
+group asm
+visibility full
+autoScale Off
+maxHeightPixels 128:36:16
+graphTypeDefault Bar
+gridDefault OFF
+windowingFunction Mean
+color 0,0,0
+altColor 128,128,128
+viewLimits 30:70
+type bigWig 0 100
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.gc5Base.bw
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.gc5Base.html
+priority 12
 
 track microsatellites
 compositeTrack on
