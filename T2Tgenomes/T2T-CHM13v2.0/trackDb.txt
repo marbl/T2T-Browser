@@ -4,10 +4,21 @@ shortLabel cytoBandIdeo
 bigDataUrl cytoBand.bb
 type bigBed 5
 
+# 10
 include asm.trackDb.txt
-include gen.trackDb.txt
-include rna.trackDb.txt
-include reg.trackDb.txt
+# 20
 include rep.trackDb.txt
-include com.trackDb.txt
+# 30
+include gen.trackDb.txt
+# 40
+include rna.trackDb.txt
+# 50-60
+include reg.trackDb.txt
+# 70-90
 include var.trackDb.txt
+# 100-500
+# 100-200: wfmash
+# 300    : hal
+# 400    : cactus
+# 500    : HAQERs
+include com.trackDb.txt
