@@ -1,16 +1,40 @@
-
 track censat
-shortLabel Cen/Sat
-longLabel Centromeric Satellite Annotation
 group rep
 visibility dense
-itemRgb on
-maxItems 100000
-type bigBed 9 +
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censat_v2.1.bb
+compositeTrack on
+superTrack on show
+type bigBed 9
+shortLabel CenSat
+longLabel Centromeric Satellite Annotation
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
 mouseOverField component
-priority 21
+priority 20
+
+    track censatAnn
+    parent censat
+    shortLabel CenSat
+    longLabel Centromeric Satellite Annotation
+    group rep
+    type bigBed 9
+    visibility dense
+    itemRgb on
+    mouseOverField component
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censat_v2.1.bb
+	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+	priority 20.1
+
+	track censatStrand
+	parent censat
+	shortLabel CenSat Strand
+	longLabel Centromeric Satellite Strand Annotation
+	group rep
+	type bigBed 9
+	visibility dense
+	itemRgb on
+	mouseOverField component
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censatStrand_v2.0.bb
+	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+	priority 20.2
 
 track rmsk
 shortLabel RepeatMasker
@@ -66,8 +90,8 @@ priority 25
 track prdm9sites
 visibility hide
 shortLabel PRDM9 Sites
-longLabel PRDM9 Sites (beta)
+longLabel PRDM9 Binding Sites (beta)
 group rep
 type bigBed 4
-bigDataUrl chm13v2.0.CCNCCNTNNCCNC.4col.bb
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/prdm9_bMotif.bb
 priority 26
