@@ -3,7 +3,7 @@ track 8-t2t-apes-2023v2.GCA_029281585.2
 shortLabel CACTUS-8 MAF
 longLabel CACTUS 8-way primary progressive alignment
 group compGeno
-priority 20
+priority 400
 visibility full
 type bigMaf
 bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.GCA_029281585.2.bigmaf.bb
