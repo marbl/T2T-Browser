@@ -84,7 +84,7 @@ track validation
 shortLabel Validation
 longLabel Validation of T2T-CHM13 assembly
 visibility hide
-superTrack on show
+superTrack on
 group asm
 priority 18
 

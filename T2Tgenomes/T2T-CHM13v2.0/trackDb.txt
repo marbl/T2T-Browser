@@ -12,8 +12,10 @@ include rep.trackDb.txt
 include gen.trackDb.txt
 # 40
 include rna.trackDb.txt
-# 50-60
+# 50-66
 include reg.trackDb.txt
+# 67-70
+include grc.trackDb.txt
 # 70-90
 include var.trackDb.txt
 # 100-500

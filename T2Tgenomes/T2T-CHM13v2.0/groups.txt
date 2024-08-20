@@ -36,8 +36,8 @@ label Regulation
 priority 6
 defaultIsClosed 0
 
-name hg38
-label GRCh38
+name grc
+label GRCh38 and GRCh37 (hg19)
 priority 7
 defaultIsClosed 0
 
