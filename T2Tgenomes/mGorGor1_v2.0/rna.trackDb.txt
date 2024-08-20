@@ -19,7 +19,7 @@ pairEndsByName on
     shortLabel IsoSeq 1
     longLabel IsoSeq 1
     type bam
-    priority 10
+    priority 51
 
     track isoSeqBam2
     parent isoSeq
@@ -27,4 +27,4 @@ pairEndsByName on
     shortLabel IsoSeq 2
     longLabel IsoSeq 2
     type bam
-    priority 10
+    priority 51

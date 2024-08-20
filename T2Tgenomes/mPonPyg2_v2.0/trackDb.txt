@@ -4,10 +4,10 @@
 # bigDataUrl cytoBand.bb
 # type bigBed 5
 
-include asm.trackDb.txt
-include rep.trackDb.txt
-include gen.trackDb.txt
-include rna.trackDb.txt
-include reg.trackDb.txt
-include com.trackDb.txt
-include var.trackDb.txt
+include asm.trackDb.txt	# 11-19
+include rep.trackDb.txt	# 20-29
+include gen.trackDb.txt	# 41-49
+include rna.trackDb.txt	# 51
+include reg.trackDb.txt	# 61
+include var.trackDb.txt	# 81
+include com.trackDb.txt	# 200 - wfmash, 300 - hal

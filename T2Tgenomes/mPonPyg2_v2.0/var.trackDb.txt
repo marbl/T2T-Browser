@@ -7,4 +7,4 @@ type bigBed 3
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/variants/mPonPyg2_v2.0.accessibility_mask.bb
 html ../html/accessibilityMask.html
 mouseOverField name
-priority 200
+priority 81

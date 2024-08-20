@@ -8,7 +8,7 @@ shortLabel RefSeq 03/2024
 longLabel NCBI RefSeq RS_2024_03
 baseColorDefault genomicCodons
 html ../html/refGene.html
-priority 1
+priority 41
 labelFields name,name2
 defaultLabelFields name2
 labelSeparator ","
@@ -25,7 +25,7 @@ shortLabel CAT/LiftOff
 longLabel CAT / LiftOff Gene Annotation v1.0 03/2024
 baseColorDefault genomicCodons
 html ../html/catGene.html
-priority 2
+priority 42
 labelFields name2,name,geneId,sourceTranscript
 defaultLabelFields name2
 labelSeparator ","
@@ -36,7 +36,7 @@ track HLTOGAannotvsHg38v1BIG
 shortLabel TOGA hg38
 longLabel TOGA annotations using human hg38 as reference
 group genes
-priority 3
+priority 43
 visibility hide
 itemRgb on
 type bigBed 12 +
@@ -55,7 +55,7 @@ track HLTOGAannotvsMm10v1BIG
 shortLabel TOGA mm10
 longLabel TOGA annotations using mouse mm10 as reference
 group genes
-priority 4
+priority 44
 visibility hide
 itemRgb on
 type bigBed 12 +
