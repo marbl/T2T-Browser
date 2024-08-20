@@ -1,0 +1,10 @@
+	track wfmashHPRCy1${hprc}${hap}
+	parent wfmashHPRCy1
+	type bigChain ${hprc}#${hap}
+	shortLabel ${hprc}#${hap}
+	longLabel HPRCy1 ${hprc} ${hap} to ${ref}
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/${hprc}${hap}_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/${hprc}${hap}_to_CHM13v2.0.bigChain.link.bb
+	priority ${priority}

@@ -1,0 +1,12 @@
+	track wfmash${sp}${hap}
+	parent wfmash
+	type bigChain ${sp}_v2.0
+	shortLabel ${sp}#${hap}
+	longLabel ${sp}_v2.0 ${hap} to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.${sp}${hap}.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.${sp}${hap}.bigChain.link.bb
+	otherDb ${sp}_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/${sn}/${sp}/assembly_curated/${sp}_v2.0.2bit
+	priority 4

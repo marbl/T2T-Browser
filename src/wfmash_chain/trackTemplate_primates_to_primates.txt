@@ -1,0 +1,12 @@
+	track wfmash${sp}${hap}
+	parent wfmash
+	type bigChain ${sp}_v2.0
+	shortLabel ${sp}#${hap}
+	longLabel ${sp}_v2.0 ${hap} to ${ref_sp}_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/${ref_sn}/${ref_sp}/assembly_curated/comparative/${sp}${hap}_to_${ref_sp}_v2.0.wfmash_v0.13.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/${ref_sn}/${ref_sp}/assembly_curated/comparative/${sp}${hap}_to_${ref_sp}_v2.0.wfmash_v0.13.0.bigChain.link.bb
+	otherDb ${sp}_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/${sn}/${sp}/assembly_curated/${sp}_v2.0.2bit
+	priority 4

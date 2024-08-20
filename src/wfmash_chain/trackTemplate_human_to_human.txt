@@ -1,0 +1,51 @@
+	track wfmashCHM13
+	parent wfmash
+	type bigChain T2T-CHM13v2.0
+	shortLabel CHM13
+	longLabel CHM13v2.0 to HG002v1.0.1
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/CHM13.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/CHM13.bigChain.link.bb
+	otherDb T2T-CHM13v2.0
+	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
+	priority 1
+
+	track wfmashHG002mat
+	parent wfmash
+	type bigChain HG002v1.0.1.MAT
+	shortLabel HG002#mat
+	longLabel HG002v1.0.1 mat to HG002v1.0.1
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/HG002mat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/HG002mat.bigChain.link.bb
+	otherDb HG002v1.0.1.MAT
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.2bit
+	priority 2.1
+
+	track wfmashHG002pat
+	parent wfmash
+	type bigChain HG002v1.0.1.PAT
+	shortLabel HG002#pat
+	longLabel HG002v1.0.1 pat to HG002v1.0.1
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/HG002pat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/HG002pat.bigChain.link.bb
+	otherDb HG002v1.0.1.PAT
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.2bit
+	priority 2.2
+
+	track wfmashGRCh38
+	parent wfmash
+	type bigChain hg38
+	shortLabel GRCh38
+	longLabel GRCh38 to ${ref_sp}_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/GRCh38.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/wfmash_v0.13.0/GRCh38.bigChain.link.bb
+	otherDb hg38
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
+	priority 3
