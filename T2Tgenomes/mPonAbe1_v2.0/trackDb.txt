@@ -10,4 +10,4 @@ include gen.trackDb.txt
 include rna.trackDb.txt
 include reg.trackDb.txt
 include com.trackDb.txt
-
+include var.trackDb.txt

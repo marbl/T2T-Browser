@@ -1,0 +1,10 @@
+track access
+shortLabel Accessibility
+longLabel Short Read Accessibility Mask
+group var
+visibility dense
+type bigBed 3
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/variants/mPonAbe1_v2.0.accessibility_mask.bb
+html ../html/accessibilityMask.html
+mouseOverField name
+priority 200
