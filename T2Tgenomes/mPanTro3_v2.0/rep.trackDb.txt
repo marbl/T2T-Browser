@@ -1,13 +1,40 @@
 track censat
+group rep
+visibility dense
+compositeTrack on
+superTrack on show
+type bigBed 9
 shortLabel CenSat
 longLabel Centromeric Satellite Annotation
-group rep
-type bigBed 9
-visibility dense
-itemRgb on
-bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0_CenSat_v1.2.bb
 html ../html/censat.html
+mouseOverField component
 priority 20
+
+    track censatAnn
+    parent censat
+    shortLabel CenSat
+    longLabel Centromeric Satellite Annotation
+    group rep
+    type bigBed 9
+    visibility dense
+    itemRgb on
+    mouseOverField component
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0_CenSat_v1.2.bb
+    html ../html/censat.html
+    priority 20.1
+
+    track censatStrand
+    parent censat
+    shortLabel CenSat Strand
+    longLabel Centromeric Satellite Strand Annotation
+    group rep
+    type bigBed 9
+    visibility dense
+    itemRgb on
+    mouseOverField component
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0_CenSatStrand_v1.2.bb
+    html ../html/censat.html
+    priority 20.2
 
 track centro
 compositeTrack on
