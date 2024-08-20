@@ -32,7 +32,7 @@ priority 20
 	visibility dense
 	itemRgb on
 	mouseOverField component
-	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censatStrand_v2.0.bb
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censatStrand_v2.1.bb
 	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
 	priority 20.2
 
@@ -94,4 +94,5 @@ longLabel PRDM9 Binding Sites (beta)
 group rep
 type bigBed 4
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/prdm9_bMotif.bb
+html https://raw.githubusercontent.com/AndreaGuarracino/motifence/master/chm13v2.0-prdm9-track.html
 priority 26
