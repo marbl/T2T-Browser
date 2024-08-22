@@ -126,6 +126,31 @@ done
 ## trackDb.txt
 Now, we need to create the corresponding trackDb.txt to go under group Comparative Genomics.
 ```shell
-python make_trackDb.py > HPRCy1.trackDb.txt
+python make_trackDb.py
 ```
-This script uses trackTemplate_hprc_to_chm13.txt for the WFMASH-HPRCy1 tracks, replacing variables as needed.
+This script uses `trackTemplate_hprc_to_chm13.txt` for the WFMASH-HPRCy1 tracks for CHM13, replacing variables as needed.
+Output file for CHM13 trackDb.txt will be `HPRCy1.CHM13.trackDb.txt`.
+
+Primates use `trackTemplate_hprc_to_primates.txt`, output files written as `HPRCy1.${sp}.trackDb.txt`.
+
+Add group definition to com.trackDb.txt:
+```
+track wfmashHPRCy1
+superTrack on
+visibility dense
+shortLabel WFMASH-HPRCy1
+longLabel wfmash v0.13.0 HPRCy1
+group compGeno
+type bigChain
+mouseOverField name
+html https://raw.githubusercontent.com/T2T-apes/ape_pangenome/main/alignment/wfmash.html
+priority 230
+```
+
+Append to com.trackDb.txt and move hal.trackDb.txt to the end
+```shell
+for sp in mPanPan1 mPanTro3 mPonAbe1 mPonPyg2 mSymSyn1
+do
+  cat HPRCy1.${sp}.trackDb.txt >> ../../T2Tgenomes/${sp}_v2.0/com.trackDb.txt
+done
+```

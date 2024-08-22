@@ -204,15 +204,16 @@ priority 100
 	priority 120
 
 track wfmashHPRCy1
-superTrack on hide
+superTrack on
 visibility hide
 shortLabel WFMASH-HPRCy1
 longLabel wfmash v0.13.0 HPRCy1 chain
 group compGeno
 type bigChain
 mouseOverField name
+html https://raw.githubusercontent.com/T2T-apes/ape_pangenome/main/alignment/wfmash.html
 priority 130
-# 130-224
+# 130-
 
 	track wfmashHPRCy1HG002hap1
 	parent wfmashHPRCy1
@@ -1265,4 +1266,66 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
 mouseOverField name
 priority 500
 
+track phast
+superTrack on
+visibility hide
+shortLabel PHAST
+longLabel Most conserved region from 2 approaches
+group compGeno
+mouseOverField name
+html https://raw.githubusercontent.com/T2T-apes/MSA/main/trackDescription_conservation.html
+priority 600
 
+	track cons1elmnt
+	shortLabel Conserved (Approach1)
+	longLabel Approach 1 Most Conserved Elements
+	parent phast
+	visibility dense
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits -428:100000
+	type bigWig -428 100000
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.most_conserved_v0.1.bw
+	priority 601
+
+	track cons1score
+	shortLabel Score (Approach1)
+	longLabel Approach 1 Conservation Score
+	parent phast
+	visibility dense
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.scores_v0.1.bw
+	priority 602
+
+	track cons2elmnt
+	shortLabel Conserved (Approach2)
+	longLabel Approach 2 Most Conserved Elements
+	parent phast
+	visibility dense
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.1.bb
+	priority 603
+
+	track cons2score
+	shortLabel Score (Approach2)
+	longLabel Approach 2 Conservation Score
+	parent phast
+	visibility dense
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.1.bw
+	priority 604

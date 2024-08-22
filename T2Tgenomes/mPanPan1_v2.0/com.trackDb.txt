@@ -217,5 +217,1049 @@ priority 201
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
 	priority 204
 
+track wfmashHPRCy1
+superTrack on
+visibility dense
+shortLabel WFMASH-HPRCy1
+longLabel wfmash v0.13.0 HPRCy1
+group compGeno
+type bigChain
+mouseOverField name
+html https://raw.githubusercontent.com/T2T-apes/ape_pangenome/main/alignment/wfmash.html
+priority 230
+
+	track wfmashHPRCy1HG002hap1
+	parent wfmashHPRCy1
+	type bigChain HG002_hap1
+	shortLabel HG002#hap1
+	longLabel HPRCy1 HG002 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 231
+
+	track wfmashHPRCy1HG002hap2
+	parent wfmashHPRCy1
+	type bigChain HG002_hap2
+	shortLabel HG002#hap2
+	longLabel HPRCy1 HG002 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 232
+
+	track wfmashHPRCy1HG00438hap1
+	parent wfmashHPRCy1
+	type bigChain HG00438_hap1
+	shortLabel HG00438#hap1
+	longLabel HPRCy1 HG00438 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 233
+
+	track wfmashHPRCy1HG00438hap2
+	parent wfmashHPRCy1
+	type bigChain HG00438_hap2
+	shortLabel HG00438#hap2
+	longLabel HPRCy1 HG00438 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 234
+
+	track wfmashHPRCy1HG005hap1
+	parent wfmashHPRCy1
+	type bigChain HG005_hap1
+	shortLabel HG005#hap1
+	longLabel HPRCy1 HG005 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 235
+
+	track wfmashHPRCy1HG005hap2
+	parent wfmashHPRCy1
+	type bigChain HG005_hap2
+	shortLabel HG005#hap2
+	longLabel HPRCy1 HG005 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 236
+
+	track wfmashHPRCy1HG00621hap1
+	parent wfmashHPRCy1
+	type bigChain HG00621_hap1
+	shortLabel HG00621#hap1
+	longLabel HPRCy1 HG00621 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 237
+
+	track wfmashHPRCy1HG00621hap2
+	parent wfmashHPRCy1
+	type bigChain HG00621_hap2
+	shortLabel HG00621#hap2
+	longLabel HPRCy1 HG00621 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 238
+
+	track wfmashHPRCy1HG00673hap1
+	parent wfmashHPRCy1
+	type bigChain HG00673_hap1
+	shortLabel HG00673#hap1
+	longLabel HPRCy1 HG00673 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 239
+
+	track wfmashHPRCy1HG00673hap2
+	parent wfmashHPRCy1
+	type bigChain HG00673_hap2
+	shortLabel HG00673#hap2
+	longLabel HPRCy1 HG00673 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 240
+
+	track wfmashHPRCy1HG00733hap1
+	parent wfmashHPRCy1
+	type bigChain HG00733_hap1
+	shortLabel HG00733#hap1
+	longLabel HPRCy1 HG00733 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 241
+
+	track wfmashHPRCy1HG00733hap2
+	parent wfmashHPRCy1
+	type bigChain HG00733_hap2
+	shortLabel HG00733#hap2
+	longLabel HPRCy1 HG00733 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 242
+
+	track wfmashHPRCy1HG00735hap1
+	parent wfmashHPRCy1
+	type bigChain HG00735_hap1
+	shortLabel HG00735#hap1
+	longLabel HPRCy1 HG00735 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 243
+
+	track wfmashHPRCy1HG00735hap2
+	parent wfmashHPRCy1
+	type bigChain HG00735_hap2
+	shortLabel HG00735#hap2
+	longLabel HPRCy1 HG00735 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 244
+
+	track wfmashHPRCy1HG00741hap1
+	parent wfmashHPRCy1
+	type bigChain HG00741_hap1
+	shortLabel HG00741#hap1
+	longLabel HPRCy1 HG00741 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 245
+
+	track wfmashHPRCy1HG00741hap2
+	parent wfmashHPRCy1
+	type bigChain HG00741_hap2
+	shortLabel HG00741#hap2
+	longLabel HPRCy1 HG00741 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 246
+
+	track wfmashHPRCy1HG01071hap1
+	parent wfmashHPRCy1
+	type bigChain HG01071_hap1
+	shortLabel HG01071#hap1
+	longLabel HPRCy1 HG01071 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 247
+
+	track wfmashHPRCy1HG01071hap2
+	parent wfmashHPRCy1
+	type bigChain HG01071_hap2
+	shortLabel HG01071#hap2
+	longLabel HPRCy1 HG01071 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 248
+
+	track wfmashHPRCy1HG01106hap1
+	parent wfmashHPRCy1
+	type bigChain HG01106_hap1
+	shortLabel HG01106#hap1
+	longLabel HPRCy1 HG01106 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 249
+
+	track wfmashHPRCy1HG01106hap2
+	parent wfmashHPRCy1
+	type bigChain HG01106_hap2
+	shortLabel HG01106#hap2
+	longLabel HPRCy1 HG01106 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 250
+
+	track wfmashHPRCy1HG01109hap1
+	parent wfmashHPRCy1
+	type bigChain HG01109_hap1
+	shortLabel HG01109#hap1
+	longLabel HPRCy1 HG01109 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 251
+
+	track wfmashHPRCy1HG01109hap2
+	parent wfmashHPRCy1
+	type bigChain HG01109_hap2
+	shortLabel HG01109#hap2
+	longLabel HPRCy1 HG01109 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 252
+
+	track wfmashHPRCy1HG01123hap1
+	parent wfmashHPRCy1
+	type bigChain HG01123_hap1
+	shortLabel HG01123#hap1
+	longLabel HPRCy1 HG01123 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 253
+
+	track wfmashHPRCy1HG01123hap2
+	parent wfmashHPRCy1
+	type bigChain HG01123_hap2
+	shortLabel HG01123#hap2
+	longLabel HPRCy1 HG01123 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 254
+
+	track wfmashHPRCy1HG01175hap1
+	parent wfmashHPRCy1
+	type bigChain HG01175_hap1
+	shortLabel HG01175#hap1
+	longLabel HPRCy1 HG01175 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 255
+
+	track wfmashHPRCy1HG01175hap2
+	parent wfmashHPRCy1
+	type bigChain HG01175_hap2
+	shortLabel HG01175#hap2
+	longLabel HPRCy1 HG01175 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 256
+
+	track wfmashHPRCy1HG01243hap1
+	parent wfmashHPRCy1
+	type bigChain HG01243_hap1
+	shortLabel HG01243#hap1
+	longLabel HPRCy1 HG01243 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 257
+
+	track wfmashHPRCy1HG01243hap2
+	parent wfmashHPRCy1
+	type bigChain HG01243_hap2
+	shortLabel HG01243#hap2
+	longLabel HPRCy1 HG01243 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 258
+
+	track wfmashHPRCy1HG01258hap1
+	parent wfmashHPRCy1
+	type bigChain HG01258_hap1
+	shortLabel HG01258#hap1
+	longLabel HPRCy1 HG01258 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 259
+
+	track wfmashHPRCy1HG01258hap2
+	parent wfmashHPRCy1
+	type bigChain HG01258_hap2
+	shortLabel HG01258#hap2
+	longLabel HPRCy1 HG01258 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 260
+
+	track wfmashHPRCy1HG01358hap1
+	parent wfmashHPRCy1
+	type bigChain HG01358_hap1
+	shortLabel HG01358#hap1
+	longLabel HPRCy1 HG01358 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 261
+
+	track wfmashHPRCy1HG01358hap2
+	parent wfmashHPRCy1
+	type bigChain HG01358_hap2
+	shortLabel HG01358#hap2
+	longLabel HPRCy1 HG01358 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 262
+
+	track wfmashHPRCy1HG01361hap1
+	parent wfmashHPRCy1
+	type bigChain HG01361_hap1
+	shortLabel HG01361#hap1
+	longLabel HPRCy1 HG01361 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 263
+
+	track wfmashHPRCy1HG01361hap2
+	parent wfmashHPRCy1
+	type bigChain HG01361_hap2
+	shortLabel HG01361#hap2
+	longLabel HPRCy1 HG01361 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 264
+
+	track wfmashHPRCy1HG01891hap1
+	parent wfmashHPRCy1
+	type bigChain HG01891_hap1
+	shortLabel HG01891#hap1
+	longLabel HPRCy1 HG01891 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 265
+
+	track wfmashHPRCy1HG01891hap2
+	parent wfmashHPRCy1
+	type bigChain HG01891_hap2
+	shortLabel HG01891#hap2
+	longLabel HPRCy1 HG01891 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 266
+
+	track wfmashHPRCy1HG01928hap1
+	parent wfmashHPRCy1
+	type bigChain HG01928_hap1
+	shortLabel HG01928#hap1
+	longLabel HPRCy1 HG01928 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 267
+
+	track wfmashHPRCy1HG01928hap2
+	parent wfmashHPRCy1
+	type bigChain HG01928_hap2
+	shortLabel HG01928#hap2
+	longLabel HPRCy1 HG01928 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 268
+
+	track wfmashHPRCy1HG01952hap1
+	parent wfmashHPRCy1
+	type bigChain HG01952_hap1
+	shortLabel HG01952#hap1
+	longLabel HPRCy1 HG01952 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 269
+
+	track wfmashHPRCy1HG01952hap2
+	parent wfmashHPRCy1
+	type bigChain HG01952_hap2
+	shortLabel HG01952#hap2
+	longLabel HPRCy1 HG01952 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 270
+
+	track wfmashHPRCy1HG01978hap1
+	parent wfmashHPRCy1
+	type bigChain HG01978_hap1
+	shortLabel HG01978#hap1
+	longLabel HPRCy1 HG01978 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 271
+
+	track wfmashHPRCy1HG01978hap2
+	parent wfmashHPRCy1
+	type bigChain HG01978_hap2
+	shortLabel HG01978#hap2
+	longLabel HPRCy1 HG01978 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 272
+
+	track wfmashHPRCy1HG02055hap1
+	parent wfmashHPRCy1
+	type bigChain HG02055_hap1
+	shortLabel HG02055#hap1
+	longLabel HPRCy1 HG02055 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 273
+
+	track wfmashHPRCy1HG02055hap2
+	parent wfmashHPRCy1
+	type bigChain HG02055_hap2
+	shortLabel HG02055#hap2
+	longLabel HPRCy1 HG02055 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 274
+
+	track wfmashHPRCy1HG02080hap1
+	parent wfmashHPRCy1
+	type bigChain HG02080_hap1
+	shortLabel HG02080#hap1
+	longLabel HPRCy1 HG02080 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 275
+
+	track wfmashHPRCy1HG02080hap2
+	parent wfmashHPRCy1
+	type bigChain HG02080_hap2
+	shortLabel HG02080#hap2
+	longLabel HPRCy1 HG02080 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 276
+
+	track wfmashHPRCy1HG02109hap1
+	parent wfmashHPRCy1
+	type bigChain HG02109_hap1
+	shortLabel HG02109#hap1
+	longLabel HPRCy1 HG02109 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 277
+
+	track wfmashHPRCy1HG02109hap2
+	parent wfmashHPRCy1
+	type bigChain HG02109_hap2
+	shortLabel HG02109#hap2
+	longLabel HPRCy1 HG02109 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 278
+
+	track wfmashHPRCy1HG02145hap1
+	parent wfmashHPRCy1
+	type bigChain HG02145_hap1
+	shortLabel HG02145#hap1
+	longLabel HPRCy1 HG02145 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 279
+
+	track wfmashHPRCy1HG02145hap2
+	parent wfmashHPRCy1
+	type bigChain HG02145_hap2
+	shortLabel HG02145#hap2
+	longLabel HPRCy1 HG02145 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 280
+
+	track wfmashHPRCy1HG02148hap1
+	parent wfmashHPRCy1
+	type bigChain HG02148_hap1
+	shortLabel HG02148#hap1
+	longLabel HPRCy1 HG02148 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 281
+
+	track wfmashHPRCy1HG02148hap2
+	parent wfmashHPRCy1
+	type bigChain HG02148_hap2
+	shortLabel HG02148#hap2
+	longLabel HPRCy1 HG02148 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 282
+
+	track wfmashHPRCy1HG02257hap1
+	parent wfmashHPRCy1
+	type bigChain HG02257_hap1
+	shortLabel HG02257#hap1
+	longLabel HPRCy1 HG02257 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 283
+
+	track wfmashHPRCy1HG02257hap2
+	parent wfmashHPRCy1
+	type bigChain HG02257_hap2
+	shortLabel HG02257#hap2
+	longLabel HPRCy1 HG02257 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 284
+
+	track wfmashHPRCy1HG02486hap1
+	parent wfmashHPRCy1
+	type bigChain HG02486_hap1
+	shortLabel HG02486#hap1
+	longLabel HPRCy1 HG02486 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 285
+
+	track wfmashHPRCy1HG02486hap2
+	parent wfmashHPRCy1
+	type bigChain HG02486_hap2
+	shortLabel HG02486#hap2
+	longLabel HPRCy1 HG02486 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 286
+
+	track wfmashHPRCy1HG02559hap1
+	parent wfmashHPRCy1
+	type bigChain HG02559_hap1
+	shortLabel HG02559#hap1
+	longLabel HPRCy1 HG02559 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 287
+
+	track wfmashHPRCy1HG02559hap2
+	parent wfmashHPRCy1
+	type bigChain HG02559_hap2
+	shortLabel HG02559#hap2
+	longLabel HPRCy1 HG02559 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 288
+
+	track wfmashHPRCy1HG02572hap1
+	parent wfmashHPRCy1
+	type bigChain HG02572_hap1
+	shortLabel HG02572#hap1
+	longLabel HPRCy1 HG02572 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 289
+
+	track wfmashHPRCy1HG02572hap2
+	parent wfmashHPRCy1
+	type bigChain HG02572_hap2
+	shortLabel HG02572#hap2
+	longLabel HPRCy1 HG02572 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 290
+
+	track wfmashHPRCy1HG02622hap1
+	parent wfmashHPRCy1
+	type bigChain HG02622_hap1
+	shortLabel HG02622#hap1
+	longLabel HPRCy1 HG02622 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 291
+
+	track wfmashHPRCy1HG02622hap2
+	parent wfmashHPRCy1
+	type bigChain HG02622_hap2
+	shortLabel HG02622#hap2
+	longLabel HPRCy1 HG02622 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 292
+
+	track wfmashHPRCy1HG02630hap1
+	parent wfmashHPRCy1
+	type bigChain HG02630_hap1
+	shortLabel HG02630#hap1
+	longLabel HPRCy1 HG02630 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 293
+
+	track wfmashHPRCy1HG02630hap2
+	parent wfmashHPRCy1
+	type bigChain HG02630_hap2
+	shortLabel HG02630#hap2
+	longLabel HPRCy1 HG02630 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 294
+
+	track wfmashHPRCy1HG02717hap1
+	parent wfmashHPRCy1
+	type bigChain HG02717_hap1
+	shortLabel HG02717#hap1
+	longLabel HPRCy1 HG02717 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 295
+
+	track wfmashHPRCy1HG02717hap2
+	parent wfmashHPRCy1
+	type bigChain HG02717_hap2
+	shortLabel HG02717#hap2
+	longLabel HPRCy1 HG02717 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 296
+
+	track wfmashHPRCy1HG02723hap1
+	parent wfmashHPRCy1
+	type bigChain HG02723_hap1
+	shortLabel HG02723#hap1
+	longLabel HPRCy1 HG02723 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 297
+
+	track wfmashHPRCy1HG02723hap2
+	parent wfmashHPRCy1
+	type bigChain HG02723_hap2
+	shortLabel HG02723#hap2
+	longLabel HPRCy1 HG02723 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 298
+
+	track wfmashHPRCy1HG02818hap1
+	parent wfmashHPRCy1
+	type bigChain HG02818_hap1
+	shortLabel HG02818#hap1
+	longLabel HPRCy1 HG02818 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 299
+
+	track wfmashHPRCy1HG02818hap2
+	parent wfmashHPRCy1
+	type bigChain HG02818_hap2
+	shortLabel HG02818#hap2
+	longLabel HPRCy1 HG02818 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 300
+
+	track wfmashHPRCy1HG02886hap1
+	parent wfmashHPRCy1
+	type bigChain HG02886_hap1
+	shortLabel HG02886#hap1
+	longLabel HPRCy1 HG02886 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 301
+
+	track wfmashHPRCy1HG02886hap2
+	parent wfmashHPRCy1
+	type bigChain HG02886_hap2
+	shortLabel HG02886#hap2
+	longLabel HPRCy1 HG02886 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 302
+
+	track wfmashHPRCy1HG03098hap1
+	parent wfmashHPRCy1
+	type bigChain HG03098_hap1
+	shortLabel HG03098#hap1
+	longLabel HPRCy1 HG03098 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 303
+
+	track wfmashHPRCy1HG03098hap2
+	parent wfmashHPRCy1
+	type bigChain HG03098_hap2
+	shortLabel HG03098#hap2
+	longLabel HPRCy1 HG03098 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 304
+
+	track wfmashHPRCy1HG03453hap1
+	parent wfmashHPRCy1
+	type bigChain HG03453_hap1
+	shortLabel HG03453#hap1
+	longLabel HPRCy1 HG03453 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 305
+
+	track wfmashHPRCy1HG03453hap2
+	parent wfmashHPRCy1
+	type bigChain HG03453_hap2
+	shortLabel HG03453#hap2
+	longLabel HPRCy1 HG03453 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 306
+
+	track wfmashHPRCy1HG03486hap1
+	parent wfmashHPRCy1
+	type bigChain HG03486_hap1
+	shortLabel HG03486#hap1
+	longLabel HPRCy1 HG03486 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 307
+
+	track wfmashHPRCy1HG03486hap2
+	parent wfmashHPRCy1
+	type bigChain HG03486_hap2
+	shortLabel HG03486#hap2
+	longLabel HPRCy1 HG03486 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 308
+
+	track wfmashHPRCy1HG03492hap1
+	parent wfmashHPRCy1
+	type bigChain HG03492_hap1
+	shortLabel HG03492#hap1
+	longLabel HPRCy1 HG03492 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 309
+
+	track wfmashHPRCy1HG03492hap2
+	parent wfmashHPRCy1
+	type bigChain HG03492_hap2
+	shortLabel HG03492#hap2
+	longLabel HPRCy1 HG03492 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 310
+
+	track wfmashHPRCy1HG03516hap1
+	parent wfmashHPRCy1
+	type bigChain HG03516_hap1
+	shortLabel HG03516#hap1
+	longLabel HPRCy1 HG03516 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 311
+
+	track wfmashHPRCy1HG03516hap2
+	parent wfmashHPRCy1
+	type bigChain HG03516_hap2
+	shortLabel HG03516#hap2
+	longLabel HPRCy1 HG03516 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 312
+
+	track wfmashHPRCy1HG03540hap1
+	parent wfmashHPRCy1
+	type bigChain HG03540_hap1
+	shortLabel HG03540#hap1
+	longLabel HPRCy1 HG03540 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 313
+
+	track wfmashHPRCy1HG03540hap2
+	parent wfmashHPRCy1
+	type bigChain HG03540_hap2
+	shortLabel HG03540#hap2
+	longLabel HPRCy1 HG03540 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 314
+
+	track wfmashHPRCy1HG03579hap1
+	parent wfmashHPRCy1
+	type bigChain HG03579_hap1
+	shortLabel HG03579#hap1
+	longLabel HPRCy1 HG03579 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 315
+
+	track wfmashHPRCy1HG03579hap2
+	parent wfmashHPRCy1
+	type bigChain HG03579_hap2
+	shortLabel HG03579#hap2
+	longLabel HPRCy1 HG03579 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 316
+
+	track wfmashHPRCy1NA18906hap1
+	parent wfmashHPRCy1
+	type bigChain NA18906_hap1
+	shortLabel NA18906#hap1
+	longLabel HPRCy1 NA18906 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 317
+
+	track wfmashHPRCy1NA18906hap2
+	parent wfmashHPRCy1
+	type bigChain NA18906_hap2
+	shortLabel NA18906#hap2
+	longLabel HPRCy1 NA18906 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 318
+
+	track wfmashHPRCy1NA19240hap1
+	parent wfmashHPRCy1
+	type bigChain NA19240_hap1
+	shortLabel NA19240#hap1
+	longLabel HPRCy1 NA19240 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 319
+
+	track wfmashHPRCy1NA19240hap2
+	parent wfmashHPRCy1
+	type bigChain NA19240_hap2
+	shortLabel NA19240#hap2
+	longLabel HPRCy1 NA19240 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 320
+
+	track wfmashHPRCy1NA20129hap1
+	parent wfmashHPRCy1
+	type bigChain NA20129_hap1
+	shortLabel NA20129#hap1
+	longLabel HPRCy1 NA20129 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 321
+
+	track wfmashHPRCy1NA20129hap2
+	parent wfmashHPRCy1
+	type bigChain NA20129_hap2
+	shortLabel NA20129#hap2
+	longLabel HPRCy1 NA20129 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 322
+
+	track wfmashHPRCy1NA21309hap1
+	parent wfmashHPRCy1
+	type bigChain NA21309_hap1
+	shortLabel NA21309#hap1
+	longLabel HPRCy1 NA21309 hap1 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 323
+
+	track wfmashHPRCy1NA21309hap2
+	parent wfmashHPRCy1
+	type bigChain NA21309_hap2
+	shortLabel NA21309#hap2
+	longLabel HPRCy1 NA21309 hap2 to mPanPan1_v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_mPanPan1_v2.0.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_mPanPan1_v2.0.bigChain.link.bb
+	priority 324
 
 include ../hal.trackDb.txt

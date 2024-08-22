@@ -4,13 +4,14 @@ module load ucsc
 module load aws
 
 path=../path.txt
-for i in $(seq 1 6)
+# Re-do for mGorGor1 HG002 hap2
+for i in $(seq 1 1) # $(seq 1 6)
 do
   set -x
   sp=`sed -n ${i}p $path | awk '{print $1}'`
   sn=`sed -n ${i}p $path | awk '{print $3}'`
 
-  if [[ -s HPRCy1-vs-${sp}#M.p70.aln.chain ]]; then
+  if [[ -s "HPRCy1-vs-${sp}#M.p70.aln.chain" ]]; then
     # For mGorGor1 and mPanPan1
     python split_by_genome.py HPRCy1-vs-${sp}#M.p70.aln.chain
     python split_by_genome.py HPRCy1-vs-${sp}#P.p70.aln.chain
@@ -25,7 +26,8 @@ do
   sizes=../../T2Tgenomes/$database/$database.sizes
   ref=$sp
 
-  for qry in $(ls HG*_to_$sp.chain NA*_to_$sp.chain | awk -F "_" '{print $1}')
+  #for qry in $(ls HG*_to_$sp.chain NA*_to_$sp.chain | awk -F "_" '{print $1}')
+  for qry in HG002hap2
   do
     in=${qry}_to_${sp}
     out=${qry}_to_$database

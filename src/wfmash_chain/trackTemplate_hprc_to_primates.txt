@@ -1,0 +1,10 @@
+	track wfmashHPRCy1${hprc}${hap}
+	parent wfmashHPRCy1
+	type bigChain ${hprc}_${hap}
+	shortLabel ${hprc}#${hap}
+	longLabel HPRCy1 ${hprc} ${hap} to ${ref_sp}_${ver}
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/${ref_sn}/${ref_sp}/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/${hprc}${hap}_to_${ref_sp}_${ver}.bigChain.bb
+	linkDataUrl https://genomeark.s3.amazonaws.com/species/${ref_sn}/${ref_sp}/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/${hprc}${hap}_to_${ref_sp}_${ver}.bigChain.link.bb
+	priority ${priority}
