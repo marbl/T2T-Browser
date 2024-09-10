@@ -19,7 +19,7 @@ priority 20
     visibility dense
     itemRgb on
     mouseOverField component
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0_CenSat_v1.2.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0_CenSat_v2.0.bb
     html ../html/censat.html
     priority 20.1
 
@@ -32,7 +32,7 @@ priority 20
     visibility dense
     itemRgb on
     mouseOverField component
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0_CenSatStrand_v1.2.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0_CenSatStrand_v2.0.bb
     html ../html/censat.html
     priority 20.2
 
