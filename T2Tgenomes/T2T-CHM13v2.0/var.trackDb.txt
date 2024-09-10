@@ -1,3 +1,12 @@
+track shortAccessiblty
+shortLabel SR Accessiblility Mask
+longLabel Short-Read Accessibility Mask
+type bigBed
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/accessibility/hs1.combined_mask.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/accessibilityMask.html
+group var
+priority 70
+
 track clinVar20220313
 shortLabel ClinVar
 longLabel ClinVar Variants 2022-03-13 (lifted)
