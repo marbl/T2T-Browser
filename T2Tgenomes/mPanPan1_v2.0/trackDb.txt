@@ -1,8 +1,8 @@
-# track cytoBandIdeo
-# longLabel Chromosome ideogram with cytogenetic bands
-# shortLabel cytoBandIdeo
-# bigDataUrl cytoBand.bb
-# type bigBed 5
+track cytoBandIdeo
+longLabel Chromosome ideogram with cytogenetic bands
+shortLabel cytoBandIdeo
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/pattern/mPanPan1_v2.0.ideogram.bb
+type bigBed 5
 
 include asm.trackDb.txt	# 11-19
 include rep.trackDb.txt	# 20-29
