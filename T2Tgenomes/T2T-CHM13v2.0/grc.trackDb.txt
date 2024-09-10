@@ -7,7 +7,7 @@ type bigBed 3
 visibility dense
 shortLabel Unique to GRCh
 longLabel Non-syntenic region to GRCh
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/v1_nflo_description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/v1_nflo_description.html
 priority 67
 
     track uniqHg38
@@ -36,6 +36,7 @@ longLabel Synteny to GRCh
 group grc
 type bigChain
 mouseOverField name
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/v1_nflo_description.html
 priority 68
 
 	track synHg38
