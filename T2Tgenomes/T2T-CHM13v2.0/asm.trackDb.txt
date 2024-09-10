@@ -60,7 +60,7 @@ priority 13
     type bigWig
     color 102,0,102
     priority 13.2
-    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.TC.128.bw 
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.TC.128.bw
 
     track microsatellites_GC
     parent microsatellites
