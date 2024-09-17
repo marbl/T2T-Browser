@@ -1,0 +1,4 @@
+chr12_hap1	chr19_hap1
+chr12_hap2	chr19_hap2
+chr19_hap1	chr12_hap1
+chr19_hap2	chr12_hap2
