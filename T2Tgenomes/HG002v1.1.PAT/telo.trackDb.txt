@@ -9,7 +9,7 @@ group rep
 visibility pack
 itemRgb on
 type bigBed 9 +
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/subtelomere/hg002v1.1_Sep2024/track_subtelomeres_paternal_v2.bb
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/subtelomere/hg002v1.1_Sep2024/subtelomere_track_description.html
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/subtelomere/hg002v1.1_Oct2024/track_subtelomeres_paternal_v3.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/subtelomere/hg002v1.1_Oct2024/subtelomere_track_description.html
 priority 10
 
