@@ -126,6 +126,19 @@ done
 ```
 Also for mSymSyn1 v2.1
 ```shell
+path=../path.txt
+ver=v2.1
+
+i=6
+sp=`sed -n ${i}p $path | awk '{print $1}'`
+sn=`sed -n ${i}p $path | awk '{print $3}'`
+
+for nonB in APR DR IR MR STR Z GQ
+do
+  set -x
+  aws s3 cp --profile=vgp ${sp}_$ver.nonB_$nonB.bb s3://genomeark/species/$sn/$sp/assembly_curated/repeats/
+  set +x
+done
 
 ```
 

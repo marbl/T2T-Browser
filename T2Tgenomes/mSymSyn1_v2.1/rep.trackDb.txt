@@ -577,3 +577,68 @@ priority 20
 #     visibility dense
 #     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy/mSymSyn1.chrX_hap1.bb
 #     priority 25.50
+
+track nonB
+superTrack on hide
+visibility dense
+shortLabel Non-B DNA
+longLabel Non-B DNA
+group rep
+priority 26
+html ../html/nonB.html
+
+    track nonBapr
+    shortLabel A-phased repeats
+    longLabel A-phased repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.nonB_APR.bb
+    priority 26.1
+
+    track nonBdr
+    shortLabel Direct repeats
+    longLabel Direct repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.nonB_DR.bb
+    priority 26.2
+
+    track nonBgq
+    shortLabel G-quadruplexes
+    longLabel G-quadruplexes
+    parent nonB
+    type bigBed 4
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.nonB_GQ.bb
+    priority 26.3
+
+    track nonBir
+    shortLabel Inverted repeats
+    longLabel Inverted repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.nonB_IR.bb
+    priority 26.4
+
+    track nonBmr
+    shortLabel Mirror repeats
+    longLabel Mirror repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.nonB_MR.bb
+    priority 26.5
+
+    track nonBstr
+    shortLabel Short tandem repeats
+    longLabel Short tandem repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.nonB_STR.bb
+    priority 26.6
+
+    track nonBz
+    shortLabel Z-DNA
+    longLabel Z-DNA
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.1.nonB_Z.bb
+    priority 26.7
