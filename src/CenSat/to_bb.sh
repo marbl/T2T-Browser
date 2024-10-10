@@ -28,7 +28,7 @@ do
 
   # v2.0
   aws s3 cp --profile=vgp ${nn}/${nn}.cenSat${ver}.bb s3://genomeark/species/$sn/$sp/assembly_curated/repeats/${sp}_v2.0_CenSat_${ver}.bb
-
+  ln -s ${nn}/${nn}.cenSatv2.0.bed ${sp}_v2.0_CenSat_v2.0.bed
   ## cat $nn/${nn}_rm.cenSatStrandv0.1.bed | awk '$1!="track" {print $1"\t"$2"\t"$3-2"\t"$4"\t"$5"\t"$6"\t"$7"\t"$8-2"\t"$9}' > ${sp}_v2.0_CenSatStrand_v0.1.bed
   ## bedToBigBed -type=bed9 -tab ${sp}_v2.0_CenSatStrand_v0.1.bed ../../../T2Tgenomes/${sp}_v2.0/${sp}_v2.0.sizes ${sp}_v2.0_CenSatStrand_${ver}.bb
   # Uploading v1.0 as they are as v1.1
