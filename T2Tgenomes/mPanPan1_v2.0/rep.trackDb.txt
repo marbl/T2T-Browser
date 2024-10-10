@@ -57,8 +57,8 @@ priority 21
 
     track supFam
     parent centro
-    shortLabel SuperFamily
-    longLabel Centromere Super Family
+    shortLabel AS SuperFamily
+    longLabel Alpha-Satellite Super Family
     type bigBed 9
     visibility dense
     itemRgb on
@@ -68,8 +68,8 @@ priority 21
 
     track sfStrand
     parent centro
-    shortLabel Strand
-    longLabel Strand
+    shortLabel AS Strand
+    longLabel Alpha-Satellite Strand
     type bigBed 9
     visibility dense
     itemRgb on
