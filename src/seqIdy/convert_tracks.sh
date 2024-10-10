@@ -80,10 +80,47 @@ do
   sp_ver=${sp}_v2.0
   echo "Uploading $sp_ver"
   src=$IN/$sp
-  #aws s3 --profile=vgp cp --recursive --exclude "*" --include "chr*.bb" $src s3://genomeark/species/$sn/$sp/assembly_curated/repeats/seqIdy_v1.1/
-  #sed -i "s/seqIdy\/$sp\./seqIdy_v1.1\//g" ../../T2Tgenomes/$sp_ver/rep.trackDb.txt
+  aws s3 --profile=vgp cp --recursive --exclude "*" --include "chr*.bb" $src s3://genomeark/species/$sn/$sp/assembly_curated/repeats/seqIdy_v1.1/
+  sed -i "s/seqIdy\/$sp\./seqIdy_v1.1\//g" ../../T2Tgenomes/$sp_ver/rep.trackDb.txt
 
   # Move the prior seqIdy to seqIdy_v1.0
   aws s3 --profile=vgp mv --recursive s3://genomeark/species/$sn/$sp/assembly_curated/repeats/seqIdy/ s3://genomeark/species/$sn/$sp/assembly_curated/repeats/seqIdy_v1.0/
 done
 
+# CHM13
+src=$IN/chm13
+aws s3 cp --recursive --exclude "*" --include "chr*.bb" $src s3://human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/
+
+sp=CHM13v2.0
+
+# Acro
+j=10
+rm trackDb/$sp.rep.trackDb.txt
+for hap in chr13 chr14 chr15 chr21 chr22 chrY
+do
+  echo $hap
+  echo "
+  track seqIdy$hap
+  parent seqidyAcro
+  shortLabel $hap
+  longLabel $hap
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/$hap.bb
+  priority 24.$j" >> trackDb/$sp.rep.trackDb.txt
+  j=$((j+1))
+done
+
+# Non-Acro
+j=30
+for i in $(seq 1 12) $(seq 16 20) X
+do
+  hap="chr$i"
+  echo $hap
+  echo "
+  track seqIdy$hap
+  parent seqidy
+  shortLabel $hap
+  longLabel $hap
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/$hap.bb
+  priority 24.$j" >> trackDb/$sp.rep.trackDb.txt
+  j=$((j+1))
+done
