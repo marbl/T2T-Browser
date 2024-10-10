@@ -131,7 +131,7 @@ priority 24
     shortLabel chr12_hap1_hsa2a
     longLabel mPanTro3#chr12_hap1_hsa2a
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr12_hap1_hsa2a.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr12_hap1_hsa2a.bb
     priority 24.22
 
     track seqIdychr12_hap2_hsa2a
@@ -140,7 +140,7 @@ priority 24
     shortLabel chr12_hap2_hsa2a
     longLabel mPanTro3#chr12_hap2_hsa2a
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr12_hap2_hsa2a.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr12_hap2_hsa2a.bb
     priority 24.23
 
     track seqIdychr13_hap1_hsa2b
@@ -149,7 +149,7 @@ priority 24
     shortLabel chr13_hap1_hsa2b
     longLabel mPanTro3#chr13_hap1_hsa2b
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr13_hap1_hsa2b.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr13_hap1_hsa2b.bb
     priority 24.24
 
     track seqIdychr13_hap2_hsa2b
@@ -158,7 +158,7 @@ priority 24
     shortLabel chr13_hap2_hsa2b
     longLabel mPanTro3#chr13_hap2_hsa2b
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr13_hap2_hsa2b.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr13_hap2_hsa2b.bb
     priority 24.25
 
     track seqIdychr11_hap1_hsa9
@@ -167,7 +167,7 @@ priority 24
     shortLabel chr11_hap1_hsa9
     longLabel mPanTro3#chr11_hap1_hsa9
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr11_hap1_hsa9.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr11_hap1_hsa9.bb
     priority 24.30
 
     track seqIdychr11_hap2_hsa9
@@ -176,7 +176,7 @@ priority 24
     shortLabel chr11_hap2_hsa9
     longLabel mPanTro3#chr11_hap2_hsa9
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr11_hap2_hsa9.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr11_hap2_hsa9.bb
     priority 24.31
 
     track seqIdychr14_hap1_hsa13
@@ -185,7 +185,7 @@ priority 24
     shortLabel chr14_hap1_hsa13
     longLabel mPanTro3#chr14_hap1_hsa13
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr14_hap1_hsa13.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr14_hap1_hsa13.bb
     priority 24.36
 
     track seqIdychr14_hap2_hsa13
@@ -194,7 +194,7 @@ priority 24
     shortLabel chr14_hap2_hsa13
     longLabel mPanTro3#chr14_hap2_hsa13
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr14_hap2_hsa13.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr14_hap2_hsa13.bb
     priority 24.37
 
     track seqIdychr15_hap1_hsa14
@@ -203,7 +203,7 @@ priority 24
     shortLabel chr15_hap1_hsa14
     longLabel mPanTro3#chr15_hap1_hsa14
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr15_hap1_hsa14.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr15_hap1_hsa14.bb
     priority 24.38
 
     track seqIdychr15_hap2_hsa14
@@ -212,7 +212,7 @@ priority 24
     shortLabel chr15_hap2_hsa14
     longLabel mPanTro3#chr15_hap2_hsa14
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr15_hap2_hsa14.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr15_hap2_hsa14.bb
     priority 24.39
 
     track seqIdychr16_hap1_hsa15
@@ -221,7 +221,7 @@ priority 24
     shortLabel chr16_hap1_hsa15
     longLabel mPanTro3#chr16_hap1_hsa15
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr16_hap1_hsa15.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr16_hap1_hsa15.bb
     priority 24.40
 
     track seqIdychr16_hap2_hsa15
@@ -230,7 +230,7 @@ priority 24
     shortLabel chr16_hap2_hsa15
     longLabel mPanTro3#chr16_hap2_hsa15
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr16_hap2_hsa15.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr16_hap2_hsa15.bb
     priority 24.41
 
     track seqIdychr17_hap1_hsa18
@@ -239,7 +239,7 @@ priority 24
     shortLabel chr17_hap1_hsa18
     longLabel mPanTro3#chr17_hap1_hsa18
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr17_hap1_hsa18.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr17_hap1_hsa18.bb
     priority 24.42
 
     track seqIdychr17_hap2_hsa18
@@ -248,7 +248,7 @@ priority 24
     shortLabel chr17_hap2_hsa18
     longLabel mPanTro3#chr17_hap2_hsa18
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr17_hap2_hsa18.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr17_hap2_hsa18.bb
     priority 24.43
 
     track seqIdychr22_hap1_hsa21
@@ -257,7 +257,7 @@ priority 24
     shortLabel chr22_hap1_hsa21
     longLabel mPanTro3#chr22_hap1_hsa21
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr22_hap1_hsa21.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr22_hap1_hsa21.bb
     priority 24.52
 
     track seqIdychr22_hap2_hsa21
@@ -266,7 +266,7 @@ priority 24
     shortLabel chr22_hap2_hsa21
     longLabel mPanTro3#chr22_hap2_hsa21
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr22_hap2_hsa21.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr22_hap2_hsa21.bb
     priority 24.53
 
     track seqIdychr23_hap1_hsa22
@@ -275,7 +275,7 @@ priority 24
     shortLabel chr23_hap1_hsa22
     longLabel mPanTro3#chr23_hap1_hsa22
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr23_hap1_hsa22.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr23_hap1_hsa22.bb
     priority 24.54
 
     track seqIdychr23_hap2_hsa22
@@ -284,7 +284,7 @@ priority 24
     shortLabel chr23_hap2_hsa22
     longLabel mPanTro3#chr23_hap2_hsa22
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr23_hap2_hsa22.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr23_hap2_hsa22.bb
     priority 24.55
 
     track seqIdychrY_hap2_hsaY
@@ -293,7 +293,7 @@ priority 24
     shortLabel chrY_hap2_hsaY
     longLabel mPanTro3#chrY_hap2_hsaY
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chrY_hap2_hsaY.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chrY_hap2_hsaY.bb
     priority 24.58
 
 track seqidy
@@ -314,7 +314,7 @@ priority 25
     shortLabel chr1_hap1_hsa1
     longLabel mPanTro3#chr1_hap1_hsa1
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr1_hap1_hsa1.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr1_hap1_hsa1.bb
     priority 25.10
 
     track seqIdychr1_hap2_hsa1
@@ -323,7 +323,7 @@ priority 25
     shortLabel chr1_hap2_hsa1
     longLabel mPanTro3#chr1_hap2_hsa1
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr1_hap2_hsa1.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr1_hap2_hsa1.bb
     priority 25.11
 
     track seqIdychr2_hap1_hsa3
@@ -332,7 +332,7 @@ priority 25
     shortLabel chr2_hap1_hsa3
     longLabel mPanTro3#chr2_hap1_hsa3
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr2_hap1_hsa3.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr2_hap1_hsa3.bb
     priority 25.12
 
     track seqIdychr2_hap2_hsa3
@@ -341,7 +341,7 @@ priority 25
     shortLabel chr2_hap2_hsa3
     longLabel mPanTro3#chr2_hap2_hsa3
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr2_hap2_hsa3.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr2_hap2_hsa3.bb
     priority 25.13
 
     track seqIdychr3_hap1_hsa4
@@ -350,7 +350,7 @@ priority 25
     shortLabel chr3_hap1_hsa4
     longLabel mPanTro3#chr3_hap1_hsa4
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr3_hap1_hsa4.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr3_hap1_hsa4.bb
     priority 25.14
 
     track seqIdychr3_hap2_hsa4
@@ -359,7 +359,7 @@ priority 25
     shortLabel chr3_hap2_hsa4
     longLabel mPanTro3#chr3_hap2_hsa4
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr3_hap2_hsa4.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr3_hap2_hsa4.bb
     priority 25.15
 
     track seqIdychr4_hap1_hsa5
@@ -368,7 +368,7 @@ priority 25
     shortLabel chr4_hap1_hsa5
     longLabel mPanTro3#chr4_hap1_hsa5
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr4_hap1_hsa5.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr4_hap1_hsa5.bb
     priority 25.16
 
     track seqIdychr4_hap2_hsa5
@@ -377,7 +377,7 @@ priority 25
     shortLabel chr4_hap2_hsa5
     longLabel mPanTro3#chr4_hap2_hsa5
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr4_hap2_hsa5.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr4_hap2_hsa5.bb
     priority 25.17
 
     track seqIdychr5_hap1_hsa6
@@ -386,7 +386,7 @@ priority 25
     shortLabel chr5_hap1_hsa6
     longLabel mPanTro3#chr5_hap1_hsa6
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr5_hap1_hsa6.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr5_hap1_hsa6.bb
     priority 25.18
 
     track seqIdychr5_hap2_hsa6
@@ -395,7 +395,7 @@ priority 25
     shortLabel chr5_hap2_hsa6
     longLabel mPanTro3#chr5_hap2_hsa6
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr5_hap2_hsa6.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr5_hap2_hsa6.bb
     priority 25.19
 
     track seqIdychr6_hap1_hsa7
@@ -404,7 +404,7 @@ priority 25
     shortLabel chr6_hap1_hsa7
     longLabel mPanTro3#chr6_hap1_hsa7
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr6_hap1_hsa7.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr6_hap1_hsa7.bb
     priority 25.20
 
     track seqIdychr6_hap2_hsa7
@@ -413,7 +413,7 @@ priority 25
     shortLabel chr6_hap2_hsa7
     longLabel mPanTro3#chr6_hap2_hsa7
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr6_hap2_hsa7.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr6_hap2_hsa7.bb
     priority 25.21
 
     track seqIdychr7_hap1_hsa8
@@ -422,7 +422,7 @@ priority 25
     shortLabel chr7_hap1_hsa8
     longLabel mPanTro3#chr7_hap1_hsa8
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr7_hap1_hsa8.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr7_hap1_hsa8.bb
     priority 25.22
 
     track seqIdychr7_hap2_hsa8
@@ -431,7 +431,7 @@ priority 25
     shortLabel chr7_hap2_hsa8
     longLabel mPanTro3#chr7_hap2_hsa8
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr7_hap2_hsa8.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr7_hap2_hsa8.bb
     priority 25.23
 
     track seqIdychr8_hap1_hsa10
@@ -440,7 +440,7 @@ priority 25
     shortLabel chr8_hap1_hsa10
     longLabel mPanTro3#chr8_hap1_hsa10
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr8_hap1_hsa10.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr8_hap1_hsa10.bb
     priority 25.24
 
     track seqIdychr8_hap2_hsa10
@@ -449,7 +449,7 @@ priority 25
     shortLabel chr8_hap2_hsa10
     longLabel mPanTro3#chr8_hap2_hsa10
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr8_hap2_hsa10.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr8_hap2_hsa10.bb
     priority 25.25
 
     track seqIdychr9_hap1_hsa11
@@ -458,7 +458,7 @@ priority 25
     shortLabel chr9_hap1_hsa11
     longLabel mPanTro3#chr9_hap1_hsa11
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr9_hap1_hsa11.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr9_hap1_hsa11.bb
     priority 25.26
 
     track seqIdychr9_hap2_hsa11
@@ -467,7 +467,7 @@ priority 25
     shortLabel chr9_hap2_hsa11
     longLabel mPanTro3#chr9_hap2_hsa11
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr9_hap2_hsa11.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr9_hap2_hsa11.bb
     priority 25.27
 
     track seqIdychr10_hap1_hsa12
@@ -476,7 +476,7 @@ priority 25
     shortLabel chr10_hap1_hsa12
     longLabel mPanTro3#chr10_hap1_hsa12
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr10_hap1_hsa12.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr10_hap1_hsa12.bb
     priority 25.28
 
     track seqIdychr10_hap2_hsa12
@@ -485,7 +485,7 @@ priority 25
     shortLabel chr10_hap2_hsa12
     longLabel mPanTro3#chr10_hap2_hsa12
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr10_hap2_hsa12.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr10_hap2_hsa12.bb
     priority 25.29
 
     track seqIdychr18_hap1_hsa16
@@ -494,7 +494,7 @@ priority 25
     shortLabel chr18_hap1_hsa16
     longLabel mPanTro3#chr18_hap1_hsa16
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr18_hap1_hsa16.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr18_hap1_hsa16.bb
     priority 25.44
 
     track seqIdychr18_hap2_hsa16
@@ -503,7 +503,7 @@ priority 25
     shortLabel chr18_hap2_hsa16
     longLabel mPanTro3#chr18_hap2_hsa16
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr18_hap2_hsa16.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr18_hap2_hsa16.bb
     priority 25.45
 
     track seqIdychr19_hap1_hsa17
@@ -512,7 +512,7 @@ priority 25
     shortLabel chr19_hap1_hsa17
     longLabel mPanTro3#chr19_hap1_hsa17
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr19_hap1_hsa17.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr19_hap1_hsa17.bb
     priority 25.46
 
     track seqIdychr19_hap2_hsa17
@@ -521,7 +521,7 @@ priority 25
     shortLabel chr19_hap2_hsa17
     longLabel mPanTro3#chr19_hap2_hsa17
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr19_hap2_hsa17.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr19_hap2_hsa17.bb
     priority 25.47
 
     track seqIdychr20_hap1_hsa19
@@ -530,7 +530,7 @@ priority 25
     shortLabel chr20_hap1_hsa19
     longLabel mPanTro3#chr20_hap1_hsa19
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr20_hap1_hsa19.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr20_hap1_hsa19.bb
     priority 25.48
 
     track seqIdychr20_hap2_hsa19
@@ -539,7 +539,7 @@ priority 25
     shortLabel chr20_hap2_hsa19
     longLabel mPanTro3#chr20_hap2_hsa19
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr20_hap2_hsa19.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr20_hap2_hsa19.bb
     priority 25.49
 
     track seqIdychr21_hap1_hsa20
@@ -548,7 +548,7 @@ priority 25
     shortLabel chr21_hap1_hsa20
     longLabel mPanTro3#chr21_hap1_hsa20
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr21_hap1_hsa20.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr21_hap1_hsa20.bb
     priority 25.50
 
     track seqIdychr21_hap2_hsa20
@@ -557,7 +557,7 @@ priority 25
     shortLabel chr21_hap2_hsa20
     longLabel mPanTro3#chr21_hap2_hsa20
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chr21_hap2_hsa20.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chr21_hap2_hsa20.bb
     priority 25.51
 
     track seqIdychrX_hap1_hsaX
@@ -566,7 +566,7 @@ priority 25
     shortLabel chrX_hap1_hsaX
     longLabel mPanTro3#chrX_hap1_hsaX
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy/mPanTro3.chrX_hap1_hsaX.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/seqIdy_v1.1/chrX_hap1_hsaX.bb
     priority 25.57
 
 track nonB

@@ -131,7 +131,7 @@ priority 24
     shortLabel chr12_mat_hsa2a
     longLabel mPanPan1#chr12_mat_hsa2a
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr12_mat_hsa2a.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr12_mat_hsa2a.bb
     priority 24.11
 
     track seqIdychr12_pat_hsa2a
@@ -140,7 +140,7 @@ priority 24
     shortLabel chr12_pat_hsa2a
     longLabel mPanPan1#chr12_pat_hsa2a
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr12_pat_hsa2a.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr12_pat_hsa2a.bb
     priority 24.12
 
     track seqIdychr13_mat_hsa2b
@@ -149,7 +149,7 @@ priority 24
     shortLabel chr13_mat_hsa2b
     longLabel mPanPan1#chr13_mat_hsa2b
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr13_mat_hsa2b.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr13_mat_hsa2b.bb
     priority 24.13
 
     track seqIdychr13_pat_hsa2b
@@ -158,7 +158,7 @@ priority 24
     shortLabel chr13_pat_hsa2b
     longLabel mPanPan1#chr13_pat_hsa2b
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr13_pat_hsa2b.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr13_pat_hsa2b.bb
     priority 24.14
 
     track seqIdychr11_mat_hsa9
@@ -167,7 +167,7 @@ priority 24
     shortLabel chr11_mat_hsa9
     longLabel mPanPan1#chr11_mat_hsa9
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr11_mat_hsa9.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr11_mat_hsa9.bb
     priority 24.15
 
     track seqIdychr11_pat_hsa9
@@ -176,7 +176,7 @@ priority 24
     shortLabel chr11_pat_hsa9
     longLabel mPanPan1#chr11_pat_hsa9
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr11_pat_hsa9.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr11_pat_hsa9.bb
     priority 24.16
 
     track seqIdychr14_mat_hsa13
@@ -185,7 +185,7 @@ priority 24
     shortLabel chr14_mat_hsa13
     longLabel mPanPan1#chr14_mat_hsa13
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr14_mat_hsa13.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr14_mat_hsa13.bb
     priority 24.17
 
     track seqIdychr14_pat_hsa13
@@ -194,7 +194,7 @@ priority 24
     shortLabel chr14_pat_hsa13
     longLabel mPanPan1#chr14_pat_hsa13
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr14_pat_hsa13.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr14_pat_hsa13.bb
     priority 24.18
 
     track seqIdychr15_mat_hsa14
@@ -203,7 +203,7 @@ priority 24
     shortLabel chr15_mat_hsa14
     longLabel mPanPan1#chr15_mat_hsa14
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr15_mat_hsa14.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr15_mat_hsa14.bb
     priority 24.19
 
     track seqIdychr15_pat_hsa14
@@ -212,7 +212,7 @@ priority 24
     shortLabel chr15_pat_hsa14
     longLabel mPanPan1#chr15_pat_hsa14
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr15_pat_hsa14.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr15_pat_hsa14.bb
     priority 24.20
 
     track seqIdychr16_mat_hsa15
@@ -221,7 +221,7 @@ priority 24
     shortLabel chr16_mat_hsa15
     longLabel mPanPan1#chr16_mat_hsa15
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr16_mat_hsa15.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr16_mat_hsa15.bb
     priority 24.21
 
     track seqIdychr16_pat_hsa15
@@ -230,7 +230,7 @@ priority 24
     shortLabel chr16_pat_hsa15
     longLabel mPanPan1#chr16_pat_hsa15
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr16_pat_hsa15.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr16_pat_hsa15.bb
     priority 24.22
 
     track seqIdychr17_mat_hsa18
@@ -239,7 +239,7 @@ priority 24
     shortLabel chr17_mat_hsa18
     longLabel mPanPan1#chr17_mat_hsa18
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr17_mat_hsa18.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr17_mat_hsa18.bb
     priority 24.27
 
     track seqIdychr17_pat_hsa18
@@ -248,7 +248,7 @@ priority 24
     shortLabel chr17_pat_hsa18
     longLabel mPanPan1#chr17_pat_hsa18
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr17_pat_hsa18.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr17_pat_hsa18.bb
     priority 24.28
 
     track seqIdychr22_mat_hsa21
@@ -257,7 +257,7 @@ priority 24
     shortLabel chr22_mat_hsa21
     longLabel mPanPan1#chr22_mat_hsa21
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr22_mat_hsa21.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr22_mat_hsa21.bb
     priority 24.29
 
     track seqIdychr22_pat_hsa21
@@ -266,7 +266,7 @@ priority 24
     shortLabel chr22_pat_hsa21
     longLabel mPanPan1#chr22_pat_hsa21
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr22_pat_hsa21.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr22_pat_hsa21.bb
     priority 24.30
 
     track seqIdychr23_mat_hsa22
@@ -275,7 +275,7 @@ priority 24
     shortLabel chr23_mat_hsa22
     longLabel mPanPan1#chr23_mat_hsa22
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr23_mat_hsa22.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr23_mat_hsa22.bb
     priority 24.31
 
     track seqIdychr23_pat_hsa22
@@ -284,7 +284,7 @@ priority 24
     shortLabel chr23_pat_hsa22
     longLabel mPanPan1#chr23_pat_hsa22
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr23_pat_hsa22.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr23_pat_hsa22.bb
     priority 24.32
 
     track seqIdychrY_pat_hsaY
@@ -293,7 +293,7 @@ priority 24
     shortLabel chrY_pat_hsaY
     longLabel mPanPan1#chrY_pat_hsaY
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chrY_pat_hsaY.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chrY_pat_hsaY.bb
     priority 24.33
 
 track seqidy
@@ -314,7 +314,7 @@ priority 25
     shortLabel chr1_mat_hsa1
     longLabel mPanPan1#chr1_mat_hsa1
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr1_mat_hsa1.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr1_mat_hsa1.bb
     priority 25.10
 
     track seqIdychr1_pat_hsa1
@@ -323,7 +323,7 @@ priority 25
     shortLabel chr1_pat_hsa1
     longLabel mPanPan1#chr1_pat_hsa1
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr1_pat_hsa1.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr1_pat_hsa1.bb
     priority 25.11
 
     track seqIdychr2_mat_hsa3
@@ -332,7 +332,7 @@ priority 25
     shortLabel chr2_mat_hsa3
     longLabel mPanPan1#chr2_mat_hsa3
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr2_mat_hsa3.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr2_mat_hsa3.bb
     priority 25.12
 
     track seqIdychr2_pat_hsa3
@@ -341,7 +341,7 @@ priority 25
     shortLabel chr2_pat_hsa3
     longLabel mPanPan1#chr2_pat_hsa3
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr2_pat_hsa3.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr2_pat_hsa3.bb
     priority 25.13
 
     track seqIdychr3_mat_hsa4
@@ -350,7 +350,7 @@ priority 25
     shortLabel chr3_mat_hsa4
     longLabel mPanPan1#chr3_mat_hsa4
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr3_mat_hsa4.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr3_mat_hsa4.bb
     priority 25.14
 
     track seqIdychr3_pat_hsa4
@@ -359,7 +359,7 @@ priority 25
     shortLabel chr3_pat_hsa4
     longLabel mPanPan1#chr3_pat_hsa4
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr3_pat_hsa4.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr3_pat_hsa4.bb
     priority 25.15
 
     track seqIdychr4_mat_hsa5
@@ -368,7 +368,7 @@ priority 25
     shortLabel chr4_mat_hsa5
     longLabel mPanPan1#chr4_mat_hsa5
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr4_mat_hsa5.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr4_mat_hsa5.bb
     priority 25.16
 
     track seqIdychr4_pat_hsa5
@@ -377,7 +377,7 @@ priority 25
     shortLabel chr4_pat_hsa5
     longLabel mPanPan1#chr4_pat_hsa5
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr4_pat_hsa5.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr4_pat_hsa5.bb
     priority 25.17
 
     track seqIdychr5_mat_hsa6
@@ -386,7 +386,7 @@ priority 25
     shortLabel chr5_mat_hsa6
     longLabel mPanPan1#chr5_mat_hsa6
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr5_mat_hsa6.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr5_mat_hsa6.bb
     priority 25.18
 
     track seqIdychr5_pat_hsa6
@@ -395,7 +395,7 @@ priority 25
     shortLabel chr5_pat_hsa6
     longLabel mPanPan1#chr5_pat_hsa6
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr5_pat_hsa6.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr5_pat_hsa6.bb
     priority 25.19
 
     track seqIdychr6_mat_hsa7
@@ -404,7 +404,7 @@ priority 25
     shortLabel chr6_mat_hsa7
     longLabel mPanPan1#chr6_mat_hsa7
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr6_mat_hsa7.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr6_mat_hsa7.bb
     priority 25.20
 
     track seqIdychr6_pat_hsa7
@@ -413,7 +413,7 @@ priority 25
     shortLabel chr6_pat_hsa7
     longLabel mPanPan1#chr6_pat_hsa7
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr6_pat_hsa7.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr6_pat_hsa7.bb
     priority 25.21
 
     track seqIdychr7_mat_hsa8
@@ -422,7 +422,7 @@ priority 25
     shortLabel chr7_mat_hsa8
     longLabel mPanPan1#chr7_mat_hsa8
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr7_mat_hsa8.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr7_mat_hsa8.bb
     priority 25.22
 
     track seqIdychr7_pat_hsa8
@@ -431,7 +431,7 @@ priority 25
     shortLabel chr7_pat_hsa8
     longLabel mPanPan1#chr7_pat_hsa8
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr7_pat_hsa8.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr7_pat_hsa8.bb
     priority 25.23
 
     track seqIdychr8_mat_hsa10
@@ -440,7 +440,7 @@ priority 25
     shortLabel chr8_mat_hsa10
     longLabel mPanPan1#chr8_mat_hsa10
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr8_mat_hsa10.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr8_mat_hsa10.bb
     priority 25.24
 
     track seqIdychr8_pat_hsa10
@@ -449,7 +449,7 @@ priority 25
     shortLabel chr8_pat_hsa10
     longLabel mPanPan1#chr8_pat_hsa10
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr8_pat_hsa10.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr8_pat_hsa10.bb
     priority 25.25
 
     track seqIdychr9_mat_hsa11
@@ -458,7 +458,7 @@ priority 25
     shortLabel chr9_mat_hsa11
     longLabel mPanPan1#chr9_mat_hsa11
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr9_mat_hsa11.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr9_mat_hsa11.bb
     priority 25.26
 
     track seqIdychr9_pat_hsa11
@@ -467,7 +467,7 @@ priority 25
     shortLabel chr9_pat_hsa11
     longLabel mPanPan1#chr9_pat_hsa11
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr9_pat_hsa11.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr9_pat_hsa11.bb
     priority 25.27
 
     track seqIdychr10_mat_hsa12
@@ -476,7 +476,7 @@ priority 25
     shortLabel chr10_mat_hsa12
     longLabel mPanPan1#chr10_mat_hsa12
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr10_mat_hsa12.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr10_mat_hsa12.bb
     priority 25.28
 
     track seqIdychr10_pat_hsa12
@@ -485,7 +485,7 @@ priority 25
     shortLabel chr10_pat_hsa12
     longLabel mPanPan1#chr10_pat_hsa12
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr10_pat_hsa12.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr10_pat_hsa12.bb
     priority 25.29
 
     track seqIdychr18_mat_hsa16
@@ -494,7 +494,7 @@ priority 25
     shortLabel chr18_mat_hsa16
     longLabel mPanPan1#chr18_mat_hsa16
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr18_mat_hsa16.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr18_mat_hsa16.bb
     priority 25.44
 
     track seqIdychr18_pat_hsa16
@@ -503,7 +503,7 @@ priority 25
     shortLabel chr18_pat_hsa16
     longLabel mPanPan1#chr18_pat_hsa16
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr18_pat_hsa16.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr18_pat_hsa16.bb
     priority 25.45
 
     track seqIdychr19_mat_hsa17
@@ -512,7 +512,7 @@ priority 25
     shortLabel chr19_mat_hsa17
     longLabel mPanPan1#chr19_mat_hsa17
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr19_mat_hsa17.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr19_mat_hsa17.bb
     priority 25.46
 
     track seqIdychr19_pat_hsa17
@@ -521,7 +521,7 @@ priority 25
     shortLabel chr19_pat_hsa17
     longLabel mPanPan1#chr19_pat_hsa17
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr19_pat_hsa17.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr19_pat_hsa17.bb
     priority 25.47
 
     track seqIdychr20_mat_hsa19
@@ -530,7 +530,7 @@ priority 25
     shortLabel chr20_mat_hsa19
     longLabel mPanPan1#chr20_mat_hsa19
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr20_mat_hsa19.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr20_mat_hsa19.bb
     priority 25.48
 
     track seqIdychr20_pat_hsa19
@@ -539,7 +539,7 @@ priority 25
     shortLabel chr20_pat_hsa19
     longLabel mPanPan1#chr20_pat_hsa19
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr20_pat_hsa19.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr20_pat_hsa19.bb
     priority 25.49
 
     track seqIdychr21_mat_hsa20
@@ -548,7 +548,7 @@ priority 25
     shortLabel chr21_mat_hsa20
     longLabel mPanPan1#chr21_mat_hsa20
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr21_mat_hsa20.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr21_mat_hsa20.bb
     priority 25.50
 
     track seqIdychr21_pat_hsa20
@@ -557,7 +557,7 @@ priority 25
     shortLabel chr21_pat_hsa20
     longLabel mPanPan1#chr21_pat_hsa20
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chr21_pat_hsa20.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chr21_pat_hsa20.bb
     priority 25.51
 
     track seqIdychrX_mat_hsaX
@@ -566,7 +566,7 @@ priority 25
     shortLabel chrX_mat_hsaX
     longLabel mPanPan1#chrX_mat_hsaX
     visibility dense
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy/mPanPan1.chrX_mat_hsaX.bb
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chrX_mat_hsaX.bb
     priority 25.57
 
 track nonB
