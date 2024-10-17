@@ -72,11 +72,17 @@ with open(gff3_file, "r") as file, open(geneType, "w") as gene_type_out, open(na
 				gene_biotype = gene_biotype_match.group(1)
 			else:
 				gene_biotype = ""
-			id_match = re.search(r"ID=([^;]+)", attributes)
+			
+			# Extract transcript_id, if not ID from feature. transcript_id used for CAT annotation.
+			id_match = re.search(r"transcript_id=([^;]+)", attributes)
 			if id_match:
 				id = id_match.group(1)
 			else:
-				id = ""
+				id_match = re.search(r"ID=([^;]+)", attributes)
+				if id_match:
+					id = id_match.group(1)
+				else:
+					id = ""
 			
 			gene_type_out.write(f"{id}\t{gene_biotype}\n")
 			write_rgb_codes(id, gene_biotype)
@@ -101,16 +107,20 @@ with open(gff3_file, "r") as file, open(geneType, "w") as gene_type_out, open(na
 			
 			
 
-		# Extract ID from transcript feature
+		# Extract transcript_id, if not ID from transcript feature. transcript_id used for CAT annotation.
+		# RefSeq Liftoff was ok with ID
 		# Duplicate gene_name to match the 3 column requirements
 		# if not, genePredToBigGenePred gets confused
 		elif feature_type == "transcript":
-			id_match = re.search(r"ID=([^;]+)", attributes)
-			has_transcript = True
+			id_match = re.search(r"transcript_id=([^;]+)", attributes)
 			if id_match:
 				id = id_match.group(1)
 			else:
-				id = ""
+				id_match = re.search(r"ID=([^;]+)", attributes)
+				if id_match:
+					id = id_match.group(1)
+				else:
+					id = ""
 
 			# Write the transcript ID and gene_biotype to the output file
 			gene_type_out.write(f"{id}\t{gene_biotype}\n")
