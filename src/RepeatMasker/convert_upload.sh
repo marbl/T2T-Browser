@@ -11,7 +11,6 @@ path=../../path.txt
 # Extracted with tar xvf, creates directory forArang
 # cd forArang
 
-#:<<'END'
 # For the non-trio genomes, v1.1
 for i in $(seq 3 6)
 do
@@ -57,9 +56,10 @@ do
   aws s3 cp --profile=vgp --no-progress ${sp}_v2.0.RepeatMasker_v1.2.align.bb s3://genomeark/species/$sn/$sp/assembly_curated/repeats/
   set +x
 done
-#END
+
 
 # Fix mPanPan1 to use pri and alt, alt extracted from hap1 and hap2 (while waiting for alt)
+
 for i in $(seq 2 2)
 do
   set -x
@@ -100,4 +100,38 @@ do
 
   set +x
 done
+#END
 
+# Received newer alt for mPanPan; hopefully this fixes it.
+# Increasing version to v1.2.1
+
+for i in $(seq 2 2)
+do
+  set -x
+  sp=`sed -n ${i}p $path | awk '{print $1}'`
+  ss=`sed -n ${i}p $path | awk '{print $2}'`
+  sn=`sed -n ${i}p $path | awk '{print $3}'`
+  
+  echo "Extract pri, hap1 and hap2"
+  #bigBedToBed PanPan_primary.bb PanPan_primary.bed
+  bigBedToBed ${ss}_alt.bb ${ss}_alt.bed
+  
+  cat ${ss}_primary.bed | sed 's/LINE\/Penelope/PLE/g' >  ${sp}_v2.0.RepeatMasker_v1.2.1.bed
+  cat ${ss}_alt.bed     | sed 's/LINE\/Penelope/PLE/g' >> ${sp}_v2.0.RepeatMasker_v1.2.1.bed
+
+  bedToBigBed -type=bed9+5 -as=bigRmskBed.as -tab ${sp}_v2.0.RepeatMasker_v1.2.1.bed ../../../T2Tgenomes/${sp}_v2.0/${sp}_v2.0.sizes ${sp}_v2.0.RepeatMasker_v1.2.1.bb
+  
+  # For .align.bb
+  # bigBedToBed ${ss}_primary.align.bb ${ss}_primary.align.bed
+  bigBedToBed ${ss}_alt.align.bb ${ss}_alt.align.bed
+  cat ${ss}_primary.align.bed | sed 's/LINE\/Penelope/PLE/g' >  ${sp}_v2.0.RepeatMasker_v1.2.1.align.bed
+  cat ${ss}_alt.align.bed     | sed 's/LINE\/Penelope/PLE/g' >> ${sp}_v2.0.RepeatMasker_v1.2.1.align.bed
+  
+  bedToBigBed -type=bed3+14 -as=bigRmskAlignBed.as -tab ${sp}_v2.0.RepeatMasker_v1.2.1.align.bed ../../../T2Tgenomes/${sp}_v2.0/${sp}_v2.0.sizes ${sp}_v2.0.RepeatMasker_v1.2.1.align.bb
+  
+  echo "Upload"
+  aws s3 cp --profile=vgp ${sp}_v2.0.RepeatMasker_v1.2.1.bb       s3://genomeark/species/$sn/$sp/assembly_curated/repeats/
+  aws s3 cp --profile=vgp ${sp}_v2.0.RepeatMasker_v1.2.1.align.bb s3://genomeark/species/$sn/$sp/assembly_curated/repeats/
+
+  set +x
+done
