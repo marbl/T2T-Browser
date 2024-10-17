@@ -1,3 +1,23 @@
+# CAT + RefSeq Consensus
+track catRefGene
+type bigBed 12 +
+visibility dense
+group genes
+itemRgb on 
+shortLabel CAT+RefSeq Consensus
+longLabel CAT+RefSeq Consensus Protein Coding Gene Annotation v3.0 10/2024
+baseColorDefault genomicCodons
+html ../html/catGene.html
+priority 40
+labelFields name,name2
+defaultLabelFields name2
+labelSeparator ","
+searchIndex name,name2
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/gene/mGorGor1_v2.0_CatRefConsensus_v3.bb
+searchTrix https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/gene/mGorGor1_v2.0_CatRefConsensus_v3.ix
+searchTable mGorGor1_v2.0_CatRefConsensus_v3
+
+# RefSeq Gene Annotation
 track refGene
 type bigGenePred
 visibility dense
@@ -14,7 +34,9 @@ defaultLabelFields name2
 labelSeparator ","
 searchIndex name,name2
 searchTrix https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/gene/mGorGor1_refGene.ix
+searchTable mGorGor1_refGene
 
+# CAT / LiftOff
 track catGene
 type bigGenePred
 visibility dense
@@ -30,7 +52,7 @@ labelFields name2,name,geneId,sourceTranscript
 defaultLabelFields name2
 labelSeparator ","
 
-### Big Bed definitions for TOGA
+# Big Bed definitions for TOGA
 # TOGA default annotation with hg38 as reference
 track HLTOGAannotvsHg38v1BIG
 shortLabel TOGA hg38

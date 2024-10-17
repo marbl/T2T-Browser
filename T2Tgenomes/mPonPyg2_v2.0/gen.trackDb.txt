@@ -1,3 +1,23 @@
+# CAT + RefSeq Consensus
+track catRefGene
+type bigBed 12 +
+visibility dense
+group genes
+itemRgb on 
+shortLabel CAT+RefSeq Consensus
+longLabel CAT+RefSeq Consensus Protein Coding Gene Annotation v3.0 10/2024
+baseColorDefault genomicCodons
+html ../html/catGene.html
+priority 40
+labelFields name,name2
+defaultLabelFields name2
+labelSeparator ","
+searchIndex name,name2
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/gene/mPonPyg2_v2.0_CatRefConsensus_v3.bb
+searchTrix https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/gene/mPonPyg2_v2.0_CatRefConsensus_v3.ix
+searchTable mPonPyg2_v2.0_CatRefConsensus_v3
+
+# RefSeq Gene Annotation
 track refGene
 type bigGenePred
 visibility dense
