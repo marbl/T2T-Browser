@@ -34,4 +34,16 @@ priority 61
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/epi/winnowmap.dip.ONT.modkit_5mC.bw
     html ../html/epi5mC.html
 
-
+track repliSeq
+visibility full
+shortLabel Repli-Seq
+longLabel Replication Sequencing
+type bigWig
+group reg
+html ../html/repliseq.html
+maxHeightPixels 100:32:16
+autoScale on
+graphTypeDefault bar
+gridDefault on
+priority 62
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/epi/mPonAbe1_v2.0_RepliSeq_v1.0.bw
