@@ -28,7 +28,7 @@ priority 20
     longLabel Centromeric Satellite Strand Annotation
     group rep
     type bigBed 9
-    visibility dense
+    visibility hide
     itemRgb on
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0_CenSatStrand_v2.0.bb
     html ../html/censat.html
@@ -633,3 +633,13 @@ html ../html/nonB.html
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_Z.bb
     priority 26.7
+
+track numt
+shortLabel NUMT
+longLabel Nuclear-Mitochondrial DNA segment
+type bigBed 3
+visibility dense
+group rep
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.numts_v1.0.bb
+html ../html/numt.html
+priority 27
