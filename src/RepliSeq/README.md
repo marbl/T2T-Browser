@@ -2,7 +2,6 @@
 
 Repli-seq data received from Yang Zhang from Jian Ma Lab: http://genome.compbio.cs.cmu.edu:8008/~yangz6/Primate_T2T_RT/
 
-
 ```
 # For CHM13
 4DN_GM12878_rep1.bw
@@ -43,6 +42,11 @@ s3://genomeark/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/epi/mS
 ```shell
 module load aws
 
+# CHM13
+aws s3 cp 4DN_GM12878_rep1.bw s3://human-pangenomics/T2T/browser/CHM13/bbi/repliSeq_GM12878_v1.bw
+aws s3 cp 4DN_HFF_rep1.bw s3://human-pangenomics/T2T/browser/CHM13/bbi/repliSeq_HFFc6_v1.bw
+
+# Primates
 aws s3 cp --profile=vgp Gorilla_EB_GorGor1.primary.simple_chrom.bw s3://genomeark/species/Gorilla_gorilla/mGorGor1/assembly_curated/epi/mGorGor1_v2.0_RepliSeq_v1.0.bw
 aws s3 cp --profile=vgp Bonobo_mPanPan1.primary.simple_chrom.bw s3://genomeark/species/Pan_paniscus/mPanPan1/assembly_curated/epi/mPanPan1_v2.0_RepliSeq_v1.0.bw
 aws s3 cp --profile=vgp Chimpanzee_mPanTro3.primary.simple_chrom.bw s3://genomeark/species/Pan_troglodytes/mPanTro3/assembly_curated/epi/mPanTro3_v2.0_RepliSeq_v1.0.bw

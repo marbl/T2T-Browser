@@ -136,8 +136,8 @@ priority 60
 
 track T2T_Encode
 shortLabel T2T Encode
-html encode/encode_description.html
 longLabel T2T Encode Reanalysis
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/encode.html
 group reg
 priority 65
 compositeTrack on
@@ -1735,3 +1735,28 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     subGroups cell=ecopm ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
+track repliSeq
+superTrack on
+visibility full
+shortLabel Repli-Seq
+longLabel Replication Sequencing
+group reg
+type bigWig
+html ../html/repliseq.html
+maxHeightPixels 100:32:16
+autoScale on
+graphTypeDefault bar
+gridDefault on
+priority 66
+
+  track repliSeq_GM12878
+  shortLabel Repli-Seq GM12878
+  longLabel Replication Sequencing from GM12878, 4DN
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/repliSeq_GM12878_v1.bw
+  parent repliSeq
+
+  track repliSeq_HFFc6
+  shortLabel Repli-Seq HFFc6
+  longLabel Replication Sequencing from HFFc6, 4DN
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/repliSeq_HFFc6_v1.bw
+  parent repliSeq
