@@ -17,27 +17,27 @@ do
 done
 ```
 
-## Rename chroms for mSymSyn1_v2.1
+## Rename chroms for mSymSyn1_v2.0-v2.1
 Checking mSymSyn1 track, seems like it's neither v2.0 nor v2.1.
+Received updated file for v2.1 on Oct. 18
 
 ```shell
-bigBedToBed mSymSyn1.numts.bb mSymSyn1_v2.0.numts.bed
-size=../../T2Tgenomes/mSymSyn1_v2.0/mSymSyn1_v2.0.sizes
-bedToBigBed mSymSyn1_v2.0.numts.bed $size mSymSyn1_v2.0.numts.bb
-# End coordinate 113282327 bigger than chr12_hap2 size of 101944316 line 141 of mSymSyn1_v2.0.numts.bed
-
-size=../../T2Tgenomes/mSymSyn1_v2.1/mSymSyn1_v2.1.sizes
-bedToBigBed mSymSyn1_v2.0.numts.bed $size mSymSyn1_v2.0.numts.bb
-# End coordinate 98079278 bigger than chr19_hap1 size of 98029838 line 403 of mSymSyn1_v2.0.numts.bed
+ln -s ../../src/update_mSymSyn1_tracks.sh
+./update_mSymSyn1_tracks.sh mSymSyn1.numts.bb mSymSyn1_v2.0.numts_v1.0.bb -type=bed3 v2.0
+ln -s mSymSyn1.numts.bb mSymSyn1_v2.1.numts_v1.0.bb
 ```
 
-Waiting to be resolved. Trek conversion can be done with
-
+Upload
 ```shell
-update_mSymSyn1_v2.0_track_to_v2.1.sh in.bb out.bb -type=bed3
+module load aws
+sn=Symphalangus_syndactylus
+sp=mSymSyn1
+aws s3 cp --profile=vgp mSymSyn1_v2.0.numts_v1.0.bb s3://genomeark/species/$sn/$sp/assembly_curated/repeats/
+aws s3 cp --profile=vgp mSymSyn1_v2.1.numts_v1.0.bb s3://genomeark/species/$sn/$sp/assembly_curated/repeats/
 ```
 
-## bigDataUrl
+## Track Description
+Collect URLs
 ```shell
 path=../path.txt
 for i in $(seq 1 5)
@@ -57,10 +57,11 @@ bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/asse
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/repeats/mPonPyg2_v2.0.numts_v1.0.bb
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.numts_v1.0.bb
 ```
+Track description template
 ```
 track numt
 shortLabel NUMT
-longLabel Nuclear-Mitochondrial DNA segment
+longLabel Nuclear-Mitochondrial DNA Segment
 type bigBed 3
 visibility dense
 group rep

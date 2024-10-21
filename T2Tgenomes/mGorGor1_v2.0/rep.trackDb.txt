@@ -636,7 +636,7 @@ html ../html/nonB.html
 
 track numt
 shortLabel NUMT
-longLabel Nuclear-Mitochondrial DNA segment
+longLabel Nuclear-Mitochondrial DNA Segment
 type bigBed 3
 visibility dense
 group rep

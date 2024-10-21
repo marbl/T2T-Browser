@@ -640,12 +640,12 @@ html ../html/nonB.html
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_Z.bb
     priority 26.7
 
-# track numt
-# shortLabel NUMT
-# longLabel Nuclear-Mitochondrial DNA segment
-# type bigBed 3
-# visibility dense
-# group rep
-# bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.numts_v1.0.bb
-# html ../html/numt.html
-# priority 27
+track numt
+shortLabel NUMT
+longLabel Nuclear-Mitochondrial DNA Segment
+type bigBed 3
+visibility dense
+group rep
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.numts_v1.0.bb
+html ../html/numt.html
+priority 27
