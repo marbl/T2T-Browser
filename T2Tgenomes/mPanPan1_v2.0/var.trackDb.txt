@@ -1,5 +1,5 @@
 track access
-shortLabel Accessibility
+shortLabel SR Accessibility
 longLabel Short Read Accessibility Mask
 group var
 visibility dense
@@ -8,3 +8,21 @@ bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/asse
 html ../html/accessibilityMask.html
 mouseOverField name
 priority 81
+
+track variant
+superTrack on
+shortLabel VariantCall
+longLabel Varant Call from Population
+group var
+type vcfTabix
+hapClusterEnabled true
+maxWindowToDraw 3000000
+html ../html/variant.html
+priority 82
+	
+	track varBon
+	parent variant
+	shortLabel Bonobo
+	longLabel Bonobo
+	visibility squish
+	bigDataUrl bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/variants/mPanPan1_v2.0.pri.bonobo.t2t.beagle4.biallelic_snps.autosomes.vcf.gz

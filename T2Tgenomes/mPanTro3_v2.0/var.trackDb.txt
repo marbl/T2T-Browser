@@ -1,5 +1,5 @@
 track access
-shortLabel Accessibility
+shortLabel SR Accessibility
 longLabel Short Read Accessibility Mask
 group var
 visibility dense
@@ -7,4 +7,43 @@ type bigBed 3
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.accessibility_mask.bb
 html ../html/accessibilityMask.html
 mouseOverField name
-priority 200
+priority 81
+
+track variant
+superTrack on
+shortLabel VariantCall
+longLabel Varant Call from Population
+group var
+type vcfTabix
+hapClusterEnabled true
+maxWindowToDraw 3000000
+html ../html/variant.html
+priority 82
+	
+	track varCT
+	parent variant
+	shortLabel Central
+	longLabel Central Chimpanzee
+	visibility squish
+	bigDataUrl bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.central_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
+
+	track varEA
+	parent variant
+	shortLabel Eastern
+	longLabel Eastern Chimpanzee
+	visibility squish
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.eastern_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
+
+	track varNG
+	parent variant
+	shortLabel Nigerian
+	longLabel Nigerian Chimpanzee
+	visibility squish
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.nigerian_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
+
+	track varWS
+	parent variant
+	shortLabel Western
+	longLabel Western Chimpanzee
+	visibility squish
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.western_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
