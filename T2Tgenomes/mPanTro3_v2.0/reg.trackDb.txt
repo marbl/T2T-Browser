@@ -10,7 +10,7 @@ maxHeightPixels 100:32:16
 autoScale off
 graphTypeDefault bar
 gridDefault on
-priority 5
+priority 61
 
     track ont5mC_CpG
     parent methylation
@@ -19,7 +19,7 @@ priority 5
     type bigWig 0 1
     visibility full
     viewLimits 0:1
-    priority 5.1
+    priority 61.1
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/epi/minimap.dip.ONT.modbam2bed_5mC_CpG.bw
     html ../html/cpgMethyl.html
 
@@ -30,7 +30,7 @@ priority 5
     type bigWig 0 100
     visibility full
     viewLimits 0:100
-    priority 5.2
+    priority 61.2
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/epi/winnowmap.dip.ONT.modkit_5mC.bw
     html ../html/epi5mC.html
 
