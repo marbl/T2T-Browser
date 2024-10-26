@@ -1339,7 +1339,7 @@ priority 600
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
 	priority 601
 
-	track cons2score
+	track cons2score2
 	shortLabel Score (Approach2)
 	longLabel Approach 2 Conservation Score v0.2
 	parent phast
