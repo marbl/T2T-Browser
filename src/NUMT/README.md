@@ -69,3 +69,25 @@ bigDataUrl ...
 html ../html/numt.html
 priority 27
 ```
+
+## T2T-CHM13
+Track received for CHM13.
+
+Upload:
+```shell
+module load aws
+aws s3 cp CHM13.numts.bb s3://human-pangenomics/T2T/browser/CHM13/bbi/numt_v0.1.bb
+```
+
+## Track description
+```
+track numt
+shortLabel NUMT
+longLabel Nuclear-Mitochondrial DNA Segment
+type bigBed 3
+visibility dense
+group rep
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/numt_v0.1.bb
+html ../html/numt.html
+priority 28
+```

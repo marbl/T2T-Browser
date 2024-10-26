@@ -353,3 +353,12 @@ html ../html/nonB.html
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_Z.bb
     priority 27.7
 
+track numt
+shortLabel NUMT
+longLabel Nuclear-Mitochondrial DNA Segment
+type bigBed 3
+visibility dense
+group rep
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/numt_v0.1.bb
+html ../html/numt.html
+priority 28
