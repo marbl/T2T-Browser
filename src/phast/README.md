@@ -1,7 +1,42 @@
 # PHAST conservation elements and scores
 
 ## Original data
-Original data downloaded from [GarrisonLab](https://garrisonlab.s3.amazonaws.com/index.html?prefix=t2t-primates/wfmash-v0.13.0/), `conservation`.
+
+* Updated version received on Oct. 24, 2024 - from [here].(https://garrisonlab.s3.amazonaws.com/index.html?prefix=t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds_all_chroms_together/chm13_1/)
+
+```shell
+# under incoming/phast/
+mkdir approach2_update && cd approach2_update
+
+module load aws
+
+# Scores
+aws s3 cp --no-sign-request --recursive --exclude "*.bw" s3://garrisonlab/t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds_all_chroms_together/chm13_1/scores/ .
+
+cat *.scores.wig | sed 's/chm13#1#//g' > approach2.scores_v0.2.wig
+rm *.scores.wig
+
+module load ucsc
+wigToBigWig approach2.scores_v0.2.wig ../../../T2Tgenomes/T2T-CHM13v2.0/chm13v2.0.sizes approach2.scores_v0.2.bw
+
+# Upload
+aws s3 cp approach2.scores_v0.2.bw s3://human-pangenomics/T2T/browser/CHM13/bbi/
+
+# Elements
+aws s3 cp --no-sign-request --recursive s3://garrisonlab/t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds_all_chroms_together/chm13_1/elements/ .
+sed 's/chm13#1#//g' *.bed | cut -f1-4 > approach2.most_conserved_v0.2.bed
+
+bedToBigBed -type=bed4 -tab approach2.most_conserved_v0.2.bed ../../../T2Tgenomes/T2T-CHM13v2.0/chm13v2.0.sizes approach2.most_conserved_v0.2.bb
+rm *.most_conserved.bed
+
+aws s3 cp approach2.most_conserved_v0.2.bb s3://human-pangenomics/T2T/browser/CHM13/bbi/
+```
+Most Conserved Element: https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
+Scores: https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.2.bw
+
+* Original data downloaded from [GarrisonLab](https://garrisonlab.s3.amazonaws.com/index.html?prefix=t2t-primates/wfmash-v0.13.0/), `conservation`.
+
+
 
 ```shell
 #!/bin/sh

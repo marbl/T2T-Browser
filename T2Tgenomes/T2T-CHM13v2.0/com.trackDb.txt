@@ -1280,7 +1280,7 @@ priority 600
 	shortLabel Conserved (Approach1)
 	longLabel Approach 1 Most Conserved Elements
 	parent phast
-	visibility dense
+	visibility hide
 	autoScale Off
 	maxHeightPixels 128:36:16
 	graphTypeDefault Bar
@@ -1289,13 +1289,13 @@ priority 600
 	viewLimits -428:100000
 	type bigWig -428 100000
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.most_conserved_v0.1.bw
-	priority 601
+	priority 603
 
 	track cons1score
 	shortLabel Score (Approach1)
 	longLabel Approach 1 Conservation Score
 	parent phast
-	visibility dense
+	visibility hide
 	autoScale Off
 	maxHeightPixels 128:36:16
 	graphTypeDefault Bar
@@ -1304,22 +1304,22 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.scores_v0.1.bw
-	priority 602
+	priority 604
 
 	track cons2elmnt
 	shortLabel Conserved (Approach2)
 	longLabel Approach 2 Most Conserved Elements
 	parent phast
-	visibility dense
+	visibility hide
 	type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.1.bb
-	priority 603
+	priority 605
 
 	track cons2score
 	shortLabel Score (Approach2)
 	longLabel Approach 2 Conservation Score
 	parent phast
-	visibility dense
+	visibility hide
 	autoScale Off
 	maxHeightPixels 128:36:16
 	graphTypeDefault Bar
@@ -1328,4 +1328,28 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.1.bw
-	priority 604
+	priority 606
+
+	track cons2elmnt2
+	shortLabel Conserved (Approach2)
+	longLabel Approach 2 Most Conserved Elements v0.2
+	parent phast
+	visibility dense
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
+	priority 601
+
+	track cons2score
+	shortLabel Score (Approach2)
+	longLabel Approach 2 Conservation Score v0.2
+	parent phast
+	visibility hide
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.2.bw
+	priority 602
