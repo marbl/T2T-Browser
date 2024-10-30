@@ -129,7 +129,7 @@ maxItems 100000
 visibility full
 maxHeightPixels 100:50:8
 group reg
-priority 1
+priority 20
 yLineOnOff on
 yLineMark 100
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
@@ -278,7 +278,7 @@ maxItems 100000
 maxHeightPixels 100:50:1
 alwaysZero on
 group reg
-priority 10
+priority 15
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
 
     track HG002v1.1-log-FIRE-FDR

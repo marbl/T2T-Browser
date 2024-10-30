@@ -1,0 +1,26 @@
+track HG002v1.1.methylation
+superTrack on show
+shortLabel Methylation
+longLabel Methylation Frequency
+type bigWig
+group reg
+html ../html/epigenetics.html
+maxHeightPixels 100:32:16
+autoScale off
+graphTypeDefault bar
+gridDefault on
+priority 10
+
+##
+# Guppy6.3.8 5mC CpG calls from Soojin's group (for primate analysis)
+
+    track HG002v1.1.ont5mC_CpG_G638
+    parent HG002v1.1.methylation
+    shortLabel ONT 5mC CpG (Guppy 6.3.8)
+    longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.8)
+    type bigWig 0 1
+    visibility full
+    viewLimits 0:1
+    priority 10.1
+    bigDataUrl https://human-pangenomics.s3.amazonaws.com/T2T/HG002/assemblies/annotation/methylation/HG002v1.1.ONT_Guppy6.3.8_5mC.winnowmap_modkit_5mC_CpG_v1.0.bw
+    html ../html/epigenetics.html
