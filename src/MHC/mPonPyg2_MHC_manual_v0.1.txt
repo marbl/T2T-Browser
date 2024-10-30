@@ -1,0 +1,45 @@
+chr5_hap1_hsa6	Popy-F	Coding gene	One	29660036	29665040	+
+chr5_hap1_hsa6	Popy-G	Coding gene	One	29772846	29776212	+
+chr5_hap1_hsa6	Popy-Ap	Pseudogene	One	29832703	29834968	+
+chr5_hap1_hsa6	Popy-A	Coding gene	One	29905995	29908913	+
+chr5_hap1_hsa6	Popy-E	Coding gene	One	30499892	30504387	+
+chr5_hap1_hsa6	Popy-B	Pseudogene	One	31289506	31292189	-
+chr5_hap1_hsa6	Popy-B	Pseudogene	One	31420790	31423475	-
+chr5_hap1_hsa6	Popy-B	Coding gene	One	31553002	31555685	-
+chr5_hap1_hsa6	Popy-B	Coding gene	One	31680873	31683559	-
+chr5_hap2_hsa6	Popy-F	Coding gene	Two	29659613	29664621	+
+chr5_hap2_hsa6	Popy-G	Coding gene	Two	29772462	29775495	+
+chr5_hap2_hsa6	Popy-Ap	Pseudogene	Two	29832138	29834862	+
+chr5_hap2_hsa6	Popy-A	Coding gene	Two	29882569	29885605	+
+chr5_hap2_hsa6	Popy-A	Coding gene	Two	29945966	29948884	+
+chr5_hap2_hsa6	Popy-E	Coding gene	Two	30541805	30546302	+
+chr5_hap2_hsa6	Popy-C	Coding gene	Two	31330357	31333076	-
+chr5_hap2_hsa6	Popy-B	Coding gene	Two	31459865	31462555	-
+chr5_hap2_hsa6	Popy-B	Coding gene	Two	31585084	31587770	-
+chr5_hap1_hsa6	Popy-DRA	Coding gene	One	32785818	32789770	+
+chr5_hap1_hsa6	Popy-DRB	Pseudogene	One	32859071	32872067	-
+chr5_hap1_hsa6	Popy-DRB3	Coding gene	One	32915218	32928196	-
+chr5_hap1_hsa6	Popy-DQA1	Coding gene	One	32972240	32977572	+
+chr5_hap1_hsa6	Popy-DQB1	Coding gene	One	32994347	33000693	-
+chr5_hap1_hsa6	Popy-DQA2	Coding gene	One	33076298	33081257	-
+chr5_hap1_hsa6	Popy-DQB2	Coding gene	One	33092136	33098358	-
+chr5_hap1_hsa6	Popy-DOB	Coding gene	One	33147061	33150794	-
+chr5_hap1_hsa6	Popy-DMB	Coding gene	One	33276318	33282163	-
+chr5_hap1_hsa6	Popy-DMA	Coding gene	One	33290242	33294455	-
+chr5_hap1_hsa6	Popy-DOA	Coding gene	One	33345642	33351008	-
+chr5_hap1_hsa6	Popy-DPA1	Coding gene	One	33417653	33422871	-
+chr5_hap1_hsa6	Popy-DPB1	Coding gene	One	33425325	33434941	+
+chr5_hap2_hsa6	Popy-DRA	Coding gene	Two	32693941	32697893	+
+chr5_hap2_hsa6	Popy-DRB3	Coding gene	Two	32766715	32785361	-
+chr5_hap2_hsa6	Popy-DRB5	Coding gene	Two	32855260	32867756	-
+chr5_hap2_hsa6	Popy-DRB3	Coding gene	Two	32920430	32933398	-
+chr5_hap2_hsa6	Popy-DQA1	Coding gene	Two	32990010	32995265	+
+chr5_hap2_hsa6	Popy-DQB1	Coding gene	Two	33008545	33013771	-
+chr5_hap2_hsa6	Popy-DQA2	Coding gene	Two	33084271	33089236	+
+chr5_hap2_hsa6	Popy-DQB2	Coding gene	Two	33100654	33106349	-
+chr5_hap2_hsa6	Popy-DOB	Coding gene	Two	33147061	33150794	-
+chr5_hap2_hsa6	Popy-DMB	Coding gene	Two	33276318	33282163	-
+chr5_hap2_hsa6	Popy-DMA	Coding gene	Two	33298938	33303151	-
+chr5_hap2_hsa6	Popy-DOA	Coding gene	Two	33358342	33363704	-
+chr5_hap2_hsa6	Popy-DPA1	Coding gene	Two	33424152	33429264	-
+chr5_hap2_hsa6	Popy-DPB1	Coding gene	Two	33432024	33441932	+

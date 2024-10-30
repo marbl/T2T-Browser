@@ -14,7 +14,7 @@ module load ucsc
 module load aws
 
 path=../path.txt
-for i in $(seq 5 5)
+for i in $(seq 1 6)
 do
   ln=`sed -n ${i}p $path`
   sp=`echo $ln | awk '{print $1}'`

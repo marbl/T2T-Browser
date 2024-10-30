@@ -1,0 +1,42 @@
+chr5_hap1_hsa6	Patr-F	Pseudogene	One	35659410	35676763	+
+chr5_hap1_hsa6	Patr-G	Coding gene	One	35751737	35755337	+
+chr5_hap1_hsa6	Patr-H	Coding gene	One	35799689	35802414	+
+chr5_hap1_hsa6	Patr-A	Coding gene	One	35852256	35859658	+
+chr5_hap1_hsa6	Patr-E	Coding gene	One	36368561	36371514	+
+chr5_hap1_hsa6	Patr-C	Coding gene	One	37157797	37160696	-
+chr5_hap1_hsa6	Patr-B	Coding gene	One	37243200	37245889	-
+chr5_hap2_hsa6	Patr-F	Coding gene	Two	34270090	34287259	+
+chr5_hap2_hsa6	Patr-G	Coding gene	Two	34373484	34377084	+
+chr5_hap2_hsa6	Patr-H	Coding gene	Two	34421412	34424137	+
+chr5_hap2_hsa6	Patr-A	Coding gene	Two	34599388	34606790	+
+chr5_hap2_hsa6	Patr-E	Coding gene	Two	35115304	35118257	+
+chr5_hap2_hsa6	Patr-C	Coding gene	Two	35902950	35905836	-
+chr5_hap2_hsa6	Patr-B	Coding gene	Two	35991707	35994411	-
+chr5_hap1_hsa6	Patr-DRA	Coding gene	One	38246682	38250644	+
+chr5_hap1_hsa6	Patr-DRB5	Coding gene	One	38327992	38340401	-
+chr5_hap1_hsa6	Patr-DRB	Pseudogene	One	38363857	38383453	-
+chr5_hap1_hsa6	Patr-DRB	Pseudogene	One	38393864	38406585	-
+chr5_hap1_hsa6	Patr-DRB1	Coding gene	One	38476619	38486952	-
+chr5_hap1_hsa6	Patr-DQA1	Coding gene	One	38533073	38538298	+
+chr5_hap1_hsa6	Patr-DQB1	Coding gene	One	38551057	38557451	-
+chr5_hap1_hsa6	Patr-DQA2	Coding gene	One	38627726	38632707	+
+chr5_hap1_hsa6	Patr-DQB2	Coding gene	One	38643353	38649765	-
+chr5_hap1_hsa6	Patr-DOB	Coding gene	One	38695490	38699292	-
+chr5_hap1_hsa6	Patr-DMB	Coding gene	One	38818027	38823866	-
+chr5_hap1_hsa6	Patr-DMA	Coding gene	One	38831931	38836156	-
+chr5_hap1_hsa6	Patr-DOA	Coding gene	One	38885418	38890760	-
+chr5_hap1_hsa6	Patr-DPA1	Coding gene	One	38952954	38957877	-
+chr5_hap1_hsa6	Patr-DPB1	Coding gene	One	38960344	38970476	+
+chr5_hap2_hsa6	Patr-DRA	Coding gene	Two	36995127	36999083	+
+chr5_hap2_hsa6	Patr-DRB5	Coding gene	Two	37076413	37088822	-
+chr5_hap2_hsa6	Patr-DRB	Pseudogene	Two	37142284	37155006	-
+chr5_hap2_hsa6	Patr-DQA1	Coding gene	Two	37281494	37286719	+
+chr5_hap2_hsa6	Patr-DQB1	Coding gene	Two	37299478	37305872	-
+chr5_hap2_hsa6	Patr-DQA2	Coding gene	Two	37376168	37381148	+
+chr5_hap2_hsa6	Patr-DQB2	Coding gene	Two	37391782	37398194	-
+chr5_hap2_hsa6	Patr-DOB	Coding gene	Two	37443914	37447716	-
+chr5_hap2_hsa6	Patr-DMB	Coding gene	Two	37566435	37572274	-
+chr5_hap2_hsa6	Patr-DMA	Coding gene	Two	37580331	37584581	-
+chr5_hap2_hsa6	Patr-DOA	Coding gene	Two	37636027	37641369	-
+chr5_hap2_hsa6	Patr-DPA1	Coding gene	Two	37703917	37708840	-
+chr5_hap2_hsa6	Patr-DPB1	Coding gene	Two	37711307	37721445	+

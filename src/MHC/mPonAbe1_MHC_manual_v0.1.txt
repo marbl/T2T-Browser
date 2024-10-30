@@ -1,0 +1,44 @@
+chr5_hap1_hsa6	Poab-F	Coding gene	One	29662797	29675385	+
+chr5_hap1_hsa6	Poab-G	Coding gene	One	29775624	29778653	+
+chr5_hap1_hsa6	Poab-Ap	Pseudogene	One	29834893	29837617	+
+chr5_hap1_hsa6	Poab-A	Coding gene	One	29885360	29888209	+
+chr5_hap1_hsa6	Poab-A	Coding gene	One	29950964	29953991	+
+chr5_hap1_hsa6	Poab-E	Coding gene	One	30544367	30547438	+
+chr5_hap1_hsa6	Poab-C	Coding gene	One	31332436	31335725	-
+chr5_hap1_hsa6	Poab-B	Coding gene	One	31438438	31441118	-
+chr5_hap1_hsa6	Poab-B	Coding gene	One	31564840	31567527	-
+chr5_hap2_hsa6	Poab-F	Coding gene	Two	29582709	29595289	+
+chr5_hap2_hsa6	Poab-G	Coding gene	Two	29695502	29698531	+
+chr5_hap2_hsa6	Poab-Ap	Pseudogene	Two	29755137	29757856	+
+chr5_hap2_hsa6	Poab-A	Coding gene	Two	29805611	29808460	+
+chr5_hap2_hsa6	Poab-A	Coding gene	Two	29869914	29874532	+
+chr5_hap2_hsa6	Poab-E	Coding gene	Two	30466318	30469389	+
+chr5_hap2_hsa6	Poab-B	Pseudogene	Two	31250620	31253307	-
+chr5_hap2_hsa6	Poab-B	Coding gene	Two	31383159	31385839	-
+chr5_hap2_hsa6	Poab-B	Coding gene	Two	31509147	31511834	-
+chr5_hap1_hsa6	Poab-DRA	Coding gene	One	32683841	32687793	+
+chr5_hap1_hsa6	Poab-DRB	Pseudogene	One	32757067	32770048	-
+chr5_hap1_hsa6	Poab-DRB1	Coding gene	One	32813189	32826160	-
+chr5_hap1_hsa6	Poab-DQA1	Coding gene	One	32870194	32875608	+
+chr5_hap1_hsa6	Poab-DQB1	Coding gene	One	32888978	32894204	-
+chr5_hap1_hsa6	Poab-DQA2	Coding gene	One	32967734	32972699	+
+chr5_hap1_hsa6	Poab-DQB2	Coding gene	One	32984099	32989794	-
+chr5_hap1_hsa6	Poab-DOB	Coding gene	One	33038465	33042205	-
+chr5_hap1_hsa6	Poab-DMB	Coding gene	One	33167667	33173494	-
+chr5_hap1_hsa6	Poab-DMA	Coding gene	One	33181561	33185770	-
+chr5_hap1_hsa6	Poab-DOA	Coding gene	One	33236953	33242330	-
+chr5_hap1_hsa6	Poab-DPA1	Coding gene	One	33308899	33314117	-
+chr5_hap1_hsa6	Poab-DPB1	Coding gene	One	33353848	33370459	+
+chr5_hap2_hsa6	Poab-DRA	Coding gene	Two	32621713	32625665	+
+chr5_hap2_hsa6	Poab-DRB	Pseudogene	Two	32694931	32708144	-
+chr5_hap2_hsa6	Poab-DRB1	Coding gene	Two	32751305	32764306	-
+chr5_hap2_hsa6	Poab-DQA1	Coding gene	Two	32808343	32813725	+
+chr5_hap2_hsa6	Poab-DQB1	Coding gene	Two	32825108	32831618	-
+chr5_hap2_hsa6	Poab-DQA2	Coding gene	Two	32894875	32899839	+
+chr5_hap2_hsa6	Poab-DQB2	Coding gene	Two	32910704	32916927	-
+chr5_hap2_hsa6	Poab-DOB	Coding gene	Two	32965704	32969444	-
+chr5_hap2_hsa6	Poab-DMB	Coding gene	Two	33094887	33100732	-
+chr5_hap2_hsa6	Poab-DMA	Coding gene	Two	33108812	33113025	-
+chr5_hap2_hsa6	Poab-DOA	Coding gene	Two	33164202	33169576	-
+chr5_hap2_hsa6	Poab-DPA1	Coding gene	Two	33236214	33241432	-
+chr5_hap2_hsa6	Poab-DPB1	Pseudogene	Two	33243833	33258487	+

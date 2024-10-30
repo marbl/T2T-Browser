@@ -1,0 +1,42 @@
+chr5_mat_hsa6	Gogo-F	Coding gene	One	47377843	47380970	+
+chr5_mat_hsa6	Gogo-G	Coding gene	One	47489818	47492326	+
+chr5_mat_hsa6	Gogo-H	Coding gene	One	47549726	47552270	+
+chr5_mat_hsa6	Gogo-OKO	Coding gene	One	47663948	47666739	+
+chr5_mat_hsa6	Gogo-E	Coding gene	One	48177562	48180470	+
+chr5_mat_hsa6	Gogo-C	Coding gene	One	48968444	48971342	-
+chr5_mat_hsa6	Gogo-B	Coding gene	One	49051778	49054467	-
+chr5_pat_hsa6	Gogo-F	Coding gene	Two	39803173	39806294	+
+chr5_pat_hsa6	Gogo-G	Coding gene	Two	39915101	39917609	+
+chr5_pat_hsa6	Gogo-H	Coding gene	Two	39974990	39977534	+
+chr5_pat_hsa6	Gogo-A	Coding gene	Two	40094421	40097175	+
+chr5_pat_hsa6	Gogo-E	Coding gene	Two	40595433	40598341	+
+chr5_pat_hsa6	Gogo-C	Coding gene	Two	41386442	41389340	-
+chr5_pat_hsa6	Gogo-B	Coding gene	Two	41469102	41471795	-
+chr5_mat_hsa6	Gogo-DRA	Coding gene	One	50037376	50041326	+
+chr5_mat_hsa6	Gogo-DRB3	Coding gene	One	50085960	50098682	-
+chr5_mat_hsa6	Gogo-DRB5	Coding gene	One	50166977	50179471	-
+chr5_mat_hsa6	Gogo-DRB	Pseudogene	One	50237134	50254083	-
+chr5_mat_hsa6	Gogo-DRB1	Coding gene	One	50301059	50314057	-
+chr5_mat_hsa6	Gogo-DQA1	Coding gene	One	50358180	50363486	+
+chr5_mat_hsa6	Gogo-DQB1	Coding gene	One	50380965	50387368	-
+chr5_mat_hsa6	Gogo-DQA2	Coding gene	One	50463796	50468894	+
+chr5_mat_hsa6	Gogo-DQB2	Coding gene	One	50480585	50486281	-
+chr5_mat_hsa6	Gogo-DOB	Coding gene	One	50534186	50537928	-
+chr5_mat_hsa6	Gogo-DMB	Coding gene	One	50647049	50652880	-
+chr5_mat_hsa6	Gogo-DMA	Coding gene	One	50660950	50665237	-
+chr5_mat_hsa6	Gogo-DOA	Coding gene	One	50716508	50721851	-
+chr5_mat_hsa6	Gogo-DPA1	Coding gene	One	50788523	50793453	-
+chr5_mat_hsa6	Gogo-DPB1	Coding gene	One	50795918	50806048	+
+chr5_pat_hsa6	Gogo-DRA	Coding gene	Two	42507235	42511185	+
+chr5_pat_hsa6	Gogo-DRB3	Coding gene	Two	42555828	42568550	-
+chr5_pat_hsa6	Gogo-DRB	Pseudogene	Two	42636832	42649366	-
+chr5_pat_hsa6	Gogo-DQA1	Coding gene	Two	42687228	42692642	+
+chr5_pat_hsa6	Gogo-DQB1	Coding gene	Two	42705049	42710299	-
+chr5_pat_hsa6	Gogo-DQA2	Pseudogene	Two	42790040	42795138	+
+chr5_pat_hsa6	Gogo-DQB2	Coding gene	Two	42805165	42812204	-
+chr5_pat_hsa6	Gogo-DOB	Coding gene	Two	42860102	42863844	-
+chr5_pat_hsa6	Gogo-DMB	Coding gene	Two	42972973	42978804	-
+chr5_pat_hsa6	Gogo-DMA	Coding gene	Two	42986874	42991161	-
+chr5_pat_hsa6	Gogo-DOA	Coding gene	Two	43042429	43047772	-
+chr5_pat_hsa6	Gogo-DPA1	Coding gene	Two	43114445	43119375	-
+chr5_pat_hsa6	Gogo-DPB1	Coding gene	Two	43121840	43131970	+
