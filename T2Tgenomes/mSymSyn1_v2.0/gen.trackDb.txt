@@ -7,7 +7,7 @@ itemRgb on
 shortLabel CAT+RefSeq Consensus
 longLabel CAT+RefSeq Consensus Protein Coding Gene Annotation v3.0 10/2024
 baseColorDefault genomicCodons
-html ../html/catGene.html
+html ../html/consGene.html
 priority 40
 labelFields name,name2
 defaultLabelFields name2
