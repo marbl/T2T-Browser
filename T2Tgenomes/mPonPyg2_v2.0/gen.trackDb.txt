@@ -88,3 +88,14 @@ searchPriority 2.07207
 searchType bigBed
 searchMethod fuzzy
 html ../html/toga.html
+
+track mhcGene
+type bigBed 9
+visibility dense
+group genes
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/gene/mPonPyg2_v2.0.MHC_manual_v0.1.bb
+itemRgb on
+shortLabel MHC
+longLabel MHC Genes, manually curated
+html ../html/mhcGene.html
+priority 45
