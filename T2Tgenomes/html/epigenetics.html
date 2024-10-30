@@ -4,14 +4,26 @@
 <h2>Methods</h2>
 <p>
 <ul>
-  <li><u>ONT 5mC CpG methylation</u>: This methylation track is based on ONT data that was base-called using Guppy version 6.3.7 with model "dna_r9.4.1_450bps_modbases_5hmc_5mc_cg_sup_prom.cfg". Minimap2 was utilized to align the sequences to the v2.0 reference, and modbam2bed was employed to aggregate the counts of modified bases (5mC) at each cytosine position in the CpG context. The options used were <code>minimap2 --secondary=no --eqx -a -x map-ont</code> for Minimap2 and <code>modbam2bed -m 5mC -e --aggregate --cpg</code> for modbam2bed.<br>
-Given that 5mC in the CpG context is symmetrical, additional steps were incorporated to represent the methylation of each CpG site. To calculate the average methylation levels of cytosines on the positive and negative strands at CpG sites, the modified base (5mC) counts, alternative modification counts, and canonical (unmodified) base counts from two cytosines were aggregated. For the CpGs with a sum of counts of at least 5, the methylation level at each CpG site was calculated by determining the ratio of the total modified base counts to the sum of the total modified base counts, total alternative modification calls, and total canonical base count.
+  <li><u>ONT 5mC CpG methylation (Guppy 6.3.8) for Cross-Species Comparisons</u>: This track is generated using the consistent Guppy model and ModKit options across all primate species, including the human HG002v1.1 dataset, to minimize bias in comparative studies between humans and non-human primates. To generate CpG methylation calls, ONT data were base-called for each species using Guppy v6.3.8 with the model "dna_r9.4.1_450bps_modbases_5mc_cg_sup_prom.cfg".<br><br>
+  
+  Reads were mapped to the T2T apes v2.0 and human HG002v1.1 genome using Winnowmap v2.03 with a k-mer size of 15. 
+  
+  Counts of 5mC-modified bases at each CpG position were generated using Modkit v0.3.1 with the options <code>--cpg, --combine-strands, --ignore-h (--preset traditional)</code>, and <code>--filter-percentile 0.2</code>, which removed 5hmC probability and filtered out the 20% of modification calls with the lowest confidence. Since 5mC in the CpG context is symmetrical, two cytosines in the CpG context were combined to represent a single CpG site. The fractional methylation level at each CpG site was computed for CpG sites with at least five read counts, determining the ratio of the total modified base counts to the sum of the total modified base counts, total alternative modification calls, and total canonical base count. The key columns are selected, and end positions are adjusted by +1 to represent individual 2bp-length CpG sites (start position: 0-based, end position: half-open).
 </ul>
 </p>
 
 <p>
 <ul>
-  <li><u>ONT 5mC methylation</u>: ONT reads were basecalled with Guppy v6.3.8 and aligned to the v2.0 reference with Winnowmap (v2.03) with a k-mer size of 15. 5mC methylation frequency was obtained using <code>modkit pileup $BAM $OUT.pileup.bed --preset traditional --force-allow-implicit --suppress-progress --log-filepath $LOG --ref $REF -t $CPU</code>. Pileup coordinates and results were collected and transformed to <code>wig</code> and <code>bigWig</code> for visualization.<br>
+  <li><u>ONT 5mC CpG methylation (Guppy 6.3.7)</u>: This methylation track is based on ONT data, base-called with Guppy version 6.3.7, and processed using Minimap2 and Modbam2bed. Minimap2 was utilized to align the sequences to the v2.0 reference, and modbam2bed was employed to aggregate the counts of modified bases (5mC). The options used were <code>minimap2 --secondary=no --eqx -a -x map-ont</code> for Minimap2 and <code>modbam2bed -m 5mC -e --aggregate --cpg</code> for modbam2bed. <br><br>
+  Given that 5mC in the CpG context is symmetrical, additional steps were incorporated to represent the methylation of each CpG site. To calculate the average methylation levels of cytosines on the positive and negative strands at CpG sites, the modified base (5mC) counts, alternative modification counts, and canonical (unmodified) base counts from two cytosines were aggregated. For the CpGs with a sum of counts of at least 5, the methylation level at each CpG site was calculated by determining the ratio of the total modified base counts to the sum of the total modified base counts, total alternative modification calls, and total canonical base count.<br><br>
+  Updated Information, October 2024:<br>
+  Gorilla and Bonobo tracks were based on the UW dataset and were base-called using Guppy version 6.3.7 with the model "dna_r9.4.1_450bps_modbases_5hmc_5mc_cg_sup_prom". Other species, including Chimpanzee, Sumatran Orangutan, Bornean Orangutan, and Siamang, were based on the NISC dataset and were base-called using the Guppy model "dna_r9.4.1_450bps_modbases_5mc_cg_sup_prom.cfg". Then, "5mC" signals are determined using the modbam2bed with the "-m 5mC" option. Updated tracks for all species, using the consistent Guppy "5mC" model and Modkit options, are now available for comparative studies, including all ape species and human HG002v1.1.
+</ul>
+</p>
+
+<p>
+<ul>
+  <li><u>ONT 5mC & 5hmC methylation (Guppy 6.3.8)</u>: ONT reads were basecalled with Guppy v6.3.8 with model "dna_r9.4.1_450bps_modbases_5mc_cg_sup_prom" and aligned to the v2.0 reference with Winnowmap (v2.03) with a k-mer size of 15. 5mC methylation frequency was obtained using <code>modkit pileup $BAM $OUT.pileup.bed --preset traditional --force-allow-implicit --suppress-progress --log-filepath $LOG --ref $REF -t $CPU</code>. Pileup coordinates and results were collected and transformed to <code>wig</code> and <code>bigWig</code> for visualization.<br><br>
 Input fastqs with methylation tags (for mGorGor1 only):
   <li>PAG26046_guppy-6.3.8.fastq.gz
   <li>PAG26815_guppy-6.3.8.fastq.gz
@@ -28,20 +40,34 @@ Input fastqs with methylation tags (for mGorGor1 only):
 
 <h2>Release history</h2>
 <ol>
-  <li> 2024-01-05 5mC release
+  <li> 2024-01-05 5mC & 5hmC release
   <li> 2024-03-11 5mC CpG release
+  <li> 2024-10-29 5mC CpG release update
 </ol>
 
 <h2>Contacts</h2>
 <p>
-5mC track
+5mC CpG methylation (Guppy 6.3.8)
+<ul>
+  <li> Dongmin R. Son: Generating processed files for CpG methylation levels. </li>
+  <li> Steven Solar: Data processing with guppy/winnowmap.</li>
+</ul>
+<p>For inquiries, please contact us at the following addresses:</p>
+<ul>
+  <li> Dongmin R. Son: <a href="mailto:d_son@ucsb.edu">d_son@ucsb.edu</a></li>
+  <li> Soojin Yi: <a href="mailto:soojinyi@ucsb.edu">soojinyi@ucsb.edu</a></li>
+  <li> Steven Solar: <a href="mailto:steven.solar@nih.gov">steven.solar@nih.gov</a></li>
+</ul>
+</p>
+<p>
+5mC & 5hmC methylation (Guppy 6.3.8)
 <ul>
   <li>Arang Rhie &lt;rhiea_at_nih.gov&gt;</a>
   <li>Steven Solar &lt;steven.solar_at_nih.gov&gt;</a>
 </ul>
 </p>
 <p>
-5mC CpG track
+5mC CpG methylation (Guppy 6.3.7)
 <ul>
   <li>DongAhn Yoo, Eichler Lab, University of Washington: Data processing with minimap2/modbam2bed.</li>
   <li>Dongmin Son, Soojin Yi Lab, University of California, Santa Barbara: Generating processed files for CpG methylation levels. </li>

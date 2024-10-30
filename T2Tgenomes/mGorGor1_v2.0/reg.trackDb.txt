@@ -1,6 +1,5 @@
 track methylation
-compositeTrack on
-visibility full
+superTrack on show
 shortLabel Methylation
 longLabel Methylation Frequency
 type bigWig
@@ -12,27 +11,38 @@ graphTypeDefault bar
 gridDefault on
 priority 61
 
-    track ont5mC_CpG
+    track ont5mC_CpG_G638
     parent methylation
-    shortLabel ONT 5mC CpG (Guppy 6.3.7)
-    longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.7)
+    shortLabel ONT 5mC CpG (Guppy 6.3.8)
+    longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.8)
     type bigWig 0 1
     visibility full
     viewLimits 0:1
     priority 61.1
-    bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/epi/minimap.dip.ONT.modbam2bed_5mC_CpG.bw
-    html ../html/cpgMethyl.html
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/epi/mGorGor1_v2.0.ONT_Guppy6.3.8_5mC.winnowmap_modkit_5mC_CpG_v1.0.bw
+    html ../html/epigenetics.html
 
     track ont5mC
     parent methylation
     shortLabel ONT 5mC & 5hmC (Guppy 6.3.8)
     longLabel  ONT 5mC and 5hmC Methylation (Guppy 6.3.8)
     type bigWig 0 100
-    visibility full
+    visibility hide
     viewLimits 0:100
     priority 61.2
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/epi/winnowmap.dip.ONT.modkit_5mC.bw
-    html ../html/epi5mC.html
+    html ../html/epigenetics.html
+
+    track ont5mC_CpG
+    parent methylation
+    shortLabel ONT 5mC CpG (Guppy 6.3.7)
+    longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.7)
+    type bigWig 0 1
+    visibility hide
+    viewLimits 0:1
+    priority 61.3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/epi/minimap.dip.ONT.modbam2bed_5mC_CpG.bw
+    html ../html/epigenetics.html
 
 
 track repliSeq
