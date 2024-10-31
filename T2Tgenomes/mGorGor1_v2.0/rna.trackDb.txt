@@ -12,6 +12,8 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 pairEndsByName on
+html ../html/isoseq.html
+priority 51
 
     track isoSeqBam1
     parent isoSeq
