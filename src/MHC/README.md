@@ -67,3 +67,14 @@ longLabel MHC Genes, manually curated
 html ../html/mhcGene.html
 priority 45
 ```
+
+## Description
+Convert R,G,B codes to hexa codes in `colors.txt`
+```shell
+cat colors.txt | tr ',' '\t' |
+  awk '
+  function rgb_to_hex(r, g, b) {
+      return sprintf("#%02X%02X%02X", r, g, b)
+  }
+  { COL=rgb_to_hex($2,$3,$4); print "<li><span style=background-color:"COL";>&nbsp;&nbsp;&nbsp;<\/span> - "$1 }' -
+```
