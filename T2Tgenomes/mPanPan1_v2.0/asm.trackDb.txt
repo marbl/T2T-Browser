@@ -142,3 +142,14 @@ priority 18
     html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
     priority 18.4
 
+    track issues
+    parent validation
+    shortLabel HiFI & ONT Issues
+    longLabel Assembly Issues by both HiFi and ONT
+    visibility dense
+    itemRgb on
+    maxItems 100000
+    type bigBed 9
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/issues/mPanPan1_v2.0.issues_v1.0.bb
+    html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
+    priority 18.5
