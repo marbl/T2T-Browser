@@ -1267,29 +1267,13 @@ mouseOverField name
 priority 500
 
 track phast
-superTrack on
-visibility hide
+superTrack on show
 shortLabel PHAST
 longLabel Most conserved region from 2 approaches
 group compGeno
 mouseOverField name
 html https://raw.githubusercontent.com/T2T-apes/MSA/main/trackDescription_conservation.html
 priority 600
-
-	track cons1elmnt
-	shortLabel Conserved (Approach1)
-	longLabel Approach 1 Most Conserved Elements
-	parent phast
-	visibility hide
-	autoScale Off
-	maxHeightPixels 128:36:16
-	graphTypeDefault Bar
-	gridDefault OFF
-	windowingFunction Mean
-	viewLimits -428:100000
-	type bigWig -428 100000
-	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.most_conserved_v0.1.bw
-	priority 603
 
 	track cons1score
 	shortLabel Score (Approach1)
@@ -1304,20 +1288,26 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.scores_v0.1.bw
-	priority 604
+	priority 601
 
-	track cons2elmnt
-	shortLabel Conserved (Approach2)
-	longLabel Approach 2 Most Conserved Elements
+	track cons1elmnt
+	shortLabel Conserved (Approach1)
+	longLabel Approach 1 Most Conserved Elements
 	parent phast
 	visibility hide
-	type bigBed 3
-	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.1.bb
-	priority 605
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits -428:100000
+	type bigWig -428 100000
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.most_conserved_v0.1.bw
+	priority 602
 
 	track cons2score
-	shortLabel Score (Approach2)
-	longLabel Approach 2 Conservation Score
+	shortLabel Score (Approach2 v0.1)
+	longLabel Approach 2 Conservation Score v0.1
 	parent phast
 	visibility hide
 	autoScale Off
@@ -1328,19 +1318,19 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.1.bw
-	priority 606
+	priority 603
 
-	track cons2elmnt2
-	shortLabel Conserved (Approach2)
-	longLabel Approach 2 Most Conserved Elements v0.2
+	track cons2elmnt
+	shortLabel Conserved (Approach2 v0.1)
+	longLabel Approach 2 Most Conserved Elements v0.1
 	parent phast
-	visibility dense
+	visibility hide
 	type bigBed 3
-	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
-	priority 601
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.1.bb
+	priority 604
 
 	track cons2score2
-	shortLabel Score (Approach2)
+	shortLabel Score (Approach2 v0.2)
 	longLabel Approach 2 Conservation Score v0.2
 	parent phast
 	visibility hide
@@ -1352,4 +1342,37 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.2.bw
-	priority 602
+	priority 605
+
+	track cons2elmnt2
+	shortLabel Conserved (Approach2 v0.2)
+	longLabel Approach 2 Most Conserved Elements v0.2
+	parent phast
+	visibility hide
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
+	priority 606
+
+	track cons2score3
+	shortLabel Score (Approach2 v0.3)
+	longLabel Approach 2 Conservation Score v0.3
+	parent phast
+	visibility full
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.3.bw
+	priority 607
+
+	track cons2elmnt3
+	shortLabel Conserved (Approach2 v0.3)
+	longLabel Approach 2 Most Conserved Elements v0.3
+	parent phast
+	visibility dense
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.3.bb
+	priority 608

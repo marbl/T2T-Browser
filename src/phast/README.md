@@ -2,8 +2,27 @@
 
 ## Original data
 
-* Updated version received on Oct. 24, 2024 - from [here].(https://garrisonlab.s3.amazonaws.com/index.html?prefix=t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds_all_chroms_together/chm13_1/)
+* Updated version received on Oct. 24, 2024 - from [here](https://garrisonlab.s3.amazonaws.com/index.html?prefix=t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds_all_chroms_together/chm13_1/). Keeping as approach2_v0.2
+* Updated version received on Oct. 30, 2024 - keeping as approach2_v0.3
+  >Elements: https://garrisonlab.s3.amazonaws.com/t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds/chm13_1/elements/approach2.most_conserved_v0.3.bb
+  >Scores: https://garrisonlab.s3.amazonaws.com/t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds/chm13_1/scores/approach2.scores_v0.3.bw
 
+## Approach2 v0.3
+Upload as-is on aws genomeark
+```shell
+module load aws
+
+mkdir approach2_v0.3 & cd approach2_v0.3
+
+aws s3 cp --no-sign-request s3://garrisonlab/t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds/chm13_1/elements/approach2.most_conserved_v0.3.bb .
+aws s3 cp --no-sign-request s3://garrisonlab/t2t-primates/wfmash-v0.13.0/conservation/approach2_with_cds/chm13_1/scores/approach2.scores_v0.3.bw .
+
+aws s3 cp approach2.most_conserved_v0.3.bb s3://human-pangenomics/T2T/browser/CHM13/bbi/
+aws s3 cp approach2.scores_v0.3.bw s3://human-pangenomics/T2T/browser/CHM13/bbi/
+```
+
+
+## Approach2 v0.2
 ```shell
 # under incoming/phast/
 mkdir approach2_update && cd approach2_update
@@ -54,7 +73,7 @@ do
 done
 ```
 
-## Approach 1
+## Approach 1 v0.1
 ### Data processing
 * chm13#1# was removed to make the file size smaller
 
@@ -79,7 +98,7 @@ aws s3 cp approach1.most_conserved_v0.1.bw s3://human-pangenomics/T2T/browser/CH
 ```
 `TODO`: Need to follow up on how to display the score range.
 
-#### Scores
+#### Scores v0.1
 Concatenate to one file and upload.
 ```shell
 cat *.scores.wig | sed 's/chm13#1#//g' > approach1.scores_v0.1.wig
@@ -91,7 +110,7 @@ wigToBigWig approach1.scores_v0.1.wig ../../../T2Tgenomes/T2T-CHM13v2.0/chm13v2.
 aws s3 cp approach1.scores_v0.1.bw s3://human-pangenomics/T2T/browser/CHM13/bbi/
 ```
 
-## Approach 2
+## Approach 2 v0.1
 ### Data processing
 * chm13#1# was removed to make the file size smaller
 
