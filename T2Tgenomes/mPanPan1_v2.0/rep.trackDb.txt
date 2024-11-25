@@ -569,6 +569,18 @@ priority 25
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/chrX_mat_hsaX.bb
     priority 25.57
 
+track seqidyCHM13
+shortLabel SeqIdy (T2T-CHM13)
+longLabel T2T-CHM13
+type bigBed 9
+visibility dense
+itemRgb on
+mouseOverField name
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/seqIdy_v1.1/CHM13v2.0_to_mPanPan1v2.0.bb
+html ../html/seqIdy.html
+group rep
+priority 25.6
+
 track nonB
 superTrack on hide
 visibility dense
