@@ -1,7 +1,7 @@
 track cytoBandIdeo
 longLabel Chromosome ideogram with cytogenetic bands
 shortLabel cytoBandIdeo
-bigDataUrl mPanTro3_v2.0.ideogram.bb
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/pattern/mPanTro3_v2.0.ideogram.bb
 type bigBed 5
 
 include asm.trackDb.txt	# 11-19
