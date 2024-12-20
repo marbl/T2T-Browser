@@ -1,0 +1,5 @@
+hub T2T Genome Assembly Hub on GenArk
+shortLabel T2T-GenArk
+longLabel T2T Genomes on GenArk
+genomesFile genomes.txt
+email rhiea@nih.gov

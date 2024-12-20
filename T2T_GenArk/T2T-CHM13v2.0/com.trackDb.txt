@@ -1,0 +1,1378 @@
+track wfmash
+superTrack on show
+visibility dense
+shortLabel WFMASH
+longLabel wfmash v0.13.0 16-way chain
+group compGeno
+type bigChain
+mouseOverField name
+priority 100
+
+	track wfmashGRCh38
+	parent wfmash
+	type bigChain hg38
+	shortLabel GRCh38
+	longLabel GRCh38 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.GRCh38.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.GRCh38.bigChain.link.bb
+	otherDb hg38
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
+	priority 101
+
+	track wfmashHG002mat
+	parent wfmash
+	type bigChain HG002v1.0.1.MAT
+	shortLabel HG002#mat
+	longLabel HG002v1.0.1 mat to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.link.bb
+	otherDb HG002v1.0.1.MAT
+	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.mat.2bit
+	priority 110
+
+	track wfmashHG002pat
+	parent wfmash
+	type bigChain HG002v1.0.1.PAT
+	shortLabel HG002#pat
+	longLabel HG002v1.0.1 pat to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.link.bb
+	otherDb HG002v1.0.1.PAT
+	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.pat.2bit
+	priority 110
+
+	track wfmashmGorGor1mat
+	parent wfmash
+	type bigChain mGorGor1_v2.0
+	shortLabel mGorGor1#mat
+	longLabel mGorGor1_v2.0 mat to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1mat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1mat.bigChain.link.bb
+	otherDb mGorGor1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
+	priority 120
+
+	track wfmashmGorGor1pat
+	parent wfmash
+	type bigChain mGorGor1_v2.0
+	shortLabel mGorGor1#pat
+	longLabel mGorGor1_v2.0 pat to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1pat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1pat.bigChain.link.bb
+	otherDb mGorGor1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
+	priority 120
+
+	track wfmashmPanPan1mat
+	parent wfmash
+	type bigChain mPanPan1_v2.0
+	shortLabel mPanPan1#mat
+	longLabel mPanPan1_v2.0 mat to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1mat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1mat.bigChain.link.bb
+	otherDb mPanPan1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
+	priority 120
+
+	track wfmashmPanPan1pat
+	parent wfmash
+	type bigChain mPanPan1_v2.0
+	shortLabel mPanPan1#pat
+	longLabel mPanPan1_v2.0 pat to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1pat.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1pat.bigChain.link.bb
+	otherDb mPanPan1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
+	priority 120
+
+	track wfmashmPanTro3hap1
+	parent wfmash
+	type bigChain mPanTro3_v2.0
+	shortLabel mPanTro3#hap1
+	longLabel mPanTro3_v2.0 hap1 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap1.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap1.bigChain.link.bb
+	otherDb mPanTro3_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
+	priority 120
+
+	track wfmashmPanTro3hap2
+	parent wfmash
+	type bigChain mPanTro3_v2.0
+	shortLabel mPanTro3#hap2
+	longLabel mPanTro3_v2.0 hap2 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap2.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap2.bigChain.link.bb
+	otherDb mPanTro3_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
+	priority 120
+
+	track wfmashmPonAbe1hap1
+	parent wfmash
+	type bigChain mPonAbe1_v2.0
+	shortLabel mPonAbe1#hap1
+	longLabel mPonAbe1_v2.0 hap1 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap1.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap1.bigChain.link.bb
+	otherDb mPonAbe1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
+	priority 120
+
+	track wfmashmPonAbe1hap2
+	parent wfmash
+	type bigChain mPonAbe1_v2.0
+	shortLabel mPonAbe1#hap2
+	longLabel mPonAbe1_v2.0 hap2 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap2.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap2.bigChain.link.bb
+	otherDb mPonAbe1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
+	priority 120
+
+	track wfmashmPonPyg2hap1
+	parent wfmash
+	type bigChain mPonPyg2_v2.0
+	shortLabel mPonPyg2#hap1
+	longLabel mPonPyg2_v2.0 hap1 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap1.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap1.bigChain.link.bb
+	otherDb mPonPyg2_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
+	priority 120
+
+	track wfmashmPonPyg2hap2
+	parent wfmash
+	type bigChain mPonPyg2_v2.0
+	shortLabel mPonPyg2#hap2
+	longLabel mPonPyg2_v2.0 hap2 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap2.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap2.bigChain.link.bb
+	otherDb mPonPyg2_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
+	priority 120
+
+	track wfmashmSymSyn1hap1
+	parent wfmash
+	type bigChain mSymSyn1_v2.0
+	shortLabel mSymSyn1#hap1
+	longLabel mSymSyn1_v2.0 hap1 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap1.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap1.bigChain.link.bb
+	otherDb mSymSyn1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
+	priority 120
+
+	track wfmashmSymSyn1hap2
+	parent wfmash
+	type bigChain mSymSyn1_v2.0
+	shortLabel mSymSyn1#hap2
+	longLabel mSymSyn1_v2.0 hap2 to T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap2.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap2.bigChain.link.bb
+	otherDb mSymSyn1_v2.0
+	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
+	priority 120
+
+track wfmashHPRCy1
+superTrack on
+visibility hide
+shortLabel WFMASH-HPRCy1
+longLabel wfmash v0.13.0 HPRCy1 chain
+group compGeno
+type bigChain
+mouseOverField name
+html https://raw.githubusercontent.com/T2T-apes/ape_pangenome/main/alignment/wfmash.html
+priority 130
+# 130-
+
+	track wfmashHPRCy1HG002hap1
+	parent wfmashHPRCy1
+	type bigChain HG002#hap1
+	shortLabel HG002#hap1
+	longLabel HPRCy1 HG002 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 131
+
+	track wfmashHPRCy1HG002hap2
+	parent wfmashHPRCy1
+	type bigChain HG002#hap2
+	shortLabel HG002#hap2
+	longLabel HPRCy1 HG002 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 132
+
+	track wfmashHPRCy1HG00438hap1
+	parent wfmashHPRCy1
+	type bigChain HG00438#hap1
+	shortLabel HG00438#hap1
+	longLabel HPRCy1 HG00438 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 133
+
+	track wfmashHPRCy1HG00438hap2
+	parent wfmashHPRCy1
+	type bigChain HG00438#hap2
+	shortLabel HG00438#hap2
+	longLabel HPRCy1 HG00438 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 134
+
+	track wfmashHPRCy1HG005hap1
+	parent wfmashHPRCy1
+	type bigChain HG005#hap1
+	shortLabel HG005#hap1
+	longLabel HPRCy1 HG005 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 135
+
+	track wfmashHPRCy1HG005hap2
+	parent wfmashHPRCy1
+	type bigChain HG005#hap2
+	shortLabel HG005#hap2
+	longLabel HPRCy1 HG005 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 136
+
+	track wfmashHPRCy1HG00621hap1
+	parent wfmashHPRCy1
+	type bigChain HG00621#hap1
+	shortLabel HG00621#hap1
+	longLabel HPRCy1 HG00621 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 137
+
+	track wfmashHPRCy1HG00621hap2
+	parent wfmashHPRCy1
+	type bigChain HG00621#hap2
+	shortLabel HG00621#hap2
+	longLabel HPRCy1 HG00621 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 138
+
+	track wfmashHPRCy1HG00673hap1
+	parent wfmashHPRCy1
+	type bigChain HG00673#hap1
+	shortLabel HG00673#hap1
+	longLabel HPRCy1 HG00673 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 139
+
+	track wfmashHPRCy1HG00673hap2
+	parent wfmashHPRCy1
+	type bigChain HG00673#hap2
+	shortLabel HG00673#hap2
+	longLabel HPRCy1 HG00673 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 140
+
+	track wfmashHPRCy1HG00733hap1
+	parent wfmashHPRCy1
+	type bigChain HG00733#hap1
+	shortLabel HG00733#hap1
+	longLabel HPRCy1 HG00733 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 141
+
+	track wfmashHPRCy1HG00733hap2
+	parent wfmashHPRCy1
+	type bigChain HG00733#hap2
+	shortLabel HG00733#hap2
+	longLabel HPRCy1 HG00733 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 142
+
+	track wfmashHPRCy1HG00735hap1
+	parent wfmashHPRCy1
+	type bigChain HG00735#hap1
+	shortLabel HG00735#hap1
+	longLabel HPRCy1 HG00735 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 143
+
+	track wfmashHPRCy1HG00735hap2
+	parent wfmashHPRCy1
+	type bigChain HG00735#hap2
+	shortLabel HG00735#hap2
+	longLabel HPRCy1 HG00735 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 144
+
+	track wfmashHPRCy1HG00741hap1
+	parent wfmashHPRCy1
+	type bigChain HG00741#hap1
+	shortLabel HG00741#hap1
+	longLabel HPRCy1 HG00741 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 145
+
+	track wfmashHPRCy1HG00741hap2
+	parent wfmashHPRCy1
+	type bigChain HG00741#hap2
+	shortLabel HG00741#hap2
+	longLabel HPRCy1 HG00741 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 146
+
+	track wfmashHPRCy1HG01071hap1
+	parent wfmashHPRCy1
+	type bigChain HG01071#hap1
+	shortLabel HG01071#hap1
+	longLabel HPRCy1 HG01071 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 147
+
+	track wfmashHPRCy1HG01071hap2
+	parent wfmashHPRCy1
+	type bigChain HG01071#hap2
+	shortLabel HG01071#hap2
+	longLabel HPRCy1 HG01071 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 148
+
+	track wfmashHPRCy1HG01106hap1
+	parent wfmashHPRCy1
+	type bigChain HG01106#hap1
+	shortLabel HG01106#hap1
+	longLabel HPRCy1 HG01106 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 149
+
+	track wfmashHPRCy1HG01106hap2
+	parent wfmashHPRCy1
+	type bigChain HG01106#hap2
+	shortLabel HG01106#hap2
+	longLabel HPRCy1 HG01106 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 150
+
+	track wfmashHPRCy1HG01109hap1
+	parent wfmashHPRCy1
+	type bigChain HG01109#hap1
+	shortLabel HG01109#hap1
+	longLabel HPRCy1 HG01109 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 151
+
+	track wfmashHPRCy1HG01109hap2
+	parent wfmashHPRCy1
+	type bigChain HG01109#hap2
+	shortLabel HG01109#hap2
+	longLabel HPRCy1 HG01109 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 152
+
+	track wfmashHPRCy1HG01123hap1
+	parent wfmashHPRCy1
+	type bigChain HG01123#hap1
+	shortLabel HG01123#hap1
+	longLabel HPRCy1 HG01123 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 153
+
+	track wfmashHPRCy1HG01123hap2
+	parent wfmashHPRCy1
+	type bigChain HG01123#hap2
+	shortLabel HG01123#hap2
+	longLabel HPRCy1 HG01123 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 154
+
+	track wfmashHPRCy1HG01175hap1
+	parent wfmashHPRCy1
+	type bigChain HG01175#hap1
+	shortLabel HG01175#hap1
+	longLabel HPRCy1 HG01175 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 155
+
+	track wfmashHPRCy1HG01175hap2
+	parent wfmashHPRCy1
+	type bigChain HG01175#hap2
+	shortLabel HG01175#hap2
+	longLabel HPRCy1 HG01175 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 156
+
+	track wfmashHPRCy1HG01243hap1
+	parent wfmashHPRCy1
+	type bigChain HG01243#hap1
+	shortLabel HG01243#hap1
+	longLabel HPRCy1 HG01243 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 157
+
+	track wfmashHPRCy1HG01243hap2
+	parent wfmashHPRCy1
+	type bigChain HG01243#hap2
+	shortLabel HG01243#hap2
+	longLabel HPRCy1 HG01243 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 158
+
+	track wfmashHPRCy1HG01258hap1
+	parent wfmashHPRCy1
+	type bigChain HG01258#hap1
+	shortLabel HG01258#hap1
+	longLabel HPRCy1 HG01258 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 159
+
+	track wfmashHPRCy1HG01258hap2
+	parent wfmashHPRCy1
+	type bigChain HG01258#hap2
+	shortLabel HG01258#hap2
+	longLabel HPRCy1 HG01258 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 160
+
+	track wfmashHPRCy1HG01358hap1
+	parent wfmashHPRCy1
+	type bigChain HG01358#hap1
+	shortLabel HG01358#hap1
+	longLabel HPRCy1 HG01358 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 161
+
+	track wfmashHPRCy1HG01358hap2
+	parent wfmashHPRCy1
+	type bigChain HG01358#hap2
+	shortLabel HG01358#hap2
+	longLabel HPRCy1 HG01358 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 162
+
+	track wfmashHPRCy1HG01361hap1
+	parent wfmashHPRCy1
+	type bigChain HG01361#hap1
+	shortLabel HG01361#hap1
+	longLabel HPRCy1 HG01361 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 163
+
+	track wfmashHPRCy1HG01361hap2
+	parent wfmashHPRCy1
+	type bigChain HG01361#hap2
+	shortLabel HG01361#hap2
+	longLabel HPRCy1 HG01361 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 164
+
+	track wfmashHPRCy1HG01891hap1
+	parent wfmashHPRCy1
+	type bigChain HG01891#hap1
+	shortLabel HG01891#hap1
+	longLabel HPRCy1 HG01891 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 165
+
+	track wfmashHPRCy1HG01891hap2
+	parent wfmashHPRCy1
+	type bigChain HG01891#hap2
+	shortLabel HG01891#hap2
+	longLabel HPRCy1 HG01891 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 166
+
+	track wfmashHPRCy1HG01928hap1
+	parent wfmashHPRCy1
+	type bigChain HG01928#hap1
+	shortLabel HG01928#hap1
+	longLabel HPRCy1 HG01928 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 167
+
+	track wfmashHPRCy1HG01928hap2
+	parent wfmashHPRCy1
+	type bigChain HG01928#hap2
+	shortLabel HG01928#hap2
+	longLabel HPRCy1 HG01928 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 168
+
+	track wfmashHPRCy1HG01952hap1
+	parent wfmashHPRCy1
+	type bigChain HG01952#hap1
+	shortLabel HG01952#hap1
+	longLabel HPRCy1 HG01952 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 169
+
+	track wfmashHPRCy1HG01952hap2
+	parent wfmashHPRCy1
+	type bigChain HG01952#hap2
+	shortLabel HG01952#hap2
+	longLabel HPRCy1 HG01952 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 170
+
+	track wfmashHPRCy1HG01978hap1
+	parent wfmashHPRCy1
+	type bigChain HG01978#hap1
+	shortLabel HG01978#hap1
+	longLabel HPRCy1 HG01978 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 171
+
+	track wfmashHPRCy1HG01978hap2
+	parent wfmashHPRCy1
+	type bigChain HG01978#hap2
+	shortLabel HG01978#hap2
+	longLabel HPRCy1 HG01978 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 172
+
+	track wfmashHPRCy1HG02055hap1
+	parent wfmashHPRCy1
+	type bigChain HG02055#hap1
+	shortLabel HG02055#hap1
+	longLabel HPRCy1 HG02055 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 173
+
+	track wfmashHPRCy1HG02055hap2
+	parent wfmashHPRCy1
+	type bigChain HG02055#hap2
+	shortLabel HG02055#hap2
+	longLabel HPRCy1 HG02055 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 174
+
+	track wfmashHPRCy1HG02080hap1
+	parent wfmashHPRCy1
+	type bigChain HG02080#hap1
+	shortLabel HG02080#hap1
+	longLabel HPRCy1 HG02080 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 175
+
+	track wfmashHPRCy1HG02080hap2
+	parent wfmashHPRCy1
+	type bigChain HG02080#hap2
+	shortLabel HG02080#hap2
+	longLabel HPRCy1 HG02080 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 176
+
+	track wfmashHPRCy1HG02109hap1
+	parent wfmashHPRCy1
+	type bigChain HG02109#hap1
+	shortLabel HG02109#hap1
+	longLabel HPRCy1 HG02109 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 177
+
+	track wfmashHPRCy1HG02109hap2
+	parent wfmashHPRCy1
+	type bigChain HG02109#hap2
+	shortLabel HG02109#hap2
+	longLabel HPRCy1 HG02109 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 178
+
+	track wfmashHPRCy1HG02145hap1
+	parent wfmashHPRCy1
+	type bigChain HG02145#hap1
+	shortLabel HG02145#hap1
+	longLabel HPRCy1 HG02145 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 179
+
+	track wfmashHPRCy1HG02145hap2
+	parent wfmashHPRCy1
+	type bigChain HG02145#hap2
+	shortLabel HG02145#hap2
+	longLabel HPRCy1 HG02145 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 180
+
+	track wfmashHPRCy1HG02148hap1
+	parent wfmashHPRCy1
+	type bigChain HG02148#hap1
+	shortLabel HG02148#hap1
+	longLabel HPRCy1 HG02148 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 181
+
+	track wfmashHPRCy1HG02148hap2
+	parent wfmashHPRCy1
+	type bigChain HG02148#hap2
+	shortLabel HG02148#hap2
+	longLabel HPRCy1 HG02148 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 182
+
+	track wfmashHPRCy1HG02257hap1
+	parent wfmashHPRCy1
+	type bigChain HG02257#hap1
+	shortLabel HG02257#hap1
+	longLabel HPRCy1 HG02257 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 183
+
+	track wfmashHPRCy1HG02257hap2
+	parent wfmashHPRCy1
+	type bigChain HG02257#hap2
+	shortLabel HG02257#hap2
+	longLabel HPRCy1 HG02257 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 184
+
+	track wfmashHPRCy1HG02486hap1
+	parent wfmashHPRCy1
+	type bigChain HG02486#hap1
+	shortLabel HG02486#hap1
+	longLabel HPRCy1 HG02486 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 185
+
+	track wfmashHPRCy1HG02486hap2
+	parent wfmashHPRCy1
+	type bigChain HG02486#hap2
+	shortLabel HG02486#hap2
+	longLabel HPRCy1 HG02486 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 186
+
+	track wfmashHPRCy1HG02559hap1
+	parent wfmashHPRCy1
+	type bigChain HG02559#hap1
+	shortLabel HG02559#hap1
+	longLabel HPRCy1 HG02559 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 187
+
+	track wfmashHPRCy1HG02559hap2
+	parent wfmashHPRCy1
+	type bigChain HG02559#hap2
+	shortLabel HG02559#hap2
+	longLabel HPRCy1 HG02559 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 188
+
+	track wfmashHPRCy1HG02572hap1
+	parent wfmashHPRCy1
+	type bigChain HG02572#hap1
+	shortLabel HG02572#hap1
+	longLabel HPRCy1 HG02572 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 189
+
+	track wfmashHPRCy1HG02572hap2
+	parent wfmashHPRCy1
+	type bigChain HG02572#hap2
+	shortLabel HG02572#hap2
+	longLabel HPRCy1 HG02572 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 190
+
+	track wfmashHPRCy1HG02622hap1
+	parent wfmashHPRCy1
+	type bigChain HG02622#hap1
+	shortLabel HG02622#hap1
+	longLabel HPRCy1 HG02622 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 191
+
+	track wfmashHPRCy1HG02622hap2
+	parent wfmashHPRCy1
+	type bigChain HG02622#hap2
+	shortLabel HG02622#hap2
+	longLabel HPRCy1 HG02622 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 192
+
+	track wfmashHPRCy1HG02630hap1
+	parent wfmashHPRCy1
+	type bigChain HG02630#hap1
+	shortLabel HG02630#hap1
+	longLabel HPRCy1 HG02630 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 193
+
+	track wfmashHPRCy1HG02630hap2
+	parent wfmashHPRCy1
+	type bigChain HG02630#hap2
+	shortLabel HG02630#hap2
+	longLabel HPRCy1 HG02630 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 194
+
+	track wfmashHPRCy1HG02717hap1
+	parent wfmashHPRCy1
+	type bigChain HG02717#hap1
+	shortLabel HG02717#hap1
+	longLabel HPRCy1 HG02717 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 195
+
+	track wfmashHPRCy1HG02717hap2
+	parent wfmashHPRCy1
+	type bigChain HG02717#hap2
+	shortLabel HG02717#hap2
+	longLabel HPRCy1 HG02717 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 196
+
+	track wfmashHPRCy1HG02723hap1
+	parent wfmashHPRCy1
+	type bigChain HG02723#hap1
+	shortLabel HG02723#hap1
+	longLabel HPRCy1 HG02723 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 197
+
+	track wfmashHPRCy1HG02723hap2
+	parent wfmashHPRCy1
+	type bigChain HG02723#hap2
+	shortLabel HG02723#hap2
+	longLabel HPRCy1 HG02723 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 198
+
+	track wfmashHPRCy1HG02818hap1
+	parent wfmashHPRCy1
+	type bigChain HG02818#hap1
+	shortLabel HG02818#hap1
+	longLabel HPRCy1 HG02818 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 199
+
+	track wfmashHPRCy1HG02818hap2
+	parent wfmashHPRCy1
+	type bigChain HG02818#hap2
+	shortLabel HG02818#hap2
+	longLabel HPRCy1 HG02818 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 200
+
+	track wfmashHPRCy1HG02886hap1
+	parent wfmashHPRCy1
+	type bigChain HG02886#hap1
+	shortLabel HG02886#hap1
+	longLabel HPRCy1 HG02886 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 201
+
+	track wfmashHPRCy1HG02886hap2
+	parent wfmashHPRCy1
+	type bigChain HG02886#hap2
+	shortLabel HG02886#hap2
+	longLabel HPRCy1 HG02886 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 202
+
+	track wfmashHPRCy1HG03098hap1
+	parent wfmashHPRCy1
+	type bigChain HG03098#hap1
+	shortLabel HG03098#hap1
+	longLabel HPRCy1 HG03098 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 203
+
+	track wfmashHPRCy1HG03098hap2
+	parent wfmashHPRCy1
+	type bigChain HG03098#hap2
+	shortLabel HG03098#hap2
+	longLabel HPRCy1 HG03098 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 204
+
+	track wfmashHPRCy1HG03453hap1
+	parent wfmashHPRCy1
+	type bigChain HG03453#hap1
+	shortLabel HG03453#hap1
+	longLabel HPRCy1 HG03453 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 205
+
+	track wfmashHPRCy1HG03453hap2
+	parent wfmashHPRCy1
+	type bigChain HG03453#hap2
+	shortLabel HG03453#hap2
+	longLabel HPRCy1 HG03453 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 206
+
+	track wfmashHPRCy1HG03486hap1
+	parent wfmashHPRCy1
+	type bigChain HG03486#hap1
+	shortLabel HG03486#hap1
+	longLabel HPRCy1 HG03486 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 207
+
+	track wfmashHPRCy1HG03486hap2
+	parent wfmashHPRCy1
+	type bigChain HG03486#hap2
+	shortLabel HG03486#hap2
+	longLabel HPRCy1 HG03486 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 208
+
+	track wfmashHPRCy1HG03492hap1
+	parent wfmashHPRCy1
+	type bigChain HG03492#hap1
+	shortLabel HG03492#hap1
+	longLabel HPRCy1 HG03492 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 209
+
+	track wfmashHPRCy1HG03492hap2
+	parent wfmashHPRCy1
+	type bigChain HG03492#hap2
+	shortLabel HG03492#hap2
+	longLabel HPRCy1 HG03492 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 210
+
+	track wfmashHPRCy1HG03516hap1
+	parent wfmashHPRCy1
+	type bigChain HG03516#hap1
+	shortLabel HG03516#hap1
+	longLabel HPRCy1 HG03516 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 211
+
+	track wfmashHPRCy1HG03516hap2
+	parent wfmashHPRCy1
+	type bigChain HG03516#hap2
+	shortLabel HG03516#hap2
+	longLabel HPRCy1 HG03516 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 212
+
+	track wfmashHPRCy1HG03540hap1
+	parent wfmashHPRCy1
+	type bigChain HG03540#hap1
+	shortLabel HG03540#hap1
+	longLabel HPRCy1 HG03540 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 213
+
+	track wfmashHPRCy1HG03540hap2
+	parent wfmashHPRCy1
+	type bigChain HG03540#hap2
+	shortLabel HG03540#hap2
+	longLabel HPRCy1 HG03540 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 214
+
+	track wfmashHPRCy1HG03579hap1
+	parent wfmashHPRCy1
+	type bigChain HG03579#hap1
+	shortLabel HG03579#hap1
+	longLabel HPRCy1 HG03579 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 215
+
+	track wfmashHPRCy1HG03579hap2
+	parent wfmashHPRCy1
+	type bigChain HG03579#hap2
+	shortLabel HG03579#hap2
+	longLabel HPRCy1 HG03579 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 216
+
+	track wfmashHPRCy1NA18906hap1
+	parent wfmashHPRCy1
+	type bigChain NA18906#hap1
+	shortLabel NA18906#hap1
+	longLabel HPRCy1 NA18906 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 217
+
+	track wfmashHPRCy1NA18906hap2
+	parent wfmashHPRCy1
+	type bigChain NA18906#hap2
+	shortLabel NA18906#hap2
+	longLabel HPRCy1 NA18906 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 218
+
+	track wfmashHPRCy1NA19240hap1
+	parent wfmashHPRCy1
+	type bigChain NA19240#hap1
+	shortLabel NA19240#hap1
+	longLabel HPRCy1 NA19240 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 219
+
+	track wfmashHPRCy1NA19240hap2
+	parent wfmashHPRCy1
+	type bigChain NA19240#hap2
+	shortLabel NA19240#hap2
+	longLabel HPRCy1 NA19240 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 220
+
+	track wfmashHPRCy1NA20129hap1
+	parent wfmashHPRCy1
+	type bigChain NA20129#hap1
+	shortLabel NA20129#hap1
+	longLabel HPRCy1 NA20129 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 221
+
+	track wfmashHPRCy1NA20129hap2
+	parent wfmashHPRCy1
+	type bigChain NA20129#hap2
+	shortLabel NA20129#hap2
+	longLabel HPRCy1 NA20129 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 222
+
+	track wfmashHPRCy1NA21309hap1
+	parent wfmashHPRCy1
+	type bigChain NA21309#hap1
+	shortLabel NA21309#hap1
+	longLabel HPRCy1 NA21309 hap1 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_CHM13v2.0.bigChain.link.bb
+	priority 223
+
+	track wfmashHPRCy1NA21309hap2
+	parent wfmashHPRCy1
+	type bigChain NA21309#hap2
+	shortLabel NA21309#hap2
+	longLabel HPRCy1 NA21309 hap2 to CHM13v2.0
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_CHM13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_CHM13v2.0.bigChain.link.bb
+	priority 224
+
+
+
+# include ../maf.trackDb.txt
+include ../hal.trackDb.txt
+
+track haqer
+shortLabel HAQERs
+longLabel Human Ancestor Quickly Evolved Regions
+group compGeno
+visibility dense
+itemRgb on
+type bigBed 4
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/haqer_v1.0.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/haqer.html
+mouseOverField name
+priority 500
+
+track phast
+superTrack on show
+shortLabel PHAST
+longLabel Most conserved region from 2 approaches
+group compGeno
+mouseOverField name
+html https://raw.githubusercontent.com/T2T-apes/MSA/main/trackDescription_conservation.html
+priority 600
+
+	track cons1score
+	shortLabel Score (Approach1)
+	longLabel Approach 1 Conservation Score
+	parent phast
+	visibility hide
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.scores_v0.1.bw
+	priority 601
+
+	track cons1elmnt
+	shortLabel Conserved (Approach1)
+	longLabel Approach 1 Most Conserved Elements
+	parent phast
+	visibility hide
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits -428:100000
+	type bigWig -428 100000
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.most_conserved_v0.1.bw
+	priority 602
+
+	track cons2score
+	shortLabel Score (Approach2 v0.1)
+	longLabel Approach 2 Conservation Score v0.1
+	parent phast
+	visibility hide
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.1.bw
+	priority 603
+
+	track cons2elmnt
+	shortLabel Conserved (Approach2 v0.1)
+	longLabel Approach 2 Most Conserved Elements v0.1
+	parent phast
+	visibility hide
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.1.bb
+	priority 604
+
+	track cons2score2
+	shortLabel Score (Approach2 v0.2)
+	longLabel Approach 2 Conservation Score v0.2
+	parent phast
+	visibility hide
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.2.bw
+	priority 605
+
+	track cons2elmnt2
+	shortLabel Conserved (Approach2 v0.2)
+	longLabel Approach 2 Most Conserved Elements v0.2
+	parent phast
+	visibility hide
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
+	priority 606
+
+	track cons2score3
+	shortLabel Score (Approach2 v0.3)
+	longLabel Approach 2 Conservation Score v0.3
+	parent phast
+	visibility full
+	autoScale Off
+	maxHeightPixels 128:36:16
+	graphTypeDefault Bar
+	gridDefault OFF
+	windowingFunction Mean
+	viewLimits 0:1
+	type bigWig 0 1
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.3.bw
+	priority 607
+
+	track cons2elmnt3
+	shortLabel Conserved (Approach2 v0.3)
+	longLabel Approach 2 Most Conserved Elements v0.3
+	parent phast
+	visibility dense
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.3.bb
+	priority 608

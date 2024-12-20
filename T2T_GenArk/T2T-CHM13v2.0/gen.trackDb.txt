@@ -1,0 +1,55 @@
+track curGene5.2
+type bigGenePred
+compositeTrack on
+visibility dense
+shortLabel Curated RefSeq 5.2
+group genes
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/browser/bbi/chm13v2.0_RefSeq_Liftoff_v5.2.bb
+itemRgb on
+visibility dense
+longLabel Curated RefSeq + LiftOff gene annotation v5.2
+baseColorDefault genomicCodons
+labelFields name2,geneName2
+defaultLabelFields name2,geneName2
+labelSeparator ","
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/curGene.html
+priority 31
+searchIndex name,geneName,geneName2
+searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/browser/bbi/chm13v2.0_RefSeq_Liftoff_v5.2.ix
+
+track curGene5.1
+type bigGenePred
+compositeTrack on
+visibility hide
+shortLabel Curated RefSeq 5.1
+group genes
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/curGene_v5.1.bb
+itemRgb on
+longLabel Curated RefSeq + LiftOff gene annotation v5.1
+baseColorDefault genomicCodons
+labelFields name2,geneName2
+defaultLabelFields name2,geneName2
+labelSeparator ","
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/curGene.html
+priority 32
+searchIndex name,geneName,geneName2
+searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/curGene_v5.1.ix
+
+track refGene
+type bigGenePred
+visibility hide
+group genes
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/refGene.bb
+itemRgb on 
+shortLabel RefSeq 10/2023
+longLabel RefSeq gene annotation GCF_009914755.1-RS_2023_10
+baseColorDefault genomicCodons
+labelFields name2
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/refGene.html
+priority 35
+searchIndex name,geneName,geneName2
+labelFields geneName,geneName2
+defaultLabelFields geneName,geneName2
+labelSeparator ","
+searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/refGene.ix
+

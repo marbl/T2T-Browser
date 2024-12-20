@@ -1,0 +1,28 @@
+track 8-t2t-apes-2023v2.hs1
+shortLabel CACTUS-8
+longLabel CACTUS 8-way primary progressive alignment
+group compGeno
+priority 2
+visibility full
+type bigMaf
+bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.hs1.bigmaf.bb
+summary https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.hs1.bigmaf.summary.bb
+speciesGroups Apes_Primary
+sGroup_Apes_Primary hs1 hg38 GCA_028858775.2 GCA_029289425.2 GCA_029281585.2 GCA_028885655.2 GCA_028885625.2 GCA_028878055.2
+speciesOrder hs1 hg38 GCA_028858775.2 GCA_029289425.2 GCA_029281585.2 GCA_028885655.2 GCA_028885625.2 GCA_028878055.2
+speciesLabels hs1="CHM13" hg38="GRCh38" GCA_028858775.2="mPanTro3_pri" GCA_029289425.2="mPanPan1_pri" GCA_029281585.2="mGorGor1_pri" GCA_028885655.2="mPonAbe1_pri" GCA_028885625.2="mPonPyg2_pri" GCA_028878055.2="mSymSyn1_pri"
+
+track 10-t2t-apes-mc-2023v2.hs1
+shortLabel CACTUS-10
+longLabel CACTUS 10-way diploid mc pangenome alignment
+group compGeno
+priority 3
+visibility hide
+type bigMaf
+bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/10-t2t-apes-mc-2023v2/10-t2t-apes-mc-2023v2.hs1.bigmaf.bb
+summary https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/10-t2t-apes-mc-2023v2/10-t2t-apes-mc-2023v2.hs1.bigmaf.summary.bb
+speciesGroups Apes_Diploid_10
+sGroup_Apes_Diploid_10 hs1 hg38 GCA_018852605.2 GCA_018852615.2 GCA_028858775.2 GCA_028858805.2 GCA_028858825.2 GCA_028858845.2 GCA_028885475.2 GCA_028885495.2 
+speciesOrder hs1 hg38 GCA_018852605.2 GCA_018852615.2 GCA_028858775.2 GCA_028858805.2 GCA_028858825.2 GCA_028858845.2 GCA_028885475.2 GCA_028885495.2
+speciesLabels hs1="CHM13" hg38="GRCh38" GCA_018852605.2="hg002_pat" GCA_018852615.2="hg002_mat" GCA_028858775.2="mPanTro3_pri" GCA_028858805.2="mPanTro3_alt" GCA_028858825.2="mPanPan1_pat" GCA_028858845.2="mPanPan1_mat" GCA_028885475.2="mGorGor1_pat" GCA_028885495.2="mGorGor1_mat" 
+

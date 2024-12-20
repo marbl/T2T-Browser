@@ -1,0 +1,50 @@
+<h2>Genome Feature</h2>
+
+<p>
+This track represents the genome features in an abstract way.
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+<p>
+The colors used for each of the genome feature represents:
+</p>
+<ul>
+<li><span style='border: 2px inset #000000; background-color:#00CCCC;'>&nbsp;&nbsp;&nbsp;</span> - Tel, Telomeric sequence
+<li><span style='border: 2px inset #000000; background-color:#662F90;'>&nbsp;&nbsp;&nbsp;</span> - 45S, 45S within the rDNA unit sequence
+<li><span style='border: 2px inset #000000; background-color:#000000;'>&nbsp;&nbsp;&nbsp;</span> - Gap, N-base sequence gaps
+<li><span style='border: 2px inset #000000; background-color:#FF0000;'>&nbsp;&nbsp;&nbsp;</span> - Cen, Centromere with kinetochore support
+<li><span style='border: 2px inset #000000; background-color:#66C2A5;'>&nbsp;&nbsp;&nbsp;</span> - PAR, PAR region
+</ul>
+</p>
+
+<h2>Methods</h2>
+<p>
+<ul>
+<li>Telomeres have been identified with <code>seqtk telo -d 10000</code>.
+<li>45S units have been extracted from KY962518.1 and queried gainst each assembly using MashMap3 with 
+<code>mashmap -t $CPU --noSplit -q human_45S.fa -r $asm.fa -s 13332 --pi 85 -f none -o $sp_ver.45S.mashmap.out</code> and converted to bed format.
+<li>Gaps have been identified with <code>seqtk gap</code>.
+<li>Centromeres with kinetochore support have been identified using methylation data and CENP-A CUT&RUN.
+<li>PAR region identified in the v1-v1.1 XY assemblies (Makova et al., bioRxiv, 2023) have been aligned using <code>minimap2 -asm10</code> to the v2 assemblies. Then, UCSC Toolkit (axtChain and liftOver) have been used to liftover the coordinates. For the bonobo genome (mPanPan1), the PAR sequences were extracted from the v1 assemblies and mapped using minimap2. To verify the accuracy of the PAR boundaries, PARs from the X chromosome were extracted and mapped to the Y chromosome using minimap2.
+</ul>
+
+
+<h3>Notes</h3>
+<ul>
+Centromere methods will be updated soon.
+</ul>
+</p>
+
+<h2>Credits</h2>
+<ul>
+  <li> <a href="mailto:rhiea@nih.gov">Arang Rhie</a>, National Human Genome Research Institute, National Institutes of Health
+  <li> Centromere: <a href="mailto:glogsdon@pennmedicine.upenn.edu">Glennis Logsdon</a>, University of Pennsylvania;
+  <a href="mailto:fedorrik1@gmail.com">Fedor Ryabov</a>, National Research University Higher School of Economics, Moscow, Russia; and 
+  <a href="mailto:ivanalx@hotmail.com">Ivan A. Alexandrov</a>, Department of Anatomy and Anthropology and Department of Human Molecular Genetics and Biochemistry, Sackler Faculty of Medicine, Tel Aviv University, Israel
+  <li> PAR: <a href="liqiuhui09@gmail.com">Qiuhui Li</a>
+</ul>
+
+<h2>Reference</h2>
+<ul>
+  <li> <a href="https://doi.org/10.1101/2023.11.30.569198">Makova KD, Pickett BD, Harris RS, Hartley GA, Cechova M et al. The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes. <i>bioRxiv</i>, (2023) https://doi.org/10.1101/2023.11.30.569198</a>
+</ul>

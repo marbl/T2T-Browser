@@ -1,0 +1,25 @@
+<h2>Description</h2>
+<p>Accessibility mask for T2T primate genome assemblies.</p>
+
+<h2>Method</h2>
+<p>Sequencing reads from each sample were aligned to its corresponding T2T primate reference assembly (primary haplotype). Then, we analyzed the CRAM files to determine normalized read depth, mapping quality, and base-calling quality. Following published protocols, the accessibility mask was created for each species. (<a href="https://www.illumina.com/science/genomics-research/articles/identifying-genomic-regions-with-high-quality-single-nucleotide-.html" target="_blank">Identifying genomic regions with high-quality single nucleotide variant calling</a>).</p>
+<p><strong>Depth mask criteria:</strong>
+<p  style="margin-bottom: 0;">High-Quality Bases: Defined as bases where the mean normalized coverage across samples fall within 25% of the median autosomal coverage.</p>
+<p><strong>Quality mask criteria:</strong></p>
+<p>Mapping Quality: Retain positions with a mapping quality of 50 or higher.</p>
+<p>Base Quality: Include regions where ≥ 90% of base calls have a Q20 score or higher.</p>
+
+<h2>Data</h2>
+<p>Sample number:</p>
+    <li>Gorilla: 49</li>
+    <li>Chimpanzee: 57</li>
+    <li>Bonobo: 13</li>
+    <li>Sumatran Orangutan: 5</li>
+    <li>Bornean Orangutan: 5</li>
+<p>For detailed sample information, please refer to Makova KD, Pickett BD, Harris RS, Hartley GA, Cechova M <em>et al</em>., The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes, bioRxiv (2023). DOI: <a href="https://doi.org/10.1101/2023.11.30.569198" target="_blank" rel="noopener noreferrer">https://doi.org/10.1101/2023.11.30.569198</a></p>
+
+<h2>Contacts</h2>
+<ul>
+    <p>Qiuhui(Iris) Li: <a href="mailto:liqiuhui09@gmail.com">liqiuhui09@gmail.com</a><p>
+    <p>Michael Schatz: <a href="mailto:mschatz@cs.jhu.edu">mschatz@cs.jhu.edu</a><p>
+</ul>

@@ -1,0 +1,66 @@
+track unique
+group grc
+visibility dense
+compositeTrack on
+superTrack on show
+type bigBed 3
+visibility dense
+shortLabel Unique to GRCh
+longLabel Non-syntenic region to GRCh
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/v1_nflo_description.html
+priority 67
+
+    track uniqHg38
+    parent unique
+    shortLabel Unique to hg38
+    longLabel Non-syntenic to GRCh38
+    group grc
+    type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-unique_to_hg38.bb
+	priority 67.1
+
+    track uniqHg19
+    parent unique
+    shortLabel Unique to hg19
+    longLabel Non-syntenic to GRCh37/hg19
+    group grc
+    type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-unique_to_hg19.bb
+	priority 67.2
+
+track synteny
+superTrack on show
+visibility dense
+shortLabel Synteny
+longLabel Synteny to GRCh
+group grc
+type bigChain
+mouseOverField name
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/v1_nflo_description.html
+priority 68
+
+	track synHg38
+	parent synteny
+	type bigChain
+	shortLabel hg38
+	longLabel Synteny to GRCh38
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/grch38_to_chm13v2.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/grch38_to_chm13v2.bigChain.link.bb
+	otherDb hg38
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
+	priority 68.1
+
+	track synHg19
+	parent synteny
+	type bigChain
+	shortLabel hg19
+	longLabel Synteny to GRCh37/hg19
+	visibility dense
+	mouseOverField name
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/hg19_to_chm13v2.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/hg19_to_chm13v2.bigChain.link.bb
+	otherDb hg19
+	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit
+	priority 68.2

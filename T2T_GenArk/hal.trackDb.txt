@@ -1,0 +1,117 @@
+track cactus8
+compositeTrack on
+shortLabel CACTUS-8 HAL
+longLabel CACTUS 8-way primary progressive alignment
+group compGeno
+subGroup1 view Track_Type Snake=Alignments
+subGroup2 orgs Organisms mGorGor1_v2.0=mGorGor1 mPanPan1_v2.0=mPanPan1 mPanTro3_v2.0=mPanTro3 mPonAbe1_v2.0=mPonAbe1 mPonPyg2_v2.0=mPonPyg2 mSymSyn1_v2.0=mSymSyn1 hg38=hg38 T2T-CHM13v2.0=CHM13
+dragAndDrop subTracks
+dimensions dimensionX=view dimensionY=orgs
+noInherit on
+priority 500
+centerLabelsDense on
+visibility hide
+maxWindowToDraw 100000
+type bigBed 3
+
+    track cactus8Alignments
+    shortLabel Alignments
+    view Alignments
+    visibility full
+    subTrack cactus8
+
+	    track snakehg38
+        longLabel GRCh38
+        shortLabel GRCh38
+        otherSpecies hg38
+        visibility hide
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=hg38
+
+		track snakehs1
+        longLabel CHM13
+        shortLabel CHM13
+        otherSpecies T2T-CHM13v2.0
+        visibility full
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=T2T-CHM13v2.0
+
+	    track snakemGorGor1
+        longLabel mGorGor1
+        shortLabel mGorGor1
+        otherSpecies mGorGor1_v2.0
+        visibility hide
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=mGorGor1_v2.0
+
+		track snakemPanPan1
+        longLabel mPanPan1
+        shortLabel mPanPan1
+        otherSpecies mPanPan1_v2.0
+        visibility hide
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=mPanPan1_v2.0
+
+		track snakemPanTro3
+        longLabel mPanTro3
+        shortLabel mPanTro3
+        otherSpecies mPanTro3_v2.0
+        visibility hide
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=mPanTro3_v2.0
+
+        track snakemPonAbe1
+        longLabel mPonAbe1
+        shortLabel mPonAbe1
+        otherSpecies mPonAbe1_v2.0
+        visibility hide
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=mPonAbe1_v2.0
+
+        track snakemPonPyg2
+        longLabel mPonPyg2
+        shortLabel mPonPyg2
+        otherSpecies mPonPyg2_v2.0
+        visibility hide
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=mPonPyg2_v2.0
+
+        track snakemSymSyn1
+        longLabel mSymSyn1
+        shortLabel mSymSyn1
+        otherSpecies mSymSyn1_v2.0
+        visibility hide
+        parent cactus8Alignments off
+        priority 501
+        bigDataUrl https://cgl.gi.ucsc.edu/data/cactus/t2t-apes/8-t2t-apes-2023v2/8-t2t-apes-2023v2.rename.hal
+        type halSnake
+        group snake
+        subGroups view=Snake orgs=mSymSyn1_v2.0

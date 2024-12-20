@@ -1,0 +1,33 @@
+genome hs1
+trackDb T2T-CHM13v2.0/trackDb.txt
+groups T2T-CHM13v2.0/groups.txt
+
+# mGorGor1_v2.0_pri
+genome GCF_029281585.2
+trackDb mGorGor1_v2.0/trackDb.txt
+groups groups.txt
+
+# mPanPan1_v2.0_pri
+genome GCF_029289425.2
+trackDb mPanPan1_v2.0/trackDb.txt
+groups groups.txt
+
+# mPanTro3_v2.0_pri
+genome GCF_028858775.2
+trackDb mPanTro3_v2.0/trackDb.txt
+groups groups.txt
+
+# mPonAbe1_v2.0_pri
+genome GCF_028885655.2
+trackDb mPonAbe1_v2.0/trackDb.txt
+groups groups.txt
+
+# mPonPyg2_v2.0_pri
+genome GCF_028885625.2
+trackDb mPonPyg2_v2.0/trackDb.txt
+groups groups.txt
+
+# mSymSyn1_v2.0_pri
+genome GCA_028878055.2
+trackDb mSymSyn1_v2.0/trackDb.txt
+groups groups.txt

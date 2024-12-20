@@ -1,0 +1,38 @@
+<h2>Description</h2>
+<p>Methylation call</p>
+
+<h2>Methods</h2>
+<ul>
+  <li><u>ONT 5mC methylation</u>: ONT reads were basecalled with Guppy v6.3.8 and aligned to the v2.0 reference with Winnowmap (v2.03) with a k-mer size of 15. 5mC methylation frequency was obtained using <code>modkit pileup $BAM $OUT.pileup.bed --preset traditional --force-allow-implicit --suppress-progress --log-filepath $LOG --ref $REF -t $CPU</code>. Pileup coordinates and results were collected and transformed to <code>wig</code> and <code>bigWig</code> for visualization.
+</ul>
+<p>
+Input fastqs with methylation tags:
+</p>
+<ul>
+  <li>PAG26046_guppy-6.3.8.fastq.gz
+  <li>PAG26815_guppy-6.3.8.fastq.gz
+  <li>PAI19139_guppy-6.3.8.fastq.gz
+  <li>PAI19180_guppy-6.3.8.fastq.gz
+  <li>PAI19210_guppy-6.3.8.fastq.gz
+</ul>
+
+<h2>Data access</h2>
+<ul>
+  <li>bigWig and Wig files can be obtained from the Vertebrate Genomes Project <a href="https://genomeark.s3.amazonaws.com/index.html?prefix=species/Pan_troglodytes/mPanTro3/assembly_curated/epi/" target="_blank" rel="noopener noreferrer">here</a>
+</ul>
+
+<h2>Release history</h2>
+<ol>
+  <li> 2024-01-05 v2.0 release
+</ol>
+
+<h2>Contacts</h2>
+<ul>
+  <li>Arang Rhie &lt;rhiea_at_nih.gov&gt;</a>
+  <li>Steven Solar &lt;steven.solar_at_nih.gov&gt;</a>
+</ul>
+
+<h2>Credits</h2>
+<ol>
+  <li>Makova KD, Pickett BD, Harris RS, Hartley GA, Cechova M <em>et al</em>., The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes, bioRxiv (2023). DOI: <a href="https://doi.org/10.1101/2023.11.30.569198" target="_blank" rel="noopener noreferrer">https://doi.org/10.1101/2023.11.30.569198</a>
+</ol>

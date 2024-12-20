@@ -1,0 +1,425 @@
+track censat
+group rep
+visibility dense
+compositeTrack on
+superTrack on show
+type bigBed 9
+shortLabel CenSat
+longLabel Centromeric Satellite Annotation
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+mouseOverField name
+priority 20
+
+    track censatAnn
+    parent censat
+    shortLabel CenSat
+    longLabel Centromeric Satellite Annotation
+    group rep
+    type bigBed 9
+    visibility dense
+    itemRgb on
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censat_v2.1.bb
+	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+	priority 20.1
+
+	track censatStrand
+	parent censat
+	shortLabel CenSat Strand
+	longLabel Centromeric Satellite Strand Annotation
+	group rep
+	type bigBed 9
+	visibility dense
+	itemRgb on
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censatStrand_v2.1.bb
+	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+	priority 20.2
+
+track rmsk
+shortLabel RepeatMasker
+longLabel RepeatMasker Repetitive Elements
+type bigRmsk 9 +
+visibility dense
+group rep
+bigDataUrl  https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.t2tRepeatMasker/chm13v2.0_rmsk.bb
+xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.t2tRepeatMasker/chm13v2.0_rmsk.align.bb
+maxWindowToDraw 5000000
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/rmsk.html
+priority 22
+
+track sedefSegDups
+shortLabel Segmental Dups (2022)
+longLabel SEDEF Segmental Duplications (Vollger, 2022)
+group rep
+type bigBed 9 35
+visibility hide
+itemRgb on
+maxItems 100000
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sedefSegDups/sedefSegDups.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/sedefSegDups.html
+priority 23.1
+
+track segDups2024
+shortLabel Segmental Dups (2024)
+longLabel SEDEF Segmental Duplications (Yoo, 2024)
+group rep
+type bigBed 9 35
+visibility hide
+itemRgb on
+maxItems 100000
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/segDups_2024.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/segDups.html
+priority 23.2
+
+track seqidyAcro
+superTrack on show
+visibility dense
+shortLabel SeqIdy (Acro)
+longLabel Sequence Identity in 10kb, Acrocentric Chromosomes
+group rep
+type bigBed 9
+itemRgb on
+mouseOverField name
+html ../html/seqIdy.html
+priority 24.1
+
+  track seqIdychr13
+  parent seqidyAcro
+  shortLabel chr13
+  longLabel chr13
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr13.bb
+  priority 24.10
+
+  track seqIdychr14
+  parent seqidyAcro
+  shortLabel chr14
+  longLabel chr14
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr14.bb
+  priority 24.11
+
+  track seqIdychr15
+  parent seqidyAcro
+  shortLabel chr15
+  longLabel chr15
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr15.bb
+  priority 24.12
+
+  track seqIdychr21
+  parent seqidyAcro
+  shortLabel chr21
+  longLabel chr21
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr21.bb
+  priority 24.13
+
+  track seqIdychr22
+  parent seqidyAcro
+  shortLabel chr22
+  longLabel chr22
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr22.bb
+  priority 24.14
+
+  track seqIdychrY
+  parent seqidyAcro
+  shortLabel chrY
+  longLabel chrY
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chrY.bb
+  priority 24.15
+
+track seqidy
+superTrack on hide
+visibility dense
+shortLabel SeqIdy (Non-Acro)
+longLabel Sequence Identity in 10kb, Acrocentric Chromosomes
+group rep
+type bigBed 9
+itemRgb on
+mouseOverField name
+html ../html/seqIdy.html
+priority 24.3
+
+  track seqIdychr1
+  parent seqidy
+  shortLabel chr1
+  longLabel chr1
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr1.bb
+  priority 24.30
+
+  track seqIdychr2
+  parent seqidy
+  shortLabel chr2
+  longLabel chr2
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr2.bb
+  priority 24.31
+
+  track seqIdychr3
+  parent seqidy
+  shortLabel chr3
+  longLabel chr3
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr3.bb
+  priority 24.32
+
+  track seqIdychr4
+  parent seqidy
+  shortLabel chr4
+  longLabel chr4
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr4.bb
+  priority 24.33
+
+  track seqIdychr5
+  parent seqidy
+  shortLabel chr5
+  longLabel chr5
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr5.bb
+  priority 24.34
+
+  track seqIdychr6
+  parent seqidy
+  shortLabel chr6
+  longLabel chr6
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr6.bb
+  priority 24.35
+
+  track seqIdychr7
+  parent seqidy
+  shortLabel chr7
+  longLabel chr7
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr7.bb
+  priority 24.36
+
+  track seqIdychr8
+  parent seqidy
+  shortLabel chr8
+  longLabel chr8
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr8.bb
+  priority 24.37
+
+  track seqIdychr9
+  parent seqidy
+  shortLabel chr9
+  longLabel chr9
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr9.bb
+  priority 24.38
+
+  track seqIdychr10
+  parent seqidy
+  shortLabel chr10
+  longLabel chr10
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr10.bb
+  priority 24.39
+
+  track seqIdychr11
+  parent seqidy
+  shortLabel chr11
+  longLabel chr11
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr11.bb
+  priority 24.40
+
+  track seqIdychr12
+  parent seqidy
+  shortLabel chr12
+  longLabel chr12
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr12.bb
+  priority 24.41
+
+  track seqIdychr16
+  parent seqidy
+  shortLabel chr16
+  longLabel chr16
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr16.bb
+  priority 24.42
+
+  track seqIdychr17
+  parent seqidy
+  shortLabel chr17
+  longLabel chr17
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr17.bb
+  priority 24.43
+
+  track seqIdychr18
+  parent seqidy
+  shortLabel chr18
+  longLabel chr18
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr18.bb
+  priority 24.44
+
+  track seqIdychr19
+  parent seqidy
+  shortLabel chr19
+  longLabel chr19
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr19.bb
+  priority 24.45
+
+  track seqIdychr20
+  parent seqidy
+  shortLabel chr20
+  longLabel chr20
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chr20.bb
+  priority 24.46
+
+  track seqIdychrX
+  parent seqidy
+  shortLabel chrX
+  longLabel chrX
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chrX.bb
+  priority 24.47
+
+track seqidyPrimates
+superTrack on show
+visibility dense
+shortLabel SeqIdy (Primates)
+longLabel Sequence Identity in 10kb, T2T-Primate Genomes with Human Orthologs
+group rep
+type bigBed 9
+itemRgb on
+mouseOverField name
+html ../html/seqIdy.html
+priority 24.50
+
+  track seqIdyGorGor1
+  parent seqidyPrimates
+  shortLabel Gorilla
+  longLabel mGorGor1 GGO (Gorilla)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mGorGor1v2.0_to_CHM13.bb
+  priority 24.51
+
+  track seqIdyPanPan1
+  parent seqidyPrimates
+  shortLabel Bonobo
+  longLabel mPanPan1v2.0 PPA (Bonobo)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPanPan1v2.0_to_CHM13.bb
+  priority 24.52
+
+  track seqIdyPanTro3
+  parent seqidyPrimates
+  shortLabel Chimpanzee
+  longLabel mPanTro3v2.0 PTR (Chimpanzee)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPanTro3v2.0_to_CHM13.bb
+  priority 24.53
+
+  track seqIdyPonAbe1
+  parent seqidyPrimates
+  shortLabel S_Orang
+  longLabel mPonAbe1v2.0 PAB (Sumatran orangutan)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPonAbe1v2.0_to_CHM13.bb
+  priority 24.54
+
+  track seqIdyPonPyg2
+  parent seqidyPrimates
+  shortLabel B_Orang
+  longLabel mPonPyg2v2.0 PPY (Bornean orangutan)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPonPyg2v2.0_to_CHM13.bb
+  priority 24.55
+
+#  track seqIdySymSyn1
+#  parent seqidyPrimates
+#  shortLabel S_Gibbon
+#  longLabel mSymSyn1v2.0 SSY (Siamang gibbon)
+#  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mSymSyn1v2.0_to_CHM13.bb
+#  priority 24.56
+
+track phr
+shortLabel PHR
+longLabel Pseudo-Homologous Regions
+group rep
+type bigWig
+itemRgb on
+maxHeightPixels 100:32:16
+autoScale on
+viewLimits 0:1
+alwaysZero on
+visibility dense
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/phrs.bw
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/phr.html
+priority 25
+
+track prdm9sites
+visibility hide
+shortLabel PRDM9 Sites
+longLabel PRDM9 Binding Sites (beta)
+group rep
+type bigBed 4
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/prdm9_bMotif.bb
+html https://raw.githubusercontent.com/AndreaGuarracino/motifence/master/chm13v2.0-prdm9-track.html
+priority 26
+
+track nonB
+superTrack on hide
+visibility dense
+shortLabel Non-B DNA
+longLabel Non-B DNA
+group rep
+priority 27
+html ../html/nonB.html
+
+    track nonBapr
+    shortLabel A-phased repeats
+    longLabel A-phased repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_APR.bb
+    priority 27.1
+
+    track nonBdr
+    shortLabel Direct repeats
+    longLabel Direct repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_DR.bb
+    priority 27.2
+
+    track nonBgq
+    shortLabel G-quadruplexes
+    longLabel G-quadruplexes
+    parent nonB
+    type bigBed 4
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_GQ.bb
+    priority 27.3
+
+    track nonBir
+    shortLabel Inverted repeats
+    longLabel Inverted repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_IR.bb
+    priority 27.4
+
+    track nonBmr
+    shortLabel Mirror repeats
+    longLabel Mirror repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_MR.bb
+    priority 27.5
+
+    track nonBtr
+    shortLabel Triplex repeats
+    longLabel Triplex repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_TRI.bb
+    priority 27.6
+
+    track nonBstr
+    shortLabel Short tandem repeats
+    longLabel Short tandem repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_STR.bb
+    priority 27.7
+
+    track nonBz
+    shortLabel Z-DNA
+    longLabel Z-DNA
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_Z.bb
+    priority 27.8
+
+track numt
+shortLabel NUMT
+longLabel Nuclear-Mitochondrial DNA Segment
+type bigBed 3
+visibility dense
+group rep
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/numt_v0.1.bb
+html ../html/numt.html
+priority 28

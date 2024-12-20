@@ -1,0 +1,71 @@
+<h2>Description</h2>
+Satellite annotation
+
+<h2>Overview of types of Annotations</h2>
+<h3>Alpha Satellite</h3>
+  <li>"active_hor(SFx)" - active HOR array, identified as longest HOR array on chromosome as of version 0.1</li>
+  <li>"hor(SFx)" or "mon/hor(SFx)" - HOR repeats, summarized from superfamily annotations SF1-6</li>
+  <li>"dhor(SF0x)" - divered HOR repeats of superfamilies 01 and 02</li>
+  <li>"mon" - other superfamilies SF7+</li>
+  <li>"mixedAlpha(SFx, SFy) - regions that can't clearly be resolved as one SF</li>
+
+<h3>Other Satellite Annotations</h3>
+  <li>"hsat1A" - RepeatMasker SAR annotation</li>
+  <li>"hsat1B - RepeatMasker HSATI annotation</li>
+  <li>"gsat(gsattype)" - RepeatMasker GSat Annotations</li>
+  <li>"HSat2" - Annotated with Nick Altemose' perl script <a href="https://github.com/altemose/chm13_hsat">here</a></li>
+  <li>"HSat3" - Annotated with Nick Altemose' perl script <a href="https://github.com/altemose/chm13_hsat">here</a> and Tandem Repeat Finder</li>
+  <li>"HSat2_3" - Classical human satellites that can't be resolved HSat2 or HSat3 with current annotations methods</li>
+
+<h3>Composite Satellite Annotations</h3>
+  <li>"bSat(monomerTypes)" - RepeatMasker annotations, monomers include BSR, BSAT, LSAU</li>
+  <li>"cenSat(monomerTypes)" - RepeatMasker annotations - other satellites enriched in centromere, includes CER, SATR, SST1, ACRO, HSAT4/5, and TAF11</li>
+  <li>"subTerm(monomerTypes)" - Sub terminal satellite repeats - non human primate specific. Monomers are species specific but include PtpCHT7 and StSat_pCHT_v6_Pp</li>
+
+<h3>Other Annotations</h3>
+  <li>"ct" - Centromere transition region, see schema below for definition</li>
+  <li>"GAP" - regions of N's annotated using Seqtk gap</li>
+  <li>"rDNA" - rDNA annotated with annotation workflow here</li>
+
+<h2>Display Conventions and Configuration</h2>
+  <p>Colors</p>
+  <table>
+    <tr><td>Annotation</td>                                  <td>Color</td></tr>
+    <tr><td>Active αSat HOR (hor ... L)</td>                 <td style="color: #990000">dark red</tr>
+    <tr><td>Mixed αSat HOR (SFx, SFy)</td>                   <td style="color: #CC0000">red</tr>
+    <tr><td>Inactive αSat HOR (hor)</td>                     <td style="color: #ff6600">dark orange</tr>
+    <tr><td>Divergent αSat HOR (dhor)</td>                   <td style="color: #FF9200">lifht orange</tr>
+    <tr><td>Monomeric αSat (mon)</td>                        <td style="color: #FFCC99">peach/yellow</tr>
+    <tr><td>Classical Human Satellite 1A (hsat1A)</td>       <td style="color: #00de60">light green</tr>
+    <tr><td>Classical Human Satellite 1B (hsat1B)</td>       <td style="color: #1b998a">dark green</tr>
+    <tr><td>Classical Human Satellite 2 (HSat2)</td>         <td style="color: #0080FA">light blue</tr>
+    <tr><td>Classical Human Satellite 3 (HSat3)</td>         <td style="color: #335189">dark blue</tr>
+    <tr><td>Classical Human Satellite 2/3 (HSat2_3)</td>     <td style="color: #78a1bb">gray blue</tr>
+    <tr><td>Beta Satellite (bsat)</td>                       <td style="color: #FA99FF">pink</tr>
+    <tr><td>Gamma Satellite (gsat)</td>                      <td style="color: #AC33C7">purple</tr>
+    <tr><td>Other centromeric satellites (censat, COMP)</td> <td style="color: #00CCCC">teal</tr>
+    <tr><td>Subterminal satellites (subTerm)</td>            <td style="color: #FFCC00">yellow</tr>
+    <tr><td>Centromeric transition regions (ct)</td>         <td style="color: #E0E0E0">grey</tr>
+    <tr><td>rDNA</td>                                        <td style="color: #662f90">dark purple</td></tr>
+    <tr><td>GAP</td>                                         <td style="color: #000000">black</td></tr>
+  </table>
+
+<h2>Release</h2>
+  <li>v2.0 Release 8/29/24-9/3/24: Alterations to the handling of annotations within the "CenSat" bin to more completely cover complex and composite regions. Arrays now cover gaps caused by mobile element insertions smaller than 10kb. Composite satellite element names truncated for shorter naming convention. For example COMP-subunit_TSPY_rnd-1_family-25 is truncated to TSPY_family-25</li>
+  <li>v1.2 Release 7/1/24: Active alpha satellite arrays curated to reflect CenpA location and CDR</li>
+  <li>v1.1 Release 6/26/24: Re-colored for consistency, remove sandwidtch "ct"s between rDNA and GAP</li>
+  <li>v1.0 Release 6/20/24: Primate censat annotations, improved using pentameric simple repeat annotations from Tandem Repeat Finder run via RepeatMasker.
+     <p>Active arrays on the following chromosomes have been manually annotated on visual inspection of CenpA localization and CDR:
+       chr14_mat_hsa13, chr17_pat_hsa18, chr13_mat_hsa2b, chr13_pat_hsa2b, chr2_mat_hsa3, chr6_pat_hsa7, chr6_mat_hsa7 in Pan paniscus.<br>
+       Subterminal alpha satellite arrays were manually identified and marked as subTerm(SF4) in Symphalangus syndactylus.</p></li>
+  <li>v0.1 Release 5/6/24: First draft primate censat annotations for Pan troglodytes, Pan paniscus, and Gorilla gorilla.
+     Please document any issues you find in <a href="https://docs.google.com/spreadsheets/d/1UVqb11FiSKcm3jpo81KQGn1jd74TxLODyUpQr-bNBhk/edit?usp=sharing">this document</a>. Note - Versions 0.1 may have some overlaps in some of the smaller satellite annotations, alpha satellite annotations should have all overlaps resolved. </li>
+  <li>v0.1 Release 5/22/24: First draft primate censat annotations for Pongo abellie and Pongo pygmaeus.
+     These files are rough drafts - the annotations are incomplete especially in classical human satellites and acrocentric short arms.</li>
+
+<h2>Credits</h2>
+Satellite Annotations generated by Hailey Loucks.<br>
+Please contact with questions at hloucks@ucsc.edu
+
+<h2>References</h2>
+https://github.com/hloucks/CenSatData/tree/main/T2TPrimates
