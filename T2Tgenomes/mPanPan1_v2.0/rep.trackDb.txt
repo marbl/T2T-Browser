@@ -630,13 +630,21 @@ html ../html/nonB.html
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/mPanPan1_v2.0.nonB_MR.bb
     priority 26.5
 
+    track nonBtr
+    shortLabel Triplex repeats
+    longLabel Triplex repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/mPanPan1_v2.0.nonB_TRI.bb
+    priority 26.6
+
     track nonBstr
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
     parent nonB
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/mPanPan1_v2.0.nonB_STR.bb
-    priority 26.6
+    priority 26.7
 
     track nonBz
     shortLabel Z-DNA
@@ -644,7 +652,7 @@ html ../html/nonB.html
     parent nonB
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/repeats/mPanPan1_v2.0.nonB_Z.bb
-    priority 26.7
+    priority 26.8
 
 track numt
 shortLabel NUMT
