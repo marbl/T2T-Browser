@@ -262,6 +262,59 @@ priority 24.3
   bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/chrX.bb
   priority 24.47
 
+track seqidyPrimates
+superTrack on show
+visibility dense
+shortLabel SeqIdy (Primates)
+longLabel Sequence Identity in 10kb, T2T-Primate Genomes with Human Orthologs
+group rep
+type bigBed 9
+itemRgb on
+mouseOverField name
+html ../html/seqIdy.html
+priority 24.50
+
+  track seqIdyGorGor1
+  parent seqidyPrimates
+  shortLabel Gorilla
+  longLabel mGorGor1 GGO (Gorilla)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mGorGor1v2.0_to_CHM13.bb
+  priority 24.51
+
+  track seqIdyPanPan1
+  parent seqidyPrimates
+  shortLabel Bonobo
+  longLabel mPanPan1v2.0 PPA (Bonobo)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPanPan1v2.0_to_CHM13.bb
+  priority 24.52
+
+  track seqIdyPanTro3
+  parent seqidyPrimates
+  shortLabel Chimpanzee
+  longLabel mPanTro3v2.0 PTR (Chimpanzee)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPanTro3v2.0_to_CHM13.bb
+  priority 24.53
+
+  track seqIdyPonAbe1
+  parent seqidyPrimates
+  shortLabel S_Orang
+  longLabel mPonAbe1v2.0 PAB (Sumatran orangutan)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPonAbe1v2.0_to_CHM13.bb
+  priority 24.54
+
+  track seqIdyPonPyg2
+  parent seqidyPrimates
+  shortLabel B_Orang
+  longLabel mPonPyg2v2.0 PPY (Bornean orangutan)
+  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mPonPyg2v2.0_to_CHM13.bb
+  priority 24.55
+
+#  track seqIdySymSyn1
+#  parent seqidyPrimates
+#  shortLabel S_Gibbon
+#  longLabel mSymSyn1v2.0 SSY (Siamang gibbon)
+#  bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/seqIdy_v1.1/mSymSyn1v2.0_to_CHM13.bb
+#  priority 24.56
 
 track phr
 shortLabel PHR
@@ -337,13 +390,21 @@ html ../html/nonB.html
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_MR.bb
     priority 27.5
 
+    track nonBtr
+    shortLabel Triplex repeats
+    longLabel Triplex repeats
+    parent nonB
+    type bigBed 3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_TRI.bb
+    priority 27.6
+
     track nonBstr
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
     parent nonB
     type bigBed 3
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_STR.bb
-    priority 27.6
+    priority 27.7
 
     track nonBz
     shortLabel Z-DNA
@@ -351,7 +412,7 @@ html ../html/nonB.html
     parent nonB
     type bigBed 3
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/nonB_Z.bb
-    priority 27.7
+    priority 27.8
 
 track numt
 shortLabel NUMT
