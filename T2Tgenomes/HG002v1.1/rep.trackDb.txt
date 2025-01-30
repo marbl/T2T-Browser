@@ -2,18 +2,19 @@
 # Repeat tracks
 ##
 
-#track HG002v1.1.segdups_lifted
-#shortLabel SEDEF SegDups lifted from v1.0.1
-#longLabel SEDEF SegDups from UWash lifted from v1.0.1
-#group rep
-#visibility pack
-#itemRgb on
-#maxItems 1000000
-#maxWindowToDraw 100000000
-#type bigBed 9
-#bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/segdups/HG002.SDs.010624.45col.liftedfromv1.0.1_to_v1.1.bb 
-#priority 2
-#html html/SD_track.hg002v1.0.1.010624.html
+
+track HG002v1.1.segdups
+shortLabel SEDEF Segmental Dups
+longLabel SEDEF Segmental Duplications from UWash
+group rep
+visibility pack
+itemRgb on
+maxItems 1000000
+maxWindowToDraw 100000000
+type bigBed 9
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/segdups/hg002v1.1.SDs.013025.44col.bb 
+priority 2
+html ../HG002v1.1/html/SD_track.hg002v1.1.013025.html
 
 track HG002v1.1.cenSat_v1.1
 shortLabel cenSat 

@@ -34,7 +34,7 @@ maxItems 1000000
 maxWindowToDraw 100000000
 type bigBed 3
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k21_hybrid_error.bb
-html html/errorKmerDescription.html
+html ../HG002v1.1/html/errorKmerDescription.html
 priority 3
 
 track HG002v1.1-hifirevio-nucfreq
@@ -54,7 +54,7 @@ alwaysZero on
 visibility full
 maxHeightPixels 100:50:8
 priority 4.1
-html html/nucfreqdescription.html
+html ../HG002v1.1/html/nucfreqdescription.html
     
     track HG002v1.1-hificount-second
     parent HG002v1.1-hifirevio-nucfreq
@@ -84,7 +84,7 @@ alwaysZero on
 visibility full
 maxHeightPixels 100:50:8
 priority 4.2
-html html/nucfreqdescription.html
+html ../HG002v1.1/html/nucfreqdescription.html
     
     track HG002v1.1-count-second
     parent HG002v1.1-ontul-nucfreq
@@ -107,7 +107,7 @@ type bigWig
 group asm
 graphTypeDefault Bar
 windowingFunction mean
-html html/microsatellites.html
+html ../HG002v1.1/html/microsatellites.html
 maxHeightPixels 100:32:16
 viewLimits 0:100
 autoScale off

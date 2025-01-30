@@ -12,7 +12,7 @@ maxItems 100
 maxWindowToDraw 100000
 type bigBed 4
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/haplotypes/v1.1.hetsites.bb
-html html/hetsitesDescription.html
+html ../HG002v1.1/html/hetsitesDescription.html
 priority 9.3
 
 track HG002v1.1.Heterozygosity

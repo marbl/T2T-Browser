@@ -1,0 +1,34 @@
+<h2>Description</h2>
+This track shows the locations of differences between the v1.1 maternal and the
+v1.1 paternal haplotypes.
+
+<p>
+To find differences between the haplotypes, the set of all autosomal maternal chromosomes in hg002v1.1
+were aligned to the set of all autosomal paternal chromosomes, and vice versa. After filtering
+to include only alignments between strictly homologous regions, variants were parsed from the 
+alignments.
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+The names of entries in this track include the location of the site on the homologous
+chromosome (e.g., "chr10_MATERNAL_83721285", followed by the allele at the site displayed in 
+the browser, the allele on the homologous chromosome, and the strand of the alignment
+between the two haplotypes ("F" for forward, "R" for reverse).
+
+<h2>Methods</h2>
+The alignment of the two sets of autosomes to each other was done with minimap2 version 2.26
+with the command "minimap2 -a -t2 -x asm5 v1.1.hap1aut.fasta.gz v1.1.hap2aut.fasta.gz".
+The resulting alignments were filtered to include only primary alignments that appear in
+both of the resulting BAM files with identical alignment endpoints and align regions 
+on homologous chromosomes (e.g., chr7_MATERNAL to chr7_PATERNAL).
+
+These filtered alignments were then used to call the differences between the haplotypes
+that are displayed in this track.
+
+<h2>Credits</h2>
+This analysis and the creation of the bigBed track files were done by Nancy F. Hansen at
+NHGRI. For inquiries, please email nhansen@mail.nih.gov.
+
+<!--<h2>References</h2>-->
+
+
