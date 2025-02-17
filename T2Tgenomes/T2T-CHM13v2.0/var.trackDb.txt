@@ -60,6 +60,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     longLabel CHM13 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
     track subset_HG002_kmer_wssd
@@ -70,6 +71,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     longLabel HG002 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
     track subset_GRCh38_kmer_wssd
@@ -80,36 +82,62 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     longLabel GRCh38 Copy Number
     type bigBed 9 +
     itemRgb on
-    visibility dense
-    
-    track subset_AFR_Mbuti_LP6005441-DNA_A08_wssd
-    priority 75
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A08_wssd.bb
-    shortLabel AFR_Mbuti_LP6005441-DNA_A08 CN
-    longLabel AFR_Mbuti_LP6005441-DNA_A08 Copy Number
-    type bigBed 9 +
-    itemRgb on
+    group var
     visibility dense
 
-    track subset_AFR_Ju_hoan_North_LP6005441-DNA_A11_wssd
+    track subset_AFR_BantuTswana_LP6005443-DNA_G02_wssd
     priority 75
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A11_wssd.bb
-    shortLabel AFR_Ju_hoan_North_LP6005441-DNA_A11 CN
-    longLabel AFR_Ju_hoan_North_LP6005441-DNA_A11 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_G02_wssd.bb
+    shortLabel AFR_BantuTswana_LP6005443-DNA_G02 CN
+    longLabel AFR_BantuTswana_LP6005443-DNA_G02 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_AFR_BantuKenya_LP6005441-DNA_B02_wssd
+    track subset_AFR_Biaka_LP6005441-DNA_G02_wssd
     priority 75
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B02_wssd.bb
-    shortLabel AFR_BantuKenya_LP6005441-DNA_B02 CN
-    longLabel AFR_BantuKenya_LP6005441-DNA_B02 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_G02_wssd.bb
+    shortLabel AFR_Biaka_LP6005441-DNA_G02 CN
+    longLabel AFR_Biaka_LP6005441-DNA_G02 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
+    visibility dense
+
+    track subset_AFR_Biaka_LP6005441-DNA_H02_wssd
+    priority 75
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_H02_wssd.bb
+    shortLabel AFR_Biaka_LP6005441-DNA_H02 CN
+    longLabel AFR_Biaka_LP6005441-DNA_H02 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_AFR_Dinka_LP6005443-DNA_H08_wssd
+    priority 75
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_H08_wssd.bb
+    shortLabel AFR_Dinka_LP6005443-DNA_H08 CN
+    longLabel AFR_Dinka_LP6005443-DNA_H08 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_AFR_Ju_hoan_North_LP6005443-DNA_G08_wssd
+    priority 75
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_G08_wssd.bb
+    shortLabel AFR_Ju_hoan_North_LP6005443-DNA_G08 CN
+    longLabel AFR_Ju_hoan_North_LP6005443-DNA_G08 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
     visibility dense
 
     track subset_AFR_Mbuti_LP6005441-DNA_B08_wssd
@@ -120,236 +148,293 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     longLabel AFR_Mbuti_LP6005441-DNA_B08 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_AFR_Ju_hoan_North_LP6005441-DNA_B11_wssd
+    track subset_AFR_Mbuti_LP6005592-DNA_C03_wssd
     priority 75
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B11_wssd.bb
-    shortLabel AFR_Ju_hoan_North_LP6005441-DNA_B11 CN
-    longLabel AFR_Ju_hoan_North_LP6005441-DNA_B11 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005592-DNA_C03_wssd.bb
+    shortLabel AFR_Mbuti_LP6005592-DNA_C03 CN
+    longLabel AFR_Mbuti_LP6005592-DNA_C03 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_AMR_Surui_LP6005441-DNA_B12_wssd
+    track subset_AFR_Yoruba_LP6005442-DNA_B02_wssd
+    priority 75
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005442-DNA_B02_wssd.bb
+    shortLabel AFR_Yoruba_LP6005442-DNA_B02 CN
+    longLabel AFR_Yoruba_LP6005442-DNA_B02 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_AMR_Karitiana_LP6005441-DNA_G06_wssd
     priority 76
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B12_wssd.bb
-    shortLabel AMR_Surui_LP6005441-DNA_B12 CN
-    longLabel AMR_Surui_LP6005441-DNA_B12 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_G06_wssd.bb
+    shortLabel AMR_Karitiana_LP6005441-DNA_G06 CN
+    longLabel AMR_Karitiana_LP6005441-DNA_G06 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_AMR_Piapoco_LP6005441-DNA_A04_wssd
+    track subset_AMR_Mayan_LP6005441-DNA_H07_wssd
     priority 76
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A04_wssd.bb
-    shortLabel AMR_Piapoco_LP6005441-DNA_A04 CN
-    longLabel AMR_Piapoco_LP6005441-DNA_A04 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_H07_wssd.bb
+    shortLabel AMR_Mayan_LP6005441-DNA_H07 CN
+    longLabel AMR_Mayan_LP6005441-DNA_H07 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_AMR_Surui_LP6005441-DNA_A12_wssd
+    track subset_AMR_Mixtec_LP6005443-DNA_H11_wssd
     priority 76
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A12_wssd.bb
-    shortLabel AMR_Surui_LP6005441-DNA_A12 CN
-    longLabel AMR_Surui_LP6005441-DNA_A12 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_H11_wssd.bb
+    shortLabel AMR_Mixtec_LP6005443-DNA_H11 CN
+    longLabel AMR_Mixtec_LP6005443-DNA_H11 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_AMR_Piapoco_LP6005441-DNA_B04_wssd
+    track subset_AMR_Zapotec_LP6005443-DNA_A12_wssd
     priority 76
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B04_wssd.bb
-    shortLabel AMR_Piapoco_LP6005441-DNA_B04 CN
-    longLabel AMR_Piapoco_LP6005441-DNA_B04 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_A12_wssd.bb
+    shortLabel AMR_Zapotec_LP6005443-DNA_A12 CN
+    longLabel AMR_Zapotec_LP6005443-DNA_A12 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_EAS_Naxi_LP6005441-DNA_A09_wssd
+    track subset_EAS_She_LP6005443-DNA_G01_wssd
     priority 77
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A09_wssd.bb
-    shortLabel EAS_Naxi_LP6005441-DNA_A09 CN
-    longLabel EAS_Naxi_LP6005441-DNA_A09 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_G01_wssd.bb
+    shortLabel EAS_She_LP6005443-DNA_G01 CN
+    longLabel EAS_She_LP6005443-DNA_G01 Copy Number
     type bigBed 9 +
     itemRgb on
-    visibility dense
-
-    track subset_EAS_Lahu_LP6005441-DNA_B07_wssd
-    priority 77
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B07_wssd.bb
-    shortLabel EAS_Lahu_LP6005441-DNA_B07 CN
-    longLabel EAS_Lahu_LP6005441-DNA_B07 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EAS_Naxi_LP6005441-DNA_B09_wssd
-    priority 77
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B09_wssd.bb
-    shortLabel EAS_Naxi_LP6005441-DNA_B09 CN
-    longLabel EAS_Naxi_LP6005441-DNA_B09 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EAS_Han_LP6005441-DNA_C05_wssd
-    priority 77
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_C05_wssd.bb
-    shortLabel EAS_Han_LP6005441-DNA_C05 CN
-    longLabel EAS_Han_LP6005441-DNA_C05 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EAS_Japanese_LP6005441-DNA_C06_wssd
-    priority 77
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_C06_wssd.bb
-    shortLabel EAS_Japanese_LP6005441-DNA_C06 CN
-    longLabel EAS_Japanese_LP6005441-DNA_C06 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EUR_Basque_LP6005441-DNA_C02_wssd
-    priority 78
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_C02_wssd.bb
-    shortLabel EUR_Basque_LP6005441-DNA_C02 CN
-    longLabel EUR_Basque_LP6005441-DNA_C02 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EUR_Adygei_LP6005441-DNA_A01_wssd
-    priority 78
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A01_wssd.bb
-    shortLabel EUR_Adygei_LP6005441-DNA_A01 CN
-    longLabel EUR_Adygei_LP6005441-DNA_A01 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EUR_French_LP6005441-DNA_A05_wssd
-    priority 78
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A05_wssd.bb
-    shortLabel EUR_French_LP6005441-DNA_A05 CN
-    longLabel EUR_French_LP6005441-DNA_A05 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EUR_Bergamo_LP6005441-DNA_A06_wssd
-    priority 78
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A06_wssd.bb
-    shortLabel EUR_Bergamo_LP6005441-DNA_A06 CN
-    longLabel EUR_Bergamo_LP6005441-DNA_A06 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EUR_Adygei_LP6005441-DNA_B01_wssd
-    priority 78
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B01_wssd.bb
-    shortLabel EUR_Adygei_LP6005441-DNA_B01 CN
-    longLabel EUR_Adygei_LP6005441-DNA_B01 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EUR_French_LP6005441-DNA_B05_wssd
-    priority 78
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B05_wssd.bb
-    shortLabel EUR_French_LP6005441-DNA_B05 CN
-    longLabel EUR_French_LP6005441-DNA_B05 Copy Number
-    type bigBed 9 +
-    itemRgb on
-    visibility dense
-
-    track subset_EUR_Bergamo_LP6005441-DNA_B06_wssd
-    priority 78
-    parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B06_wssd.bb
-    shortLabel EUR_Bergamo_LP6005441-DNA_B06 CN
-    longLabel EUR_Bergamo_LP6005441-DNA_B06 Copy Number
-    type bigBed 9 +
-    itemRgb on
+    group var
     visibility dense
 
     track subset_OCN_Papuan_LP6005441-DNA_B10_wssd
-    priority 79
+    priority 78
     parent sgdpCopyNumber_subset
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B10_wssd.bb
     shortLabel OCN_Papuan_LP6005441-DNA_B10 CN
     longLabel OCN_Papuan_LP6005441-DNA_B10 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_OCN_Papuan_LP6005441-DNA_A10_wssd
-    priority 79
+    track subset_OCN_Papuan_LP6005443-DNA_B08_wssd
+    priority 78
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A10_wssd.bb
-    shortLabel OCN_Papuan_LP6005441-DNA_A10 CN
-    longLabel OCN_Papuan_LP6005441-DNA_A10 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_B08_wssd.bb
+    shortLabel OCN_Papuan_LP6005443-DNA_B08 CN
+    longLabel OCN_Papuan_LP6005443-DNA_B08 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
     track subset_OCN_Bougainville_LP6005441-DNA_A03_wssd
-    priority 79
+    priority 78
     parent sgdpCopyNumber_subset
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_A03_wssd.bb
     shortLabel OCN_Bougainville_LP6005441-DNA_A03 CN
     longLabel OCN_Bougainville_LP6005441-DNA_A03 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
     track subset_OCN_Bougainville_LP6005441-DNA_B03_wssd
-    priority 79
+    priority 78
     parent sgdpCopyNumber_subset
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B03_wssd.bb
     shortLabel OCN_Bougainville_LP6005441-DNA_B03 CN
     longLabel OCN_Bougainville_LP6005441-DNA_B03 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_SAS_Brahui_LP6005441-DNA_C03_wssd
-    priority 80
+    track subset_SAS_Brahui_LP6005441-DNA_D03_wssd
+    priority 79
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_C03_wssd.bb
-    shortLabel SAS_Brahui_LP6005441-DNA_C03 CN
-    longLabel SAS_Brahui_LP6005441-DNA_C03 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_D03_wssd.bb
+    shortLabel SAS_Brahui_LP6005441-DNA_D03 CN
+    longLabel SAS_Brahui_LP6005441-DNA_D03 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
     visibility dense
 
-    track subset_SAS_Makrani_LP6005441-DNA_C07_wssd
-    priority 80
+    track subset_SAS_Hazara_LP6005441-DNA_F05_wssd
+    priority 79
     parent sgdpCopyNumber_subset
-    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_C07_wssd.bb
-    shortLabel SAS_Makrani_LP6005441-DNA_C07 CN
-    longLabel SAS_Makrani_LP6005441-DNA_C07 Copy Number
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_F05_wssd.bb
+    shortLabel SAS_Hazara_LP6005441-DNA_F05 CN
+    longLabel SAS_Hazara_LP6005441-DNA_F05 Copy Number
     type bigBed 9 +
     itemRgb on
+    group var
+    visibility dense
+
+    track subset_SAS_Madiga_LP6005519-DNA_H04_wssd
+    priority 79
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005519-DNA_H04_wssd.bb
+    shortLabel SAS_Madiga_LP6005519-DNA_H04 CN
+    longLabel SAS_Madiga_LP6005519-DNA_H04 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_SAS_Mala_LP6005519-DNA_E04_wssd
+    priority 79
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005519-DNA_E04_wssd.bb
+    shortLabel SAS_Mala_LP6005519-DNA_E04 CN
+    longLabel SAS_Mala_LP6005519-DNA_E04 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_SIB_Aleut_LP6005443-DNA_A03_wssd
+    priority 80
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_A03_wssd.bb
+    shortLabel SIB_Aleut_LP6005443-DNA_A03 CN
+    longLabel SIB_Aleut_LP6005443-DNA_A03 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_SIB_Even_LP6005443-DNA_C04_wssd
+    priority 80
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_C04_wssd.bb
+    shortLabel SIB_Even_LP6005443-DNA_C04 CN
+    longLabel SIB_Even_LP6005443-DNA_C04 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_SIB_Tubalar_LP6005442-DNA_E12_wssd
+    priority 80
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005442-DNA_E12_wssd.bb
+    shortLabel SIB_Tubalar_LP6005442-DNA_E12 CN
+    longLabel SIB_Tubalar_LP6005442-DNA_E12 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_SIB_Ulchi_LP6005442-DNA_G12_wssd
+    priority 80
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005442-DNA_G12_wssd.bb
+    shortLabel SIB_Ulchi_LP6005442-DNA_G12 CN
+    longLabel SIB_Ulchi_LP6005442-DNA_G12 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_EUR_Adygei_LP6005441-DNA_B01_wssd
+    priority 81
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_B01_wssd.bb
+    shortLabel EUR_Adygei_LP6005441-DNA_B01 CN
+    longLabel EUR_Adygei_LP6005441-DNA_B01 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_EUR_BedouinB_LP6005441-DNA_E02_wssd
+    priority 81
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005441-DNA_E02_wssd.bb
+    shortLabel EUR_BedouinB_LP6005441-DNA_E02 CN
+    longLabel EUR_BedouinB_LP6005441-DNA_E02 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_EUR_Estonian_LP6005442-DNA_G03_wssd
+    priority 81
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005442-DNA_G03_wssd.bb
+    shortLabel EUR_Estonian_LP6005442-DNA_G03 CN
+    longLabel EUR_Estonian_LP6005442-DNA_G03 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_EUR_North_Ossetian_LP6005443-DNA_E10_wssd
+    priority 81
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005443-DNA_E10_wssd.bb
+    shortLabel EUR_North_Ossetian_LP6005443-DNA_E10 CN
+    longLabel EUR_North_Ossetian_LP6005443-DNA_E10 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_EUR_Tajik_LP6005519-DNA_C03_wssd
+    priority 81
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005519-DNA_C03_wssd.bb
+    shortLabel EUR_Tajik_LP6005519-DNA_C03 CN
+    longLabel EUR_Tajik_LP6005519-DNA_C03 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_EUR_Turkish_LP6005677-DNA_C03_wssd
+    priority 81
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005677-DNA_C03_wssd.bb
+    shortLabel EUR_Turkish_LP6005677-DNA_C03 CN
+    longLabel EUR_Turkish_LP6005677-DNA_C03 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
+    visibility dense
+
+    track subset_EUR_Yemenite_Jew_LP6005592-DNA_H01_wssd
+    priority 81
+    parent sgdpCopyNumber_subset
+    bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.sgdpCopyNumber/LP6005592-DNA_H01_wssd.bb
+    shortLabel EUR_Yemenite_Jew_LP6005592-DNA_H01 CN
+    longLabel EUR_Yemenite_Jew_LP6005592-DNA_H01 Copy Number
+    type bigBed 9 +
+    itemRgb on
+    group var
     visibility dense
 
 track sgdpCopyNumber
