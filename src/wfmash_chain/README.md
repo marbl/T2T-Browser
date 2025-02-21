@@ -123,6 +123,69 @@ do
 done
 ```
 
+For the alignments between the primate genomes, the following was run.
+```shell
+module load ucsc
+module load aws
+
+path=../path.txt
+for i in $(seq 1 2)
+do
+  set -x
+  sp=`sed -n ${i}p $path | awk '{print $1}'`
+  sn=`sed -n ${i}p $path | awk '{print $3}'`
+  
+  # For mGorGor1 and mPanPan1
+  python split_by_genome.py ${sp}#M.p70.aln.chain
+  python split_by_genome.py ${sp}#P.p70.aln.chain
+  
+  # For the rest
+  # python split_by_genome.py ${sp}#1.p70.aln.chain
+  # python split_by_genome.py ${sp}#2.p70.aln.chain
+
+  # Following https://genome.ucsc.edu/goldenPath/help/bigChain.html
+  SIZE=${sp}_v2.0.sizes
+  ln -s ../../browser/${sp}_v2.0/$SIZE
+  set +x
+done
+
+# rename to clear off the naming
+rename -v chm13hap1 CHM13 chm13hap1*
+rename -v grch38hap1 GRCh38 grch38hap1*
+rename -v hg002 HG002 hg002*_to_*.chain
+rename -v hapM mat *hapM_to_*.chain
+rename -v hapP pat *hapP_to_*.chain
+
+ver=v0.13.0
+path=../path.txt
+for i in $(seq 1 6)
+do 
+  for qry in CHM13 GRCh38 HG002mat HG002pat mGorGor1mat mGorGor1pat mPanPan1mat mPanPan1pat mPanTro3hap1 mPanTro3hap2 mPonAbe1hap1 mPonAbe1hap2 mPonPyg2hap1 mPonPyg2hap2 mSymSyn1hap1 mSymSyn1hap2
+  do
+    sp=`sed -n ${i}p $path | awk '{print $1}'`
+    sn=`sed -n ${i}p $path | awk '{print $3}'`
+    out=${qry}_to_${sp}
+    echo "===${out}==="
+    
+    # This step generates chain.tab and link.tab
+    hgLoadChain -noBin -test ${sp}_v2.0 bigChain $out.chain
+
+    sed 's/\.000000//' chain.tab | awk 'BEGIN {OFS="\t"} {print $2, $4, $5, $11, 1000, $8, $3, $6, $7, $9, $10, $1}' > ${out}_v2.0.bigChain
+    bedToBigBed -type=bed6+6 -as=bigChain.as -tab ${out}_v2.0.bigChain ${sp}_v2.0.sizes ${out}_v2.0.bigChain.bb
+
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $5, $4}' link.tab > bigChain.bigLink
+    
+    bedSort bigChain.bigLink bigChain.bigLink.sort
+    bedToBigBed -type=bed4+1 -as=bigLink.as -tab bigChain.bigLink.sort ${sp}_v2.0.sizes ${out}_v2.0.bigChain.link.bb
+    
+    # Upload
+    aws s3 --profile=vgp cp ${out}_v2.0.bigChain.bb s3://genomeark/species/$sn/$sp/assembly_curated/comparative/${out}_v2.0.wfmash_$ver.bigChain.bb
+    aws s3 --profile=vgp cp ${out}_v2.0.bigChain.link.bb s3://genomeark/species/$sn/$sp/assembly_curated/comparative/${out}_v2.0.wfmash_$ver.bigChain.link.bb    
+    rm bigChain.bigLink bigChain.bigLink.sort link.tab chain.tab
+  done
+done
+```
+
 ## trackDb.txt
 Now, we need to create the corresponding trackDb.txt to go under group Comparative Genomics.
 ```shell
@@ -152,5 +215,74 @@ Append to com.trackDb.txt and move hal.trackDb.txt to the end
 for sp in mPanPan1 mPanTro3 mPonAbe1 mPonPyg2 mSymSyn1
 do
   cat HPRCy1.${sp}.trackDb.txt >> ../../T2Tgenomes/${sp}_v2.0/com.trackDb.txt
+done
+```
+
+## Tracks for CHM13 and HG002 hubs
+```shell
+# Extract chains
+python split_by_genome.py chm13#1.p70.aln.chain
+python split_by_genome.py hg002#M.p70.aln.chain
+python split_by_genome.py hg002#P.p70.aln.chain
+
+# Rename
+rename -v chm13hap1 CHM13 chm13hap1*
+rename -v grch38hap1 GRCh38 grch38hap1*
+rename -v hg002 HG002 hg002*_to_*.chain
+rename -v hapM mat *hapM_to_*.chain
+rename -v hapP pat *hapP_to_*.chain
+rename -v chm13 CHM13 *_to_chm13.chain
+rename -v hg002 HG002 *_to_hg002.chain
+
+sp=CHM13
+ref=chm13v2.0
+# No CHM13 self qry
+for qry in GRCh38 HG002mat HG002pat mGorGor1mat mGorGor1pat mPanPan1mat mPanPan1pat mPanTro3hap1 mPanTro3hap2 mPonAbe1hap1 mPonAbe1hap2 mPonPyg2hap1 mPonPyg2hap2 mSymSyn1hap1 mSymSyn1hap2
+do
+    out=${qry}_to_${sp}
+    echo "===${out}==="
+    
+    # This step generates chain.tab and link.tab
+    hgLoadChain -noBin -test $ref bigChain $out.chain
+
+    sed 's/\.000000//' chain.tab | awk 'BEGIN {OFS="\t"} {print $2, $4, $5, $11, 1000, $8, $3, $6, $7, $9, $10, $1}' > ${out}.bigChain
+    bedToBigBed -type=bed6+6 -as=bigChain.as -tab ${out}.bigChain $ref.sizes ${out}.bigChain.bb
+
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $5, $4}' link.tab > bigChain.bigLink
+    
+    bedSort bigChain.bigLink bigChain.bigLink.sort
+    bedToBigBed -type=bed4+1 -as=bigLink.as -tab bigChain.bigLink.sort $ref.sizes ${out}.bigChain.link.bb
+    
+    # Upload
+    aws s3 cp ${out}.bigChain.bb s3://human-pangenomics/T2T/$sp/browser/bbi/wfmash_$ver.${qry}.bigChain.bb
+    aws s3 cp ${out}.bigChain.link.bb s3://human-pangenomics/T2T/$sp/browser/bbi/wfmash_$ver.${qry}.bigChain.link.bb
+    rm bigChain.bigLink bigChain.bigLink.sort link.tab chain.tab
+done
+
+## For HG002
+sp=HG002
+ref=hg002v1.0
+ln -s /data/Phillippy2/projects/HG002_diploid/assembly_hub/v1.0/nhgri_hub/hg002v1.0/v1.0.sizes hg002v1.0.sizes
+
+for qry in CHM13 HG002mat HG002pat GRCh38 mGorGor1mat mGorGor1pat mPanPan1mat mPanPan1pat mPanTro3hap1 mPanTro3hap2 mPonAbe1hap1 mPonAbe1hap2 mPonPyg2hap1 mPonPyg2hap2 mSymSyn1hap1 mSymSyn1hap2
+do
+    out=${qry}_to_${sp}
+    echo "===${out}==="
+    
+    # This step generates chain.tab and link.tab
+    hgLoadChain -noBin -test $ref bigChain $out.chain
+
+    sed 's/\.000000//' chain.tab | awk 'BEGIN {OFS="\t"} {print $2, $4, $5, $11, 1000, $8, $3, $6, $7, $9, $10, $1}' > ${out}.bigChain
+    bedToBigBed -type=bed6+6 -as=bigChain.as -tab ${out}.bigChain $ref.sizes ${out}.bigChain.bb
+
+    awk 'BEGIN {OFS="\t"} {print $1, $2, $3, $5, $4}' link.tab > bigChain.bigLink
+    
+    bedSort bigChain.bigLink bigChain.bigLink.sort
+    bedToBigBed -type=bed4+1 -as=bigLink.as -tab bigChain.bigLink.sort $ref.sizes ${out}.bigChain.link.bb
+    
+    # Upload
+    aws s3 cp ${out}.bigChain.bb s3://human-pangenomics/T2T/$sp/assemblies/annotation/browserchains/wfmash_$ver/${qry}.bigChain.bb
+    aws s3 cp ${out}.bigChain.link.bb s3://human-pangenomics/T2T/$sp/assemblies/annotation/browserchains/wfmash_$ver/${qry}.bigChain.link.bb
+    rm bigChain.bigLink bigChain.bigLink.sort link.tab chain.tab
 done
 ```
