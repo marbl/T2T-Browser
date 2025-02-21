@@ -1,0 +1,47 @@
+{
+  "id": "chm13v2.0",
+  "name": "T2T-CHM13v2.0",
+  "fastaURL": "https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13v2.0.fa",
+  "indexURL": "https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13v2.0.fa.fai",
+  "cytobandURL": "https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13v2.0_cytobands_allchrs.txt.gz",
+  "aliasURL": "https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chm13v2.0_alias.tab",
+  "chromosomeOrder": [
+    "chr1",
+    "chr2",
+    "chr3",
+    "chr4",
+    "chr5",
+    "chr6",
+    "chr7",
+    "chr8",
+    "chr9",
+    "chr10",
+    "chr11",
+    "chr12",
+    "chr13",
+    "chr14",
+    "chr15",
+    "chr16",
+    "chr17",
+    "chr18",
+    "chr19",
+    "chr20",
+    "chr21",
+    "chr22",
+    "chrX",
+    "chrY",
+    "chrM"
+  ],
+  "tracks": [
+    {
+      "name": "CenSat v2.1",
+      "format": "bigbed",
+      "url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/censat_v2.1.bb"
+    },
+    {
+      "name": "Curated RefSeq v5.1",
+      "format": "bigbed",
+      "url": "https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/curGene_v5.1.bb"
+    }
+  ]
+}
