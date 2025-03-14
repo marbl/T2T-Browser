@@ -21,7 +21,7 @@ longLabel Chains to hg002v1.0.1
 visibility hide
 view filledChain
 group asm
-priority 12.1
+priority 19.1
 type bigChain HG002v1.0.1.PAT
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1_to_v1.0.1.bigChain.bb
 linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1_to_v1.0.1.bigChain.link.bb
