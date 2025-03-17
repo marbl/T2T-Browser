@@ -51,13 +51,12 @@ shortLabel Microsatellites
 longLabel Microsatellite Repeats
 type bigWig
 group asm
-windowingFunction mean
-html ../HG002v1.1/html/microsatellites.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/microsatellites.html
 maxHeightPixels 100:32:16
 viewLimits 0:100
 autoScale off
 alwaysZero on
-grphTypeDefault points
+graphTypeDefault points
 gridDefault on
 priority 14
 
@@ -198,8 +197,8 @@ html ../HG002v1.1/html/nucfreqdescription.html
 
 
 track HG002v1.1.MAT.MononucRuns
-shortLabel MononucleotideRuns
-longLabel Mononucleotide runs of length 10 or greater
+shortLabel Homopolymer Runs
+longLabel Homopolymer runs of 10 bases or longer
 group asm
 visibility hide
 itemRgb on
