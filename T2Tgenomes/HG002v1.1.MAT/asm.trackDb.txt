@@ -25,7 +25,7 @@ longLabel CpG Islands
 group asm
 visibility hide
 type bigBed 4 +
-html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/CpGIslandsTrack.html
+html ../HG002v1.1/html/CpGislandDescription.html
 priority 13
 
     track HG002v1.1.MAT.cpgIslandExt
@@ -110,6 +110,7 @@ maxItems 1000000
 maxWindowToDraw 100000000
 type bigBed 9
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_submitted_issues.bb
+html ../HG002v1.1/html/hg002v1.1.issues.html
 priority 15
 
 track HG002v1.1.MAT.v1.1_cautiontrack
