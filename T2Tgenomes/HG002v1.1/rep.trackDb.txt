@@ -13,18 +13,42 @@ maxItems 1000000
 maxWindowToDraw 100000000
 type bigBed 9
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/segdups/hg002v1.1.SDs.013025.44col.bb 
-priority 2
+priority 20
 html ../HG002v1.1/html/SD_track.hg002v1.1.013025.html
 
-track HG002v1.1.cenSat_v1.1
-shortLabel cenSat 
-longLabel cenSat annotation from UCSC
+track HG002v1.1.cenSat_v2.0
 group rep
-visibility pack
-itemRgb on
-maxItems 1000000
-maxWindowToDraw 500000000
+visibility dense
+compositeTrack on
+superTrack on show
 type bigBed 9
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/hg002v1.1.cenSatv2.0.noheader.bb
-priority 1
+shortLabel CenSat
+longLabel Centromeric Satellite Annotation
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+mouseOverField name
+priority 21
+
+    track censatAnn
+    parent HG002v1.1.cenSat_v2.0
+    shortLabel CenSat
+    longLabel Centromeric Satellite Annotation from UCSC
+    group rep
+    type bigBed 9
+    visibility dense
+    itemRgb on
+        bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/hg002v1.1.cenSatv2.0.noheader.bb
+	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+	priority 21.1
+
+	track censatStrand
+	parent HG002v1.1.cenSat_v2.0
+	shortLabel CenSat Strand
+	longLabel Centromeric Satellite Strand Annotation from UCSC
+	group rep
+	type bigBed 9
+	visibility hide
+	itemRgb on
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/hg002v1.1.SatelliteStrandv2.0.bb
+	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
+	priority 21.2
 

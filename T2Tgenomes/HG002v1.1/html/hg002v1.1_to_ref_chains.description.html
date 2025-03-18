@@ -1,0 +1,32 @@
+<h2>Description</h2>
+<p>This track maps locations in the HG002v1.1 genome to other human haploid references like GRCh38 and T2T-CHM13v2.0.
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+<!-- if there are special conventions, like colors, describe them here -->
+Chromosome colors are specified in the "Chromosome Color Key" displayed below the browser panel.
+
+<h2>Methods</h2>
+<p>Chain files for lifting coordinates to and from the HG002v1.1 assembly
+were created using the "nf-LO" pipeline described in Rhie et al.,
+Nature 2023. Briefly, we used nextflow to run nf-LO (Talenti and
+Prendergast, Genome Biology and Evolution 2021) to align the HG002v1.1
+genome haplotypes to a haploid target genome (e.g., GRCh38, CHM13v2.0)
+with minimap2, then split the chains at all locations where there were
+unaligned segments longer than 1kbp or gaps longer than 10kbp. Only
+alignments between homologous chromosomes were retained (e.g., an
+alignment between GRCh38 chr1 and HG002v1.1 chr3_MATERNAL would be
+ignored). The package rustybam (https://github.com/mrvollger/rustybam) was used
+to trim overlapping portions of the chains, resulting in one-to-one
+alignments, then finally, the package
+<a href="https://github.com/milkschen/chaintools">chaintools</a> was used to
+invert chains to obtain chain files for the reverse direction.</p>
+
+<h2>Credits</h2>
+<p>These tracks were created by Nancy F. Hansen at NHGRI. For inquiries, please email nhansen@mail.nih.gov.</p>
+
+<h2>References</h2>
+<ol>
+  <li>Rhie A, Nurk S, Cechova M <em>et al</em>. The complete sequence of a human Y chromosome. <em>Nature</em> (2023) doi: <a href="https://doi.org/10.1038/s41586-023-06457-y">https://doi.org/10.1038/s41586-023-06457-y</a></li>
+  <li>Talenti A and Prendergast J. nf-LO: A scalable, containerized workflow for genome-to-genome LiftOver. <em>Genome Biol. and Evol.</em> (2021) doi: <a href="https://doi.org/10.1093/gbe/evab183">https://doi.org/10.1093/gbe/evab183</a></li>
+</p>

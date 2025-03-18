@@ -2,13 +2,14 @@
 # Comparative alignment chains to other genomes
 
 track HG002v1.1.ChainToCHM13
-shortLabel CHM13
-longLabel Chain to CHM13
+shortLabel T2T-CHM13v2.0
+longLabel Chain to T2T-CHM13v2.0
 visibility full
 view filledChain
 group compGeno
 priority 12.1
 type bigChain T2T-CHM13v2.0
+html ../HG002v1.1/html/hg002v1.1_to_ref_chains.description.html
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_chm13v2.0.bigChain.bb
 linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_chm13v2.0.bigChain.link.bb
 otherDb T2T-CHM13v2.0
@@ -22,6 +23,7 @@ view filledChain
 group compGeno
 priority 12.2
 type bigChain hg38
+html ../HG002v1.1/html/hg002v1.1_to_ref_chains.description.html
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_GRCh38.bigChain.bb
 linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_GRCh38.bigChain.link.bb
 otherDb hg38

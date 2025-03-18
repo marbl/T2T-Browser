@@ -3,8 +3,8 @@
 ##
 
 track HG002v1.1.MAT.subtelTrack
-shortLabel Subtelomere annotation
-longLabel Subtelomeric repeat annotation
+shortLabel Subtelomere annotation V3
+longLabel Subtelomeric repeat annotation from ODU
 group rep
 visibility pack
 itemRgb on
