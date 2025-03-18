@@ -9,7 +9,7 @@ superTrack on show
 type bigBed 3
 shortLabel Non-syntenic with other refs
 longLabel Non-syntenic with respect to other references
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/v1_nflo_description.html
+html ../HG002v1.1/html/hg002v1.1_to_ref_chains.description.html
 priority 67
 
 	track HG002v1.1.nonsyntenicCHM13
