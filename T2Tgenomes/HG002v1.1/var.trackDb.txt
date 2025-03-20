@@ -9,11 +9,11 @@ group var
 visibility dense
 itemRgb on
 maxItems 100
-maxWindowToDraw 100000
+maxWindowToDraw 1000000
 type bigBed 4
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/haplotypes/v1.1.hetsites.bb
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/haplotypes/v1.1.hets.v1.0.bb
 html ../HG002v1.1/html/hetsitesDescription.html
-priority 9.3
+priority 81
 
 track HG002v1.1.Heterozygosity
 shortLabel Heterozygosity
@@ -24,6 +24,7 @@ itemRgb on
 maxItems 200
 maxWindowToDraw 20000000
 type bigBed 9
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/haplotypes/v1.1.hets.1to1alignable.windows.withhetcounts.heatmap.9col.bb
-priority 9.4
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/haplotypes/v1.1.hets.v1.0.heatmap20k.9col.bb
+html ../HG002v1.1/html/hetsitesDescription.html
+priority 82
 

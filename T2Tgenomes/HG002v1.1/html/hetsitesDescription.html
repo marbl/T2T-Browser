@@ -1,10 +1,10 @@
 <h2>Description</h2>
-This track shows the locations of differences between the v1.1 maternal and the
-v1.1 paternal haplotypes.
+These tracks show the locations of differences between the v1.1 maternal and paternal haplotypes
+and display a heatmap of the rate of heterozygous differences between the haplotypes.
 
 <p>
 To find differences between the haplotypes, the set of all autosomal maternal chromosomes in hg002v1.1
-were aligned to the set of all autosomal paternal chromosomes, and vice versa. After filtering
+were aligned to the set of all autosomal paternal chromosomes with minimap2, and vice versa. After filtering
 to include only alignments between strictly homologous regions, variants were parsed from the 
 alignments.
 </p>
@@ -20,10 +20,25 @@ The alignment of the two sets of autosomes to each other was done with minimap2 
 with the command "minimap2 -a -t2 -x asm5 v1.1.hap1aut.fasta.gz v1.1.hap2aut.fasta.gz".
 The resulting alignments were filtered to include only primary alignments that appear in
 both of the resulting BAM files with identical alignment endpoints and align regions 
-on homologous chromosomes (e.g., chr7_MATERNAL to chr7_PATERNAL).
+on homologous chromosomes (e.g., chr7_MATERNAL to chr7_PATERNAL). If a trimmed portion of
+an alignment agrees with a partial or whole alignment from the reciprocal BAM file, it is also included.
 
-These filtered alignments were then used to call the differences between the haplotypes
-that are displayed in this track.
+The filtered alignments were then used to call the differences between the haplotypes
+that are displayed in this track, including any mismatch, insertion, or deletion within the
+alignment’s CIGAR string. In addition, a heat map is created based on the rate of heterozygous
+differences within windows of a specified size (20,000 bases for the heterozygous heat map track in 
+this track group).
+
+The script used to create these tracks is part of the <a href="github.com/nhansen/GQC">GQC</a> 
+software package. It was called with the usage:
+
+gethets.py --bam1 v1.1.mataut_vs_v1.1.pataut.sort.bam --bam2 v1.1.pataut_vs_v1.1.mataut.sort.bam --ref1 v1.1.pataut.fasta.gz
+--ref2 v1.1.mataut.fasta.gz  --prefix v1.1.hets.non1to1.200k --non1to1 --windowsize 200000 --heatmap
+
+<h2> Sex chromosomes</h2>
+In addition, the sex chromosomes were compared using the same minimap2 parameters,
+and the two directed BAM files were passed to the gethets.py program with the same parameters
+to find heterozygous positions and calculate heterozygosity in the pseudoautosomal regions.
 
 <h2>Credits</h2>
 This analysis and the creation of the bigBed track files were done by Nancy F. Hansen at
