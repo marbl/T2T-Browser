@@ -11,7 +11,8 @@ include chains.trackDb.txt
 # 20
 include ../HG002v1.1/rep.trackDb.txt
 include telo.trackDb.txt
-include ../HG002v1.1/genes.trackDb.txt
+# 40
+include genes.trackDb.txt
 include ../HG002v1.1/methyl.trackDb.txt
 include ../HG002v1.1/fiberseq.trackDb.txt
 # 60
