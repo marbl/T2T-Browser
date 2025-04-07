@@ -61,7 +61,12 @@ label Comparative Genomics
 priority 10
 defaultIsClosed 0
 
+name giab
+label GIAB Stratification Tracks
+priority 11
+defaultIsClosed 1
+
 name x
 label Experimental Tracks
-priority 11
+priority 12
 defaultIsClosed 1
