@@ -119,7 +119,7 @@ longLabel GQC v1.1 Error Exclusion Region
 group asm
 visibility hide
 type bigBed 3
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues_and_excluded_regions.merged.bed
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues_and_excluded_regions.merged.bb
 priority 16
 
 track HG002v1.1.MAT.error_kmers
