@@ -15,11 +15,14 @@ include telo.trackDb.txt
 include genes.trackDb.txt
 include ../HG002v1.1/methyl.trackDb.txt
 include ../HG002v1.1/fiberseq.trackDb.txt
+# 50
+include ../HG002v1.1/rna.trackDb.txt
 # 60
 include ../HG002v1.1/com.trackDb.txt
 include rm.trackDb.txt
+# 70
+include giab.trackDb.txt
 # 80
 include ../HG002v1.1/var.trackDb.txt
 #include genark.trackDb.txt
 #
-
