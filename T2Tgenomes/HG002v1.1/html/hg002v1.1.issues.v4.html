@@ -1,0 +1,44 @@
+<h2>Description</h2>
+This track shows the locations of known and suspected accuracy issues in the HG002v1.1 genome assembly. This particular track shows version 4 of the ht002v1.1_issues BED file.
+
+<p>
+These issues will be updated as newly suspected errors are submitted to our <a href="https://github.com/marbl/HG002-issues">issue tracking site</a> on github.
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+The names of entries in this track include the description and genomic locations of the
+issues as they appear on the github site.
+
+<h2>Methods</h2>
+
+The "issues and excluded regions" file of suspect regions of the T2T-HG002v1.1 assembly contains 3,172 regions
+comprised of 38.8Mb of the assembly (including 31.1Mb of gap N's replacing copies of the rDNA repeat on nine
+acrocentric chromosomes and 2.5Mb of rDNA sequence flanking the gaps or on the completed paternal copy of chromosome 13).
+<p>
+99.35% of the diploid genome length is deemed free of any known errors. Excepting the rDNA bases described above,
+the remaining 5.3 Mb of low-confidence sequence (0.09% of the assembly) were flagged by either base-level or
+structural evaluation, erring on the side of caution to ensure the integrity of the benchmark.
+
+<p>
+Included in the bases flagged in this track are:
+<ul>
+<li>
+183.1kb (293 regions) discovered using Merqury (Rhie 2020 PMID: 32928274) that were the result of merging the locations of 31-mers in the assembly that were not found in PacBio HiFi Revio SPRQ and Element UltraQ reads whenever they were within 5kb of each other.
+</li>
+<li>
+31.6kb (794 regions) discovered from parental 31-mers from Illumina reads for HG002's parents, HG003 and
+HG004. These represent potential phasing errors, but do not include regions in the immunoglobulin genes
+where VDJ recombination may have led to switched haplotypes in the B-cell from which the cell line was created.
+</li>
+<li>
+4.9Mb (237 regions) flagged by <a href="https://github.com/logsdon-lab/NucFlag">NucFlag</a> run on both the latest PacBio and ONT reads with excessive secondary alleles present in the alignments of both technologies, indicative of a possible structural or consensus issue.
+</li>
+<li>
+486.6kb (1,893 regions) flagged by DeepTrio using Element reads; 82.kb (410 regions) flagged by DeepPolisher and DeepVariant (Mastoras 2025 PMID: 40389286, Poplin 2018 PMID: 30247488); 3.8kb (19 regions) flagged by Sniffles (Smolka 2024 PMID: 38168980); and 4.5kb (20 regions) contributed in GitHub issue submissions; and 44.7kb (3 regions) discovered by T2T-Polish (McCartney 2022, PMID: 35361931).
+</li>
+</ul>
+<h2>Credits</h2>
+This analysis was completed by Arang Rhie and Nancy F. Hansen. For inquiries, please email nhansen@mail.nih.gov.
+
+<!--<h2>References</h2>-->
+

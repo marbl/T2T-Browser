@@ -102,16 +102,16 @@ priority 14
 ##
 
 track HG002v1.1.PAT.v1.1_issues
-shortLabel v1.1 issues
-longLabel Submitted github issues for v1.1
+shortLabel v1.1 issues V4
+longLabel Potential issues in the v1.1 assembly (version 4)
 group asm
 visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 100000000
 type bigBed 9
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_submitted_issues.bb
-html ../HG002v1.1/html/hg002v1.1.issues.html
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues.v4.bb
+html ../HG002v1.1/html/hg002v1.1.issues.v4.html
 priority 15
 
 track HG002v1.1.PAT.v1.1_cautiontrack
@@ -121,19 +121,20 @@ group asm
 visibility hide
 type bigBed 3
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/assemblyissues/hg002v1.1_issues_and_excluded_regions.merged.bb
+html ../HG002v1.1/html/hg002v1.1.issues_and_excluded_regions.html
 priority 16
 
 track HG002v1.1.PAT.error_kmers
 shortLabel v1.1 Error Kmers
-longLabel Locations of error kmers (those not found in hybrid DB of illumina/HiFi reads)
+longLabel Locations of error kmers (those not found in hybrid DB of HiFi Revio SPRQ and Element UltraQ reads)
 group asm
 visibility hide
 itemRgb on
 maxItems 1000000
 maxWindowToDraw 100000000
 type bigBed 3
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k21_hybrid_error.bb
-html ../HG002v1.1/html/errorKmerDescription.html
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/merqury/v1.1/hg002v1.1_k31_sprq_elmt_hybrid.error.bb
+html ../HG002v1.1/html/SPRQElementErrorKmerDescription.html
 priority 17
 
 track HG002v1.1-hifirevio-nucfreq
