@@ -7,7 +7,7 @@ track HG002v1.1.MAT.GenesJHULiftoffv0.5
 type bigGenePred
 visibility pack
 group genes
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.5/HG002v110.JHU.v0.5.bb
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.6/hg002.v1.1.loff.v0.6.bb
 itemRgb on
 shortLabel v0.5 LiftOff of CHM13 RefSeq
 longLabel LiftOff of RefSeq v110 from CHM13 (JHU v0.5)
@@ -16,7 +16,7 @@ labelFields name2
 html ../HG002v1.1/html/JHU_Liftoff.html
 priority 41
 searchIndex name,name2
-searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.5/HG002v110.JHU.v0.5.mat.ix
+searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.6/hg002.v1.1.loff.v0.6.mat.ix
 
 track HG002v1.1.MAT.GenesJHULiftoffv0.4
 type bigGenePred
