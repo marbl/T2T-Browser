@@ -237,3 +237,17 @@ orderKey 4
 scientificName Homo sapiens
 htmlPath HG002v1.1/html/HG002v1.1.description.html
 
+
+genome KOLF2.1Jv1.1
+taxId 9606
+trackDb KOLF2.1Jv1.1/trackDb.txt
+groups KOLF2.1Jv1.1/groups.txt
+description human (KOLF2.1Jv1.1 without chrY 2025)
+twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.noY.2bit
+chromSizes https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.noY.chrom.sizes.txt
+chromAlias https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/chromAlias.txt
+chromAuthority ucsc
+organism KOLF Jun. 2025
+defaultPos chr1_1:1-1000000
+scientificName Homo sapiens
+htmlPath KOLF2.1Jv1.1/KOLF2.1Jv1.1_dip_noY.description.html
