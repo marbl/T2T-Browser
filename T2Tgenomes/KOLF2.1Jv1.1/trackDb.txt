@@ -1,0 +1,6 @@
+include align.trackDb.txt
+include met.trackDb.txt
+include chain.trackDb.txt
+include gene.trackDb.txt
+include trans.trackDb.txt
+include var.trackDb.txt

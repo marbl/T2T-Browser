@@ -1,0 +1,30 @@
+##
+# Chains to alt Haplotype - two different chains per haplotype
+##
+
+track KOLF2.1Jv1.1.AltHapChain
+shortLabel AltLoc(Chain)
+longLabel Chain to other Haplotype
+visibility full
+view filledChain
+group chain
+priority 41
+type bigChain KOLF2.1Jv1.1.diploid
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.pri_vs_alt.inverted_cat.bigChain.bb
+linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.pri_vs_alt.inverted_cat.bigChain.link.bb
+otherDb KOLF2.1Jv1.1.diploid
+otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.noY.2bit
+
+
+track KOLF2.1Jv1.1.to_chm13v2
+shortLabel chm13v2Loc(Chain)
+longLabel Chain to CHM13v2.0
+visibility full
+view filledChain
+priority 42
+group chain
+type bigChain KOLF2.1Jv1.1.diploid
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.all_vs_chm13v2.bigChain.bb
+linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.all_vs_chm13v2.bigChain.link.bb
+otherDb KOLF2.1Jv1.1.diploid
+otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.noY.2bit

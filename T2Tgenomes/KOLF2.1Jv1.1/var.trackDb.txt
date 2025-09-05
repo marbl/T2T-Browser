@@ -1,0 +1,27 @@
+##
+# Haplotype Properties
+##
+
+track KOLF2.1Jv1.1.HetSites
+shortLabel Het Sites in KOLF2.1Jv1.1
+longLabel KOLF2.1Jv1.1 Heterozygous Sites
+group var
+visibility dense
+itemRgb on
+maxItems 100
+maxWindowToDraw 1000000
+type bigBed 4
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/hetsites.hetsites.fix.bb
+priority 71
+
+#track KOLF2.1Jv1.1.Heterozygosity
+#shortLabel Heterozygosity
+#longLabel Heterozygosity across the two KOLF2.1Jv1.1 haplotypes
+#group var
+#visibility hide
+#itemRgb on
+#maxItems 200
+#maxWindowToDraw 20000000
+#type bigBed 9
+#bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.pri_vs_alt.inverted_cat.bigChain.bb
+#priority 72

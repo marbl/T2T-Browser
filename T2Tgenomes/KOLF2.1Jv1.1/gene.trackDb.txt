@@ -1,0 +1,20 @@
+
+##
+# Gene and Gene Prediction
+##
+
+track geneAnnot.CATv1.202509
+shortLabel geneAnnot.CATv1
+longLabel Gene annotation for each Haplotype.
+group gene
+visibility pack
+maxHeightPixels 100:32:16
+autoScale off
+itemRgb on
+viewLimits 0:100
+type bigGenePred
+searchIndex name,name2
+labelFields name2 
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.AllHap_CAT_v1.geneAnnot202509.bb
+searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.AllHap_CAT_v1.geneAnnot202509.ix
+priority 51

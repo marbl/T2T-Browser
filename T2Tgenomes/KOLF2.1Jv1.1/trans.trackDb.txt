@@ -1,0 +1,206 @@
+
+##
+# Transcription
+##
+
+track NEURON.ONTcDNA.isoform
+shortLabel NEURON.ONTcDNA.isoform
+longLabel NEURON.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_NEURON_cDNA_PAM31307.bam
+priority 61
+
+track MGL.ONTcDNA.isoform
+shortLabel MGL.ONTcDNA.isoform
+longLabel MGL.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_MGL_cDNA_PAM72486.bam
+priority 62
+
+track ASTRO_NYSCF.ONTcDNA.isoform
+shortLabel ASTRO_NYSCF.ONTcDNA.isoform
+longLabel ASTRO_NYSCF.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_NYSCF_cDNA_PAU25463.bam
+priority 63
+
+
+track ASTRO_IND12.ONTcDNA.isoform
+shortLabel ASTRO_IND12.ONTcDNA.isoform
+longLabel ASTRO_IND12.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU24904.bam
+priority 64
+
+
+track ASTRO_IND12_2.ONTcDNA.isoform
+shortLabel ASTRO_IND12_2.ONTcDNA.isoform
+longLabel ASTRO_IND12_2.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU24722.bam
+priority 65
+
+
+track ASTRO_IND12_3.ONTcDNA.isoform
+shortLabel ASTRO_IND12_3.ONTcDNA.isoform
+longLabel ASTRO_IND12_3.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU23737.bam
+priority 66
+
+
+track OLIGO_NYSCF.ONTcDNA.isoform
+shortLabel OLIGO_NYSCF.ONTcDNA.isoform
+longLabel OLIGO_NYSCF.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_OLIGO_NYSCF_cDNA_PAU25487.bam
+priority 67
+
+track OLIGO_NYSCF_2.ONTcDNA.isoform
+shortLabel OLIGO_NYSCF_2.ONTcDNA.isoform
+longLabel OLIGO_NYSCF_2.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/bbi/KOLF2.1Jv1.1_OLIGO_NYSCF_cDNA_PAU24958.bam
+priority 68
+
+track ASTRO_IND12_4.ONTcDNA.isoform
+shortLabel ASTRO_IND12_4.ONTcDNA.isoform
+longLabel ASTRO_IND12_4.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU24790.bam
+priority 69
+
+
+track NGN2.ONTcDNA.isoform
+shortLabel NGN2.ONTcDNA.isoform
+longLabel NGN2.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_NGN2_cDNA_PAM74535.bam
+priority 70
+
+
+track IPS.ONTcDNA.isoform
+shortLabel IPS.ONTcDNA.isoform
+longLabel IPS.ONTcDNA.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_IPS_cDNA_PAM31312.bam
+priority 71
+
+track IPSC_1.HiFi.isoform
+shortLabel IPSC_1.HiFi.isoform
+longLabel IPSC_1.HiFi.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_KOLF_IPSC_1_HiFi.bam
+priority 72
+
+track IPSC_2.HiFi.isoform
+shortLabel IPSC_2.HiFi.isoform
+longLabel IPSC_2.HiFi.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_KOLF_IPSC_2_HiFi.bam
+priority 73
+
+track NEURON.HiFi.isoform
+shortLabel NEURON.HiFi.isoform
+longLabel NEURON.HiFi.isoform
+group trans
+type bam
+visibility dense
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_KOLF_NEURON_HiFi.bam
+priority 74

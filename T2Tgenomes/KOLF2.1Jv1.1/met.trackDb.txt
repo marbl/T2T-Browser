@@ -1,0 +1,83 @@
+
+##
+# Epigenome
+##
+
+track IPS.ONT.Methylation
+shortLabel IPS.ONT.Methylation
+longLabel Methylation of ONT data from IPS cell type
+group met
+visibility full
+maxHeightPixels 100:32:16
+autoScale off
+itemRgb on
+viewLimits 0:100
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/IPS.mrg.modkit.pri.bw
+priority 31
+
+track NEURON.ONT.Methylation
+shortLabel NEURON.ONT.Methylation
+longLabel Methylation of ONT data from NEURON cell type
+group met
+visibility full
+maxHeightPixels 100:32:16
+autoScale off
+itemRgb on
+viewLimits 0:100
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NEURON.mrg.modkit.pri.bw
+priority 32
+
+track MGL.ONT.Methylation
+shortLabel MGL.ONT.Methylation
+longLabel Methylation of ONT data from MGL cell type
+group met
+visibility full
+maxHeightPixels 100:32:16
+autoScale off
+itemRgb on
+type bigWig
+viewLimits 0:100
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/MGL.mrg.modkit.pri.bw
+priority 33
+
+track NGN2.ONT.Methylation
+shortLabel NGN2.ONT.Methylation
+longLabel Methylation of ONT data from NGN2 cell type
+group met
+visibility full
+maxHeightPixels 100:32:16
+autoScale off
+itemRgb on
+viewLimits 0:100
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NGN2.mrg.modkit.pri.bw
+priority 34
+
+track ASTRO_NYSCF.ONT.Methylation
+shortLabel ASTRO_NYSCF.ONT.Methylation
+longLabel Methylation of ONT data from ASTRO_NYSCF cell type
+group met
+visibility full
+maxHeightPixels 100:32:16
+autoScale off
+itemRgb on
+viewLimits 0:100
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_NYSCF.mrg.modkit.pri.bw
+priority 35
+
+
+track ASTRO_IND12.ONT.Methylation
+shortLabel ASTRO_IND12.ONT.Methylation
+longLabel Methylation of ONT data from ASTRO_IND12 cell type
+group met
+visibility full
+maxHeightPixels 100:32:16
+autoScale off
+itemRgb on
+viewLimits 0:100
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_IND12.mrg.modkit.pri.bw
+priority 36

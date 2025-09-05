@@ -1,0 +1,6 @@
+hub KOLF2.1Jv1.1 Diploid Assembly Hub
+shortLabel KOLF2.1Jv1.1
+longLabel KOLF2.1Jv1.1 Diploid
+genomesFile genomes.txt
+descriptionUrl KOLF2.1Jv1.1_dip_noY.description.html
+email juhyun.kim2@gmail.com

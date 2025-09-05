@@ -1,0 +1,74 @@
+
+##
+# Mapping and Sequencing
+##
+
+track IPS.ONT
+shortLabel IPS.ONT
+longLabel Primayr alignment of ONT data from IPS cell type
+group align
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/IPS.mrg.pri.bam.bw
+priority 21
+
+
+track NEURON.ONT.Alignment
+shortLabel NEURON.ONT.Alignment
+longLabel Primayr alignment of ONT data from NEURON cell type
+group align
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NEURON.mrg.pri.bam.bw
+priority 22
+
+
+track MGL.ONT.Alignment
+shortLabel MGL.ONT.Alignment
+longLabel Primayr alignment of ONT data from MGL cell type
+group align
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/MGL.mrg.pri.bam.bw
+priority 23
+
+
+track NGN2.ONT.Alignment
+shortLabel NGN2.ONT.Alignment
+longLabel Primayr alignment of ONT data from NGN2 cell type
+group align
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NGN2.mrg.pri.bam.bw
+priority 24
+
+
+track ASTRO_NYSCF.ONT.Alignment
+shortLabel ASTRO_NYSCF.ONT.Alignment
+longLabel Primayr alignment of ONT data from ASTRO_NYSCF cell type
+group align
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_NYSCF.mrg.pri.bw
+priority 25
+
+track ASTRO_IND12.ONT.Alignment
+shortLabel ASTRO_IND12.ONT.Alignment
+longLabel Primayr alignment of ONT data from ASTRO_IND12 cell type
+group align
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_IND12.mrg.pri.bw
+priority 26
