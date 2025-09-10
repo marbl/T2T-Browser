@@ -30,3 +30,21 @@ priority 51
     longLabel IsoSeq 2
     type bam
     priority 51
+
+track isoSeqTestis
+group rna
+compositeTrack on
+shortLabel IsoSeq-Testis
+longLabel IsoSeq Alignments from Testis sample
+dragAndDrop subTracks
+visibility hide
+type bam
+indelDoubleInsert on
+indelQueryInsert on
+showNames off
+bamColorMode gray
+bamGrayMode aliQual
+pairEndsByName on
+html ../html/isoseq.html
+priority 52
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/expression/mPonAbe1_v2.0.IsoSeq_testis.bam
