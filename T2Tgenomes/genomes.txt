@@ -180,37 +180,6 @@ scientificName Symphalangus syndactylus
 groups groups.txt
 htmlPath mSymSyn1_v2.1/description.html
 
-genome HG002v1.0.1.PAT
-taxId 9606
-trackDb HG002v1.0.1.PAT/trackDb.txt
-groups groups.txt
-description HG002 Q100 v1.0.1 (Human, PAT)
-twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.pat.2bit
-#twoBitBptUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.2bit.bpt
-#chromSizes https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.chrom.sizes.txt
-#chromAliasBb https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.chromAlias.bb
-#chromAuthority ucsc
-organism ASM1885260v2 Dec. 2023
-defaultPos chr1_PATERNAL:83617812-84291154
-orderKey 4
-scientificName Homo sapiens
-htmlPath HG002v1.0.1/html/GCA_018852605.2_ASM1885260v2.description.html
-
-genome HG002v1.0.1.MAT
-taxId 9606
-trackDb HG002v1.0.1.MAT/trackDb.txt
-groups groups.txt
-description HG002 Q100 v1.0.1 (Human, MAT)
-twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.mat.2bit
-#chromSizes https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.chrom.sizes.txt
-#chromAliasBb https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.2/GCA_018852615.2.chromAlias.bb
-#chromAuthority ucsc
-organism ASM1885261v2 Dec. 2023
-defaultPos chr1_MATERNAL:83529864-84203105
-orderKey 4
-scientificName Homo sapiens
-htmlPath HG002v1.0.1/html/GCA_018852615.2_ASM1885261v2.description.html
-
 genome HG002v1.1.PAT
 taxId 9606
 trackDb HG002v1.1.PAT/trackDb.txt
