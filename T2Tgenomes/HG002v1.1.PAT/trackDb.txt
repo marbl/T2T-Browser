@@ -1,7 +1,7 @@
 track cytoBandIdeo
 longLabel Ideogram for Orientation
 shortLabel Chromosome Band (Ideogram)
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/cytoband/cytoBand.hg002v1.1.lifted_from_v1.0.1.bb
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/cytoband/hg002v1.1.pat_cytoBandMapped.bb
 type bigBed 5
 
 # 10
