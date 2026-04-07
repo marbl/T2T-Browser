@@ -5,7 +5,7 @@
 
 track IPS.ONT
 shortLabel IPS.ONT
-longLabel Primayr alignment of ONT data from IPS cell type
+longLabel Primary alignment of ONT data from IPS cell type
 group align
 visibility full
 itemRgb on
@@ -17,7 +17,7 @@ priority 21
 
 track NEURON.ONT.Alignment
 shortLabel NEURON.ONT.Alignment
-longLabel Primayr alignment of ONT data from NEURON cell type
+longLabel Primary alignment of ONT data from NEURON cell type
 group align
 visibility full
 itemRgb on
@@ -29,7 +29,7 @@ priority 22
 
 track MGL.ONT.Alignment
 shortLabel MGL.ONT.Alignment
-longLabel Primayr alignment of ONT data from MGL cell type
+longLabel Primary alignment of ONT data from MGL cell type
 group align
 visibility full
 itemRgb on
@@ -41,7 +41,7 @@ priority 23
 
 track NGN2.ONT.Alignment
 shortLabel NGN2.ONT.Alignment
-longLabel Primayr alignment of ONT data from NGN2 cell type
+longLabel Primary alignment of ONT data from NGN2 cell type
 group align
 visibility full
 itemRgb on
@@ -53,7 +53,7 @@ priority 24
 
 track ASTRO_NYSCF.ONT.Alignment
 shortLabel ASTRO_NYSCF.ONT.Alignment
-longLabel Primayr alignment of ONT data from ASTRO_NYSCF cell type
+longLabel Primary alignment of ONT data from ASTRO_NYSCF cell type
 group align
 visibility full
 itemRgb on
@@ -64,7 +64,7 @@ priority 25
 
 track ASTRO_IND12.ONT.Alignment
 shortLabel ASTRO_IND12.ONT.Alignment
-longLabel Primayr alignment of ONT data from ASTRO_IND12 cell type
+longLabel Primary alignment of ONT data from ASTRO_IND12 cell type
 group align
 visibility full
 itemRgb on
