@@ -1,0 +1,31 @@
+<h2>Description</h2>
+This track shows the locations of homopolymer runs in the T2T-HG002v1.1 genome.
+
+<h2>Display Conventions and Configuration</h2>
+The BED entries for homopolymers are colored by the forward-strand nucleotide that is repeated:
+
+<ul>
+<li><span style='border: 1px inset #000000; background-color:Green;'>&nbsp;  &nbsp;</span> - A
+<li><span style='border: 1px inset #000000; background-color:Red;'>&nbsp;  &nbsp;</span> - T
+<li><span style='border: 1px inset #000000; background-color:Orange;'>&nbsp;  &nbsp;</span> - G
+<li><span style='border: 1px inset #000000; background-color:Blue;'>&nbsp;  &nbsp;</span> - C
+</ul>
+
+<h2>Methods</h2>
+
+The script used to create this track is part of the <a href="github.com/nhansen/GQC">GQC</a> 
+software package. By default it catalogs all homopolymer runs of length ten or greater in
+the FASTA reference being analyzed. For this track, it was called with this usage:
+
+<p>
+<code>
+mononucs --fasta v1.1.fasta.gz --prefix v1.1.mnr10
+</code>
+
+<h2>Credits</h2>
+This analysis and the creation of the bigBed track files were done by Nancy F. Hansen at
+NHGRI. For inquiries, please email nhansen@mail.nih.gov.
+
+<h2>References</h2>
+Hansen NF, Dwarshuis N, Ji HJ, Rhie A, Loucks H, Logsdon GA, Vollger MR et al. A complete diploid human genome benchmark for personalized genomics. bioRxiv [Preprint]. 2025 Sep 21:2025.09.21.677443. doi: <a href="https://doi.org/10.1101/2025.09.21.677443">10.1101/2025.09.21.677443</a>. PMID: 41000953; PMCID: PMC12458380.
+

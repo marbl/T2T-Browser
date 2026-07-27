@@ -4,7 +4,7 @@ shortLabel Methylation
 longLabel Methylation Frequency
 type bigWig
 group reg
-html ../html/epigenetics.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/epigenetics.html
 maxHeightPixels 100:32:16
 autoScale off
 graphTypeDefault bar
@@ -23,4 +23,4 @@ priority 10
     viewLimits 0:1
     priority 10.1
     bigDataUrl https://human-pangenomics.s3.amazonaws.com/T2T/HG002/assemblies/annotation/methylation/HG002v1.1.ONT_Guppy6.3.8_5mC.winnowmap_modkit_5mC_CpG_v1.0.bw
-    html ../html/epigenetics.html
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/epigenetics.html

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+module load aws
+
+export HTMLFILE=$1
+
+aws s3 cp $HTMLFILE s3://human-pangenomics/T2T/browser/HG002/v1.1/html/$HTMLFILE

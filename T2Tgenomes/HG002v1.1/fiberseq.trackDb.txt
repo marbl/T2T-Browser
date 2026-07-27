@@ -9,7 +9,7 @@ maxItems 100000
 group reg
 visibility dense
 priority 80
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 
 # grouping for peaks
 track HG002v1.1-FIRE-peaks
@@ -21,7 +21,7 @@ maxItems 100000
 group reg
 visibility dense
 priority 30
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 
     # track of unreliable regions just above the peak tracks
     track HG002v1.1-unreliable-FIRE-coverage-regions
@@ -41,7 +41,7 @@ shortLabel HG002v1.1-FIRE-coverage
 longLabel HG002v1.1-FIRE-coverage
 group reg
 priority 90
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 
 track HG002v1.1-all-FIRE-coverage
 parent HG002v1.1-FIRE-coverage
@@ -56,7 +56,7 @@ alwaysZero on
 viewLimits 0:54
 visibility full
 maxHeightPixels 100:50:8
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 group reg
 priority 90
     
@@ -132,7 +132,7 @@ group reg
 priority 20
 yLineOnOff on
 yLineMark 100
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 gridDefault on
 
     track HG002v1.1-all-FIRE-percent-accessible
@@ -196,7 +196,7 @@ alwaysZero on
 viewLimits 0:54
 visibility hide
 maxHeightPixels 100:50:8
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 priority 90
     
     track HG002v1.1-hap1-FIRE-accessible
@@ -239,7 +239,7 @@ alwaysZero on
 viewLimits 0:54
 visibility hide
 maxHeightPixels 100:50:8
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 priority 90
     
     track HG002v1.1-hap2-FIRE-accessible
@@ -279,7 +279,7 @@ maxHeightPixels 100:50:1
 alwaysZero on
 group reg
 priority 15
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/fire-description.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/fire-description.html
 
     track HG002v1.1-log-FIRE-FDR
     parent HG002v1.1-FIRE-FDR

@@ -14,7 +14,7 @@ maxWindowToDraw 100000000
 type bigBed 9
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/segdups/hg002v1.1.SDs.013025.44col.bb 
 priority 20
-html ../HG002v1.1/html/SD_track.hg002v1.1.013025.html
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/SD_track.hg002v1.1.013025.html
 
 track HG002v1.1.cenSat_v2.0
 group rep

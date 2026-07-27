@@ -1,0 +1,42 @@
+<h2>Description</h2>
+This annotation of the subtelomeres consists of the identification and organization of the
+subtelomere repeat elements (SREs). The SREs are subtelomeric DNA segmental duplications
+which are present in the most distal 500kb human DNA. They contain mosaic patchworks of
+duplicons, namely the paralogy blocks (pblocks). Previously defined subtelomere-representative
+pblocks (Stong et al. 2014) covered most SREs, but we identified 11 new pblocks in hg002.
+The annotation is carried out by comparing the existing representative pblocks with the hg002
+reference and new pblocks are added based on the newly discovered SRE segments in hg002.
+
+<h2>Methods</h2>
+
+Representative sequences for existing pblocks were masked (for simple and tandem repeats) and
+then aligned to the reference sequence, requiring a minimum of 90% identity and 100 bp
+alignment length. Groups of alignments (localized, ordered, co-directional, greater than 1kb chain-
+length) form a mapping location of a pblock to the reference. If a pblock aligned only partially with
+a given segment of the reference sequence, then if possible, it was extended by pairwise alignment of
+the unmasked p-block sequence to the flanking segment(s) of the reference. If neighboring pblocks
+overlapped, then the one with the highest percent identity to the reference in the overlapping
+area was selected.
+
+Post-processing:
+After all pblocks were mapped, we investigated for potential new pblocks: (i) gaps greater than
+1kb between existing mapped pblocks within a subtelomere, (ii) the subtelomere reference areas
+towards the centromeric side of the subtelomere region (&lt 500kb), where no existing pblock
+mapped. The investigation was carried out by masking (for simple and tandem repeats) these
+candidate pblock regions and aligning them to the reference. If a segment of a subtelomere mapped to
+multiple subtelomere areas (&lt 500 kb from telomeres), it was considered a valid new subtelomeric
+pblock.
+
+<h2>Display Conventions and Configuration</h2>
+
+<p>
+The track shows the locations of the pblocks and their percent identity with the reference. Each
+pblock has a unique color.
+</p>
+
+<h2>Credits</h2>
+<p>
+Tracks were prepared by Eleni Adam (eadam002@odu.edu), Harold Riethman, and Desh Ranjan.
+</p>
+
+
