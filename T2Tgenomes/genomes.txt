@@ -188,7 +188,7 @@ description HG002 Q100 v1.1 (Human, PAT)
 twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.pat.2bit
 chromSizes https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.pat.chrom.sizes
 organism Human
-defaultPos chr1_PATERNAL:83617812-84291154
+defaultPos chr1_PATERNAL:83917812-84291154
 orderKey 4
 scientificName Homo sapiens
 htmlPath HG002v1.1/html/HG002v1.1.description.html
@@ -201,11 +201,36 @@ description HG002 Q100 v1.1 (Human, MAT)
 twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.mat.2bit
 chromSizes https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.mat.chrom.sizes
 organism Human
-defaultPos chr1_MATERNAL:83529864-84203105
+defaultPos chr1_MATERNAL:83929864-84203105
 orderKey 4
 scientificName Homo sapiens
 htmlPath HG002v1.1/html/HG002v1.1.description.html
 
+#genome HG002v1.2.PAT
+#taxId 9606
+#trackDb HG002v1.2.PAT/trackDb.txt
+#groups groups.txt
+#description HG002 Q100 v1.2 (Human, PAT)
+#twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.2/2bit/hg002v1.2.pat.2bit
+#chromSizes https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.2/2bit/hg002v1.2.pat.chrom.sizes
+#organism Human
+#defaultPos chr1_PATERNAL:83917812-84291154
+#orderKey 4
+#scientificName Homo sapiens
+#htmlPath HG002v1.2/html/HG002v1.2.description.html
+#
+#genome HG002v1.2.MAT
+#taxId 9606
+#trackDb HG002v1.2.MAT/trackDb.txt
+#groups groups.txt
+#description HG002 Q100 v1.2 (Human, MAT)
+#twoBitPath https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.2/2bit/hg002v1.2.mat.2bit
+#chromSizes https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.2/2bit/hg002v1.2.mat.chrom.sizes
+#organism Human
+#defaultPos chr1_MATERNAL:83929864-84203105
+#orderKey 4
+#scientificName Homo sapiens
+#htmlPath HG002v1.2/html/HG002v1.2.description.html
 
 genome KOLF2.1Jv1.1
 taxId 9606

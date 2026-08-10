@@ -7,7 +7,7 @@ track HG002v1.1.PAT.repeatannots
 shortLabel HG002 Repeat Elements
 longLabel HG002 RepeatMasker Elements from UConn
 group rep
-visibility pack
+visibility dense
 itemRgb on
 type bigRmsk 9 +
 priority 2.1
