@@ -146,7 +146,7 @@ priority 18
     maxHeightPixels 100:32:8
     visibility full
     priority 18.4
-    html hhttps://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/tml/readCoverage.html
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/tml/readCoverage.html
 
         track readCoverageONTPri
         parent readCoverageONT
