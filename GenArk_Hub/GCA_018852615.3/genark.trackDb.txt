@@ -1,0 +1,70 @@
+
+track augustus
+shortLabel Augustus
+longLabel Augustus Gene Predictions
+group genark
+visibility pack
+color 180,0,0
+type bigGenePred
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.augustus.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.augustus
+
+track xenoRefGene
+shortLabel RefSeq mRNAs
+longLabel RefSeq mRNAs mapped to this assembly
+group genark
+visibility pack
+color 180,0,0
+type bigGenePred
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.xenoRefGene.bb
+url https://www.ncbi.nlm.nih.gov/nuccore/$$
+urlLabel NCBI Nucleotide database:
+labelFields name,geneName,geneName2
+defaultLabelFields geneName
+searchIndex name
+searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/ixIxx/GCA_018852615.3_Q100_hg002v1.0.1.mat.xenoRefGene.ix
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.xenoRefGene
+
+track simpleRepeat
+shortLabel Simple Repeats
+longLabel Simple Tandem Repeats by TRF
+group genark
+visibility dense
+type bigBed 4 +
+priority 4.3
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.simpleRepeat.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/simpleRepeatsTrack.html
+
+track repeatMasker
+shortLabel RepeatMasker
+longLabel RepeatMasker Repetitive Elements
+type bigRmsk 9 +
+visibility hide
+group genark
+priority 4.4
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.rmsk.bb
+xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.rmsk.align.bb
+maxWindowToDraw 5000000
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.repeatMasker
+
+track repeatModeler
+shortLabel RepeatModeler
+longLabel RepeatModeler Repetitive Elements
+type bigRmsk 9 +
+visibility hide
+group genark
+priority 4.5
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.rModel.bb
+xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.rModel.align.bb
+maxWindowToDraw 5000000
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.repeatModeler
+
+track windowMasker
+shortLabel WM + SDust
+longLabel Genomic Intervals Masked by WindowMasker + SDust
+group genark
+visibility dense
+type bigBed 3
+priority 4.6
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.windowMasker.bb
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.windowMasker

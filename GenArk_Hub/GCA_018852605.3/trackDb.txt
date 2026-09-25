@@ -1,0 +1,26 @@
+track cytoBandIdeo
+longLabel Chromosome ideogram with cytogenetic bands
+shortLabel Chromosome Band (Ideogram)
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/cytoband/hg002v1.1.pat_cytoBandMapped.bb
+type bigBed 5
+
+# 10
+include asm.trackDb.txt
+include chains.trackDb.txt
+# 20
+include rep.trackDb.txt
+include telo.trackDb.txt
+# 40
+include genes.trackDb.txt
+include methyl.trackDb.txt
+include fiberseq.trackDb.txt
+# 50
+include rna.trackDb.txt
+# 60
+include com.trackDb.txt
+include rm.trackDb.txt
+# 80
+include var.trackDb.txt
+#include genark.trackDb.txt
+#
+

@@ -1,0 +1,6 @@
+hub T2T_GenArk_Contrib
+shortLabel T2T Contributed Tracks
+longLabel T2T Consortium contributed tracks for UCSC GenArk assemblies
+genomesFile genomes.txt
+email rhiea@nih.gov,nhansen@mail.nih.gov
+descriptionUrl documentation.html

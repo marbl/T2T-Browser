@@ -1,0 +1,76 @@
+##
+# Comparative alignment chains to other genomes
+# TODO: these bigChain/.link.bb files are diploid-combined (query side has
+# both MAT+PAT contigs) -- this is Hiram Clawson's flagged unsolved
+# "chain file query sequence name" splitting problem; NOT yet split.
+
+track HG002v1.1.nonsyntenic
+group compGeno
+visibility dense
+compositeTrack on
+superTrack on show
+type bigBed 3
+shortLabel Non-syntenic with other refs
+longLabel Non-syntenic with respect to other references
+html ../html/hg002v1.1_to_ref_chains.description.html
+priority 67
+
+	track HG002v1.1.nonsyntenicCHM13
+	parent HG002v1.1.nonsyntenic
+	shortLabel Non-syntenic with CHM13v2.0
+	longLabel Non-syntenic with respect to T2T-CHM13v2.0
+	visibility dense
+	group compGeno
+	type bigBed 3
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1.nonsyntenic_vs_chm13v2.0.bb
+	priority 67.1
+
+	track HG002v1.1.nonsyntenicHg38
+	parent HG002v1.1.nonsyntenic
+	shortLabel Non-syntenic with GRCh38
+	longLabel Non-syntenic with respect to GRCh38
+	visibility hide
+	group compGeno
+	type bigBed 3
+        bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1.nonsyntenic_vs_GRCh38.bb
+        priority 67.2
+
+track HG002v1.1.synteny
+superTrack on show
+visibility dense
+shortLabel Synteny with other refs
+longLabel Synteny with other references
+group compGeno
+type bigChain
+mouseOverField name
+html ../html/hg002v1.1_to_ref_chains.description.html
+priority 68
+
+	track HG002v1.1.chm13v2
+	parent HG002v1.1.synteny
+	shortLabel T2T-CHM13v2.0
+	longLabel Synteny with T2T-CHM13v2.0
+	visibility dense
+	mouseOverField name
+	view filledchain
+	group compGeno
+	priority 68.1
+	type bigChain T2T-CHM13v2.0
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_chm13v2.0.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_chm13v2.0.bigChain.link.bb
+	otherDb T2T-CHM13v2.0
+	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
+
+	track HG002v1.1.synHg38
+	parent HG002v1.1.synteny
+	shortLabel GRCh38
+	longLabel Synteny with GRCh38
+	visibility hide
+	mouseOverField name
+	view filledchain
+	group compGeno
+	priority 68.2
+	type bigChain hg38
+	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_GRCh38.bigChain.bb
+	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_GRCh38.bigChain.link.bb
+	otherDb hg38

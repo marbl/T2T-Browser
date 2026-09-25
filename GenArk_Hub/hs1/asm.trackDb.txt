@@ -1,0 +1,261 @@
+track feature
+shortLabel Genome Feature
+longLabel Genome Feature
+group asm
+visibility dense
+itemRgb on
+type bigBed 9 +
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/genomeFeature_v1.1.bb
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/genomeFeature.html
+mouseOverField name
+priority 11
+
+track gc5Base
+shortLabel GC Percent
+longLabel GC Percent in 5-Base Windows
+group asm
+visibility full
+autoScale Off
+maxHeightPixels 128:36:16
+graphTypeDefault Bar
+gridDefault OFF
+windowingFunction Mean
+color 0,0,0
+altColor 128,128,128
+viewLimits 30:70
+type bigWig 0 100
+bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.gc5Base.bw
+html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.gc5Base.html
+priority 12
+
+track microsatellites
+compositeTrack on
+visibility hide
+shortLabel Microsatellites
+longLabel Microsatellite Repeats
+type bigWig
+group asm
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/microsatellites.html
+maxHeightPixels 100:32:16
+viewLimits 0:100
+autoScale off
+alwaysZero on
+graphTypeDefault points
+gridDefault on
+priority 13
+
+    track microsatellites_GA
+    parent microsatellites
+    shortLabel GA
+    longLabel GA Microsatellite Repeats
+    type bigWig
+    color 83,105,255
+    priority 13.1
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.GA.128.bw
+
+    track microsatellites_TC
+    parent microsatellites
+    shortLabel TC
+    longLabel TC Microsatellite Repeats
+    type bigWig
+    color 102,0,102
+    priority 13.2
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.TC.128.bw
+
+    track microsatellites_GC
+    parent microsatellites
+    shortLabel GC
+    longLabel GC Microsatellite Repeats
+    type bigWig
+    color 188,115,19
+    priority 13.3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.GC.128.bw
+
+    track microsatellites_AT
+    parent microsatellites
+    shortLabel AT
+    longLabel AT Microsatellite Repeats
+    type bigWig
+    color 51,102,0
+    priority 13.4
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/pattern/chm13v2.0.microsatellite.AT.128.bw
+
+track validation
+shortLabel Validation
+longLabel Validation of T2T-CHM13 assembly
+visibility hide
+superTrack on
+group asm
+priority 18
+
+    track issues
+    parent validation
+    shortLabel Issues
+    longLabel Assembly Issues
+    visibility dense
+    itemRgb on
+    maxItems 100000
+    type bigBed 9
+    bigDataUrl https://raw.githubusercontent.com/marbl/CHM13-issues/main/v2.0/v2.0_issues.bb
+    html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
+    priority 18.1
+
+    track readCoverageHiFi
+    container multiWig
+    noInherit on
+    parent validation
+    shortLabel CHM13 HiFi coverage
+    longLabel CHM13 HiFi marker assisted alignment overlayed on primary alignment (no Y)
+    aggregate transparentOverlay
+    type bigWig
+    viewLimits 0:130
+    showSubtrackColorOnUi on
+    maxHeightPixels 100:32:8
+    visibility full
+    priority 18.2
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/readCoverage.html
+
+        track readCoverageHiFiPri
+        parent readCoverageHiFi
+        bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/hifi.pri.cov.bigWig
+        shortLabel HiFi Pri coverage
+        longLabel HiFi Primary read coverage
+        color 255,182,193
+        type bigWig 0 130
+        html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/readCoverage.html
+
+        track readCoverageHiFiMarker
+        parent readCoverageHiFi
+        bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/hifi.markersandlength.cov.bigWig
+        shortLabel HiFi marker assisted coverage
+        longLabel  HiFi marker assisted read coverage
+        color 240,128,128
+        type bigWig 0 130
+        html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/readCoverage.html
+
+    track readCoverageONT
+    container multiWig
+    noInherit on
+    parent validation
+    shortLabel CHM13 ONT coverage
+    longLabel  CHM13 ONT marker assisted alignment overlayed on primary alignment (no Y)
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    type bigWig
+    viewLimits 0:300
+    maxHeightPixels 100:32:8
+    visibility full
+    priority 18.4
+    html hhttps://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/tml/readCoverage.html
+
+        track readCoverageONTPri
+        parent readCoverageONT
+        bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/ont.pri.len1k_idy85.cov.bigWig
+        shortLabel ONT Pri coverage
+        longLabel  ONT Primary read coverage
+        color 173,216,230
+        type bigWig 0 300
+        html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/readCoverage.html
+
+        track readCoverageONTMarker
+        parent readCoverageONT
+        bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/ont.markersandlength.cov.bigWig
+        shortLabel ONT marker assisted coverage
+        longLabel  ONT marker assisted read coverage
+        color 100,149,237
+        type bigWig 0 300
+        html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/readCoverage.html
+
+
+track mappability
+superTrack on
+visibility hide
+shortLabel Mappability
+longLabel Uniquely Mappabile Region
+group asm
+priority 19
+html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/mappability.html
+
+    track kmersMul
+    shortLabel MinUniqKmer Left
+    longLabel Minimum Unique K-mer Length Left-Anchored
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/mappability/chm13v1.0_mul.bw
+    parent mappability
+    type bigWig
+    itemRgb on
+    visibility full
+    maxHeightPixels 100:32:16
+    viewLimits 1:255
+    windowingFunction mean
+    priority 19.1
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/min_unique_kmer.html
+
+    track kmersMur
+    shortLabel MinUniqKmer Right
+    longLabel Minimum Unique K-mer Length Right-Anchored
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/mappability/chm13v1.0_mur.bw
+    parent mappability
+    type bigWig
+    itemRgb on
+    visibility full
+    maxHeightPixels 100:32:16
+    viewLimits 1:255
+    windowingFunction mean
+    priority 19.2
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/min_unique_kmer.html
+
+    track uniq21density
+    parent mappability
+    shortLabel Unique 21-mer Density
+    longLabel  Single-copy unique 21-mer density
+    type bigWig -1 21
+    visibility hide
+    viewLimits -1:21
+    maxHeightPixels 100:32:16
+    autoScale off
+    gridDefault on
+    color 0,102,51
+    itemRgb on
+    priority 19.3
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k21.bw
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
+
+    track uniq21desert
+    parent mappability
+    shortLabel Unique 21-mer Desert
+    longLabel  Single-copy unique 21-mer desert
+    type bigBed 3
+    color 128,128,128
+    itemRgb on
+    visibility hide
+    priority 19.4
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k21.desert.bb
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
+
+    track uniq51density
+    parent mappability
+    shortLabel Unique 51-mer Density
+    longLabel Single-copy unique 51-mer density
+    type bigWig -1 51
+    visibility hide
+    viewLimits -1:51
+    maxHeightPixels 100:32:16
+    autoScale off
+    gridDefault on
+    color 0,102,51
+    priority 19.5
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k51.bw
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
+
+    track uniq51desert
+    parent mappability
+    shortLabel Unique 51-mer Desert
+    longLabel  Single-copy unique 51-mer desert
+    type bigBed 3
+    visibility hide
+    color 128,128,128
+    itemRgb on
+    priority 19.6
+    bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/marker/chm13v1.1.single.k51.desert.bb
+    html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/unique_21_51_mer.html
+

@@ -1,0 +1,49 @@
+<h2>Description</h2>
+<p>Sequence Identity</p>
+
+<h2>Method</h2>
+<p>Each chromosome was mashmapped using mashmap v3.1.1 against every other chromosome one-by-one with options <code>mashmap -t $cpus -r $chrA.fa -q $chrB.fa -M --pi 80 -s 10000</code>. This maps each 10kb window of the reference chromosome against the target, does not combine consecutive matches, retains only the best match, and only matches with a percent identity greater than 80%. The percent identity of each of these mappings was converted to an RGB value on a scale from 80-100 using a custom python script, such that anything below 80% identity is colored a lighter yellow outside the heatmap range, and anything with no mapping is left blank. Then all percent identities from 80 to 100 are on a scale from yellow to deep red, with deep red/maroon being the highest percent identity and yellow being the lowest.</p>
+
+<p>
+Code for converting identity to RGB color:<br>
+<code>
+    import matplotlib.pyplot as plt
+    import matplotlib.colors as mcolors
+    <br/>
+    def percent_identity_to_rgb(percent_identity, min_percent_identity=80):<be>
+        if percent_identity == 0:<be>
+            return "255,255,255"<br>
+        if percent_identity < min_percent_identity:<be>
+            return "255,255,220"<br>
+        cmap = plt.get_cmap('YlOrRd')<br>
+        <br>
+        norm = mcolors.Normalize(vmin=min_percent_identity, vmax=100)<br>
+        <br>
+        rgba = cmap(norm(percent_identity))<br>
+        <br>
+        rgb = tuple(int(255 * x) for x in rgba[:3])<br>
+        return str(rgb[0]) + "," + str(rgb[1]) + "," + str(rgb[2])<be>
+    <br/>
+    mashmap_fp = sys.argv[1]
+    mashmap_f = open(mashmap_fp)
+    <br/>
+    for line in mashmap_f:
+        line_split = line.strip().split('\t')
+        chrom, start, end = line_split[0], int(line_split[2]), int(line_split[3])
+        idy = float(line_split[12].split(':')[2])
+        if idy<=1:
+            idy*=100
+        q_chr, q_start, q_end = line_split[5], int(line_split[7]), int(line_split[8])
+        score_str = str(round(idy,1))
+        name = f"{q_chr}:{q_start}-{q_end}_{score_str}%"
+        strand="."
+        thick_start = start
+        thick_end = end
+        print('\t'.join([chrom, str(start), str(end), name, str(int(round(10*idy,0))), strand, str(thick_start), str(thick_end), percent_identity_to_rgb(idy)]))
+    </code>
+</p>
+
+<h2>Contacts</h2>
+<ul>
+    <p>Steven Solar <a href="mailto:steven.solar@nih.gov">steven.solar_at_nih.gov</a><p>
+</ul>

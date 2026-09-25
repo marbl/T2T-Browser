@@ -1,0 +1,15 @@
+genome hs1
+trackDb hs1/trackDb.txt
+groups groups.txt
+
+genome GCA_018852615.3
+trackDb GCA_018852615.3/trackDb.txt
+groups groups.txt
+htmlPath GCA_018852615.3/description.html
+chromAlias GCA_018852615.3/chromAlias.txt
+
+genome GCA_018852605.3
+trackDb GCA_018852605.3/trackDb.txt
+groups groups.txt
+htmlPath GCA_018852605.3/description.html
+chromAlias GCA_018852605.3/chromAlias.txt
