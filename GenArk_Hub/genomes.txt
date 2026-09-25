@@ -63,3 +63,23 @@ genome GCA_028858845.2
 trackDb GCA_028858845.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028858845.2/description.html
+
+genome GCA_028858805.2
+trackDb GCA_028858805.2/trackDb.txt
+groups groups.txt
+htmlPath GCA_028858805.2/description.html
+
+genome GCA_028885685.2
+trackDb GCA_028885685.2/trackDb.txt
+groups groups.txt
+htmlPath GCA_028885685.2/description.html
+
+genome GCA_028885525.2
+trackDb GCA_028885525.2/trackDb.txt
+groups groups.txt
+htmlPath GCA_028885525.2/description.html
+
+genome GCA_028878085.2
+trackDb GCA_028878085.2/trackDb.txt
+groups groups.txt
+htmlPath GCA_028878085.2/description.html

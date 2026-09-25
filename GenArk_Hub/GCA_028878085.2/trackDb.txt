@@ -1,0 +1,10 @@
+# track cytoBandIdeo
+# longLabel Chromosome ideogram with cytogenetic bands
+# shortLabel cytoBandIdeo
+# bigDataUrl cytoBand.bb
+# type bigBed 5
+
+include asm.trackDb.txt	# 11-19
+include rep.trackDb.txt	# 20-29
+include reg.trackDb.txt	# 61
+include com.trackDb.txt	# 200 - wfmash, 300 - hal
