@@ -1,0 +1,50 @@
+<h2>Description</h2>
+<p>Short-read variant detection</p>
+
+<h2>Method</h2>
+<p> For the T2T references, we generated karyotype-specific references following a published masking method (Rhie et al. 2023, DOI: <a href="https://www.nature.com/articles/s41586-023-06457-y" target="_blank" rel="noopener noreferrer">https://www.nature.com/articles/s41586-023-06457-y</a>) to improve variant representation in sex chromosome pseudoautosomal regions (PARs). Reads from XX and XY samples were aligned to their respective masked T2T reference genomes. We used GATK v4.4.0.0 HaplotypeCaller for initial variant calling, followed by GenotypeGVCFs for joint genotyping, and applied following quality control to SNPs and indels.</p>
+
+<p><strong>Variant filteration criteria:</strong></p>
+<p style="margin-bottom: 0;">For SNPs: -filter "QD < 2.0" -filter "QUAL < 30.0" -filter "SOR > 3.0" -filter "FS > 60.0" -filter "MQ < 40.0"</p>
+<p style="margin-bottom: 0;">For indels: -filter "QD < 2.0" -filter "QUAL < 30.0" -filter "FS > 200.0".</p>
+<p style="margin-bottom: 0;">Variants with a genotype quality below 20 were further removed to enhance the accuracy of our variant call set.</p>
+
+<p><strong>Within-sample haplotype phasing</strong></p>
+Following variant calling and subsequent QC, we applied statistical phasing using <a href="https://faculty.washington.edu/browning/beagle/beagle.html", target="_blank">BEAGLE 5.4</a> without a reference panel. 
+
+Specifically we used the default 3 burnin iterations and 12 subsequent phasing iterations in BEAGLE.  
+
+For the detailed pipeline supporting the phasing of these primate genomes <a href="https://github.com/Lqh09/T2T-Great-Ape-Diversity/tree/main/phasing" target="_blank">https://github.com/Lqh09/T2T-Great-Ape-Diversity/tree/main/phasing</a>
+
+
+<h2>Data</h2>
+<p>Sample number:</p>
+<ul>
+    <li>Gorilla: 49</li>
+    <li>Chimpanzee: 57</li>
+    <li>Bonobo: 13</li>
+    <li>Sumatran Orangutan: 5</li>
+    <li>Bornean Orangutan: 5</li>
+</ul>
+<p>For detailed sample information, please refer to Makova KD, Pickett BD, Harris RS, Hartley GA, Cechova M <em>et al</em>., The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes, Nature (2024). DOI: <a href="https://doi.org/10.1038/s41586-024-07473-2" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41586-024-07473-2</a>.</p>
+<p>The short-read data comes from:
+<ul>
+    <li>Prado-Martinez, J. et al. Great ape genetic diversity and population history. Nature 499, 471-475 (2013). DOI: <a href="https://doi.org/10.1038/nature12228" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/nature12228</a></li>
+    <li>Xue, Y. et al. Mountain gorilla genomes reveal the impact of long-term population decline and inbreeding. Science 348, 242-245 (2015). DOI: <a href="https://doi.org/10.1126/science.aaa3952" target="_blank" rel="noopener noreferrer">https://doi.org/10.1126/science.aaa3952</a></li>
+    <li>de Manuel, M. et al. Chimpanzee genomic diversity reveals ancient admixture with bonobos. Science 354, 477-481 (2016). DOI: <a href="https://doi.org/10.1126/science.aag2602" target="_blank" rel="noopener noreferrer">https://doi.org/10.1126/science.aag2602</a></li>
+    <li>Pawar, H. et al. Ghost admixture in eastern gorillas. Nat Ecol Evol 7, 1503-1514 (2023). DOI: <a href="https://doi.org/10.1038/s41559-023-02145-2" target="_blank" rel="noopener noreferrer">https://doi.org/10.1038/s41559-023-02145-2</a></li>
+</ul>
+</p>
+
+<h2>Contacts</h2>
+<ul>
+    <li>Qiuhui(Iris) Li: <a href="mailto:liqiuhui09@gmail.com">liqiuhui09@gmail.com</a></li>
+    <li>Arjun Biddanda: <a href="mailto:aabiddanda@gmail.com">aabiddanda@gmail.com</a></li>
+    <li>Michael Schatz: <a href="mailto:mschatz@cs.jhu.edu">mschatz@cs.jhu.edu</a></li>
+</ul>
+
+<h2>References</h2>
+<p>
+<li>Makova, K.D., Pickett, B.D., Harris, R.S. <i>et al</i>. The complete sequence and comparative analysis of ape sex chromosomes. <i>Nature</i> (2024) <a href="https://doi.org/10.1038/s41586-024-07473-2" target="_blank">doi:10.1038/s41586-024-07473-2</a> PMCID: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11168930/">PMC11168930</a></li>
+<li>Yoo, D., Rhie, A., Hebbar, P. <i>et al</i>. Complete sequencing of ape genomes. <i>bioRxiv</i> (2024) <a href="https://doi.org/10.1101/2024.07.31.605654" target="_blank">doi:10.1101/2024.07.31.605654</a></li>
+</p>

@@ -1,0 +1,28 @@
+track access
+shortLabel SR Accessibility
+longLabel Short Read Accessibility Mask
+group var
+visibility dense
+type bigBed 3
+bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/variants/mPonAbe1_v2.0.accessibility_mask.bb
+html ../html/accessibilityMask.html
+mouseOverField name
+priority 81
+
+track variant
+superTrack on
+shortLabel VariantCall
+longLabel Varant Call from Population
+group var
+type vcfTabix
+hapClusterEnabled true
+maxWindowToDraw 3000000
+html ../html/variant.html
+priority 82
+	
+	track varPonAbe
+	parent variant
+	shortLabel Sumatran O.
+	longLabel Sumatran Orangutan
+	visibility squish
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/variants/mPonAbe1_v2.0.pri.sumatran_orangutan.t2t.beagle4.biallelic_snps.autosomes.vcf.gz

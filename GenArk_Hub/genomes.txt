@@ -13,3 +13,33 @@ trackDb GCA_018852605.3/trackDb.txt
 groups groups.txt
 htmlPath GCA_018852605.3/description.html
 chromAlias GCA_018852605.3/chromAlias.txt
+
+genome GCF_029281585.2
+trackDb GCF_029281585.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_029281585.2/description.html
+
+genome GCF_029289425.2
+trackDb GCF_029289425.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_029289425.2/description.html
+
+genome GCF_028858775.2
+trackDb GCF_028858775.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_028858775.2/description.html
+
+genome GCF_028885655.2
+trackDb GCF_028885655.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_028885655.2/description.html
+
+genome GCF_028885625.2
+trackDb GCF_028885625.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_028885625.2/description.html
+
+genome GCA_028878055.2
+trackDb GCA_028878055.2/trackDb.txt
+groups groups.txt
+htmlPath GCA_028878055.2/description.html
