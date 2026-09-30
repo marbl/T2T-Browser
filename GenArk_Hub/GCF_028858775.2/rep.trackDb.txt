@@ -46,6 +46,7 @@ priority 21
 
     track cenpa
     parent centro
+    group rep
     shortLabel CENP-A
     longLabel CENP-A
     type bigWig
@@ -57,6 +58,7 @@ priority 21
 
     track supFam
     parent centro
+    group rep
     shortLabel AS SuperFamily
     longLabel Alpha-Satellite Super Family
     type bigBed 9
@@ -68,6 +70,7 @@ priority 21
 
     track sfStrand
     parent centro
+    group rep
     shortLabel AS Strand
     longLabel Alpha-Satellite Strand
     type bigBed 9
@@ -79,6 +82,7 @@ priority 21
 
     track cenpbSite
     parent centro
+    group rep
     shortLabel CENP-B Sites
     longLabel CENP-B Binding Sites (k-mer match)
     type bigBed 4
@@ -127,6 +131,7 @@ priority 24
 
     track seqIdychr12_hap1_hsa2a
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr12_hap1_hsa2a
     longLabel mPanTro3#chr12_hap1_hsa2a
@@ -136,6 +141,7 @@ priority 24
 
     track seqIdychr12_hap2_hsa2a
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr12_hap2_hsa2a
     longLabel mPanTro3#chr12_hap2_hsa2a
@@ -145,6 +151,7 @@ priority 24
 
     track seqIdychr13_hap1_hsa2b
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr13_hap1_hsa2b
     longLabel mPanTro3#chr13_hap1_hsa2b
@@ -154,6 +161,7 @@ priority 24
 
     track seqIdychr13_hap2_hsa2b
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr13_hap2_hsa2b
     longLabel mPanTro3#chr13_hap2_hsa2b
@@ -163,6 +171,7 @@ priority 24
 
     track seqIdychr11_hap1_hsa9
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr11_hap1_hsa9
     longLabel mPanTro3#chr11_hap1_hsa9
@@ -172,6 +181,7 @@ priority 24
 
     track seqIdychr11_hap2_hsa9
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr11_hap2_hsa9
     longLabel mPanTro3#chr11_hap2_hsa9
@@ -181,6 +191,7 @@ priority 24
 
     track seqIdychr14_hap1_hsa13
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr14_hap1_hsa13
     longLabel mPanTro3#chr14_hap1_hsa13
@@ -190,6 +201,7 @@ priority 24
 
     track seqIdychr14_hap2_hsa13
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr14_hap2_hsa13
     longLabel mPanTro3#chr14_hap2_hsa13
@@ -199,6 +211,7 @@ priority 24
 
     track seqIdychr15_hap1_hsa14
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr15_hap1_hsa14
     longLabel mPanTro3#chr15_hap1_hsa14
@@ -208,6 +221,7 @@ priority 24
 
     track seqIdychr15_hap2_hsa14
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr15_hap2_hsa14
     longLabel mPanTro3#chr15_hap2_hsa14
@@ -217,6 +231,7 @@ priority 24
 
     track seqIdychr16_hap1_hsa15
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr16_hap1_hsa15
     longLabel mPanTro3#chr16_hap1_hsa15
@@ -226,6 +241,7 @@ priority 24
 
     track seqIdychr16_hap2_hsa15
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr16_hap2_hsa15
     longLabel mPanTro3#chr16_hap2_hsa15
@@ -235,6 +251,7 @@ priority 24
 
     track seqIdychr17_hap1_hsa18
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr17_hap1_hsa18
     longLabel mPanTro3#chr17_hap1_hsa18
@@ -244,6 +261,7 @@ priority 24
 
     track seqIdychr17_hap2_hsa18
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr17_hap2_hsa18
     longLabel mPanTro3#chr17_hap2_hsa18
@@ -253,6 +271,7 @@ priority 24
 
     track seqIdychr22_hap1_hsa21
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr22_hap1_hsa21
     longLabel mPanTro3#chr22_hap1_hsa21
@@ -262,6 +281,7 @@ priority 24
 
     track seqIdychr22_hap2_hsa21
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr22_hap2_hsa21
     longLabel mPanTro3#chr22_hap2_hsa21
@@ -271,6 +291,7 @@ priority 24
 
     track seqIdychr23_hap1_hsa22
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr23_hap1_hsa22
     longLabel mPanTro3#chr23_hap1_hsa22
@@ -280,6 +301,7 @@ priority 24
 
     track seqIdychr23_hap2_hsa22
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr23_hap2_hsa22
     longLabel mPanTro3#chr23_hap2_hsa22
@@ -289,6 +311,7 @@ priority 24
 
     track seqIdychrY_hap2_hsaY
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chrY_hap2_hsaY
     longLabel mPanTro3#chrY_hap2_hsaY
@@ -310,6 +333,7 @@ priority 25
 
     track seqIdychr1_hap1_hsa1
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr1_hap1_hsa1
     longLabel mPanTro3#chr1_hap1_hsa1
@@ -319,6 +343,7 @@ priority 25
 
     track seqIdychr1_hap2_hsa1
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr1_hap2_hsa1
     longLabel mPanTro3#chr1_hap2_hsa1
@@ -328,6 +353,7 @@ priority 25
 
     track seqIdychr2_hap1_hsa3
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr2_hap1_hsa3
     longLabel mPanTro3#chr2_hap1_hsa3
@@ -337,6 +363,7 @@ priority 25
 
     track seqIdychr2_hap2_hsa3
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr2_hap2_hsa3
     longLabel mPanTro3#chr2_hap2_hsa3
@@ -346,6 +373,7 @@ priority 25
 
     track seqIdychr3_hap1_hsa4
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr3_hap1_hsa4
     longLabel mPanTro3#chr3_hap1_hsa4
@@ -355,6 +383,7 @@ priority 25
 
     track seqIdychr3_hap2_hsa4
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr3_hap2_hsa4
     longLabel mPanTro3#chr3_hap2_hsa4
@@ -364,6 +393,7 @@ priority 25
 
     track seqIdychr4_hap1_hsa5
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr4_hap1_hsa5
     longLabel mPanTro3#chr4_hap1_hsa5
@@ -373,6 +403,7 @@ priority 25
 
     track seqIdychr4_hap2_hsa5
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr4_hap2_hsa5
     longLabel mPanTro3#chr4_hap2_hsa5
@@ -382,6 +413,7 @@ priority 25
 
     track seqIdychr5_hap1_hsa6
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr5_hap1_hsa6
     longLabel mPanTro3#chr5_hap1_hsa6
@@ -391,6 +423,7 @@ priority 25
 
     track seqIdychr5_hap2_hsa6
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr5_hap2_hsa6
     longLabel mPanTro3#chr5_hap2_hsa6
@@ -400,6 +433,7 @@ priority 25
 
     track seqIdychr6_hap1_hsa7
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr6_hap1_hsa7
     longLabel mPanTro3#chr6_hap1_hsa7
@@ -409,6 +443,7 @@ priority 25
 
     track seqIdychr6_hap2_hsa7
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr6_hap2_hsa7
     longLabel mPanTro3#chr6_hap2_hsa7
@@ -418,6 +453,7 @@ priority 25
 
     track seqIdychr7_hap1_hsa8
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr7_hap1_hsa8
     longLabel mPanTro3#chr7_hap1_hsa8
@@ -427,6 +463,7 @@ priority 25
 
     track seqIdychr7_hap2_hsa8
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr7_hap2_hsa8
     longLabel mPanTro3#chr7_hap2_hsa8
@@ -436,6 +473,7 @@ priority 25
 
     track seqIdychr8_hap1_hsa10
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr8_hap1_hsa10
     longLabel mPanTro3#chr8_hap1_hsa10
@@ -445,6 +483,7 @@ priority 25
 
     track seqIdychr8_hap2_hsa10
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr8_hap2_hsa10
     longLabel mPanTro3#chr8_hap2_hsa10
@@ -454,6 +493,7 @@ priority 25
 
     track seqIdychr9_hap1_hsa11
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr9_hap1_hsa11
     longLabel mPanTro3#chr9_hap1_hsa11
@@ -463,6 +503,7 @@ priority 25
 
     track seqIdychr9_hap2_hsa11
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr9_hap2_hsa11
     longLabel mPanTro3#chr9_hap2_hsa11
@@ -472,6 +513,7 @@ priority 25
 
     track seqIdychr10_hap1_hsa12
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr10_hap1_hsa12
     longLabel mPanTro3#chr10_hap1_hsa12
@@ -481,6 +523,7 @@ priority 25
 
     track seqIdychr10_hap2_hsa12
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr10_hap2_hsa12
     longLabel mPanTro3#chr10_hap2_hsa12
@@ -490,6 +533,7 @@ priority 25
 
     track seqIdychr18_hap1_hsa16
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr18_hap1_hsa16
     longLabel mPanTro3#chr18_hap1_hsa16
@@ -499,6 +543,7 @@ priority 25
 
     track seqIdychr18_hap2_hsa16
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr18_hap2_hsa16
     longLabel mPanTro3#chr18_hap2_hsa16
@@ -508,6 +553,7 @@ priority 25
 
     track seqIdychr19_hap1_hsa17
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr19_hap1_hsa17
     longLabel mPanTro3#chr19_hap1_hsa17
@@ -517,6 +563,7 @@ priority 25
 
     track seqIdychr19_hap2_hsa17
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr19_hap2_hsa17
     longLabel mPanTro3#chr19_hap2_hsa17
@@ -526,6 +573,7 @@ priority 25
 
     track seqIdychr20_hap1_hsa19
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr20_hap1_hsa19
     longLabel mPanTro3#chr20_hap1_hsa19
@@ -535,6 +583,7 @@ priority 25
 
     track seqIdychr20_hap2_hsa19
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr20_hap2_hsa19
     longLabel mPanTro3#chr20_hap2_hsa19
@@ -544,6 +593,7 @@ priority 25
 
     track seqIdychr21_hap1_hsa20
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr21_hap1_hsa20
     longLabel mPanTro3#chr21_hap1_hsa20
@@ -553,6 +603,7 @@ priority 25
 
     track seqIdychr21_hap2_hsa20
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr21_hap2_hsa20
     longLabel mPanTro3#chr21_hap2_hsa20
@@ -562,6 +613,7 @@ priority 25
 
     track seqIdychrX_hap1_hsaX
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chrX_hap1_hsaX
     longLabel mPanTro3#chrX_hap1_hsaX
@@ -594,6 +646,7 @@ html ../html/nonB.html
     shortLabel A-phased repeats
     longLabel A-phased repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_APR.bb
     priority 26.1
@@ -602,6 +655,7 @@ html ../html/nonB.html
     shortLabel Direct repeats
     longLabel Direct repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_DR.bb
     priority 26.2
@@ -610,6 +664,7 @@ html ../html/nonB.html
     shortLabel G-quadruplexes
     longLabel G-quadruplexes
     parent nonB
+    group rep
     type bigBed 4
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_GQ.bb
     priority 26.3
@@ -618,6 +673,7 @@ html ../html/nonB.html
     shortLabel Inverted repeats
     longLabel Inverted repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_IR.bb
     priority 26.4
@@ -626,6 +682,7 @@ html ../html/nonB.html
     shortLabel Mirror repeats
     longLabel Mirror repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_MR.bb
     priority 26.5
@@ -634,6 +691,7 @@ html ../html/nonB.html
     shortLabel Triplex repeats
     longLabel Triplex repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_TRI.bb
     priority 26.6
@@ -642,6 +700,7 @@ html ../html/nonB.html
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_STR.bb
     priority 26.7
@@ -650,6 +709,7 @@ html ../html/nonB.html
     shortLabel Z-DNA
     longLabel Z-DNA
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/repeats/mPanTro3_v2.0.nonB_Z.bb
     priority 26.8

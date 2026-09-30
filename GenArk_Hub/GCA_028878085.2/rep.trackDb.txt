@@ -46,6 +46,7 @@ priority 21
 
     track cenpa
     parent centro
+    group rep
     shortLabel CENP-A
     longLabel CENP-A
     type bigWig
@@ -57,6 +58,7 @@ priority 21
 
     track supFam
     parent centro
+    group rep
     shortLabel AS SuperFamily
     longLabel Alpha-Satellite Super Family
     type bigBed 9
@@ -68,6 +70,7 @@ priority 21
 
     track sfStrand
     parent centro
+    group rep
     shortLabel AS Strand
     longLabel Alpha-Satellite Strand
     type bigBed 9
@@ -115,6 +118,7 @@ priority 24
 
     track seqIdychr21_hap2
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr21_hap2
     longLabel mSymSyn1#chr21_hap2
@@ -136,6 +140,7 @@ priority 25
 
     track seqIdychr1_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr1_hap2
     longLabel mSymSyn1#chr1_hap2
@@ -145,6 +150,7 @@ priority 25
 
     track seqIdychr2_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr2_hap2
     longLabel mSymSyn1#chr2_hap2
@@ -154,6 +160,7 @@ priority 25
 
     track seqIdychr3_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr3_hap2
     longLabel mSymSyn1#chr3_hap2
@@ -163,6 +170,7 @@ priority 25
 
     track seqIdychr4_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr4_hap2
     longLabel mSymSyn1#chr4_hap2
@@ -172,6 +180,7 @@ priority 25
 
     track seqIdychr5_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr5_hap2
     longLabel mSymSyn1#chr5_hap2
@@ -181,6 +190,7 @@ priority 25
 
     track seqIdychr6_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr6_hap2
     longLabel mSymSyn1#chr6_hap2
@@ -190,6 +200,7 @@ priority 25
 
     track seqIdychr7_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr7_hap2
     longLabel mSymSyn1#chr7_hap2
@@ -199,6 +210,7 @@ priority 25
 
     track seqIdychr8_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr8_hap2
     longLabel mSymSyn1#chr8_hap2
@@ -208,6 +220,7 @@ priority 25
 
     track seqIdychr9_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr9_hap2
     longLabel mSymSyn1#chr9_hap2
@@ -217,6 +230,7 @@ priority 25
 
     track seqIdychr10_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr10_hap2
     longLabel mSymSyn1#chr10_hap2
@@ -226,6 +240,7 @@ priority 25
 
     track seqIdychr11_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr11_hap2
     longLabel mSymSyn1#chr11_hap2
@@ -235,6 +250,7 @@ priority 25
 
     track seqIdychr12_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr12_hap2
     longLabel mSymSyn1#chr12_hap2
@@ -244,6 +260,7 @@ priority 25
 
     track seqIdychr13_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr13_hap2
     longLabel mSymSyn1#chr13_hap2
@@ -253,6 +270,7 @@ priority 25
 
     track seqIdychr14_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr14_hap2
     longLabel mSymSyn1#chr14_hap2
@@ -262,6 +280,7 @@ priority 25
 
     track seqIdychr15_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr15_hap2
     longLabel mSymSyn1#chr15_hap2
@@ -271,6 +290,7 @@ priority 25
 
     track seqIdychr16_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr16_hap2
     longLabel mSymSyn1#chr16_hap2
@@ -280,6 +300,7 @@ priority 25
 
     track seqIdychr17_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr17_hap2
     longLabel mSymSyn1#chr17_hap2
@@ -289,6 +310,7 @@ priority 25
 
     track seqIdychr18_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr18_hap2
     longLabel mSymSyn1#chr18_hap2
@@ -298,6 +320,7 @@ priority 25
 
     track seqIdychr19_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr19_hap2
     longLabel mSymSyn1#chr19_hap2
@@ -307,6 +330,7 @@ priority 25
 
     track seqIdychr20_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr20_hap2
     longLabel mSymSyn1#chr20_hap2
@@ -316,6 +340,7 @@ priority 25
 
     track seqIdychr22_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr22_hap2
     longLabel mSymSyn1#chr22_hap2
@@ -325,6 +350,7 @@ priority 25
 
     track seqIdychr23_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr23_hap2
     longLabel mSymSyn1#chr23_hap2
@@ -334,6 +360,7 @@ priority 25
 
     track seqIdychr24_hap2
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr24_hap2
     longLabel mSymSyn1#chr24_hap2
@@ -354,6 +381,7 @@ html ../html/nonB.html
     shortLabel A-phased repeats
     longLabel A-phased repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_APR.bb
     priority 26.1
@@ -362,6 +390,7 @@ html ../html/nonB.html
     shortLabel Direct repeats
     longLabel Direct repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_DR.bb
     priority 26.2
@@ -370,6 +399,7 @@ html ../html/nonB.html
     shortLabel G-quadruplexes
     longLabel G-quadruplexes
     parent nonB
+    group rep
     type bigBed 4
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_GQ.bb
     priority 26.3
@@ -378,6 +408,7 @@ html ../html/nonB.html
     shortLabel Inverted repeats
     longLabel Inverted repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_IR.bb
     priority 26.4
@@ -386,6 +417,7 @@ html ../html/nonB.html
     shortLabel Mirror repeats
     longLabel Mirror repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_MR.bb
     priority 26.5
@@ -394,6 +426,7 @@ html ../html/nonB.html
     shortLabel Triplex repeats
     longLabel Triplex repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_TRI.bb
     priority 26.6
@@ -402,6 +435,7 @@ html ../html/nonB.html
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_STR.bb
     priority 26.7
@@ -410,6 +444,7 @@ html ../html/nonB.html
     shortLabel Z-DNA
     longLabel Z-DNA
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_Z.bb
     priority 26.8

@@ -17,6 +17,7 @@ priority 51
 
     track isoSeqBam1
     parent isoSeq
+    group rna
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/expression/mPanTro3_v2.0.IsoSeq_1_v0.9.bam
     shortLabel IsoSeq 1
     longLabel IsoSeq 1
@@ -25,6 +26,7 @@ priority 51
 
     track isoSeqBam2
     parent isoSeq
+    group rna
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/expression/mPanTro3_v2.0.IsoSeq_2_v0.9.bam
     shortLabel IsoSeq 2
     longLabel IsoSeq 2

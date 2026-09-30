@@ -10,6 +10,7 @@ priority 100
 
 	track wfmashGRCh38
 	parent wfmash
+	group compGeno
 	type bigChain hg38
 	shortLabel GRCh38
 	longLabel GRCh38 to CHM13v2.0
@@ -23,6 +24,7 @@ priority 100
 
 	track wfmashHG002mat
 	parent wfmash
+	group compGeno
 	type bigChain HG002v1.0.1.MAT
 	shortLabel HG002#mat
 	longLabel HG002v1.0.1 mat to CHM13v2.0
@@ -36,6 +38,7 @@ priority 100
 
 	track wfmashHG002pat
 	parent wfmash
+	group compGeno
 	type bigChain HG002v1.0.1.PAT
 	shortLabel HG002#pat
 	longLabel HG002v1.0.1 pat to CHM13v2.0
@@ -49,6 +52,7 @@ priority 100
 
 	track wfmashmGorGor1mat
 	parent wfmash
+	group compGeno
 	type bigChain mGorGor1_v2.0
 	shortLabel mGorGor1#mat
 	longLabel mGorGor1_v2.0 mat to T2T-CHM13v2.0
@@ -62,6 +66,7 @@ priority 100
 
 	track wfmashmGorGor1pat
 	parent wfmash
+	group compGeno
 	type bigChain mGorGor1_v2.0
 	shortLabel mGorGor1#pat
 	longLabel mGorGor1_v2.0 pat to T2T-CHM13v2.0
@@ -75,6 +80,7 @@ priority 100
 
 	track wfmashmPanPan1mat
 	parent wfmash
+	group compGeno
 	type bigChain mPanPan1_v2.0
 	shortLabel mPanPan1#mat
 	longLabel mPanPan1_v2.0 mat to T2T-CHM13v2.0
@@ -88,6 +94,7 @@ priority 100
 
 	track wfmashmPanPan1pat
 	parent wfmash
+	group compGeno
 	type bigChain mPanPan1_v2.0
 	shortLabel mPanPan1#pat
 	longLabel mPanPan1_v2.0 pat to T2T-CHM13v2.0
@@ -101,6 +108,7 @@ priority 100
 
 	track wfmashmPanTro3hap1
 	parent wfmash
+	group compGeno
 	type bigChain mPanTro3_v2.0
 	shortLabel mPanTro3#hap1
 	longLabel mPanTro3_v2.0 hap1 to T2T-CHM13v2.0
@@ -114,6 +122,7 @@ priority 100
 
 	track wfmashmPanTro3hap2
 	parent wfmash
+	group compGeno
 	type bigChain mPanTro3_v2.0
 	shortLabel mPanTro3#hap2
 	longLabel mPanTro3_v2.0 hap2 to T2T-CHM13v2.0
@@ -127,6 +136,7 @@ priority 100
 
 	track wfmashmPonAbe1hap1
 	parent wfmash
+	group compGeno
 	type bigChain mPonAbe1_v2.0
 	shortLabel mPonAbe1#hap1
 	longLabel mPonAbe1_v2.0 hap1 to T2T-CHM13v2.0
@@ -140,6 +150,7 @@ priority 100
 
 	track wfmashmPonAbe1hap2
 	parent wfmash
+	group compGeno
 	type bigChain mPonAbe1_v2.0
 	shortLabel mPonAbe1#hap2
 	longLabel mPonAbe1_v2.0 hap2 to T2T-CHM13v2.0
@@ -153,6 +164,7 @@ priority 100
 
 	track wfmashmPonPyg2hap1
 	parent wfmash
+	group compGeno
 	type bigChain mPonPyg2_v2.0
 	shortLabel mPonPyg2#hap1
 	longLabel mPonPyg2_v2.0 hap1 to T2T-CHM13v2.0
@@ -166,6 +178,7 @@ priority 100
 
 	track wfmashmPonPyg2hap2
 	parent wfmash
+	group compGeno
 	type bigChain mPonPyg2_v2.0
 	shortLabel mPonPyg2#hap2
 	longLabel mPonPyg2_v2.0 hap2 to T2T-CHM13v2.0
@@ -179,6 +192,7 @@ priority 100
 
 	track wfmashmSymSyn1hap1
 	parent wfmash
+	group compGeno
 	type bigChain mSymSyn1_v2.0
 	shortLabel mSymSyn1#hap1
 	longLabel mSymSyn1_v2.0 hap1 to T2T-CHM13v2.0
@@ -192,6 +206,7 @@ priority 100
 
 	track wfmashmSymSyn1hap2
 	parent wfmash
+	group compGeno
 	type bigChain mSymSyn1_v2.0
 	shortLabel mSymSyn1#hap2
 	longLabel mSymSyn1_v2.0 hap2 to T2T-CHM13v2.0
@@ -217,6 +232,7 @@ priority 130
 
 	track wfmashHPRCy1HG002hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG002#hap1
 	shortLabel HG002#hap1
 	longLabel HPRCy1 HG002 hap1 to CHM13v2.0
@@ -228,6 +244,7 @@ priority 130
 
 	track wfmashHPRCy1HG002hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG002#hap2
 	shortLabel HG002#hap2
 	longLabel HPRCy1 HG002 hap2 to CHM13v2.0
@@ -239,6 +256,7 @@ priority 130
 
 	track wfmashHPRCy1HG00438hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00438#hap1
 	shortLabel HG00438#hap1
 	longLabel HPRCy1 HG00438 hap1 to CHM13v2.0
@@ -250,6 +268,7 @@ priority 130
 
 	track wfmashHPRCy1HG00438hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00438#hap2
 	shortLabel HG00438#hap2
 	longLabel HPRCy1 HG00438 hap2 to CHM13v2.0
@@ -261,6 +280,7 @@ priority 130
 
 	track wfmashHPRCy1HG005hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG005#hap1
 	shortLabel HG005#hap1
 	longLabel HPRCy1 HG005 hap1 to CHM13v2.0
@@ -272,6 +292,7 @@ priority 130
 
 	track wfmashHPRCy1HG005hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG005#hap2
 	shortLabel HG005#hap2
 	longLabel HPRCy1 HG005 hap2 to CHM13v2.0
@@ -283,6 +304,7 @@ priority 130
 
 	track wfmashHPRCy1HG00621hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00621#hap1
 	shortLabel HG00621#hap1
 	longLabel HPRCy1 HG00621 hap1 to CHM13v2.0
@@ -294,6 +316,7 @@ priority 130
 
 	track wfmashHPRCy1HG00621hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00621#hap2
 	shortLabel HG00621#hap2
 	longLabel HPRCy1 HG00621 hap2 to CHM13v2.0
@@ -305,6 +328,7 @@ priority 130
 
 	track wfmashHPRCy1HG00673hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00673#hap1
 	shortLabel HG00673#hap1
 	longLabel HPRCy1 HG00673 hap1 to CHM13v2.0
@@ -316,6 +340,7 @@ priority 130
 
 	track wfmashHPRCy1HG00673hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00673#hap2
 	shortLabel HG00673#hap2
 	longLabel HPRCy1 HG00673 hap2 to CHM13v2.0
@@ -327,6 +352,7 @@ priority 130
 
 	track wfmashHPRCy1HG00733hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00733#hap1
 	shortLabel HG00733#hap1
 	longLabel HPRCy1 HG00733 hap1 to CHM13v2.0
@@ -338,6 +364,7 @@ priority 130
 
 	track wfmashHPRCy1HG00733hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00733#hap2
 	shortLabel HG00733#hap2
 	longLabel HPRCy1 HG00733 hap2 to CHM13v2.0
@@ -349,6 +376,7 @@ priority 130
 
 	track wfmashHPRCy1HG00735hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00735#hap1
 	shortLabel HG00735#hap1
 	longLabel HPRCy1 HG00735 hap1 to CHM13v2.0
@@ -360,6 +388,7 @@ priority 130
 
 	track wfmashHPRCy1HG00735hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00735#hap2
 	shortLabel HG00735#hap2
 	longLabel HPRCy1 HG00735 hap2 to CHM13v2.0
@@ -371,6 +400,7 @@ priority 130
 
 	track wfmashHPRCy1HG00741hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00741#hap1
 	shortLabel HG00741#hap1
 	longLabel HPRCy1 HG00741 hap1 to CHM13v2.0
@@ -382,6 +412,7 @@ priority 130
 
 	track wfmashHPRCy1HG00741hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG00741#hap2
 	shortLabel HG00741#hap2
 	longLabel HPRCy1 HG00741 hap2 to CHM13v2.0
@@ -393,6 +424,7 @@ priority 130
 
 	track wfmashHPRCy1HG01071hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01071#hap1
 	shortLabel HG01071#hap1
 	longLabel HPRCy1 HG01071 hap1 to CHM13v2.0
@@ -404,6 +436,7 @@ priority 130
 
 	track wfmashHPRCy1HG01071hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01071#hap2
 	shortLabel HG01071#hap2
 	longLabel HPRCy1 HG01071 hap2 to CHM13v2.0
@@ -415,6 +448,7 @@ priority 130
 
 	track wfmashHPRCy1HG01106hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01106#hap1
 	shortLabel HG01106#hap1
 	longLabel HPRCy1 HG01106 hap1 to CHM13v2.0
@@ -426,6 +460,7 @@ priority 130
 
 	track wfmashHPRCy1HG01106hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01106#hap2
 	shortLabel HG01106#hap2
 	longLabel HPRCy1 HG01106 hap2 to CHM13v2.0
@@ -437,6 +472,7 @@ priority 130
 
 	track wfmashHPRCy1HG01109hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01109#hap1
 	shortLabel HG01109#hap1
 	longLabel HPRCy1 HG01109 hap1 to CHM13v2.0
@@ -448,6 +484,7 @@ priority 130
 
 	track wfmashHPRCy1HG01109hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01109#hap2
 	shortLabel HG01109#hap2
 	longLabel HPRCy1 HG01109 hap2 to CHM13v2.0
@@ -459,6 +496,7 @@ priority 130
 
 	track wfmashHPRCy1HG01123hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01123#hap1
 	shortLabel HG01123#hap1
 	longLabel HPRCy1 HG01123 hap1 to CHM13v2.0
@@ -470,6 +508,7 @@ priority 130
 
 	track wfmashHPRCy1HG01123hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01123#hap2
 	shortLabel HG01123#hap2
 	longLabel HPRCy1 HG01123 hap2 to CHM13v2.0
@@ -481,6 +520,7 @@ priority 130
 
 	track wfmashHPRCy1HG01175hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01175#hap1
 	shortLabel HG01175#hap1
 	longLabel HPRCy1 HG01175 hap1 to CHM13v2.0
@@ -492,6 +532,7 @@ priority 130
 
 	track wfmashHPRCy1HG01175hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01175#hap2
 	shortLabel HG01175#hap2
 	longLabel HPRCy1 HG01175 hap2 to CHM13v2.0
@@ -503,6 +544,7 @@ priority 130
 
 	track wfmashHPRCy1HG01243hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01243#hap1
 	shortLabel HG01243#hap1
 	longLabel HPRCy1 HG01243 hap1 to CHM13v2.0
@@ -514,6 +556,7 @@ priority 130
 
 	track wfmashHPRCy1HG01243hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01243#hap2
 	shortLabel HG01243#hap2
 	longLabel HPRCy1 HG01243 hap2 to CHM13v2.0
@@ -525,6 +568,7 @@ priority 130
 
 	track wfmashHPRCy1HG01258hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01258#hap1
 	shortLabel HG01258#hap1
 	longLabel HPRCy1 HG01258 hap1 to CHM13v2.0
@@ -536,6 +580,7 @@ priority 130
 
 	track wfmashHPRCy1HG01258hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01258#hap2
 	shortLabel HG01258#hap2
 	longLabel HPRCy1 HG01258 hap2 to CHM13v2.0
@@ -547,6 +592,7 @@ priority 130
 
 	track wfmashHPRCy1HG01358hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01358#hap1
 	shortLabel HG01358#hap1
 	longLabel HPRCy1 HG01358 hap1 to CHM13v2.0
@@ -558,6 +604,7 @@ priority 130
 
 	track wfmashHPRCy1HG01358hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01358#hap2
 	shortLabel HG01358#hap2
 	longLabel HPRCy1 HG01358 hap2 to CHM13v2.0
@@ -569,6 +616,7 @@ priority 130
 
 	track wfmashHPRCy1HG01361hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01361#hap1
 	shortLabel HG01361#hap1
 	longLabel HPRCy1 HG01361 hap1 to CHM13v2.0
@@ -580,6 +628,7 @@ priority 130
 
 	track wfmashHPRCy1HG01361hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01361#hap2
 	shortLabel HG01361#hap2
 	longLabel HPRCy1 HG01361 hap2 to CHM13v2.0
@@ -591,6 +640,7 @@ priority 130
 
 	track wfmashHPRCy1HG01891hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01891#hap1
 	shortLabel HG01891#hap1
 	longLabel HPRCy1 HG01891 hap1 to CHM13v2.0
@@ -602,6 +652,7 @@ priority 130
 
 	track wfmashHPRCy1HG01891hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01891#hap2
 	shortLabel HG01891#hap2
 	longLabel HPRCy1 HG01891 hap2 to CHM13v2.0
@@ -613,6 +664,7 @@ priority 130
 
 	track wfmashHPRCy1HG01928hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01928#hap1
 	shortLabel HG01928#hap1
 	longLabel HPRCy1 HG01928 hap1 to CHM13v2.0
@@ -624,6 +676,7 @@ priority 130
 
 	track wfmashHPRCy1HG01928hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01928#hap2
 	shortLabel HG01928#hap2
 	longLabel HPRCy1 HG01928 hap2 to CHM13v2.0
@@ -635,6 +688,7 @@ priority 130
 
 	track wfmashHPRCy1HG01952hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01952#hap1
 	shortLabel HG01952#hap1
 	longLabel HPRCy1 HG01952 hap1 to CHM13v2.0
@@ -646,6 +700,7 @@ priority 130
 
 	track wfmashHPRCy1HG01952hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01952#hap2
 	shortLabel HG01952#hap2
 	longLabel HPRCy1 HG01952 hap2 to CHM13v2.0
@@ -657,6 +712,7 @@ priority 130
 
 	track wfmashHPRCy1HG01978hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01978#hap1
 	shortLabel HG01978#hap1
 	longLabel HPRCy1 HG01978 hap1 to CHM13v2.0
@@ -668,6 +724,7 @@ priority 130
 
 	track wfmashHPRCy1HG01978hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG01978#hap2
 	shortLabel HG01978#hap2
 	longLabel HPRCy1 HG01978 hap2 to CHM13v2.0
@@ -679,6 +736,7 @@ priority 130
 
 	track wfmashHPRCy1HG02055hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02055#hap1
 	shortLabel HG02055#hap1
 	longLabel HPRCy1 HG02055 hap1 to CHM13v2.0
@@ -690,6 +748,7 @@ priority 130
 
 	track wfmashHPRCy1HG02055hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02055#hap2
 	shortLabel HG02055#hap2
 	longLabel HPRCy1 HG02055 hap2 to CHM13v2.0
@@ -701,6 +760,7 @@ priority 130
 
 	track wfmashHPRCy1HG02080hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02080#hap1
 	shortLabel HG02080#hap1
 	longLabel HPRCy1 HG02080 hap1 to CHM13v2.0
@@ -712,6 +772,7 @@ priority 130
 
 	track wfmashHPRCy1HG02080hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02080#hap2
 	shortLabel HG02080#hap2
 	longLabel HPRCy1 HG02080 hap2 to CHM13v2.0
@@ -723,6 +784,7 @@ priority 130
 
 	track wfmashHPRCy1HG02109hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02109#hap1
 	shortLabel HG02109#hap1
 	longLabel HPRCy1 HG02109 hap1 to CHM13v2.0
@@ -734,6 +796,7 @@ priority 130
 
 	track wfmashHPRCy1HG02109hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02109#hap2
 	shortLabel HG02109#hap2
 	longLabel HPRCy1 HG02109 hap2 to CHM13v2.0
@@ -745,6 +808,7 @@ priority 130
 
 	track wfmashHPRCy1HG02145hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02145#hap1
 	shortLabel HG02145#hap1
 	longLabel HPRCy1 HG02145 hap1 to CHM13v2.0
@@ -756,6 +820,7 @@ priority 130
 
 	track wfmashHPRCy1HG02145hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02145#hap2
 	shortLabel HG02145#hap2
 	longLabel HPRCy1 HG02145 hap2 to CHM13v2.0
@@ -767,6 +832,7 @@ priority 130
 
 	track wfmashHPRCy1HG02148hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02148#hap1
 	shortLabel HG02148#hap1
 	longLabel HPRCy1 HG02148 hap1 to CHM13v2.0
@@ -778,6 +844,7 @@ priority 130
 
 	track wfmashHPRCy1HG02148hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02148#hap2
 	shortLabel HG02148#hap2
 	longLabel HPRCy1 HG02148 hap2 to CHM13v2.0
@@ -789,6 +856,7 @@ priority 130
 
 	track wfmashHPRCy1HG02257hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02257#hap1
 	shortLabel HG02257#hap1
 	longLabel HPRCy1 HG02257 hap1 to CHM13v2.0
@@ -800,6 +868,7 @@ priority 130
 
 	track wfmashHPRCy1HG02257hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02257#hap2
 	shortLabel HG02257#hap2
 	longLabel HPRCy1 HG02257 hap2 to CHM13v2.0
@@ -811,6 +880,7 @@ priority 130
 
 	track wfmashHPRCy1HG02486hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02486#hap1
 	shortLabel HG02486#hap1
 	longLabel HPRCy1 HG02486 hap1 to CHM13v2.0
@@ -822,6 +892,7 @@ priority 130
 
 	track wfmashHPRCy1HG02486hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02486#hap2
 	shortLabel HG02486#hap2
 	longLabel HPRCy1 HG02486 hap2 to CHM13v2.0
@@ -833,6 +904,7 @@ priority 130
 
 	track wfmashHPRCy1HG02559hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02559#hap1
 	shortLabel HG02559#hap1
 	longLabel HPRCy1 HG02559 hap1 to CHM13v2.0
@@ -844,6 +916,7 @@ priority 130
 
 	track wfmashHPRCy1HG02559hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02559#hap2
 	shortLabel HG02559#hap2
 	longLabel HPRCy1 HG02559 hap2 to CHM13v2.0
@@ -855,6 +928,7 @@ priority 130
 
 	track wfmashHPRCy1HG02572hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02572#hap1
 	shortLabel HG02572#hap1
 	longLabel HPRCy1 HG02572 hap1 to CHM13v2.0
@@ -866,6 +940,7 @@ priority 130
 
 	track wfmashHPRCy1HG02572hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02572#hap2
 	shortLabel HG02572#hap2
 	longLabel HPRCy1 HG02572 hap2 to CHM13v2.0
@@ -877,6 +952,7 @@ priority 130
 
 	track wfmashHPRCy1HG02622hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02622#hap1
 	shortLabel HG02622#hap1
 	longLabel HPRCy1 HG02622 hap1 to CHM13v2.0
@@ -888,6 +964,7 @@ priority 130
 
 	track wfmashHPRCy1HG02622hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02622#hap2
 	shortLabel HG02622#hap2
 	longLabel HPRCy1 HG02622 hap2 to CHM13v2.0
@@ -899,6 +976,7 @@ priority 130
 
 	track wfmashHPRCy1HG02630hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02630#hap1
 	shortLabel HG02630#hap1
 	longLabel HPRCy1 HG02630 hap1 to CHM13v2.0
@@ -910,6 +988,7 @@ priority 130
 
 	track wfmashHPRCy1HG02630hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02630#hap2
 	shortLabel HG02630#hap2
 	longLabel HPRCy1 HG02630 hap2 to CHM13v2.0
@@ -921,6 +1000,7 @@ priority 130
 
 	track wfmashHPRCy1HG02717hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02717#hap1
 	shortLabel HG02717#hap1
 	longLabel HPRCy1 HG02717 hap1 to CHM13v2.0
@@ -932,6 +1012,7 @@ priority 130
 
 	track wfmashHPRCy1HG02717hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02717#hap2
 	shortLabel HG02717#hap2
 	longLabel HPRCy1 HG02717 hap2 to CHM13v2.0
@@ -943,6 +1024,7 @@ priority 130
 
 	track wfmashHPRCy1HG02723hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02723#hap1
 	shortLabel HG02723#hap1
 	longLabel HPRCy1 HG02723 hap1 to CHM13v2.0
@@ -954,6 +1036,7 @@ priority 130
 
 	track wfmashHPRCy1HG02723hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02723#hap2
 	shortLabel HG02723#hap2
 	longLabel HPRCy1 HG02723 hap2 to CHM13v2.0
@@ -965,6 +1048,7 @@ priority 130
 
 	track wfmashHPRCy1HG02818hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02818#hap1
 	shortLabel HG02818#hap1
 	longLabel HPRCy1 HG02818 hap1 to CHM13v2.0
@@ -976,6 +1060,7 @@ priority 130
 
 	track wfmashHPRCy1HG02818hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02818#hap2
 	shortLabel HG02818#hap2
 	longLabel HPRCy1 HG02818 hap2 to CHM13v2.0
@@ -987,6 +1072,7 @@ priority 130
 
 	track wfmashHPRCy1HG02886hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02886#hap1
 	shortLabel HG02886#hap1
 	longLabel HPRCy1 HG02886 hap1 to CHM13v2.0
@@ -998,6 +1084,7 @@ priority 130
 
 	track wfmashHPRCy1HG02886hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG02886#hap2
 	shortLabel HG02886#hap2
 	longLabel HPRCy1 HG02886 hap2 to CHM13v2.0
@@ -1009,6 +1096,7 @@ priority 130
 
 	track wfmashHPRCy1HG03098hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03098#hap1
 	shortLabel HG03098#hap1
 	longLabel HPRCy1 HG03098 hap1 to CHM13v2.0
@@ -1020,6 +1108,7 @@ priority 130
 
 	track wfmashHPRCy1HG03098hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03098#hap2
 	shortLabel HG03098#hap2
 	longLabel HPRCy1 HG03098 hap2 to CHM13v2.0
@@ -1031,6 +1120,7 @@ priority 130
 
 	track wfmashHPRCy1HG03453hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03453#hap1
 	shortLabel HG03453#hap1
 	longLabel HPRCy1 HG03453 hap1 to CHM13v2.0
@@ -1042,6 +1132,7 @@ priority 130
 
 	track wfmashHPRCy1HG03453hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03453#hap2
 	shortLabel HG03453#hap2
 	longLabel HPRCy1 HG03453 hap2 to CHM13v2.0
@@ -1053,6 +1144,7 @@ priority 130
 
 	track wfmashHPRCy1HG03486hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03486#hap1
 	shortLabel HG03486#hap1
 	longLabel HPRCy1 HG03486 hap1 to CHM13v2.0
@@ -1064,6 +1156,7 @@ priority 130
 
 	track wfmashHPRCy1HG03486hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03486#hap2
 	shortLabel HG03486#hap2
 	longLabel HPRCy1 HG03486 hap2 to CHM13v2.0
@@ -1075,6 +1168,7 @@ priority 130
 
 	track wfmashHPRCy1HG03492hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03492#hap1
 	shortLabel HG03492#hap1
 	longLabel HPRCy1 HG03492 hap1 to CHM13v2.0
@@ -1086,6 +1180,7 @@ priority 130
 
 	track wfmashHPRCy1HG03492hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03492#hap2
 	shortLabel HG03492#hap2
 	longLabel HPRCy1 HG03492 hap2 to CHM13v2.0
@@ -1097,6 +1192,7 @@ priority 130
 
 	track wfmashHPRCy1HG03516hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03516#hap1
 	shortLabel HG03516#hap1
 	longLabel HPRCy1 HG03516 hap1 to CHM13v2.0
@@ -1108,6 +1204,7 @@ priority 130
 
 	track wfmashHPRCy1HG03516hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03516#hap2
 	shortLabel HG03516#hap2
 	longLabel HPRCy1 HG03516 hap2 to CHM13v2.0
@@ -1119,6 +1216,7 @@ priority 130
 
 	track wfmashHPRCy1HG03540hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03540#hap1
 	shortLabel HG03540#hap1
 	longLabel HPRCy1 HG03540 hap1 to CHM13v2.0
@@ -1130,6 +1228,7 @@ priority 130
 
 	track wfmashHPRCy1HG03540hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03540#hap2
 	shortLabel HG03540#hap2
 	longLabel HPRCy1 HG03540 hap2 to CHM13v2.0
@@ -1141,6 +1240,7 @@ priority 130
 
 	track wfmashHPRCy1HG03579hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03579#hap1
 	shortLabel HG03579#hap1
 	longLabel HPRCy1 HG03579 hap1 to CHM13v2.0
@@ -1152,6 +1252,7 @@ priority 130
 
 	track wfmashHPRCy1HG03579hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain HG03579#hap2
 	shortLabel HG03579#hap2
 	longLabel HPRCy1 HG03579 hap2 to CHM13v2.0
@@ -1163,6 +1264,7 @@ priority 130
 
 	track wfmashHPRCy1NA18906hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA18906#hap1
 	shortLabel NA18906#hap1
 	longLabel HPRCy1 NA18906 hap1 to CHM13v2.0
@@ -1174,6 +1276,7 @@ priority 130
 
 	track wfmashHPRCy1NA18906hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA18906#hap2
 	shortLabel NA18906#hap2
 	longLabel HPRCy1 NA18906 hap2 to CHM13v2.0
@@ -1185,6 +1288,7 @@ priority 130
 
 	track wfmashHPRCy1NA19240hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA19240#hap1
 	shortLabel NA19240#hap1
 	longLabel HPRCy1 NA19240 hap1 to CHM13v2.0
@@ -1196,6 +1300,7 @@ priority 130
 
 	track wfmashHPRCy1NA19240hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA19240#hap2
 	shortLabel NA19240#hap2
 	longLabel HPRCy1 NA19240 hap2 to CHM13v2.0
@@ -1207,6 +1312,7 @@ priority 130
 
 	track wfmashHPRCy1NA20129hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA20129#hap1
 	shortLabel NA20129#hap1
 	longLabel HPRCy1 NA20129 hap1 to CHM13v2.0
@@ -1218,6 +1324,7 @@ priority 130
 
 	track wfmashHPRCy1NA20129hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA20129#hap2
 	shortLabel NA20129#hap2
 	longLabel HPRCy1 NA20129 hap2 to CHM13v2.0
@@ -1229,6 +1336,7 @@ priority 130
 
 	track wfmashHPRCy1NA21309hap1
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA21309#hap1
 	shortLabel NA21309#hap1
 	longLabel HPRCy1 NA21309 hap1 to CHM13v2.0
@@ -1240,6 +1348,7 @@ priority 130
 
 	track wfmashHPRCy1NA21309hap2
 	parent wfmashHPRCy1
+	group compGeno
 	type bigChain NA21309#hap2
 	shortLabel NA21309#hap2
 	longLabel HPRCy1 NA21309 hap2 to CHM13v2.0
@@ -1278,6 +1387,7 @@ priority 600
 	shortLabel Score (Approach1)
 	longLabel Approach 1 Conservation Score
 	parent phast
+	group compGeno
 	visibility hide
 	autoScale Off
 	maxHeightPixels 128:36:16
@@ -1293,6 +1403,7 @@ priority 600
 	shortLabel Conserved (Approach1)
 	longLabel Approach 1 Most Conserved Elements
 	parent phast
+	group compGeno
 	visibility hide
 	autoScale Off
 	maxHeightPixels 128:36:16
@@ -1308,6 +1419,7 @@ priority 600
 	shortLabel Score (Approach2 v0.1)
 	longLabel Approach 2 Conservation Score v0.1
 	parent phast
+	group compGeno
 	visibility hide
 	autoScale Off
 	maxHeightPixels 128:36:16
@@ -1323,6 +1435,7 @@ priority 600
 	shortLabel Conserved (Approach2 v0.1)
 	longLabel Approach 2 Most Conserved Elements v0.1
 	parent phast
+	group compGeno
 	visibility hide
 	type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.1.bb
@@ -1332,6 +1445,7 @@ priority 600
 	shortLabel Score (Approach2 v0.2)
 	longLabel Approach 2 Conservation Score v0.2
 	parent phast
+	group compGeno
 	visibility hide
 	autoScale Off
 	maxHeightPixels 128:36:16
@@ -1347,6 +1461,7 @@ priority 600
 	shortLabel Conserved (Approach2 v0.2)
 	longLabel Approach 2 Most Conserved Elements v0.2
 	parent phast
+	group compGeno
 	visibility hide
 	type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
@@ -1356,6 +1471,7 @@ priority 600
 	shortLabel Score (Approach2 v0.3)
 	longLabel Approach 2 Conservation Score v0.3
 	parent phast
+	group compGeno
 	visibility full
 	autoScale Off
 	maxHeightPixels 128:36:16
@@ -1371,6 +1487,7 @@ priority 600
 	shortLabel Conserved (Approach2 v0.3)
 	longLabel Approach 2 Most Conserved Elements v0.3
 	parent phast
+	group compGeno
 	visibility dense
 	type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.3.bb

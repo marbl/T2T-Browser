@@ -46,6 +46,7 @@ priority 21
 
     track cenpa
     parent centro
+    group rep
     shortLabel CENP-A
     longLabel CENP-A
     type bigWig
@@ -57,6 +58,7 @@ priority 21
 
     track supFam
     parent centro
+    group rep
     shortLabel AS SuperFamily
     longLabel Alpha-Satellite Super Family
     type bigBed 9
@@ -68,6 +70,7 @@ priority 21
 
     track sfStrand
     parent centro
+    group rep
     shortLabel AS Strand
     longLabel Alpha-Satellite Strand
     type bigBed 9
@@ -79,6 +82,7 @@ priority 21
 
     track cenpbSite
     parent centro
+    group rep
     shortLabel CENP-B Sites
     longLabel CENP-B Binding Sites (k-mer match)
     type bigBed 4
@@ -127,6 +131,7 @@ priority 24
 
     track seqIdychr12_mat_hsa2a
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr12_mat_hsa2a
     longLabel mGorGor1#chr12_mat_hsa2a
@@ -136,6 +141,7 @@ priority 24
 
     track seqIdychr11_mat_hsa2b
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr11_mat_hsa2b
     longLabel mGorGor1#chr11_mat_hsa2b
@@ -145,6 +151,7 @@ priority 24
 
     track seqIdychr13_mat_hsa9
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr13_mat_hsa9
     longLabel mGorGor1#chr13_mat_hsa9
@@ -154,6 +161,7 @@ priority 24
 
     track seqIdychr14_mat_hsa13
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr14_mat_hsa13
     longLabel mGorGor1#chr14_mat_hsa13
@@ -163,6 +171,7 @@ priority 24
 
     track seqIdychr15_mat_hsa14
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr15_mat_hsa14
     longLabel mGorGor1#chr15_mat_hsa14
@@ -172,6 +181,7 @@ priority 24
 
     track seqIdychr16_mat_hsa15
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr16_mat_hsa15
     longLabel mGorGor1#chr16_mat_hsa15
@@ -181,6 +191,7 @@ priority 24
 
     track seqIdychr17_mat_hsa18
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr17_mat_hsa18
     longLabel mGorGor1#chr17_mat_hsa18
@@ -190,6 +201,7 @@ priority 24
 
     track seqIdychr22_mat_hsa21
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr22_mat_hsa21
     longLabel mGorGor1#chr22_mat_hsa21
@@ -199,6 +211,7 @@ priority 24
 
     track seqIdychr23_mat_hsa22
     parent seqidyAcro
+    group rep
     type bigBed 9
     shortLabel chr23_mat_hsa22
     longLabel mGorGor1#chr23_mat_hsa22
@@ -220,6 +233,7 @@ priority 25
 
  track seqIdychr1_mat_hsa1
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr1_mat_hsa1
     longLabel mGorGor1#chr1_mat_hsa1
@@ -229,6 +243,7 @@ priority 25
 
     track seqIdychr2_mat_hsa3
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr2_mat_hsa3
     longLabel mGorGor1#chr2_mat_hsa3
@@ -238,6 +253,7 @@ priority 25
 
     track seqIdychr3_mat_hsa4
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr3_mat_hsa4
     longLabel mGorGor1#chr3_mat_hsa4
@@ -247,6 +263,7 @@ priority 25
 
     track seqIdychr4_mat_hsa17x5
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr4_mat_hsa17x5
     longLabel mGorGor1#chr4_mat_hsa17x5
@@ -256,6 +273,7 @@ priority 25
 
     track seqIdychr5_mat_hsa6
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr5_mat_hsa6
     longLabel mGorGor1#chr5_mat_hsa6
@@ -265,6 +283,7 @@ priority 25
 
     track seqIdychr6_mat_hsa7
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr6_mat_hsa7
     longLabel mGorGor1#chr6_mat_hsa7
@@ -274,6 +293,7 @@ priority 25
 
     track seqIdychr7_mat_hsa8
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr7_mat_hsa8
     longLabel mGorGor1#chr7_mat_hsa8
@@ -283,6 +303,7 @@ priority 25
 
     track seqIdychr8_mat_hsa10
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr8_mat_hsa10
     longLabel mGorGor1#chr8_mat_hsa10
@@ -292,6 +313,7 @@ priority 25
 
     track seqIdychr9_mat_hsa11
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr9_mat_hsa11
     longLabel mGorGor1#chr9_mat_hsa11
@@ -301,6 +323,7 @@ priority 25
 
     track seqIdychr10_mat_hsa12
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr10_mat_hsa12
     longLabel mGorGor1#chr10_mat_hsa12
@@ -310,6 +333,7 @@ priority 25
 
      track seqIdychr18_mat_hsa16
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr18_mat_hsa16
     longLabel mGorGor1#chr18_mat_hsa16
@@ -319,6 +343,7 @@ priority 25
 
     track seqIdychr19_mat_hsa5x17
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr19_mat_hsa5x17
     longLabel mGorGor1#chr19_mat_hsa5x17
@@ -328,6 +353,7 @@ priority 25
 
     track seqIdychr20_mat_hsa19
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr20_mat_hsa19
     longLabel mGorGor1#chr20_mat_hsa19
@@ -337,6 +363,7 @@ priority 25
 
     track seqIdychr21_mat_hsa20
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chr21_mat_hsa20
     longLabel mGorGor1#chr21_mat_hsa20
@@ -346,6 +373,7 @@ priority 25
 
     track seqIdychrX_mat_hsaX
     parent seqidy
+    group rep
     type bigBed 9
     shortLabel chrX_mat_hsaX
     longLabel mGorGor1#chrX_mat_hsaX
@@ -378,6 +406,7 @@ html ../html/nonB.html
     shortLabel A-phased repeats
     longLabel A-phased repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_APR.bb
     priority 26.1
@@ -386,6 +415,7 @@ html ../html/nonB.html
     shortLabel Direct repeats
     longLabel Direct repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_DR.bb
     priority 26.2
@@ -394,6 +424,7 @@ html ../html/nonB.html
     shortLabel G-quadruplexes
     longLabel G-quadruplexes
     parent nonB
+    group rep
     type bigBed 4
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_GQ.bb
     priority 26.3
@@ -402,6 +433,7 @@ html ../html/nonB.html
     shortLabel Inverted repeats
     longLabel Inverted repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_IR.bb
     priority 26.4
@@ -410,6 +442,7 @@ html ../html/nonB.html
     shortLabel Mirror repeats
     longLabel Mirror repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_MR.bb
     priority 26.5
@@ -418,6 +451,7 @@ html ../html/nonB.html
     shortLabel Triplex repeats
     longLabel Triplex repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_TRI.bb
     priority 26.6
@@ -426,6 +460,7 @@ html ../html/nonB.html
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_STR.bb
     priority 26.7
@@ -434,6 +469,7 @@ html ../html/nonB.html
     shortLabel Z-DNA
     longLabel Z-DNA
     parent nonB
+    group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_Z.bb
     priority 26.8

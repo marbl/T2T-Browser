@@ -17,6 +17,7 @@ priority 41
 
     track chm13_isoseq_1
     parent isoSeq
+    group rna
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13v2.0.Iso-Seq_CHM13_pbmm2_1.bam
     shortLabel CHM13 IsoSeq 1
     longLabel CHM13 IsoSeq 1
@@ -25,6 +26,7 @@ priority 41
 
     track chm13_isoseq_2
     parent isoSeq
+    group rna
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/alignments/chm13v2.0.Iso-Seq_CHM13_pbmm2_2.bam
     shortLabel CHM13 IsoSeq 2
     longLabel CHM13 IsoSeq 2
@@ -46,6 +48,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     
     track proseq_default_POS
     parent proseq
+    group rna
     shortLabel PROseq default POS
     longLabel PROseq default POS no kmer filtering
     type bigWig
@@ -55,6 +58,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 
     track proseq_default_NEG
     parent proseq
+    group rna
     shortLabel PROseq default NEG
     longLabel PROseq default NEG no kmer filtering
     type bigWig
@@ -65,6 +69,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 
     track proseq_k100_POS
     parent proseq
+    group rna
     shortLabel PROseq k100 POS
     longLabel PROseq k100 POS no kmer filtering
     type bigWig
@@ -75,6 +80,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 
     track proseq_k100_NEG
     parent proseq
+    group rna
     shortLabel PROseq k100 NEG
     longLabel PROseq k100 NEG no kmer filtering
     type bigWig 
@@ -84,6 +90,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     
     track proseq_k100-21mer_POS
     parent proseq
+    group rna
     shortLabel PROseq k100-21mer POS
     longLabel PROseq k100 POS 21mer filtering
     type bigWig
@@ -94,6 +101,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 
     track proseq_k100-21mer_NEG
     parent proseq
+    group rna
     shortLabel PROseq k100-21mer NEG
     longLabel PROseq k100 NEG 21mer filtering
     type bigWig
@@ -104,6 +112,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 
     track proseq_k100-dual-21mer_POS
     parent proseq
+    group rna
     shortLabel PROseq k100-dual-21mer POS
     longLabel PROseq k100 POS dual 21mer filtering
     type bigWig
@@ -113,6 +122,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     
     track proseq_k100-dual-21mer_NEG
     parent proseq
+    group rna
     shortLabel PROseq k100-dual-21mer NEG
     longLabel PROseq k100 NEG dual 21mer filtering
     type bigWig 
@@ -135,6 +145,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     
     track rnaseq_default
     parent rnaseq
+    group rna
     shortLabel RNA-Seq default
     longLabel RNA-Seq default no kmer filtering
     type bigWig 
@@ -145,6 +156,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 
     track rnaseq_k100
     parent rnaseq
+    group rna
     shortLabel RNA-Seq k100
     longLabel RNA-Seq k100 no kmer filtering
     type bigWig 
@@ -155,6 +167,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
 
     track rnaseq_k100-21mer
     parent rnaseq
+    group rna
     shortLabel RNA-Seq k100 21mer
     longLabel RNA-Seq k100 21mer filtering
     type bigWig 
@@ -165,6 +178,7 @@ html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/G
     
     track rnaseq_k100-dual-21mer
     parent rnaseq
+    group rna
     shortLabel RNA-Seq k100 dual 21mer
     longLabel RNA-Seq k100 dual 21mer filtering
     type bigWig 

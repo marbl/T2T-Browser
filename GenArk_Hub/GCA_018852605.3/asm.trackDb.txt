@@ -29,6 +29,7 @@ priority 13
 
     track HG002v1.1.PAT.cpgIslandExt
     parent HG002v1.1.PAT.cpgIslands off
+    group asm
     shortLabel CpG Islands
     longLabel CpG Islands
     type bigBed 4 +
@@ -37,6 +38,7 @@ priority 13
 
     track HG002v1.1.PAT.cpgIslandExtUnmasked
     parent HG002v1.1.PAT.cpgIslands on
+    group asm
     shortLabel Unmasked CpG
     longLabel CpG Islands on All Sequence
     type bigBed 4 +
@@ -61,6 +63,7 @@ priority 14
 
     track HG002v1.1.PAT.microsatellites_GA
     parent HG002v1.1.PAT.microsatellites
+    group asm
     shortLabel GA
     longLabel GA Microsatellite Repeats
     type bigWig
@@ -70,6 +73,7 @@ priority 14
 
     track HG002v1.1.PAT.microsatellites_TC
     parent HG002v1.1.PAT.microsatellites
+    group asm
     shortLabel TC
     longLabel TC Microsatellite Repeats
     type bigWig
@@ -79,6 +83,7 @@ priority 14
 
     track HG002v1.1.PAT.microsatellites_GC
     parent HG002v1.1.PAT.microsatellites
+    group asm
     shortLabel GC
     longLabel GC Microsatellite Repeats
     type bigWig
@@ -88,6 +93,7 @@ priority 14
 
     track HG002v1.1.PAT.microsatellites_AT
     parent HG002v1.1.PAT.microsatellites
+    group asm
     shortLabel AT
     longLabel AT Microsatellite Repeats
     type bigWig
@@ -157,12 +163,14 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1
     
     track HG002v1.1-hificount-second
     parent HG002v1.1-hifirevio-nucfreq
+    group asm
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/nucfreq/hg002v1.1_hifi_revio_pbmay24.pri.second.bw
     type bigWig
     color 255,0,0
     
     track HG002v1.1-hificount-highest
     parent HG002v1.1-hifirevio-nucfreq
+    group asm
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/nucfreq/hg002v1.1_hifi_revio_pbmay24.pri.first.bw
     type bigWig
     color 0,0,0
@@ -187,12 +195,14 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1
     
     track HG002v1.1.PAT-count-second
     parent HG002v1.1.PAT-ontul-nucfreq
+    group asm
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/nucfreq/hg002v1.1_ont_epi2me_q28.pri.second.bw
     type bigWig
     color 255,0,0
     
     track HG002v1.1.PAT-count-highest
     parent HG002v1.1.PAT-ontul-nucfreq
+    group asm
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/qc/nucfreq/hg002v1.1_ont_epi2me_q28.pri.first.bw
     type bigWig
     color 0,0,0

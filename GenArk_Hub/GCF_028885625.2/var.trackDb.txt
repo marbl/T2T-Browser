@@ -23,6 +23,7 @@ priority 82
 	
 	track varPonPyg
 	parent variant
+	group var
 	shortLabel Bornean O.
 	longLabel Bornean Orangutan
 	visibility squish

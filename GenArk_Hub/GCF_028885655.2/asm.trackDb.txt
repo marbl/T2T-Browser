@@ -46,6 +46,7 @@ priority 13
 
     track microsatellites_GA
     parent microsatellites
+    group asm
     shortLabel GA
     longLabel GA Microsatellite Repeats
     type bigWig
@@ -55,6 +56,7 @@ priority 13
 
     track microsatellites_TC
     parent microsatellites
+    group asm
     shortLabel TC
     longLabel TC Microsatellite Repeats
     type bigWig
@@ -64,6 +66,7 @@ priority 13
 
     track microsatellites_GC
     parent microsatellites
+    group asm
     shortLabel GC
     longLabel GC Microsatellite Repeats
     type bigWig
@@ -73,6 +76,7 @@ priority 13
 
     track microsatellites_AT
     parent microsatellites
+    group asm
     shortLabel AT
     longLabel AT Microsatellite Repeats
     type bigWig
@@ -91,6 +95,7 @@ priority 18
 
     track readCoverageHiFi
     parent validation
+    group asm
     shortLabel HiFi Coverage
     longLabel HiFi primary alignment, mapped to both haplotypes
     viewLimits 0:130
@@ -105,6 +110,7 @@ priority 18
 
     track issuesHiFi
     parent validation
+    group asm
     shortLabel HiFi Issues
     longLabel Assembly Issues by HiFi
     visibility dense
@@ -117,6 +123,7 @@ priority 18
 
     track readCoverageONT
     parent validation
+    group asm
     shortLabel ONT Coverage
     longLabel  ONT primary alignment, mapped to both haplotypes
     viewLimits 0:180
@@ -131,6 +138,7 @@ priority 18
     
     track issuesONT
     parent validation
+    group asm
     shortLabel ONT Issues
     longLabel Assembly Issues by ONT
     visibility dense

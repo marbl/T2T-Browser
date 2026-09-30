@@ -19,6 +19,7 @@ priority 10
 
     track HG002v1.1.ont5mC_CpG_G638
     parent HG002v1.1.methylation
+    group reg
     shortLabel ONT 5mC CpG (Guppy 6.3.8)
     longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.8)
     type bigWig 0 1

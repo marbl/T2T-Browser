@@ -22,6 +22,7 @@ priority 82
 	
 	track varBon
 	parent variant
+	group var
 	shortLabel Bonobo
 	longLabel Bonobo
 	visibility squish

@@ -29,6 +29,7 @@ priority 4
 
     track cpgIslandExt
     parent cpgIslands off
+    group genark
     shortLabel CpG Islands
     longLabel CpG Islands
     type bigBed 4 +
@@ -37,6 +38,7 @@ priority 4
 
     track cpgIslandExtUnmasked
     parent cpgIslands on
+    group genark
     shortLabel Unmasked CpG
     longLabel CpG Islands on All Sequence
     type bigBed 4 +

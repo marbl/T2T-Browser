@@ -12,6 +12,7 @@ priority 73
     track HG002v1.1.MAT.hetregions
     compositeTrack on
     parent HG002v1.1.MAT.diploid
+    group giab
     visibility hide
     shortLabel Het Regions
     longLabel Regions close to a heterozygous variant
@@ -20,6 +21,7 @@ priority 73
 
         track HG002v1.1.MAT.het100
         parent HG002v1.1.MAT.hetregions on
+        group giab
         shortLabel Het 100bp away
         longLabel Heterozygous variant within 100bp
     	priority 73.11
@@ -28,6 +30,7 @@ priority 73
 
         track HG002v1.1.MAT.het250
         parent HG002v1.1.MAT.hetregions on
+        group giab
         shortLabel Het 250bp away
         longLabel Heterozygous variant within 250bp
     	priority 73.12
@@ -36,6 +39,7 @@ priority 73
 
         track HG002v1.1.MAT.het500
         parent HG002v1.1.MAT.hetregions on
+        group giab
         shortLabel Het 500bp away
         longLabel Heterozygous variant within 500bp
     	priority 73.13
@@ -44,6 +48,7 @@ priority 73
 
         track HG002v1.1.MAT.het1000
         parent HG002v1.1.MAT.hetregions on
+        group giab
         shortLabel Het 1000bp away
         longLabel Heterozygous variant within 1000bp
     	priority 73.14
@@ -53,6 +58,7 @@ priority 73
     track HG002v1.1.MAT.hetregionssnvsv
     compositeTrack on
     parent HG002v1.1.MAT.diploid
+    group giab
     visibility dense
     shortLabel Het Regions SNV/SV
     longLabel Regions close to het SNV/SV
@@ -61,6 +67,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhet100
         parent HG002v1.1.MAT.hetregionssnvsv on
+        group giab
         shortLabel Het SNV/SV 100bp away
         longLabel Heterozygous SNV or SV within 100bp
 	priority 73.21
@@ -69,6 +76,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhet250
         parent HG002v1.1.MAT.hetregionssnvsv on
+        group giab
         shortLabel Het SNV/SV 250bp away
         longLabel Heterozygous SNV or SV within 250bp
 	priority 73.22
@@ -77,6 +85,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhet500
         parent HG002v1.1.MAT.hetregionssnvsv on
+        group giab
         shortLabel Het SNV/SV 500bp away
         longLabel Heterozygous SNV or SV within 500bp
 	priority 73.23
@@ -85,6 +94,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhet1000
         parent HG002v1.1.MAT.hetregionssnvsv on
+        group giab
         shortLabel Het SNV/SV 1000bp away
         longLabel Heterozygous SNV or SV within 1000bp
 	priority 73.24
@@ -97,6 +107,7 @@ priority 73
     track HG002v1.1.MAT.homregions
     compositeTrack on
     parent HG002v1.1.MAT.diploid
+    group giab
     visibility hide
     shortLabel Hom Regions
     longLabel Regions close to a heterozygous variant
@@ -105,6 +116,7 @@ priority 73
 
         track HG002v1.1.MAT.hom100
         parent HG002v1.1.MAT.homregions on
+        group giab
         shortLabel Hom 100bp away
         longLabel Heterozygous variant within 100bp
     	priority 73.11
@@ -113,6 +125,7 @@ priority 73
 
         track HG002v1.1.MAT.hom250
         parent HG002v1.1.MAT.homregions on
+        group giab
         shortLabel Hom 250bp away
         longLabel Heterozygous variant within 250bp
     	priority 73.12
@@ -121,6 +134,7 @@ priority 73
 
         track HG002v1.1.MAT.hom500
         parent HG002v1.1.MAT.homregions on
+        group giab
         shortLabel Hom 500bp away
         longLabel Heterozygous variant within 500bp
     	priority 73.13
@@ -129,6 +143,7 @@ priority 73
 
         track HG002v1.1.MAT.hom1000
         parent HG002v1.1.MAT.homregions on
+        group giab
         shortLabel Hom 1000bp away
         longLabel Heterozygous variant within 1000bp
     	priority 73.14
@@ -138,6 +153,7 @@ priority 73
     track HG002v1.1.MAT.homregionssnvsv
     compositeTrack on
     parent HG002v1.1.MAT.diploid
+    group giab
     visibility hide
     shortLabel Hom Regions SNV/SV
     longLabel Regions close to hom SNV/SV
@@ -146,6 +162,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhom100
         parent HG002v1.1.MAT.homregionssnvsv on
+        group giab
         shortLabel Hom SNV/SV 100bp away
         longLabel Heterozygous SNV or SV within 100bp
 	priority 73.21
@@ -154,6 +171,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhom250
         parent HG002v1.1.MAT.homregionssnvsv on
+        group giab
         shortLabel Hom SNV/SV 250bp away
         longLabel Heterozygous SNV or SV within 250bp
 	priority 73.22
@@ -162,6 +180,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhom500
         parent HG002v1.1.MAT.homregionssnvsv on
+        group giab
         shortLabel Hom SNV/SV 500bp away
         longLabel Heterozygous SNV or SV within 500bp
 	priority 73.23
@@ -170,6 +189,7 @@ priority 73
 
         track HG002v1.1.MAT.snvsvhom1000
         parent HG002v1.1.MAT.homregionssnvsv on
+        group giab
         shortLabel Hom SNV/SV 1000bp away
         longLabel Heterozygous SNV or SV within 1000bp
 	priority 73.24

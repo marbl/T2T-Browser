@@ -69,6 +69,7 @@ priority 90
     
     track HG002v1.1-all-FIRE-nucleosome
     parent HG002v1.1-all-FIRE-coverage
+    group reg
     shortLabel FIRE nucleosome
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/all.nucleosome.coverage.bw
     type bigWig
@@ -77,6 +78,7 @@ priority 90
     
     track HG002v1.1-all-FIRE-linker
     parent HG002v1.1-all-FIRE-coverage
+    group reg
     shortLabel FIRE linker
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/all.linker.coverage.bw
     type bigWig
@@ -85,6 +87,7 @@ priority 90
     
     track HG002v1.1-all-FIRE-accessible
     parent HG002v1.1-all-FIRE-coverage
+    group reg
     shortLabel FIRE accessible
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/all.fire.coverage.bw
     type bigWig
@@ -93,6 +96,7 @@ priority 90
     
     track HG002v1.1-narrow-FIRE-peaks
     parent HG002v1.1-FIRE-peaks
+    group reg
     type bigNarrowPeak
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bb/mat.FDR-FIRE-peaks.bb
     shortLabel HG002v1.1-FIRE-peaks
@@ -102,6 +106,7 @@ priority 90
 
     track HG002v1.1-FIRE-hap-differences
     parent HG002v1.1-FIRE-peaks
+    group reg
     type bigBed 9 +
     itemRgb on
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bb/mat.hap_differences.bb
@@ -112,6 +117,7 @@ priority 90
 
     track HG002v1.1-wide-FIRE-peaks
     parent HG002v1.1-FIRE-peaks
+    group reg
     shortLabel HG002v1.1-wide-FIRE-peaks
     longLabel HG002v1.1-wide-FIRE-peaks
     type bigBed 
@@ -144,6 +150,7 @@ gridDefault on
 
     track HG002v1.1-all-FIRE-percent-accessible
     parent HG002v1.1-FIRE-percent-accessible
+    group reg
     shortLabel HG002v1.1-all-FIRE-percent-accessible
     longLabel  HG002v1.1-all-FIRE-percent-accessible
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/all.percent.accessible.bw
@@ -153,6 +160,7 @@ gridDefault on
 
     track HG002v1.1-H1-FIRE-fibers
     parent HG002v1.1-FIRE-fibers
+    group reg
     shortLabel HG002v1.1-H1-FIRE-fibers
     longLabel HG002v1.1-H1-FIRE-fibers
     visibility dense
@@ -166,6 +174,7 @@ gridDefault on
 
     track HG002v1.1-H2-FIRE-fibers
     parent HG002v1.1-FIRE-fibers
+    group reg
     shortLabel HG002v1.1-H2-FIRE-fibers
     longLabel HG002v1.1-H2-FIRE-fibers
     visibility dense
@@ -179,6 +188,7 @@ gridDefault on
 
     track HG002v1.1-UNK-FIRE-fibers
     parent HG002v1.1-FIRE-fibers
+    group reg
     shortLabel HG002v1.1-UNK-FIRE-fibers
     longLabel HG002v1.1-UNK-FIRE-fibers
     visibility dense
@@ -192,6 +202,7 @@ gridDefault on
 
 track HG002v1.1-hap1-FIRE-coverage
 parent HG002v1.1-FIRE-coverage
+group reg
 longLabel HG002v1.1-hap1-FIRE-coverage
 shortLabel HG002v1.1-hap1-FIRE-coverage
 container multiWig
@@ -208,24 +219,28 @@ priority 90
     
     track HG002v1.1-hap1-FIRE-accessible
     parent HG002v1.1-hap1-FIRE-coverage
+    group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap1.fire.coverage.bw
     type bigWig
     color 139,0,0
     
     track HG002v1.1-hap1-FIRE-linker
     parent HG002v1.1-hap1-FIRE-coverage
+    group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap1.linker.coverage.bw
     type bigWig
     color 147,112,219
     
     track HG002v1.1-hap1-FIRE-nucleosome
     parent HG002v1.1-hap1-FIRE-coverage
+    group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap1.nucleosome.coverage.bw
     type bigWig
     color 169,169,169
     
     track HG002v1.1-hap1-FIRE-percent-accessible
     parent HG002v1.1-FIRE-percent-accessible
+    group reg
     shortLabel HG002v1.1-hap1-FIRE-percent-accessible
     longLabel  HG002v1.1-hap1-FIRE-percent-accessible
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap1.percent.accessible.bw
@@ -235,6 +250,7 @@ priority 90
 
 track HG002v1.1-hap2-FIRE-coverage
 parent HG002v1.1-FIRE-coverage
+group reg
 longLabel HG002v1.1-hap2-FIRE-coverage
 shortLabel HG002v1.1-hap2-FIRE-coverage
 container multiWig
@@ -251,24 +267,28 @@ priority 90
     
     track HG002v1.1-hap2-FIRE-accessible
     parent HG002v1.1-hap2-FIRE-coverage
+    group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap2.fire.coverage.bw
     type bigWig
     color 139,0,0
     
     track HG002v1.1-hap2-FIRE-linker
     parent HG002v1.1-hap2-FIRE-coverage
+    group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap2.linker.coverage.bw
     type bigWig
     color 147,112,219
     
     track HG002v1.1-hap2-FIRE-nucleosome
     parent HG002v1.1-hap2-FIRE-coverage
+    group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap2.nucleosome.coverage.bw
     type bigWig
     color 169,169,169
     
     track HG002v1.1-hap2-FIRE-percent-accessible
     parent HG002v1.1-FIRE-percent-accessible
+    group reg
     shortLabel HG002v1.1-hap2-FIRE-percent-accessible
     longLabel  HG002v1.1-hap2-FIRE-percent-accessible
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/hap2.percent.accessible.bw
@@ -290,6 +310,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1
 
     track HG002v1.1-log-FIRE-FDR
     parent HG002v1.1-FIRE-FDR
+    group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/Fiberseq/v1.1/Aug2024/bw/log_FDR.bw
     shortLabel HG002v1.1 -10log10 FDR
     longLabel HG002v1.1 -10log10 FDR

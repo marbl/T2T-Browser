@@ -46,6 +46,7 @@ priority 13
 
     track microsatellites_GA
     parent microsatellites
+    group asm
     shortLabel GA
     longLabel GA Microsatellite Repeats
     type bigWig
@@ -55,6 +56,7 @@ priority 13
 
     track microsatellites_TC
     parent microsatellites
+    group asm
     shortLabel TC
     longLabel TC Microsatellite Repeats
     type bigWig
@@ -64,6 +66,7 @@ priority 13
 
     track microsatellites_GC
     parent microsatellites
+    group asm
     shortLabel GC
     longLabel GC Microsatellite Repeats
     type bigWig
@@ -73,6 +76,7 @@ priority 13
 
     track microsatellites_AT
     parent microsatellites
+    group asm
     shortLabel AT
     longLabel AT Microsatellite Repeats
     type bigWig
@@ -90,6 +94,7 @@ priority 18
 
     track issues
     parent validation
+    group asm
     shortLabel Issues
     longLabel Assembly Issues
     visibility dense
@@ -104,6 +109,7 @@ priority 18
     container multiWig
     noInherit on
     parent validation
+    group asm
     shortLabel CHM13 HiFi coverage
     longLabel CHM13 HiFi marker assisted alignment overlayed on primary alignment (no Y)
     aggregate transparentOverlay
@@ -117,6 +123,7 @@ priority 18
 
         track readCoverageHiFiPri
         parent readCoverageHiFi
+        group asm
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/hifi.pri.cov.bigWig
         shortLabel HiFi Pri coverage
         longLabel HiFi Primary read coverage
@@ -126,6 +133,7 @@ priority 18
 
         track readCoverageHiFiMarker
         parent readCoverageHiFi
+        group asm
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/hifi.markersandlength.cov.bigWig
         shortLabel HiFi marker assisted coverage
         longLabel  HiFi marker assisted read coverage
@@ -137,6 +145,7 @@ priority 18
     container multiWig
     noInherit on
     parent validation
+    group asm
     shortLabel CHM13 ONT coverage
     longLabel  CHM13 ONT marker assisted alignment overlayed on primary alignment (no Y)
     aggregate transparentOverlay
@@ -150,6 +159,7 @@ priority 18
 
         track readCoverageONTPri
         parent readCoverageONT
+        group asm
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/ont.pri.len1k_idy85.cov.bigWig
         shortLabel ONT Pri coverage
         longLabel  ONT Primary read coverage
@@ -159,6 +169,7 @@ priority 18
 
         track readCoverageONTMarker
         parent readCoverageONT
+        group asm
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/ont.markersandlength.cov.bigWig
         shortLabel ONT marker assisted coverage
         longLabel  ONT marker assisted read coverage
@@ -181,6 +192,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     longLabel Minimum Unique K-mer Length Left-Anchored
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/mappability/chm13v1.0_mul.bw
     parent mappability
+    group asm
     type bigWig
     itemRgb on
     visibility full
@@ -195,6 +207,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
     longLabel Minimum Unique K-mer Length Right-Anchored
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/mappability/chm13v1.0_mur.bw
     parent mappability
+    group asm
     type bigWig
     itemRgb on
     visibility full
@@ -206,6 +219,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
 
     track uniq21density
     parent mappability
+    group asm
     shortLabel Unique 21-mer Density
     longLabel  Single-copy unique 21-mer density
     type bigWig -1 21
@@ -222,6 +236,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
 
     track uniq21desert
     parent mappability
+    group asm
     shortLabel Unique 21-mer Desert
     longLabel  Single-copy unique 21-mer desert
     type bigBed 3
@@ -234,6 +249,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
 
     track uniq51density
     parent mappability
+    group asm
     shortLabel Unique 51-mer Density
     longLabel Single-copy unique 51-mer density
     type bigWig -1 51
@@ -249,6 +265,7 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
 
     track uniq51desert
     parent mappability
+    group asm
     shortLabel Unique 51-mer Desert
     longLabel  Single-copy unique 51-mer desert
     type bigBed 3

@@ -41,6 +41,7 @@ priority 68
 
 	track synHg38
 	parent synteny
+	group grc
 	type bigChain
 	shortLabel hg38
 	longLabel Synteny to GRCh38
@@ -54,6 +55,7 @@ priority 68
 
 	track synHg19
 	parent synteny
+	group grc
 	type bigChain
 	shortLabel hg19
 	longLabel Synteny to GRCh37/hg19

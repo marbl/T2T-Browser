@@ -13,6 +13,7 @@ priority 61
 
     track ont5mC_CpG_G638
     parent methylation
+    group reg
     shortLabel ONT 5mC CpG (Guppy 6.3.8)
     longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.8)
     type bigWig 0 1
@@ -24,6 +25,7 @@ priority 61
 
     track ont5mC
     parent methylation
+    group reg
     shortLabel ONT 5mC & 5hmC (Guppy 6.3.8)
     longLabel  ONT 5mC and 5hmC Methylation (Guppy 6.3.8)
     type bigWig 0 100
@@ -35,6 +37,7 @@ priority 61
 
     track ont5mC_CpG
     parent methylation
+    group reg
     shortLabel ONT 5mC CpG (Guppy 6.3.7)
     longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.7)
     type bigWig 0 1

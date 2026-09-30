@@ -22,6 +22,7 @@ priority 82
 	
 	track varCT
 	parent variant
+	group var
 	shortLabel Central
 	longLabel Central Chimpanzee
 	visibility squish
@@ -29,6 +30,7 @@ priority 82
 
 	track varEA
 	parent variant
+	group var
 	shortLabel Eastern
 	longLabel Eastern Chimpanzee
 	visibility squish
@@ -36,6 +38,7 @@ priority 82
 
 	track varNG
 	parent variant
+	group var
 	shortLabel Nigerian
 	longLabel Nigerian Chimpanzee
 	visibility squish
@@ -43,6 +46,7 @@ priority 82
 
 	track varWS
 	parent variant
+	group var
 	shortLabel Western
 	longLabel Western Chimpanzee
 	visibility squish

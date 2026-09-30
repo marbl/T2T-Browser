@@ -22,6 +22,7 @@ priority 82
 	
 	track varEL
 	parent variant
+	group var
 	shortLabel EasternLowland
 	longLabel Eastern Lowland Gorilla
 	visibility squish
@@ -29,6 +30,7 @@ priority 82
 
 	track varM
 	parent variant
+	group var
 	shortLabel Mountain
 	longLabel Mountain Gorilla
 	visibility squish
@@ -36,6 +38,7 @@ priority 82
 
 	track varWL
 	parent variant
+	group var
 	shortLabel WesternLowland
 	longLabel Western Lowland Gorilla
 	visibility squish
