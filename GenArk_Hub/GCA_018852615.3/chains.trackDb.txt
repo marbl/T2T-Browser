@@ -9,10 +9,10 @@ visibility full
 view filledChain
 group var
 priority 9.2
-type bigChain HG002v1.1.PAT
+type bigChain GCA_018852605.3
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1.mat2pat.bigChain.bb
 linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1.mat2pat.bigChain.link.bb
-otherDb HG002v1.1.PAT
+otherDb GCA_018852605.3
 otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.pat.2bit
 
 track HG002v1.1.MAT.ChainTov1.0.1
@@ -40,4 +40,3 @@ otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/
 #linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1_to_v1.2.bigChain.link.bb
 #otherDb HG002v1.2.MAT
 #otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.2/2bit/hg002v1.2.mat.2bit
-

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>KOLF2.1Jv1.1: Whole-genome alignment chains</title></head>
+<body>
+<h2>Description</h2>
+<p>Pairwise chains connecting KOLF primary and alternate haplotypes, and KOLF to T2T-CHM13v2.0.</p>
+<p>These tracks originate from the combined diploid KOLF2.1Jv1.1 hub and
+are exposed separately on the primary and alternate GenArk assemblies using
+UCSC's existing chromosome aliases. Only nuclear chromosomes are enabled;
+the source mitochondrial sequence differs from the NCBI primary assembly.</p>
+<h2>Methods</h2>
+<p>The source hub supplies indexed bigChain and link files. The other-haplotype track retains the diploid query twoBit file because its query sequences use the original haplotype names. Alignment-generation parameters are not specified in the source configuration.</p>
+<p>This configuration migration reuses the original data files without
+recomputing annotations.</p>
+<h2>Credits</h2>
+<p>Data supplied by the T2T KOLF genome browser contributors and hosted in
+the human-pangenomics public data collection. The KOLF assemblies were
+submitted to NCBI by NHGRI.</p>
+<h2>References</h2>
+<ul>
+<li><a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_058280895.1/">KOLF2.1Jv1.1 primary assembly</a></li>
+<li><a href="https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_058280805.1/">KOLF2.1Jv1.1 alternate assembly</a></li>
+<li><a href="https://github.com/marbl/T2T-Browser/tree/master/T2Tgenomes/KOLF2.1Jv1.1">Source KOLF hub configuration</a></li>
+</ul>
+</body>
+</html>

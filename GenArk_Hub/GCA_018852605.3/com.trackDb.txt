@@ -55,10 +55,10 @@ priority 68
 	view filledchain
 	group compGeno
 	priority 68.1
-	type bigChain T2T-CHM13v2.0
+	type bigChain hs1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_chm13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/v1.1_to_chm13v2.0.bigChain.link.bb
-	otherDb T2T-CHM13v2.0
+	otherDb hs1
 	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
 
 	track HG002v1.1.synHg38

@@ -1,0 +1,11 @@
+# KOLF2.1Jv1.1 primary assembly (GCA_058280895.1).
+# Independent track definitions derived from T2Tgenomes/KOLF2.1Jv1.1.
+# Source diploid data are reused through UCSC chromosome aliases.
+# Nuclear chromosomes only: the source mitochondrial sequence differs.
+
+include align.trackDb.txt
+include met.trackDb.txt
+include chain.trackDb.txt
+include gene.trackDb.txt
+include trans.trackDb.txt
+include var.trackDb.txt

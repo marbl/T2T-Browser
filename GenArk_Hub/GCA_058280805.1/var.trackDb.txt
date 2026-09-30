@@ -1,0 +1,13 @@
+track KOLF2_1Jv1_1_alt_HetSites
+shortLabel Het Sites in KOLF2.1Jv1.1
+longLabel KOLF2.1Jv1.1 Heterozygous Sites
+group var
+chromosomes CM177783.1,CM177784.1,CM177785.1,CM177786.1,CM177787.1,CM177788.1,CM177789.1,CM177790.1,CM177791.1,CM177792.1,CM177793.1,CM177794.1,CM177795.1,CM177796.1,CM177797.1,CM177798.1,CM177799.1,CM177800.1,CM177801.1,CM177802.1,CM177803.1,CM177804.1
+visibility dense
+itemRgb on
+maxItems 100
+maxWindowToDraw 1000000
+type bigBed 4
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/hetsites.hetsites.fix.bb
+priority 71
+html ../html/KOLF2.1Jv1.1.var

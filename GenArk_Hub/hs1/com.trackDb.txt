@@ -22,199 +22,200 @@ priority 100
 	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
 	priority 101
 
-	track wfmashHG002mat
-	parent wfmash
-	group compGeno
-	type bigChain HG002v1.0.1.MAT
-	shortLabel HG002#mat
-	longLabel HG002v1.0.1 mat to CHM13v2.0
-	visibility dense
-	mouseOverField name
-	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.bb
-	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.link.bb
-	otherDb HG002v1.0.1.MAT
-	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.mat.2bit
-	priority 110
+        # turning off HG002 mat/pat wfmash track since v1.0.1 genome is no longer in browser and we don't have alignments to v1.1
+	#track wfmashHG002mat
+	#parent wfmash
+	#group compGeno
+	#type bigChain HG002v1.0.1.MAT
+	#shortLabel HG002#mat
+	#longLabel HG002v1.0.1 mat to CHM13v2.0
+	#visibility dense
+	#mouseOverField name
+	#bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.bb
+	#linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002mat.bigChain.link.bb
+	#otherDb HG002v1.0.1.MAT
+	#otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.mat.2bit
+	#priority 110
 
-	track wfmashHG002pat
-	parent wfmash
-	group compGeno
-	type bigChain HG002v1.0.1.PAT
-	shortLabel HG002#pat
-	longLabel HG002v1.0.1 pat to CHM13v2.0
-	visibility dense
-	mouseOverField name
-	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.bb
-	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.link.bb
-	otherDb HG002v1.0.1.PAT
-	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.pat.2bit
-	priority 110
+	#track wfmashHG002pat
+	#parent wfmash
+	#group compGeno
+	#type bigChain HG002v1.0.1.PAT
+	#shortLabel HG002#pat
+	#longLabel HG002v1.0.1 pat to CHM13v2.0
+	#visibility dense
+	#mouseOverField name
+	#bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.bb
+	#linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.HG002pat.bigChain.link.bb
+	#otherDb HG002v1.0.1.PAT
+	#otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.pat.2bit
+	#priority 110
 
 	track wfmashmGorGor1mat
 	parent wfmash
 	group compGeno
-	type bigChain mGorGor1_v2.0
+	type bigChain GCA_028885495.2
 	shortLabel mGorGor1#mat
 	longLabel mGorGor1_v2.0 mat to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1mat.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1mat.bigChain.link.bb
-	otherDb mGorGor1_v2.0
+	otherDb GCA_028885495.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
 	priority 120
 
 	track wfmashmGorGor1pat
 	parent wfmash
 	group compGeno
-	type bigChain mGorGor1_v2.0
+	type bigChain GCA_028885475.2
 	shortLabel mGorGor1#pat
 	longLabel mGorGor1_v2.0 pat to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1pat.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1pat.bigChain.link.bb
-	otherDb mGorGor1_v2.0
+	otherDb GCA_028885475.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
 	priority 120
 
 	track wfmashmPanPan1mat
 	parent wfmash
 	group compGeno
-	type bigChain mPanPan1_v2.0
+	type bigChain GCA_028858845.2
 	shortLabel mPanPan1#mat
 	longLabel mPanPan1_v2.0 mat to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1mat.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1mat.bigChain.link.bb
-	otherDb mPanPan1_v2.0
+	otherDb GCA_028858845.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
 	priority 120
 
 	track wfmashmPanPan1pat
 	parent wfmash
 	group compGeno
-	type bigChain mPanPan1_v2.0
+	type bigChain GCA_028858825.2
 	shortLabel mPanPan1#pat
 	longLabel mPanPan1_v2.0 pat to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1pat.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1pat.bigChain.link.bb
-	otherDb mPanPan1_v2.0
+	otherDb GCA_028858825.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
 	priority 120
 
 	track wfmashmPanTro3hap1
 	parent wfmash
 	group compGeno
-	type bigChain mPanTro3_v2.0
+	type bigChain GCF_028858775.2
 	shortLabel mPanTro3#hap1
 	longLabel mPanTro3_v2.0 hap1 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap1.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap1.bigChain.link.bb
-	otherDb mPanTro3_v2.0
+	otherDb GCF_028858775.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
 	priority 120
 
 	track wfmashmPanTro3hap2
 	parent wfmash
 	group compGeno
-	type bigChain mPanTro3_v2.0
+	type bigChain GCA_028858805.2
 	shortLabel mPanTro3#hap2
 	longLabel mPanTro3_v2.0 hap2 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap2.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap2.bigChain.link.bb
-	otherDb mPanTro3_v2.0
+	otherDb GCA_028858805.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
 	priority 120
 
 	track wfmashmPonAbe1hap1
 	parent wfmash
 	group compGeno
-	type bigChain mPonAbe1_v2.0
+	type bigChain GCF_028885655.2
 	shortLabel mPonAbe1#hap1
 	longLabel mPonAbe1_v2.0 hap1 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap1.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap1.bigChain.link.bb
-	otherDb mPonAbe1_v2.0
+	otherDb GCF_028885655.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
 	priority 120
 
 	track wfmashmPonAbe1hap2
 	parent wfmash
 	group compGeno
-	type bigChain mPonAbe1_v2.0
+	type bigChain GCA_028885685.2
 	shortLabel mPonAbe1#hap2
 	longLabel mPonAbe1_v2.0 hap2 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap2.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap2.bigChain.link.bb
-	otherDb mPonAbe1_v2.0
+	otherDb GCA_028885685.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
 	priority 120
 
 	track wfmashmPonPyg2hap1
 	parent wfmash
 	group compGeno
-	type bigChain mPonPyg2_v2.0
+	type bigChain GCF_028885625.2
 	shortLabel mPonPyg2#hap1
 	longLabel mPonPyg2_v2.0 hap1 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap1.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap1.bigChain.link.bb
-	otherDb mPonPyg2_v2.0
+	otherDb GCF_028885625.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
 	priority 120
 
 	track wfmashmPonPyg2hap2
 	parent wfmash
 	group compGeno
-	type bigChain mPonPyg2_v2.0
+	type bigChain GCA_028885525.2
 	shortLabel mPonPyg2#hap2
 	longLabel mPonPyg2_v2.0 hap2 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap2.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap2.bigChain.link.bb
-	otherDb mPonPyg2_v2.0
+	otherDb GCA_028885525.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
 	priority 120
 
 	track wfmashmSymSyn1hap1
 	parent wfmash
 	group compGeno
-	type bigChain mSymSyn1_v2.0
+	type bigChain GCA_028878055.2
 	shortLabel mSymSyn1#hap1
 	longLabel mSymSyn1_v2.0 hap1 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap1.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap1.bigChain.link.bb
-	otherDb mSymSyn1_v2.0
+	otherDb GCA_028878055.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
 	priority 120
 
 	track wfmashmSymSyn1hap2
 	parent wfmash
 	group compGeno
-	type bigChain mSymSyn1_v2.0
+	type bigChain GCA_028878085.2
 	shortLabel mSymSyn1#hap2
 	longLabel mSymSyn1_v2.0 hap2 to T2T-CHM13v2.0
 	visibility dense
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap2.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap2.bigChain.link.bb
-	otherDb mSymSyn1_v2.0
+	otherDb GCA_028878085.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
 	priority 120
 

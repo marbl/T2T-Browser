@@ -1,15 +1,10 @@
+# T2T-CHM13v2.0:
 genome hs1
 defaultPos chr13:11,650,644-13,154,093
 trackDb hs1/trackDb.txt
 groups groups.txt
 
-genome GCA_018852615.3
-defaultPos CP139523.2:83929864-84203105
-trackDb GCA_018852615.3/trackDb.txt
-groups groups.txt
-htmlPath GCA_018852615.3/description.html
-chromAlias GCA_018852615.3/chromAlias.txt
-
+# T2T-HG002v1.1.PAT:
 genome GCA_018852605.3
 defaultPos CP139546.2:83917812-84291154
 trackDb GCA_018852605.3/trackDb.txt
@@ -17,84 +12,122 @@ groups groups.txt
 htmlPath GCA_018852605.3/description.html
 chromAlias GCA_018852605.3/chromAlias.txt
 
+# T2T-HG002v1.1.MAT:
+genome GCA_018852615.3
+defaultPos CP139523.2:83929864-84203105
+trackDb GCA_018852615.3/trackDb.txt
+groups groups.txt
+htmlPath GCA_018852615.3/description.html
+chromAlias GCA_018852615.3/chromAlias.txt
+
+# KOLF2.1v1.1.pri:
+genome GCA_058280895.1
+defaultPos CM177805.1:1-1000000
+trackDb GCA_058280895.1/trackDb.txt
+groups groups.txt
+htmlPath GCA_058280895.1/description.html
+chromAlias GCA_058280895.1/chromAlias.txt
+
+# KOLF2.1v1.1.alt:
+genome GCA_058280805.1
+defaultPos CM177783.1:1-1000000
+trackDb GCA_058280805.1/trackDb.txt
+groups groups.txt
+htmlPath GCA_058280805.1/description.html
+chromAlias GCA_058280805.1/chromAlias.txt
+
+# mGorGor1-v2.1_pri:
 genome GCF_029281585.2
 defaultPos chr14_pat_hsa13:1-10,789,646
 trackDb GCF_029281585.2/trackDb.txt
 groups groups.txt
 htmlPath GCF_029281585.2/description.html
 
-genome GCF_029289425.2
-defaultPos chr14_pat_hsa13:1-10,000,000
-trackDb GCF_029289425.2/trackDb.txt
-groups groups.txt
-htmlPath GCF_029289425.2/description.html
-
-genome GCF_028858775.2
-defaultPos chr14_hap1_hsa13:1-10,000,000
-trackDb GCF_028858775.2/trackDb.txt
-groups groups.txt
-htmlPath GCF_028858775.2/description.html
-
-genome GCF_028885655.2
-defaultPos chr14_hap1_hsa13:1-10,000,000
-trackDb GCF_028885655.2/trackDb.txt
-groups groups.txt
-htmlPath GCF_028885655.2/description.html
-
-genome GCF_028885625.2
-defaultPos chr14_hap1_hsa13:1-10,000,000
-trackDb GCF_028885625.2/trackDb.txt
-groups groups.txt
-htmlPath GCF_028885625.2/description.html
-
-genome GCA_028878055.2
-defaultPos chr14_hap1:1-10,000,000
-trackDb GCA_028878055.2/trackDb.txt
-groups groups.txt
-htmlPath GCA_028878055.2/description.html
-
+# mGorGor1-v2.0_pat:
 genome GCA_028885475.2
 defaultPos chr14_pat_hsa13:1-10,789,646
 trackDb GCA_028885475.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028885475.2/description.html
 
+# mGorGor1-v2.0_mat:
 genome GCA_028885495.2
 defaultPos chr14_mat_hsa13:1-10,789,646
 trackDb GCA_028885495.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028885495.2/description.html
 
+# mPanPan1-v2.1_pri:
+genome GCF_029289425.2
+defaultPos chr14_pat_hsa13:1-10,000,000
+trackDb GCF_029289425.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_029289425.2/description.html
+
+# mPanPan1-v2.0_pat:
 genome GCA_028858825.2
 defaultPos chr14_pat_hsa13:1-10,000,000
 trackDb GCA_028858825.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028858825.2/description.html
 
+# mPanPan1-v2.0_mat:
 genome GCA_028858845.2
 defaultPos chr14_mat_hsa13:1-10,000,000
 trackDb GCA_028858845.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028858845.2/description.html
 
+# mPanTro3-v2.1_pri:
+genome GCF_028858775.2
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb GCF_028858775.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_028858775.2/description.html
+
+# mPanTro3-v2.0_alt:
 genome GCA_028858805.2
 defaultPos chr14_hap2_hsa13:1-10,000,000
 trackDb GCA_028858805.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028858805.2/description.html
 
+# mPonAbe1-v2.1_pri:
+genome GCF_028885655.2
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb GCF_028885655.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_028885655.2/description.html
+
+# mPonAbe1-v2.0_alt:
 genome GCA_028885685.2
 defaultPos chr14_hap2_hsa13:1-10,000,000
 trackDb GCA_028885685.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028885685.2/description.html
 
+# mPonPyg2-v2.1_pri:
+genome GCF_028885625.2
+defaultPos chr14_hap1_hsa13:1-10,000,000
+trackDb GCF_028885625.2/trackDb.txt
+groups groups.txt
+htmlPath GCF_028885625.2/description.html
+
+# mPonPyg2-v2.0_alt:
 genome GCA_028885525.2
 defaultPos chr14_hap2_hsa13:1-10,000,000
 trackDb GCA_028885525.2/trackDb.txt
 groups groups.txt
 htmlPath GCA_028885525.2/description.html
 
+# mSymSyn1-v2.0_pri:
+genome GCA_028878055.2
+defaultPos chr14_hap1:1-10,000,000
+trackDb GCA_028878055.2/trackDb.txt
+groups groups.txt
+htmlPath GCA_028878055.2/description.html
+
+# mSymSyn1-v2.0_alt:
 genome GCA_028878085.2
 defaultPos chr14_hap2:1-10,000,000
 trackDb GCA_028878085.2/trackDb.txt

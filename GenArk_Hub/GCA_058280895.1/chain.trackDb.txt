@@ -1,0 +1,29 @@
+track KOLF2_1Jv1_1_pri_AltHapChain
+shortLabel AltLoc(Chain)
+longLabel Chain to other Haplotype
+visibility full
+view filledChain
+group compGeno
+chromosomes CM177805.1,CM177806.1,CM177807.1,CM177808.1,CM177809.1,CM177810.1,CM177811.1,CM177812.1,CM177813.1,CM177814.1,CM177815.1,CM177816.1,CM177817.1,CM177818.1,CM177819.1,CM177820.1,CM177821.1,CM177822.1,CM177823.1,CM177824.1,CM177825.1,CM177826.1,CM177827.1
+priority 41
+type bigChain GCA_058280805.1
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.pri_vs_alt.inverted_cat.bigChain.bb
+linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.pri_vs_alt.inverted_cat.bigChain.link.bb
+otherDb GCA_058280805.1
+otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.noY.2bit
+html ../html/KOLF2.1Jv1.1.chain
+
+track KOLF2_1Jv1_1_pri_to_chm13v2
+shortLabel chm13v2Loc(Chain)
+longLabel Chain to CHM13v2.0
+visibility full
+view filledChain
+priority 42
+group compGeno
+chromosomes CM177805.1,CM177806.1,CM177807.1,CM177808.1,CM177809.1,CM177810.1,CM177811.1,CM177812.1,CM177813.1,CM177814.1,CM177815.1,CM177816.1,CM177817.1,CM177818.1,CM177819.1,CM177820.1,CM177821.1,CM177822.1,CM177823.1,CM177824.1,CM177825.1,CM177826.1,CM177827.1
+type bigChain hs1
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.all_vs_chm13v2.bigChain.bb
+linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1.all_vs_chm13v2.bigChain.link.bb
+otherDb hs1
+otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/GCA_009914755.4.2bit
+html ../html/KOLF2.1Jv1.1.chain

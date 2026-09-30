@@ -1,0 +1,77 @@
+track KOLF2_1Jv1_1_alt_IPS_ONT
+shortLabel IPS.ONT
+longLabel Primary alignment of ONT data from IPS cell type
+group map
+chromosomes CM177783.1,CM177784.1,CM177785.1,CM177786.1,CM177787.1,CM177788.1,CM177789.1,CM177790.1,CM177791.1,CM177792.1,CM177793.1,CM177794.1,CM177795.1,CM177796.1,CM177797.1,CM177798.1,CM177799.1,CM177800.1,CM177801.1,CM177802.1,CM177803.1,CM177804.1
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/IPS.mrg.pri.bam.bw
+priority 21
+html ../html/KOLF2.1Jv1.1.align
+
+track KOLF2_1Jv1_1_alt_NEURON_ONT_Alignment
+shortLabel NEURON.ONT.Alignment
+longLabel Primary alignment of ONT data from NEURON cell type
+group map
+chromosomes CM177783.1,CM177784.1,CM177785.1,CM177786.1,CM177787.1,CM177788.1,CM177789.1,CM177790.1,CM177791.1,CM177792.1,CM177793.1,CM177794.1,CM177795.1,CM177796.1,CM177797.1,CM177798.1,CM177799.1,CM177800.1,CM177801.1,CM177802.1,CM177803.1,CM177804.1
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NEURON.mrg.pri.bam.bw
+priority 22
+html ../html/KOLF2.1Jv1.1.align
+
+track KOLF2_1Jv1_1_alt_MGL_ONT_Alignment
+shortLabel MGL.ONT.Alignment
+longLabel Primary alignment of ONT data from MGL cell type
+group map
+chromosomes CM177783.1,CM177784.1,CM177785.1,CM177786.1,CM177787.1,CM177788.1,CM177789.1,CM177790.1,CM177791.1,CM177792.1,CM177793.1,CM177794.1,CM177795.1,CM177796.1,CM177797.1,CM177798.1,CM177799.1,CM177800.1,CM177801.1,CM177802.1,CM177803.1,CM177804.1
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/MGL.mrg.pri.bam.bw
+priority 23
+html ../html/KOLF2.1Jv1.1.align
+
+track KOLF2_1Jv1_1_alt_NGN2_ONT_Alignment
+shortLabel NGN2.ONT.Alignment
+longLabel Primary alignment of ONT data from NGN2 cell type
+group map
+chromosomes CM177783.1,CM177784.1,CM177785.1,CM177786.1,CM177787.1,CM177788.1,CM177789.1,CM177790.1,CM177791.1,CM177792.1,CM177793.1,CM177794.1,CM177795.1,CM177796.1,CM177797.1,CM177798.1,CM177799.1,CM177800.1,CM177801.1,CM177802.1,CM177803.1,CM177804.1
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NGN2.mrg.pri.bam.bw
+priority 24
+html ../html/KOLF2.1Jv1.1.align
+
+track KOLF2_1Jv1_1_alt_ASTRO_NYSCF_ONT_Alignment
+shortLabel ASTRO_NYSCF.ONT.Alignment
+longLabel Primary alignment of ONT data from ASTRO_NYSCF cell type
+group map
+chromosomes CM177783.1,CM177784.1,CM177785.1,CM177786.1,CM177787.1,CM177788.1,CM177789.1,CM177790.1,CM177791.1,CM177792.1,CM177793.1,CM177794.1,CM177795.1,CM177796.1,CM177797.1,CM177798.1,CM177799.1,CM177800.1,CM177801.1,CM177802.1,CM177803.1,CM177804.1
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_NYSCF.mrg.pri.bw
+priority 25
+html ../html/KOLF2.1Jv1.1.align
+
+track KOLF2_1Jv1_1_alt_ASTRO_IND12_ONT_Alignment
+shortLabel ASTRO_IND12.ONT.Alignment
+longLabel Primary alignment of ONT data from ASTRO_IND12 cell type
+group map
+chromosomes CM177783.1,CM177784.1,CM177785.1,CM177786.1,CM177787.1,CM177788.1,CM177789.1,CM177790.1,CM177791.1,CM177792.1,CM177793.1,CM177794.1,CM177795.1,CM177796.1,CM177797.1,CM177798.1,CM177799.1,CM177800.1,CM177801.1,CM177802.1,CM177803.1,CM177804.1
+visibility full
+itemRgb on
+maxHeightPixels 100:32:16
+type bigWig
+bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_IND12.mrg.pri.bw
+priority 26
+html ../html/KOLF2.1Jv1.1.align
