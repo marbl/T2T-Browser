@@ -1,7 +1,7 @@
 track cytoBandIdeo
 longLabel Chromosome ideogram with cytogenetic bands
 shortLabel cytoBandIdeo
-bigDataUrl cytoBand.bb
+bigDataUrl cytoBand.hs1.bb
 type bigBed 5
 
 # 10
