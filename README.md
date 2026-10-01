@@ -21,6 +21,15 @@ UCSC Genome browser hub for the T2T genomes and resources
     | [Asia](http://genome-asia.ucsc.edu/cgi-bin/hgTracks?genome=T2T-CHM13v2.0&hubUrl=https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2T_test/hub.txt)
   - Hub URL: https://research.nhgri.nih.gov/CustomTracks/T2T_hubs/T2T_test/hub.txt
   
+- Development GenArk "Contributed Tracks" Version
+  - Hub Connect: [US](https://genome.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://t2t.cs.jhu.edu/ucsc/GenArk_Hub/hub.txt)
+   | [Euro](https://genome-euro.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://t2t.cs.jhu.edu/ucsc/GenArk_Hub/hub.txt)
+   | [Asia](https://genome-asia.ucsc.edu/cgi-bin/hgHubConnect?hgHub_do_redirect=on&hgHubConnect.remakeTrackHub=on&hgHub_do_firstDb=1&hubUrl=https://t2t.cs.jhu.edu/ucsc/GenArk_Hub/hub.txt)
+  - Hub gateway: [US](http://genome.ucsc.edu/cgi-bin/hgGateway?genome=hs1&hubUtl=https://t2t.cs.jhu.edu/ucsc/GenArk_Hub/hub.txt)
+    | [Euro](http://genome-euro.ucsc.edu/cgi-bin/hgGateway?genome=hs1&hubUtl=https://t2t.cs.jhu.edu/ucsc/GenArk_Hub/hub.txt)
+    | [Asia](http://genome-asia.ucsc.edu/cgi-bin/hgGateway?genome=hs1&hubUtl=https://t2t.cs.jhu.edu/ucsc/GenArk_Hub/hub.txt) 
+  - Hub URL: https://t2t.cs.jhu.edu/ucsc/GenArk_Hub/hub.txt
+
 ## What's in the browser
 Latest tracks made publicly available for the following genomes:
 - T2T-CHM13v2.0
