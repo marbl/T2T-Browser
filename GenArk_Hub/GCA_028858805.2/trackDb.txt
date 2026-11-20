@@ -1,10 +1,3 @@
-track cytoBandIdeo
-priority 1
-longLabel Chromosome ideogram with cytogenetic bands
-shortLabel cytoBandIdeo
-bigDataUrl cytoBand.GCA_028858805.2.bb
-type bigBed 5
-
 include asm.trackDb.txt
 include rep.trackDb.txt
 include reg.trackDb.txt
