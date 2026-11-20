@@ -1,0 +1,24 @@
+<h2>Description</h2>
+This track maps locations in the HG002v1.1 genome to their corresponding position on 
+the opposite haplotype of the same chromosome.
+
+<p>
+To determine correspondence between the haplotypes, the set of all autosomal maternal chromosomes
+in hg002v1.1 were aligned to the set of all autosomal paternal chromosomes with minimap2, and
+vice versa. After filtering to include only alignments between strictly homologous regions,
+chain files were created to lift positions from one of each chromosome's haplotypes to the other.
+From those chain files, UCSC browser "bigChain" files were created using the UCSC software toolkit.
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+Chromosome colors are specified in the "Chromosome Color Key" displayed below the browser panel.
+
+<h2>Methods</h2>
+Chain files for lifting coordinates between homologous chromosome pairs in the HG002v1.1 assembly were created using the "nf-LO" pipeline described in Rhie et al., Nature 2023. Briefly, we used nextflow to run nf-LO (Talenti and Prendergast, Genome Biology and Evolution 2021) to align each autosomal HG002v1.1 chromosome to its homologous chromosome on the other haplotype of HG002v1.1 with minimap2. Then, we split the chains at all locations where there were unaligned segments longer than 1kbp or gaps longer than 10kbp. Only alignments between homologous chromosomes were retained (e.g., between chr1_MATERNAL and chr1_PATERNAL, but not between chr1_MATERNAL and chr3_PATERNAL). The package rustybam (https://github.com/mrvollger/rustybam) was used to trim overlapping portions of the chains, resulting in one-to-one alignments, and finally, the package chaintools was used to invert chains to obtain chain files for the reverse direction.
+
+<h2>Credits</h2>
+These tracks were created by Nancy F. Hansen. For inquiries, please email nancyhansen@jhu.edu.
+
+<h2>References</h2>
+Hansen NF, Dwarshuis N, Ji HJ, Rhie A, Loucks H, Logsdon GA, Vollger MR et al. A complete diploid human genome benchmark for personalized genomics. Cell, 189 (2026), pp. 4857-4875.e31. doi: <a href="https://doi.org/10.1016/j.cell.2026.06.016">10.1016/j.cell.2026.06.016</a>.
+
