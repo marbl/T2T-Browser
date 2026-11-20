@@ -14,3 +14,4 @@ bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemb
 linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/browserchains/hg002v1.1.pat2mat.bigChain.link.bb
 otherDb GCA_018852615.3
 otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/2bit/hg002v1.1.mat.2bit
+html https://human-pangenomics.s3.amazonaws.com/T2T/browser/HG002/v1.1/html/hg002v1.1.althapchainDescription.html

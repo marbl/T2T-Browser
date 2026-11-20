@@ -9,29 +9,14 @@ visibility pack
 group genes
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.6/hg002.v1.1.loff.v0.6.bb
 itemRgb on
-shortLabel v0.5 LiftOff of CHM13 RefSeq
-longLabel LiftOff of RefSeq v110 from CHM13 (JHU v0.5)
+shortLabel v0.6 LiftOff of CHM13 RefSeq
+longLabel LiftOff of RefSeq v110 from CHM13 (JHU v0.6)
 baseColorDefault genomicCodons
 labelFields name2
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/JHU_Liftoff.html
 priority 25
 searchIndex name,name2
 searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.6/hg002.v1.1.loff.v0.6.pat.ix
-
-track GCA_018852605_3_HG002v1_1_PAT_GenesJHULiftoffv0_4
-type bigGenePred
-visibility hide
-group genes
-bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.4/HG002v110.JHU.v0.4.bb
-itemRgb on
-shortLabel v0.4 LiftOff of CHM13 RefSeq
-longLabel LiftOff of RefSeq v110 from CHM13 (JHU v0.4)
-baseColorDefault genomicCodons
-labelFields name2
-html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/JHU_Liftoff.html
-priority 26
-searchIndex name,name2
-searchTrix https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/JHULiftoff/v0.4/HG002v110.JHU.v0.4.pat.ix
 
 #track HG002v1.1.GenesJHULiftoff
 #type bigGenePred
