@@ -1,0 +1,87 @@
+<h2>Description</h2>
+<p>Validation of T2T-CHM13v2.0 with HG002Y assembly by various methods</p>
+<p>
+This track grouping contains three tracks annotating known issues and
+HiFi and ONT read coverage across the T2T-CHM13v2.0 assembly.
+</p>
+
+<h2>Methods</h2>
+<p>
+For known issues, annotations display regions with low coverage support and location of each error k-mer obtained from HiFi and ONT platforms.
+</p>
+
+<p>Reads were aligned with Winnowmap 2.01.</p>
+<p>Primary read alignments have been processed with asset commit ver. <code>0133f268eebf308a1c3eb356b564550526465157</code>, and regions meeting the following criteria are reported in each platform:</p>
+
+<ul>
+<li>Less than 7 reads aligned in hifi, 10 reads aligned in ONT</li>
+<li>Merged when regions are less than 5 kb apart</li>
+<li>Exclude low coverage at both 3 kb ends of each chromosome due to natural coverage drop</li>
+<li>Exclude low coverage overlapping rDNA gaps</li>
+</ul>
+
+<p>Additionally, regions below were included:</p>
+<ul>
+<li>Regions with base error were detected with 21-mers from Illumina-HiFi reads using Merqury</li>
+<li>Chimeric consensus of two haplotypes and collapsed simple tandem repeat, found from variant calling and other methods</li>
+</ul>
+
+<p>Raw low coverage tracks from each platform (containing clippings and low coverage from sequencing biases):</p>
+<ul>
+<li>hifi.pri.issues.bed</li>
+<li>ont.pri.len1k_idy85.issues.bed</li>
+</ul>
+<p>For read coverage, reads were aligned as follows:</p>
+<p>
+Input reads: HiFi and ONT reads (guppy 6.3.7~6.3.8)<br>
+Mapper: Winnowmap v2.01 release (--MD -W repetitive_k15.txt -ax [map-pb | map-ont])<br>
+Filter: Primary read alignments extracted with samtools view -F0x104<br>
+</p>
+
+<h2>Display Conventions and Configuration</h2>
+<!-- if there are special conventions, like colors, describe them here -->
+<h3>Known issues</h3>
+<ul>
+<li><span style='border: 1px inset #000000; background-color:#000000;'>&nbsp;&nbsp;&nbsp;</span> - Error_Kmer : K-mers found only in the assembly, and not in the Illumina-HiFi hybrid kmer set</li>
+<li><span style='border: 1px inset #000000; background-color:#f00000;'>&nbsp;&nbsp;&nbsp;</span> - Chimeric_Hap (Joined two haplotypes) or Collapse</li>
+<li><span style='border: 1px inset #000000; background-color:#f00000;'>&nbsp;&nbsp;&nbsp;</span> - Low (Low coverage) or Low_Qual : Low coverage associated with consensus error</li>
+<li><span style='border: 1px inset #000000; background-color:#9999ff;'>&nbsp;&nbsp;&nbsp;</span> - Inversion breakpoint error at P5 palindrome and a likely assembly error in the Y chromosome</li>
+</ul>
+
+<h3>Coverage</h3>
+<p>The HiFi and ONT coverage containers exclude chromosome Y from their coverage calculations; neither primary nor marker-assisted coverage is provided for chromosome Y.</p>
+<ul>
+<li><span style='border: 1px inset #000000; background-color:#ffb6c1;'>&nbsp;&nbsp;&nbsp;</span> - HiFi primary alignments (light pink)</li>
+<li><span style='border: 1px inset #000000; background-color:#f08080;'>&nbsp;&nbsp;&nbsp;</span> - HiFi marker-assisted alignments (light coral)</li>
+<li><span style='border: 1px inset #000000; background-color:#add8e6;'>&nbsp;&nbsp;&nbsp;</span> - ONT primary alignments (light blue)</li>
+<li><span style='border: 1px inset #000000; background-color:#6495ed;'>&nbsp;&nbsp;&nbsp;</span> - ONT marker-assisted alignments (cornflower blue)</li>
+</ul>
+<p>ONT primary alignments were further filtered for alignment block lengths &gt; 1 kb and &gt; 85% identity.</p>
+
+
+<h2>Data access</h2>
+<!-- Optional, links for downloading the data if there is a separate source beside the
+browser  -->
+<p>Known issues</p>
+
+<ul>
+<li>https://github.com/marbl/CHM13-issues/v1.0_issues.bed</li>
+<li>https://github.com/marbl/CHM13-issues/v1.1_issues.bed</li>
+<li>https://github.com/marbl/CHM13-issues/v2.0_issues.bed</li>
+</ul>
+
+<p>Read coverage</p>
+
+<!-- Optional, links for downloading the data if there is a separate source beside the
+  browser  -->
+<p>Data is available on globus: team-curation/tracks/v1/coverage/*.cov.wig
+</p>
+
+<h2>Contact</h2>
+<p>Arang Rhie &lt;<a href="mailto:rhiea@nih.gov">rhiea@nih.gov</a>&gt;</p>
+
+<h2>References</h2>
+<ol>
+  <li>Mc Cartney AM, Shafin K, Alonge M <em>et al</em>. Chasing perfection: validation and polishing strategies for telomere-to-telomere genome assemblies. <em>Nat. Methods</em> (2022) doi: <a href="https://doi.org/10.1038/s41592-022-01440-3">10.1038/s41592-022-01440-3</a></li>
+  <li>Rhie A, Nurk S, Cechova M <em>et al</em>. The complete sequence of a human Y chromosome. <em>Nature</em> (2023) doi: <a href="https://doi.org/10.1038/s41586-023-06457-y">10.1038/s41586-023-06457-y</a></li>
+</ol>

@@ -91,6 +91,7 @@ visibility hide
 superTrack on
 group asm
 priority 9
+html ../html/validation.html
 
     track hs1_issues
     parent hs1_validation

@@ -13,6 +13,7 @@ bamColorMode gray
 bamGrayMode aliQual
 pairEndsByName on
 priority 91
+html ../html/isoseq.html
 
     track GCA_028878055_2_isoSeqBam1
     parent GCA_028878055_2_isoSeq

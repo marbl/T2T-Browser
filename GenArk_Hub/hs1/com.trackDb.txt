@@ -7,6 +7,7 @@ group compGeno
 type bigChain
 mouseOverField name
 priority 671
+html https://raw.githubusercontent.com/T2T-apes/ape_pangenome/main/alignment/wfmash.html
 
 	track hs1_wfmashGRCh38
 	parent hs1_wfmash
