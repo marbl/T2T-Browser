@@ -1,4 +1,4 @@
-track methylation
+track GCF_028885655_2_methylation
 superTrack on show
 shortLabel Methylation
 longLabel Methylation Frequency
@@ -9,45 +9,45 @@ maxHeightPixels 100:32:16
 autoScale off
 graphTypeDefault bar
 gridDefault on
-priority 61
+priority 93
 
-    track ont5mC_CpG_G638
-    parent methylation
+    track GCF_028885655_2_ont5mC_CpG_G638
+    parent GCF_028885655_2_methylation
     group reg
     shortLabel ONT 5mC CpG (Guppy 6.3.8)
     longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.8)
     type bigWig 0 1
     visibility full
     viewLimits 0:1
-    priority 61.1
+    priority 94
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/epi/mPonAbe1_v2.0.ONT_Guppy6.3.8_5mC.winnowmap_modkit_5mC_CpG_v1.0.bw
     html ../html/epigenetics.html
 
-    track ont5mC
-    parent methylation
+    track GCF_028885655_2_ont5mC
+    parent GCF_028885655_2_methylation
     group reg
     shortLabel ONT 5mC & 5hmC (Guppy 6.3.8)
     longLabel  ONT 5mC and 5hmC Methylation (Guppy 6.3.8)
     type bigWig 0 100
     visibility hide
     viewLimits 0:100
-    priority 61.2
+    priority 95
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/epi/winnowmap.dip.ONT.modkit_5mC.bw
     html ../html/epigenetics.html
 
-    track ont5mC_CpG
-    parent methylation
+    track GCF_028885655_2_ont5mC_CpG
+    parent GCF_028885655_2_methylation
     group reg
     shortLabel ONT 5mC CpG (Guppy 6.3.7)
     longLabel  ONT 5mC CpG Processed Methylation (Guppy 6.3.7)
     type bigWig 0 1
     visibility hide
     viewLimits 0:1
-    priority 61.3
+    priority 96
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/epi/minimap.dip.ONT.modbam2bed_5mC_CpG.bw
     html ../html/epigenetics.html
 
-track repliSeq
+track GCF_028885655_2_repliSeq
 visibility full
 shortLabel Repli-Seq
 longLabel Replication Sequencing
@@ -58,5 +58,5 @@ maxHeightPixels 100:32:16
 autoScale on
 graphTypeDefault bar
 gridDefault on
-priority 62
+priority 97
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/epi/mPonAbe1_v2.0_RepliSeq_v1.0.bw

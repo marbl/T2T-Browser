@@ -1,4 +1,4 @@
-track KOLF2_1Jv1_1_pri_IPS_ONT_Methylation
+track GCA_058280895_1_KOLF2_1Jv1_1_pri_IPS_ONT_Methylation
 shortLabel IPS.ONT.Methylation
 longLabel Methylation of ONT data from IPS cell type
 group reg
@@ -10,10 +10,10 @@ itemRgb on
 viewLimits 0:100
 type bigWig
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/IPS.mrg.modkit.pri.bw
-priority 31
+priority 7
 html ../html/KOLF2.1Jv1.1.met
 
-track KOLF2_1Jv1_1_pri_NEURON_ONT_Methylation
+track GCA_058280895_1_KOLF2_1Jv1_1_pri_NEURON_ONT_Methylation
 shortLabel NEURON.ONT.Methylation
 longLabel Methylation of ONT data from NEURON cell type
 group reg
@@ -25,10 +25,10 @@ itemRgb on
 viewLimits 0:100
 type bigWig
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NEURON.mrg.modkit.pri.bw
-priority 32
+priority 8
 html ../html/KOLF2.1Jv1.1.met
 
-track KOLF2_1Jv1_1_pri_MGL_ONT_Methylation
+track GCA_058280895_1_KOLF2_1Jv1_1_pri_MGL_ONT_Methylation
 shortLabel MGL.ONT.Methylation
 longLabel Methylation of ONT data from MGL cell type
 group reg
@@ -40,10 +40,10 @@ itemRgb on
 type bigWig
 viewLimits 0:100
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/MGL.mrg.modkit.pri.bw
-priority 33
+priority 9
 html ../html/KOLF2.1Jv1.1.met
 
-track KOLF2_1Jv1_1_pri_NGN2_ONT_Methylation
+track GCA_058280895_1_KOLF2_1Jv1_1_pri_NGN2_ONT_Methylation
 shortLabel NGN2.ONT.Methylation
 longLabel Methylation of ONT data from NGN2 cell type
 group reg
@@ -55,10 +55,10 @@ itemRgb on
 viewLimits 0:100
 type bigWig
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/NGN2.mrg.modkit.pri.bw
-priority 34
+priority 10
 html ../html/KOLF2.1Jv1.1.met
 
-track KOLF2_1Jv1_1_pri_ASTRO_NYSCF_ONT_Methylation
+track GCA_058280895_1_KOLF2_1Jv1_1_pri_ASTRO_NYSCF_ONT_Methylation
 shortLabel ASTRO_NYSCF.ONT.Methylation
 longLabel Methylation of ONT data from ASTRO_NYSCF cell type
 group reg
@@ -70,10 +70,10 @@ itemRgb on
 viewLimits 0:100
 type bigWig
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_NYSCF.mrg.modkit.pri.bw
-priority 35
+priority 11
 html ../html/KOLF2.1Jv1.1.met
 
-track KOLF2_1Jv1_1_pri_ASTRO_IND12_ONT_Methylation
+track GCA_058280895_1_KOLF2_1Jv1_1_pri_ASTRO_IND12_ONT_Methylation
 shortLabel ASTRO_IND12.ONT.Methylation
 longLabel Methylation of ONT data from ASTRO_IND12 cell type
 group reg
@@ -85,5 +85,5 @@ itemRgb on
 viewLimits 0:100
 type bigWig
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/ASTRO_IND12.mrg.modkit.pri.bw
-priority 36
+priority 12
 html ../html/KOLF2.1Jv1.1.met

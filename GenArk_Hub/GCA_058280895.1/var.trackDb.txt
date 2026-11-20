@@ -1,4 +1,4 @@
-track KOLF2_1Jv1_1_pri_HetSites
+track GCA_058280895_1_KOLF2_1Jv1_1_pri_HetSites
 shortLabel Het Sites in KOLF2.1Jv1.1
 longLabel KOLF2.1Jv1.1 Heterozygous Sites
 group var
@@ -9,5 +9,5 @@ maxItems 100
 maxWindowToDraw 1000000
 type bigBed 4
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/hetsites.hetsites.fix.bb
-priority 71
+priority 30
 html ../html/KOLF2.1Jv1.1.var

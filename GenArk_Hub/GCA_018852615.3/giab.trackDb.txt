@@ -1,5 +1,5 @@
 
-track HG002v1.1.MAT.diploid
+track GCA_018852615_3_HG002v1_1_MAT_diploid
 superTrack on show
 shortLabel Het/Hom
 longLabel Heterozygous/Homozygous Regions
@@ -9,9 +9,9 @@ type bigBed 4 +
 #html ../HG002v1.1/html/CpGislandDescription.html
 priority 73
 
-    track HG002v1.1.MAT.hetregions
+    track GCA_018852615_3_HG002v1_1_MAT_hetregions
     compositeTrack on
-    parent HG002v1.1.MAT.diploid
+    parent GCA_018852615_3_HG002v1_1_MAT_diploid
     group giab
     visibility hide
     shortLabel Het Regions
@@ -19,8 +19,8 @@ priority 73
     type bigBed 4 +
     priority 73.1
 
-        track HG002v1.1.MAT.het100
-        parent HG002v1.1.MAT.hetregions on
+        track GCA_018852615_3_HG002v1_1_MAT_het100
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregions on
         group giab
         shortLabel Het 100bp away
         longLabel Heterozygous variant within 100bp
@@ -28,8 +28,8 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_het_regions_100.bb
 
-        track HG002v1.1.MAT.het250
-        parent HG002v1.1.MAT.hetregions on
+        track GCA_018852615_3_HG002v1_1_MAT_het250
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregions on
         group giab
         shortLabel Het 250bp away
         longLabel Heterozygous variant within 250bp
@@ -37,8 +37,8 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_het_regions_250.bb
 
-        track HG002v1.1.MAT.het500
-        parent HG002v1.1.MAT.hetregions on
+        track GCA_018852615_3_HG002v1_1_MAT_het500
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregions on
         group giab
         shortLabel Het 500bp away
         longLabel Heterozygous variant within 500bp
@@ -46,8 +46,8 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_het_regions_500.bb
 
-        track HG002v1.1.MAT.het1000
-        parent HG002v1.1.MAT.hetregions on
+        track GCA_018852615_3_HG002v1_1_MAT_het1000
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregions on
         group giab
         shortLabel Het 1000bp away
         longLabel Heterozygous variant within 1000bp
@@ -55,9 +55,9 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_het_regions_1000.bb
         
-    track HG002v1.1.MAT.hetregionssnvsv
+    track GCA_018852615_3_HG002v1_1_MAT_hetregionssnvsv
     compositeTrack on
-    parent HG002v1.1.MAT.diploid
+    parent GCA_018852615_3_HG002v1_1_MAT_diploid
     group giab
     visibility dense
     shortLabel Het Regions SNV/SV
@@ -65,8 +65,8 @@ priority 73
     type bigBed 4 +
     priority 73.2
 
-        track HG002v1.1.MAT.snvsvhet100
-        parent HG002v1.1.MAT.hetregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhet100
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregionssnvsv on
         group giab
         shortLabel Het SNV/SV 100bp away
         longLabel Heterozygous SNV or SV within 100bp
@@ -74,8 +74,8 @@ priority 73
     	visibility dense
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_het_SNVorSV_regions_100.bb
 
-        track HG002v1.1.MAT.snvsvhet250
-        parent HG002v1.1.MAT.hetregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhet250
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregionssnvsv on
         group giab
         shortLabel Het SNV/SV 250bp away
         longLabel Heterozygous SNV or SV within 250bp
@@ -83,8 +83,8 @@ priority 73
     	visibility dense
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_het_SNVorSV_regions_250.bb
 
-        track HG002v1.1.MAT.snvsvhet500
-        parent HG002v1.1.MAT.hetregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhet500
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregionssnvsv on
         group giab
         shortLabel Het SNV/SV 500bp away
         longLabel Heterozygous SNV or SV within 500bp
@@ -92,8 +92,8 @@ priority 73
     	visibility dense
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_het_SNVorSV_regions_500.bb
 
-        track HG002v1.1.MAT.snvsvhet1000
-        parent HG002v1.1.MAT.hetregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhet1000
+        parent GCA_018852615_3_HG002v1_1_MAT_hetregionssnvsv on
         group giab
         shortLabel Het SNV/SV 1000bp away
         longLabel Heterozygous SNV or SV within 1000bp
@@ -104,9 +104,9 @@ priority 73
 
 
 
-    track HG002v1.1.MAT.homregions
+    track GCA_018852615_3_HG002v1_1_MAT_homregions
     compositeTrack on
-    parent HG002v1.1.MAT.diploid
+    parent GCA_018852615_3_HG002v1_1_MAT_diploid
     group giab
     visibility hide
     shortLabel Hom Regions
@@ -114,8 +114,8 @@ priority 73
     type bigBed 4 +
     priority 73.1
 
-        track HG002v1.1.MAT.hom100
-        parent HG002v1.1.MAT.homregions on
+        track GCA_018852615_3_HG002v1_1_MAT_hom100
+        parent GCA_018852615_3_HG002v1_1_MAT_homregions on
         group giab
         shortLabel Hom 100bp away
         longLabel Heterozygous variant within 100bp
@@ -123,8 +123,8 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_hom_regions_100.bb
 
-        track HG002v1.1.MAT.hom250
-        parent HG002v1.1.MAT.homregions on
+        track GCA_018852615_3_HG002v1_1_MAT_hom250
+        parent GCA_018852615_3_HG002v1_1_MAT_homregions on
         group giab
         shortLabel Hom 250bp away
         longLabel Heterozygous variant within 250bp
@@ -132,8 +132,8 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_hom_regions_250.bb
 
-        track HG002v1.1.MAT.hom500
-        parent HG002v1.1.MAT.homregions on
+        track GCA_018852615_3_HG002v1_1_MAT_hom500
+        parent GCA_018852615_3_HG002v1_1_MAT_homregions on
         group giab
         shortLabel Hom 500bp away
         longLabel Heterozygous variant within 500bp
@@ -141,8 +141,8 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_hom_regions_500.bb
 
-        track HG002v1.1.MAT.hom1000
-        parent HG002v1.1.MAT.homregions on
+        track GCA_018852615_3_HG002v1_1_MAT_hom1000
+        parent GCA_018852615_3_HG002v1_1_MAT_homregions on
         group giab
         shortLabel Hom 1000bp away
         longLabel Heterozygous variant within 1000bp
@@ -150,9 +150,9 @@ priority 73
     	visibility hide
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_hom_regions_1000.bb
         
-    track HG002v1.1.MAT.homregionssnvsv
+    track GCA_018852615_3_HG002v1_1_MAT_homregionssnvsv
     compositeTrack on
-    parent HG002v1.1.MAT.diploid
+    parent GCA_018852615_3_HG002v1_1_MAT_diploid
     group giab
     visibility hide
     shortLabel Hom Regions SNV/SV
@@ -160,8 +160,8 @@ priority 73
     type bigBed 4 +
     priority 73.2
 
-        track HG002v1.1.MAT.snvsvhom100
-        parent HG002v1.1.MAT.homregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhom100
+        parent GCA_018852615_3_HG002v1_1_MAT_homregionssnvsv on
         group giab
         shortLabel Hom SNV/SV 100bp away
         longLabel Heterozygous SNV or SV within 100bp
@@ -169,8 +169,8 @@ priority 73
     	visibility dense
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_hom_SNVorSV_regions_100.bb
 
-        track HG002v1.1.MAT.snvsvhom250
-        parent HG002v1.1.MAT.homregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhom250
+        parent GCA_018852615_3_HG002v1_1_MAT_homregionssnvsv on
         group giab
         shortLabel Hom SNV/SV 250bp away
         longLabel Heterozygous SNV or SV within 250bp
@@ -178,8 +178,8 @@ priority 73
     	visibility dense
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_hom_SNVorSV_regions_250.bb
 
-        track HG002v1.1.MAT.snvsvhom500
-        parent HG002v1.1.MAT.homregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhom500
+        parent GCA_018852615_3_HG002v1_1_MAT_homregionssnvsv on
         group giab
         shortLabel Hom SNV/SV 500bp away
         longLabel Heterozygous SNV or SV within 500bp
@@ -187,8 +187,8 @@ priority 73
     	visibility dense
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/giab_stratifications/v1.1_032625/HG002.mat/Diploid/HG002.mat_hom_SNVorSV_regions_500.bb
 
-        track HG002v1.1.MAT.snvsvhom1000
-        parent HG002v1.1.MAT.homregionssnvsv on
+        track GCA_018852615_3_HG002v1_1_MAT_snvsvhom1000
+        parent GCA_018852615_3_HG002v1_1_MAT_homregionssnvsv on
         group giab
         shortLabel Hom SNV/SV 1000bp away
         longLabel Heterozygous SNV or SV within 1000bp

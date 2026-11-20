@@ -1,4 +1,4 @@
-track censat
+track GCA_028878085_2_censat
 group rep
 visibility dense
 compositeTrack on
@@ -8,10 +8,10 @@ shortLabel CenSat
 longLabel Centromeric Satellite Annotation
 html ../html/censat.html
 mouseOverField name
-priority 20
+priority 14
 
-    track censatAnn
-    parent censat
+    track GCA_028878085_2_censatAnn
+    parent GCA_028878085_2_censat
     shortLabel CenSat
     longLabel Centromeric Satellite Annotation
     group rep
@@ -20,10 +20,10 @@ priority 20
     itemRgb on
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0_CenSat_v2.0.bb
     html ../html/censat.html
-    priority 20.1
+    priority 15
 
-    track censatStrand
-    parent censat
+    track GCA_028878085_2_censatStrand
+    parent GCA_028878085_2_censat
     shortLabel CenSat Strand
     longLabel Centromeric Satellite Strand Annotation
     group rep
@@ -32,9 +32,9 @@ priority 20
     itemRgb on
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0_CenSatStrand_v2.0.bb
     html ../html/censat.html
-    priority 20.2
+    priority 16
 
-track centro
+track GCA_028878085_2_centro
 compositeTrack on
 visibility dense
 superTrack on show
@@ -42,45 +42,45 @@ shortLabel Centromere
 longLabel Centromere Annotation
 group rep
 mouseOverField name
-priority 21
+priority 17
 
-    track cenpa
-    parent centro
+    track GCA_028878085_2_cenpa
+    parent GCA_028878085_2_centro
     group rep
     shortLabel CENP-A
     longLabel CENP-A
     type bigWig
     maxHeightPixels 100:32:8
     visibility full
-    priority 21.1
+    priority 18
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/cen/mSymSyn1.CENPA.bw
     html ../html/cenp-a.html
 
-    track supFam
-    parent centro
+    track GCA_028878085_2_supFam
+    parent GCA_028878085_2_centro
     group rep
     shortLabel AS SuperFamily
     longLabel Alpha-Satellite Super Family
     type bigBed 9
     visibility dense
     itemRgb on
-    priority 21.2
+    priority 19
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/cen/mSymSyn1_v2.0.SF_v1.0.bb
     html ../html/aSatSF.html
 
-    track sfStrand
-    parent centro
+    track GCA_028878085_2_sfStrand
+    parent GCA_028878085_2_centro
     group rep
     shortLabel AS Strand
     longLabel Alpha-Satellite Strand
     type bigBed 9
     visibility dense
     itemRgb on
-    priority 21.3
+    priority 20
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/cen/mSymSyn1_v2.0.Strand_v1.0.bb
     html ../html/aSatStrand.html
 
-track rmsk
+track GCA_028878085_2_rmsk
 shortLabel RepeatMasker
 longLabel RepeatMasker Repetitive Elements
 type bigRmsk
@@ -90,21 +90,21 @@ bigDataUrl  https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/
 xrefDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.RepeatMasker_v1.2.align.bb
 maxWindowToDraw 5000000
 html ../html/rmsk.html
-priority 22
+priority 21
 
-track segDups
+track GCA_028878085_2_segDups
 shortLabel SEDEF SegDups
 longLabel SEDEF Segmental Duplications
 group rep
-type bigBed 9 35
+type bigBed 9 +
 visibility dense
 itemRgb on
 maxItems 100000
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.SD_v1.0.bb
 html ../html/segDups.html
-priority 23
+priority 22
 
-track seqidyAcro
+track GCA_028878085_2_seqidyAcro
 superTrack on show
 visibility dense
 shortLabel SeqIdy (Acro)
@@ -114,19 +114,19 @@ type bigBed 9
 itemRgb on
 mouseOverField name
 html ../html/seqIdy.html
-priority 24
+priority 23
 
-    track seqIdychr21_hap2
-    parent seqidyAcro
+    track GCA_028878085_2_seqIdychr21_hap2
+    parent GCA_028878085_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr21_hap2
     longLabel mSymSyn1#chr21_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr21_hap2.bb
-    priority 24.42
+    priority 24
 
-track seqidy
+track GCA_028878085_2_seqidy
 superTrack on hide
 visibility dense
 shortLabel SeqIdy (Non-Acro)
@@ -138,318 +138,318 @@ mouseOverField name
 html ../html/seqIdy.html
 priority 25
 
-    track seqIdychr1_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr1_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr1_hap2
     longLabel mSymSyn1#chr1_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr1_hap2.bb
-    priority 25.2
+    priority 26
 
-    track seqIdychr2_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr2_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr2_hap2
     longLabel mSymSyn1#chr2_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr2_hap2.bb
-    priority 25.4
+    priority 27
 
-    track seqIdychr3_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr3_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr3_hap2
     longLabel mSymSyn1#chr3_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr3_hap2.bb
-    priority 25.6
+    priority 28
 
-    track seqIdychr4_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr4_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr4_hap2
     longLabel mSymSyn1#chr4_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr4_hap2.bb
-    priority 25.8
+    priority 29
 
-    track seqIdychr5_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr5_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr5_hap2
     longLabel mSymSyn1#chr5_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr5_hap2.bb
-    priority 25.10
+    priority 30
 
-    track seqIdychr6_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr6_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr6_hap2
     longLabel mSymSyn1#chr6_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr6_hap2.bb
-    priority 25.12
+    priority 31
 
-    track seqIdychr7_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr7_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr7_hap2
     longLabel mSymSyn1#chr7_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr7_hap2.bb
-    priority 25.14
+    priority 32
 
-    track seqIdychr8_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr8_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr8_hap2
     longLabel mSymSyn1#chr8_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr8_hap2.bb
-    priority 25.16
+    priority 33
 
-    track seqIdychr9_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr9_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr9_hap2
     longLabel mSymSyn1#chr9_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr9_hap2.bb
-    priority 25.18
+    priority 34
 
-    track seqIdychr10_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr10_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr10_hap2
     longLabel mSymSyn1#chr10_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr10_hap2.bb
-    priority 25.20
+    priority 35
 
-    track seqIdychr11_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr11_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr11_hap2
     longLabel mSymSyn1#chr11_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr11_hap2.bb
-    priority 25.22
+    priority 36
 
-    track seqIdychr12_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr12_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr12_hap2
     longLabel mSymSyn1#chr12_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr12_hap2.bb
-    priority 25.24
+    priority 37
 
-    track seqIdychr13_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr13_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr13_hap2
     longLabel mSymSyn1#chr13_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr13_hap2.bb
-    priority 25.26
+    priority 38
 
-    track seqIdychr14_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr14_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr14_hap2
     longLabel mSymSyn1#chr14_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr14_hap2.bb
-    priority 25.28
+    priority 39
 
-    track seqIdychr15_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr15_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr15_hap2
     longLabel mSymSyn1#chr15_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr15_hap2.bb
-    priority 25.30
+    priority 40
 
-    track seqIdychr16_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr16_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr16_hap2
     longLabel mSymSyn1#chr16_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr16_hap2.bb
-    priority 25.32
+    priority 41
 
-    track seqIdychr17_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr17_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr17_hap2
     longLabel mSymSyn1#chr17_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr17_hap2.bb
-    priority 25.34
+    priority 42
 
-    track seqIdychr18_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr18_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr18_hap2
     longLabel mSymSyn1#chr18_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr18_hap2.bb
-    priority 25.36
+    priority 43
 
-    track seqIdychr19_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr19_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr19_hap2
     longLabel mSymSyn1#chr19_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr19_hap2.bb
-    priority 25.38
+    priority 44
 
-    track seqIdychr20_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr20_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr20_hap2
     longLabel mSymSyn1#chr20_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr20_hap2.bb
-    priority 25.40
+    priority 45
 
-    track seqIdychr22_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr22_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr22_hap2
     longLabel mSymSyn1#chr22_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr22_hap2.bb
-    priority 25.44
+    priority 46
 
-    track seqIdychr23_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr23_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr23_hap2
     longLabel mSymSyn1#chr23_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr23_hap2.bb
-    priority 25.46
+    priority 47
 
-    track seqIdychr24_hap2
-    parent seqidy
+    track GCA_028878085_2_seqIdychr24_hap2
+    parent GCA_028878085_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr24_hap2
     longLabel mSymSyn1#chr24_hap2
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/seqIdy_v1.1/chr24_hap2.bb
-    priority 25.48
+    priority 48
 
-track nonB
+track GCA_028878085_2_nonB
 superTrack on hide
 visibility dense
 shortLabel Non-B DNA
 longLabel Non-B DNA
 group rep
-priority 26
+priority 49
 html ../html/nonB.html
 
-    track nonBapr
+    track GCA_028878085_2_nonBapr
     shortLabel A-phased repeats
     longLabel A-phased repeats
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_APR.bb
-    priority 26.1
+    priority 50
 
-    track nonBdr
+    track GCA_028878085_2_nonBdr
     shortLabel Direct repeats
     longLabel Direct repeats
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_DR.bb
-    priority 26.2
+    priority 51
 
-    track nonBgq
+    track GCA_028878085_2_nonBgq
     shortLabel G-quadruplexes
     longLabel G-quadruplexes
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 4
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_GQ.bb
-    priority 26.3
+    priority 52
 
-    track nonBir
+    track GCA_028878085_2_nonBir
     shortLabel Inverted repeats
     longLabel Inverted repeats
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_IR.bb
-    priority 26.4
+    priority 53
 
-    track nonBmr
+    track GCA_028878085_2_nonBmr
     shortLabel Mirror repeats
     longLabel Mirror repeats
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_MR.bb
-    priority 26.5
+    priority 54
 
-    track nonBtr
+    track GCA_028878085_2_nonBtr
     shortLabel Triplex repeats
     longLabel Triplex repeats
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_TRI.bb
-    priority 26.6
+    priority 55
 
-    track nonBstr
+    track GCA_028878085_2_nonBstr
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_STR.bb
-    priority 26.7
+    priority 56
 
-    track nonBz
+    track GCA_028878085_2_nonBz
     shortLabel Z-DNA
     longLabel Z-DNA
-    parent nonB
+    parent GCA_028878085_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.nonB_Z.bb
-    priority 26.8
+    priority 57
 
-track numt
+track GCA_028878085_2_numt
 shortLabel NUMT
 longLabel Nuclear-Mitochondrial DNA Segment
 type bigBed 3
@@ -457,4 +457,4 @@ visibility dense
 group rep
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/repeats/mSymSyn1_v2.0.numts_v1.0.bb
 html ../html/numt.html
-priority 27
+priority 58

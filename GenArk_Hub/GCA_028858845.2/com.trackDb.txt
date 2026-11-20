@@ -1,4 +1,4 @@
-track wfmash
+track GCA_028858845_2_wfmash
 superTrack on show
 visibility dense
 shortLabel WFMASH
@@ -6,10 +6,10 @@ longLabel wfmash v0.13.0 16-way chain
 group compGeno
 type bigChain
 mouseOverField name
-priority 201
+priority 68
 
-	track wfmashCHM13
-	parent wfmash
+	track GCA_028858845_2_wfmashCHM13
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain hs1
 	shortLabel CHM13
@@ -20,7 +20,7 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/CHM13_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb hs1
 	otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/chm13v2.0.2bit
-	priority 201
+	priority 69
 
 # HG002v1.0.1 haplotypes are no longer in this hub; alignments to v1.1 are unavailable.
 	#track wfmashHG002mat
@@ -51,8 +51,8 @@ priority 201
 	#otherTwoBitUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/GCA_018852605.2.2bit
 	#priority 202.2
 
-	track wfmashGRCh38
-	parent wfmash
+	track GCA_028858845_2_wfmashGRCh38
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain hg38
 	shortLabel GRCh38
@@ -63,11 +63,11 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/GRCh38_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb hg38
 	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
-	priority 203
+	priority 70
 
 
-	track wfmashmGorGor1mat
-	parent wfmash
+	track GCA_028858845_2_wfmashmGorGor1mat
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028885495.2
 	shortLabel mGorGor1#mat
@@ -78,10 +78,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mGorGor1mat_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028885495.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 71
 
-	track wfmashmGorGor1pat
-	parent wfmash
+	track GCA_028858845_2_wfmashmGorGor1pat
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028885475.2
 	shortLabel mGorGor1#pat
@@ -92,10 +92,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mGorGor1pat_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028885475.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 72
 
-	track wfmashmPanPan1mat
-	parent wfmash
+	track GCA_028858845_2_wfmashmPanPan1mat
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028858845.2
 	shortLabel mPanPan1#mat
@@ -106,10 +106,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPanPan1mat_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028858845.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 73
 
-	track wfmashmPanPan1pat
-	parent wfmash
+	track GCA_028858845_2_wfmashmPanPan1pat
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028858825.2
 	shortLabel mPanPan1#pat
@@ -120,10 +120,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPanPan1pat_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028858825.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 74
 
-	track wfmashmPanTro3hap1
-	parent wfmash
+	track GCA_028858845_2_wfmashmPanTro3hap1
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCF_028858775.2
 	shortLabel mPanTro3#hap1
@@ -134,10 +134,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPanTro3hap1_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCF_028858775.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 75
 
-	track wfmashmPanTro3hap2
-	parent wfmash
+	track GCA_028858845_2_wfmashmPanTro3hap2
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028858805.2
 	shortLabel mPanTro3#hap2
@@ -148,10 +148,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPanTro3hap2_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028858805.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 76
 
-	track wfmashmPonAbe1hap1
-	parent wfmash
+	track GCA_028858845_2_wfmashmPonAbe1hap1
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCF_028885655.2
 	shortLabel mPonAbe1#hap1
@@ -162,10 +162,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPonAbe1hap1_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCF_028885655.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 77
 
-	track wfmashmPonAbe1hap2
-	parent wfmash
+	track GCA_028858845_2_wfmashmPonAbe1hap2
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028885685.2
 	shortLabel mPonAbe1#hap2
@@ -176,10 +176,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPonAbe1hap2_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028885685.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 78
 
-	track wfmashmPonPyg2hap1
-	parent wfmash
+	track GCA_028858845_2_wfmashmPonPyg2hap1
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCF_028885625.2
 	shortLabel mPonPyg2#hap1
@@ -190,10 +190,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPonPyg2hap1_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCF_028885625.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 79
 
-	track wfmashmPonPyg2hap2
-	parent wfmash
+	track GCA_028858845_2_wfmashmPonPyg2hap2
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028885525.2
 	shortLabel mPonPyg2#hap2
@@ -204,10 +204,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mPonPyg2hap2_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028885525.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 80
 
-	track wfmashmSymSyn1hap1
-	parent wfmash
+	track GCA_028858845_2_wfmashmSymSyn1hap1
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028878055.2
 	shortLabel mSymSyn1#hap1
@@ -218,10 +218,10 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mSymSyn1hap1_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028878055.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 81
 
-	track wfmashmSymSyn1hap2
-	parent wfmash
+	track GCA_028858845_2_wfmashmSymSyn1hap2
+	parent GCA_028858845_2_wfmash
 	group compGeno
 	type bigChain GCA_028878085.2
 	shortLabel mSymSyn1#hap2
@@ -232,9 +232,9 @@ priority 201
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/mSymSyn1hap2_to_mPanPan1_v2.0.wfmash_v0.13.0.bigChain.link.bb
 	otherDb GCA_028878085.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1//assembly_curated/mPanPan1_v2.0.2bit
-	priority 204
+	priority 82
 
-track wfmashHPRCy1
+track GCA_028858845_2_wfmashHPRCy1
 superTrack on
 visibility dense
 shortLabel WFMASH-HPRCy1
@@ -243,10 +243,10 @@ group compGeno
 type bigChain
 mouseOverField name
 html https://raw.githubusercontent.com/T2T-apes/ape_pangenome/main/alignment/wfmash.html
-priority 230
+priority 83
 
-	track wfmashHPRCy1HG002hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG002hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG002_hap1
 	shortLabel HG002#hap1
@@ -255,10 +255,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 231
+	priority 84
 
-	track wfmashHPRCy1HG002hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG002hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG002_hap2
 	shortLabel HG002#hap2
@@ -267,10 +267,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG002hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 232
+	priority 85
 
-	track wfmashHPRCy1HG00438hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00438hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00438_hap1
 	shortLabel HG00438#hap1
@@ -279,10 +279,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 233
+	priority 86
 
-	track wfmashHPRCy1HG00438hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00438hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00438_hap2
 	shortLabel HG00438#hap2
@@ -291,10 +291,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 234
+	priority 87
 
-	track wfmashHPRCy1HG005hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG005hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG005_hap1
 	shortLabel HG005#hap1
@@ -303,10 +303,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 235
+	priority 88
 
-	track wfmashHPRCy1HG005hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG005hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG005_hap2
 	shortLabel HG005#hap2
@@ -315,10 +315,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG005hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 236
+	priority 89
 
-	track wfmashHPRCy1HG00621hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00621hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00621_hap1
 	shortLabel HG00621#hap1
@@ -327,10 +327,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 237
+	priority 90
 
-	track wfmashHPRCy1HG00621hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00621hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00621_hap2
 	shortLabel HG00621#hap2
@@ -339,10 +339,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 238
+	priority 91
 
-	track wfmashHPRCy1HG00673hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00673hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00673_hap1
 	shortLabel HG00673#hap1
@@ -351,10 +351,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 239
+	priority 92
 
-	track wfmashHPRCy1HG00673hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00673hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00673_hap2
 	shortLabel HG00673#hap2
@@ -363,10 +363,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 240
+	priority 93
 
-	track wfmashHPRCy1HG00733hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00733hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00733_hap1
 	shortLabel HG00733#hap1
@@ -375,10 +375,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 241
+	priority 94
 
-	track wfmashHPRCy1HG00733hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00733hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00733_hap2
 	shortLabel HG00733#hap2
@@ -387,10 +387,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 242
+	priority 95
 
-	track wfmashHPRCy1HG00735hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00735hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00735_hap1
 	shortLabel HG00735#hap1
@@ -399,10 +399,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 243
+	priority 96
 
-	track wfmashHPRCy1HG00735hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00735hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00735_hap2
 	shortLabel HG00735#hap2
@@ -411,10 +411,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 244
+	priority 97
 
-	track wfmashHPRCy1HG00741hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00741hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00741_hap1
 	shortLabel HG00741#hap1
@@ -423,10 +423,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 245
+	priority 98
 
-	track wfmashHPRCy1HG00741hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG00741hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00741_hap2
 	shortLabel HG00741#hap2
@@ -435,10 +435,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 246
+	priority 99
 
-	track wfmashHPRCy1HG01071hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01071hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01071_hap1
 	shortLabel HG01071#hap1
@@ -447,10 +447,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 247
+	priority 100
 
-	track wfmashHPRCy1HG01071hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01071hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01071_hap2
 	shortLabel HG01071#hap2
@@ -459,10 +459,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 248
+	priority 101
 
-	track wfmashHPRCy1HG01106hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01106hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01106_hap1
 	shortLabel HG01106#hap1
@@ -471,10 +471,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 249
+	priority 102
 
-	track wfmashHPRCy1HG01106hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01106hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01106_hap2
 	shortLabel HG01106#hap2
@@ -483,10 +483,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 250
+	priority 103
 
-	track wfmashHPRCy1HG01109hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01109hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01109_hap1
 	shortLabel HG01109#hap1
@@ -495,10 +495,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 251
+	priority 104
 
-	track wfmashHPRCy1HG01109hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01109hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01109_hap2
 	shortLabel HG01109#hap2
@@ -507,10 +507,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 252
+	priority 105
 
-	track wfmashHPRCy1HG01123hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01123hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01123_hap1
 	shortLabel HG01123#hap1
@@ -519,10 +519,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 253
+	priority 106
 
-	track wfmashHPRCy1HG01123hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01123hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01123_hap2
 	shortLabel HG01123#hap2
@@ -531,10 +531,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 254
+	priority 107
 
-	track wfmashHPRCy1HG01175hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01175hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01175_hap1
 	shortLabel HG01175#hap1
@@ -543,10 +543,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 255
+	priority 108
 
-	track wfmashHPRCy1HG01175hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01175hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01175_hap2
 	shortLabel HG01175#hap2
@@ -555,10 +555,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 256
+	priority 109
 
-	track wfmashHPRCy1HG01243hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01243hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01243_hap1
 	shortLabel HG01243#hap1
@@ -567,10 +567,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 257
+	priority 110
 
-	track wfmashHPRCy1HG01243hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01243hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01243_hap2
 	shortLabel HG01243#hap2
@@ -579,10 +579,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 258
+	priority 111
 
-	track wfmashHPRCy1HG01258hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01258hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01258_hap1
 	shortLabel HG01258#hap1
@@ -591,10 +591,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 259
+	priority 112
 
-	track wfmashHPRCy1HG01258hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01258hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01258_hap2
 	shortLabel HG01258#hap2
@@ -603,10 +603,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 260
+	priority 113
 
-	track wfmashHPRCy1HG01358hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01358hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01358_hap1
 	shortLabel HG01358#hap1
@@ -615,10 +615,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 261
+	priority 114
 
-	track wfmashHPRCy1HG01358hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01358hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01358_hap2
 	shortLabel HG01358#hap2
@@ -627,10 +627,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 262
+	priority 115
 
-	track wfmashHPRCy1HG01361hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01361hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01361_hap1
 	shortLabel HG01361#hap1
@@ -639,10 +639,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 263
+	priority 116
 
-	track wfmashHPRCy1HG01361hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01361hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01361_hap2
 	shortLabel HG01361#hap2
@@ -651,10 +651,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 264
+	priority 117
 
-	track wfmashHPRCy1HG01891hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01891hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01891_hap1
 	shortLabel HG01891#hap1
@@ -663,10 +663,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 265
+	priority 118
 
-	track wfmashHPRCy1HG01891hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01891hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01891_hap2
 	shortLabel HG01891#hap2
@@ -675,10 +675,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 266
+	priority 119
 
-	track wfmashHPRCy1HG01928hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01928hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01928_hap1
 	shortLabel HG01928#hap1
@@ -687,10 +687,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 267
+	priority 120
 
-	track wfmashHPRCy1HG01928hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01928hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01928_hap2
 	shortLabel HG01928#hap2
@@ -699,10 +699,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 268
+	priority 121
 
-	track wfmashHPRCy1HG01952hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01952hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01952_hap1
 	shortLabel HG01952#hap1
@@ -711,10 +711,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 269
+	priority 122
 
-	track wfmashHPRCy1HG01952hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01952hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01952_hap2
 	shortLabel HG01952#hap2
@@ -723,10 +723,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 270
+	priority 123
 
-	track wfmashHPRCy1HG01978hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01978hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01978_hap1
 	shortLabel HG01978#hap1
@@ -735,10 +735,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 271
+	priority 124
 
-	track wfmashHPRCy1HG01978hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG01978hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01978_hap2
 	shortLabel HG01978#hap2
@@ -747,10 +747,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 272
+	priority 125
 
-	track wfmashHPRCy1HG02055hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02055hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02055_hap1
 	shortLabel HG02055#hap1
@@ -759,10 +759,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 273
+	priority 126
 
-	track wfmashHPRCy1HG02055hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02055hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02055_hap2
 	shortLabel HG02055#hap2
@@ -771,10 +771,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 274
+	priority 127
 
-	track wfmashHPRCy1HG02080hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02080hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02080_hap1
 	shortLabel HG02080#hap1
@@ -783,10 +783,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 275
+	priority 128
 
-	track wfmashHPRCy1HG02080hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02080hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02080_hap2
 	shortLabel HG02080#hap2
@@ -795,10 +795,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 276
+	priority 129
 
-	track wfmashHPRCy1HG02109hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02109hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02109_hap1
 	shortLabel HG02109#hap1
@@ -807,10 +807,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 277
+	priority 130
 
-	track wfmashHPRCy1HG02109hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02109hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02109_hap2
 	shortLabel HG02109#hap2
@@ -819,10 +819,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 278
+	priority 131
 
-	track wfmashHPRCy1HG02145hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02145hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02145_hap1
 	shortLabel HG02145#hap1
@@ -831,10 +831,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 279
+	priority 132
 
-	track wfmashHPRCy1HG02145hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02145hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02145_hap2
 	shortLabel HG02145#hap2
@@ -843,10 +843,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 280
+	priority 133
 
-	track wfmashHPRCy1HG02148hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02148hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02148_hap1
 	shortLabel HG02148#hap1
@@ -855,10 +855,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 281
+	priority 134
 
-	track wfmashHPRCy1HG02148hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02148hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02148_hap2
 	shortLabel HG02148#hap2
@@ -867,10 +867,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 282
+	priority 135
 
-	track wfmashHPRCy1HG02257hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02257hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02257_hap1
 	shortLabel HG02257#hap1
@@ -879,10 +879,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 283
+	priority 136
 
-	track wfmashHPRCy1HG02257hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02257hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02257_hap2
 	shortLabel HG02257#hap2
@@ -891,10 +891,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 284
+	priority 137
 
-	track wfmashHPRCy1HG02486hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02486hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02486_hap1
 	shortLabel HG02486#hap1
@@ -903,10 +903,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 285
+	priority 138
 
-	track wfmashHPRCy1HG02486hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02486hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02486_hap2
 	shortLabel HG02486#hap2
@@ -915,10 +915,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 286
+	priority 139
 
-	track wfmashHPRCy1HG02559hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02559hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02559_hap1
 	shortLabel HG02559#hap1
@@ -927,10 +927,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 287
+	priority 140
 
-	track wfmashHPRCy1HG02559hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02559hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02559_hap2
 	shortLabel HG02559#hap2
@@ -939,10 +939,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 288
+	priority 141
 
-	track wfmashHPRCy1HG02572hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02572hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02572_hap1
 	shortLabel HG02572#hap1
@@ -951,10 +951,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 289
+	priority 142
 
-	track wfmashHPRCy1HG02572hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02572hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02572_hap2
 	shortLabel HG02572#hap2
@@ -963,10 +963,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 290
+	priority 143
 
-	track wfmashHPRCy1HG02622hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02622hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02622_hap1
 	shortLabel HG02622#hap1
@@ -975,10 +975,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 291
+	priority 144
 
-	track wfmashHPRCy1HG02622hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02622hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02622_hap2
 	shortLabel HG02622#hap2
@@ -987,10 +987,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 292
+	priority 145
 
-	track wfmashHPRCy1HG02630hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02630hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02630_hap1
 	shortLabel HG02630#hap1
@@ -999,10 +999,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 293
+	priority 146
 
-	track wfmashHPRCy1HG02630hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02630hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02630_hap2
 	shortLabel HG02630#hap2
@@ -1011,10 +1011,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 294
+	priority 147
 
-	track wfmashHPRCy1HG02717hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02717hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02717_hap1
 	shortLabel HG02717#hap1
@@ -1023,10 +1023,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 295
+	priority 148
 
-	track wfmashHPRCy1HG02717hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02717hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02717_hap2
 	shortLabel HG02717#hap2
@@ -1035,10 +1035,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 296
+	priority 149
 
-	track wfmashHPRCy1HG02723hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02723hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02723_hap1
 	shortLabel HG02723#hap1
@@ -1047,10 +1047,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 297
+	priority 150
 
-	track wfmashHPRCy1HG02723hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02723hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02723_hap2
 	shortLabel HG02723#hap2
@@ -1059,10 +1059,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 298
+	priority 151
 
-	track wfmashHPRCy1HG02818hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02818hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02818_hap1
 	shortLabel HG02818#hap1
@@ -1071,10 +1071,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 299
+	priority 152
 
-	track wfmashHPRCy1HG02818hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02818hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02818_hap2
 	shortLabel HG02818#hap2
@@ -1083,10 +1083,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 300
+	priority 153
 
-	track wfmashHPRCy1HG02886hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02886hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02886_hap1
 	shortLabel HG02886#hap1
@@ -1095,10 +1095,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 301
+	priority 154
 
-	track wfmashHPRCy1HG02886hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG02886hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02886_hap2
 	shortLabel HG02886#hap2
@@ -1107,10 +1107,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 302
+	priority 155
 
-	track wfmashHPRCy1HG03098hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03098hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03098_hap1
 	shortLabel HG03098#hap1
@@ -1119,10 +1119,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 303
+	priority 156
 
-	track wfmashHPRCy1HG03098hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03098hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03098_hap2
 	shortLabel HG03098#hap2
@@ -1131,10 +1131,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 304
+	priority 157
 
-	track wfmashHPRCy1HG03453hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03453hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03453_hap1
 	shortLabel HG03453#hap1
@@ -1143,10 +1143,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 305
+	priority 158
 
-	track wfmashHPRCy1HG03453hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03453hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03453_hap2
 	shortLabel HG03453#hap2
@@ -1155,10 +1155,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 306
+	priority 159
 
-	track wfmashHPRCy1HG03486hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03486hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03486_hap1
 	shortLabel HG03486#hap1
@@ -1167,10 +1167,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 307
+	priority 160
 
-	track wfmashHPRCy1HG03486hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03486hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03486_hap2
 	shortLabel HG03486#hap2
@@ -1179,10 +1179,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 308
+	priority 161
 
-	track wfmashHPRCy1HG03492hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03492hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03492_hap1
 	shortLabel HG03492#hap1
@@ -1191,10 +1191,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 309
+	priority 162
 
-	track wfmashHPRCy1HG03492hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03492hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03492_hap2
 	shortLabel HG03492#hap2
@@ -1203,10 +1203,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 310
+	priority 163
 
-	track wfmashHPRCy1HG03516hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03516hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03516_hap1
 	shortLabel HG03516#hap1
@@ -1215,10 +1215,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 311
+	priority 164
 
-	track wfmashHPRCy1HG03516hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03516hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03516_hap2
 	shortLabel HG03516#hap2
@@ -1227,10 +1227,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 312
+	priority 165
 
-	track wfmashHPRCy1HG03540hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03540hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03540_hap1
 	shortLabel HG03540#hap1
@@ -1239,10 +1239,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 313
+	priority 166
 
-	track wfmashHPRCy1HG03540hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03540hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03540_hap2
 	shortLabel HG03540#hap2
@@ -1251,10 +1251,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 314
+	priority 167
 
-	track wfmashHPRCy1HG03579hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03579hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03579_hap1
 	shortLabel HG03579#hap1
@@ -1263,10 +1263,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 315
+	priority 168
 
-	track wfmashHPRCy1HG03579hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1HG03579hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03579_hap2
 	shortLabel HG03579#hap2
@@ -1275,10 +1275,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 316
+	priority 169
 
-	track wfmashHPRCy1NA18906hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA18906hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA18906_hap1
 	shortLabel NA18906#hap1
@@ -1287,10 +1287,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 317
+	priority 170
 
-	track wfmashHPRCy1NA18906hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA18906hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA18906_hap2
 	shortLabel NA18906#hap2
@@ -1299,10 +1299,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 318
+	priority 171
 
-	track wfmashHPRCy1NA19240hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA19240hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA19240_hap1
 	shortLabel NA19240#hap1
@@ -1311,10 +1311,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 319
+	priority 172
 
-	track wfmashHPRCy1NA19240hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA19240hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA19240_hap2
 	shortLabel NA19240#hap2
@@ -1323,10 +1323,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 320
+	priority 173
 
-	track wfmashHPRCy1NA20129hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA20129hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA20129_hap1
 	shortLabel NA20129#hap1
@@ -1335,10 +1335,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 321
+	priority 174
 
-	track wfmashHPRCy1NA20129hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA20129hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA20129_hap2
 	shortLabel NA20129#hap2
@@ -1347,10 +1347,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 322
+	priority 175
 
-	track wfmashHPRCy1NA21309hap1
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA21309hap1
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA21309_hap1
 	shortLabel NA21309#hap1
@@ -1359,10 +1359,10 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 323
+	priority 176
 
-	track wfmashHPRCy1NA21309hap2
-	parent wfmashHPRCy1
+	track GCA_028858845_2_wfmashHPRCy1NA21309hap2
+	parent GCA_028858845_2_wfmashHPRCy1
 	group compGeno
 	type bigChain NA21309_hap2
 	shortLabel NA21309#hap2
@@ -1371,6 +1371,6 @@ priority 230
 	mouseOverField name
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_mPanPan1_v2.0.bigChain.bb
 	linkDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/comparative/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_mPanPan1_v2.0.bigChain.link.bb
-	priority 324
+	priority 177
 
 include hal.trackDb.txt

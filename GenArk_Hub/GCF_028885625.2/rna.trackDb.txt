@@ -1,4 +1,4 @@
-track isoSeq
+track GCF_028885625_2_isoSeq
 group rna
 compositeTrack on
 shortLabel IsoSeq
@@ -13,22 +13,22 @@ bamColorMode gray
 bamGrayMode aliQual
 pairEndsByName on
 html ../html/isoseq.html
-priority 51
+priority 91
 
-    track isoSeqBam1
-    parent isoSeq
+    track GCF_028885625_2_isoSeqBam1
+    parent GCF_028885625_2_isoSeq
     group rna
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/expression/mPonPyg2_v2.0.IsoSeq_1_v0.9.bam
     shortLabel IsoSeq 1
     longLabel IsoSeq 1
     type bam
-    priority 51
+    priority 92
 
-    track isoSeqBam2
-    parent isoSeq
+    track GCF_028885625_2_isoSeqBam2
+    parent GCF_028885625_2_isoSeq
     group rna
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/expression/mPonPyg2_v2.0.IsoSeq_2_v0.9.bam
     shortLabel IsoSeq 2
     longLabel IsoSeq 2
     type bam
-    priority 51
+    priority 93

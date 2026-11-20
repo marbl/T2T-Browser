@@ -1,5 +1,5 @@
 
-track augustus
+track GCA_018852615_3_augustus
 shortLabel Augustus
 longLabel Augustus Gene Predictions
 group genark
@@ -9,7 +9,7 @@ type bigGenePred
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.augustus.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.augustus
 
-track xenoRefGene
+track GCA_018852615_3_xenoRefGene
 shortLabel RefSeq mRNAs
 longLabel RefSeq mRNAs mapped to this assembly
 group genark
@@ -25,7 +25,7 @@ searchIndex name
 searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/ixIxx/GCA_018852615.3_Q100_hg002v1.0.1.mat.xenoRefGene.ix
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.xenoRefGene
 
-track simpleRepeat
+track GCA_018852615_3_simpleRepeat
 shortLabel Simple Repeats
 longLabel Simple Tandem Repeats by TRF
 group genark
@@ -35,7 +35,7 @@ priority 4.3
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/bbi/GCA_018852615.3_Q100_hg002v1.0.1.mat.simpleRepeat.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/simpleRepeatsTrack.html
 
-track repeatMasker
+track GCA_018852615_3_repeatMasker
 shortLabel RepeatMasker
 longLabel RepeatMasker Repetitive Elements
 type bigRmsk 9 +
@@ -47,7 +47,7 @@ xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3
 maxWindowToDraw 5000000
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.repeatMasker
 
-track repeatModeler
+track GCA_018852615_3_repeatModeler
 shortLabel RepeatModeler
 longLabel RepeatModeler Repetitive Elements
 type bigRmsk 9 +
@@ -59,7 +59,7 @@ xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3
 maxWindowToDraw 5000000
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/615/GCA_018852615.3/html/GCA_018852615.3_Q100_hg002v1.0.1.mat.repeatModeler
 
-track windowMasker
+track GCA_018852615_3_windowMasker
 shortLabel WM + SDust
 longLabel Genomic Intervals Masked by WindowMasker + SDust
 group genark

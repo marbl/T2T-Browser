@@ -1,5 +1,5 @@
 ## CACTUS-8 MAF ##
-track 8-t2t-apes-2023v2.GCA_029281585.2
+track GCF_029281585_2_8-t2t-apes-2023v2_GCA_029281585_2
 shortLabel CACTUS-8 MAF
 longLabel CACTUS 8-way primary progressive alignment
 group compGeno

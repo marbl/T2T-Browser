@@ -1,4 +1,4 @@
-track access
+track GCF_028858775_2_access
 shortLabel SR Accessibility
 longLabel Short Read Accessibility Mask
 group var
@@ -7,45 +7,49 @@ type bigBed 3
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.accessibility_mask.bb
 html ../html/accessibilityMask.html
 mouseOverField name
-priority 81
+priority 100
 
-track variant
+track GCF_028858775_2_variant
 superTrack on
 shortLabel VariantCall
-longLabel Varant Call from Population
+longLabel Variant Calls from Population
 group var
 type vcfTabix
 hapClusterEnabled true
 maxWindowToDraw 3000000
 html ../html/variant.html
-priority 82
+priority 101
 	
-	track varCT
-	parent variant
+	track GCF_028858775_2_varCT
+	priority 102
+	parent GCF_028858775_2_variant
 	group var
 	shortLabel Central
 	longLabel Central Chimpanzee
 	visibility squish
-	bigDataUrl bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.central_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.central_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
 
-	track varEA
-	parent variant
+	track GCF_028858775_2_varEA
+	priority 103
+	parent GCF_028858775_2_variant
 	group var
 	shortLabel Eastern
 	longLabel Eastern Chimpanzee
 	visibility squish
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.eastern_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
 
-	track varNG
-	parent variant
+	track GCF_028858775_2_varNG
+	priority 104
+	parent GCF_028858775_2_variant
 	group var
 	shortLabel Nigerian
 	longLabel Nigerian Chimpanzee
 	visibility squish
 	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/variants/mPanTro3_v2.0.pri.nigerian_chimpanzee.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
 
-	track varWS
-	parent variant
+	track GCF_028858775_2_varWS
+	priority 105
+	parent GCF_028858775_2_variant
 	group var
 	shortLabel Western
 	longLabel Western Chimpanzee

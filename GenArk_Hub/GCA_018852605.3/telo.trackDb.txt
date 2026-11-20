@@ -2,7 +2,7 @@
 # Subtelomere track
 ##
 
-track HG002v1.1.PAT.subtelTrack
+track GCA_018852605_3_HG002v1_1_PAT_subtelTrack
 shortLabel Subtelomere annotation V3
 longLabel Subtelomeric repeat annotation from ODU
 group rep
@@ -11,5 +11,5 @@ itemRgb on
 type bigBed 9 +
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/subtelomere/hg002v1.1_Oct2024/track_subtelomeres_paternal_v3.bb
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/subtelomere_track_description.html
-priority 10
+priority 24
 

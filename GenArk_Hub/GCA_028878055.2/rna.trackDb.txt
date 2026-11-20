@@ -1,4 +1,4 @@
-track isoSeq
+track GCA_028878055_2_isoSeq
 group rna
 compositeTrack on
 shortLabel IsoSeq
@@ -12,22 +12,22 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 pairEndsByName on
-priority 51
+priority 91
 
-    track isoSeqBam1
-    parent isoSeq
+    track GCA_028878055_2_isoSeqBam1
+    parent GCA_028878055_2_isoSeq
     group rna
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/expression/mSymSyn1_v2.0.IsoSeq_1_v0.9.bam
     shortLabel IsoSeq 1
     longLabel IsoSeq 1
     type bam
-    priority 51
+    priority 92
 
-    track isoSeqBam2
-    parent isoSeq
+    track GCA_028878055_2_isoSeqBam2
+    parent GCA_028878055_2_isoSeq
     group rna
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/expression/mSymSyn1_v2.0.IsoSeq_2_v0.9.bam
     shortLabel IsoSeq 2
     longLabel IsoSeq 2
     type bam
-    priority 51
+    priority 93

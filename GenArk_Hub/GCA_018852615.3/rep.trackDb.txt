@@ -3,7 +3,7 @@
 ##
 
 
-track HG002v1.1.segdups
+track GCA_018852615_3_HG002v1_1_segdups
 shortLabel SEDEF Segmental Dups
 longLabel SEDEF Segmental Duplications from UWash
 group rep
@@ -16,7 +16,7 @@ bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemb
 priority 20
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.1/html/SD_track.hg002v1.1.013025.html
 
-track HG002v1.1.cenSat_v2.0
+track GCA_018852615_3_HG002v1_1_cenSat_v2_0
 group rep
 visibility dense
 compositeTrack on
@@ -28,8 +28,8 @@ html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html
 mouseOverField name
 priority 21
 
-    track censatAnn
-    parent HG002v1.1.cenSat_v2.0
+    track GCA_018852615_3_censatAnn
+    parent GCA_018852615_3_HG002v1_1_cenSat_v2_0
     shortLabel CenSat
     longLabel Centromeric Satellite Annotation from UCSC
     group rep
@@ -38,10 +38,10 @@ priority 21
     itemRgb on
         bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/mat.hg002v1.1.cenSatv2.0.noheader.bb
 	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
-	priority 21.1
+	priority 22
 
-	track censatStrand
-	parent HG002v1.1.cenSat_v2.0
+	track GCA_018852615_3_censatStrand
+	parent GCA_018852615_3_HG002v1_1_cenSat_v2_0
 	shortLabel CenSat Strand
 	longLabel Centromeric Satellite Strand Annotation from UCSC
 	group rep
@@ -50,5 +50,5 @@ priority 21
 	itemRgb on
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/centromere/hg002v1.1_v2.0/mat.hg002v1.1.SatelliteStrandv2.0.bb
 	html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/censat.html
-	priority 21.2
+	priority 23
 

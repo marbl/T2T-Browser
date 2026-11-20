@@ -1,4 +1,4 @@
-track access
+track GCF_029289425_2_access
 shortLabel SR Accessibility
 longLabel Short Read Accessibility Mask
 group var
@@ -7,23 +7,24 @@ type bigBed 3
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/variants/mPanPan1_v2.0.accessibility_mask.bb
 html ../html/accessibilityMask.html
 mouseOverField name
-priority 81
+priority 100
 
-track variant
+track GCF_029289425_2_variant
 superTrack on
 shortLabel VariantCall
-longLabel Varant Call from Population
+longLabel Variant Calls from Population
 group var
 type vcfTabix
 hapClusterEnabled true
 maxWindowToDraw 3000000
 html ../html/variant.html
-priority 82
+priority 101
 	
-	track varBon
-	parent variant
+	track GCF_029289425_2_varBon
+	priority 102
+	parent GCF_029289425_2_variant
 	group var
 	shortLabel Bonobo
 	longLabel Bonobo
 	visibility squish
-	bigDataUrl bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/variants/mPanPan1_v2.0.pri.bonobo.t2t.beagle4.biallelic_snps.autosomes.vcf.gz
+	bigDataUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/variants/mPanPan1_v2.0.pri.bonobo.t2t.beagle4.biallelic_snps.autosomes.vcf.gz

@@ -1,4 +1,4 @@
-track unique
+track hs1_unique
 group grc
 visibility dense
 compositeTrack on
@@ -8,27 +8,27 @@ visibility dense
 shortLabel Unique to GRCh
 longLabel Non-syntenic region to GRCh
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/v1_nflo_description.html
-priority 67
+priority 304
 
-    track uniqHg38
-    parent unique
+    track hs1_uniqHg38
+    parent hs1_unique
     shortLabel Unique to hg38
     longLabel Non-syntenic to GRCh38
     group grc
     type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-unique_to_hg38.bb
-	priority 67.1
+	priority 305
 
-    track uniqHg19
-    parent unique
+    track hs1_uniqHg19
+    parent hs1_unique
     shortLabel Unique to hg19
     longLabel Non-syntenic to GRCh37/hg19
     group grc
     type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/chain/v1_nflo/chm13v2-unique_to_hg19.bb
-	priority 67.2
+	priority 306
 
-track synteny
+track hs1_synteny
 superTrack on show
 visibility dense
 shortLabel Synteny
@@ -37,10 +37,10 @@ group grc
 type bigChain
 mouseOverField name
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/v1_nflo_description.html
-priority 68
+priority 307
 
-	track synHg38
-	parent synteny
+	track hs1_synHg38
+	parent hs1_synteny
 	group grc
 	type bigChain
 	shortLabel hg38
@@ -51,10 +51,10 @@ priority 68
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/grch38_to_chm13v2.bigChain.link.bb
 	otherDb hg38
 	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
-	priority 68.1
+	priority 308
 
-	track synHg19
-	parent synteny
+	track hs1_synHg19
+	parent hs1_synteny
 	group grc
 	type bigChain
 	shortLabel hg19
@@ -65,4 +65,4 @@ priority 68
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/hg19_to_chm13v2.bigChain.link.bb
 	otherDb hg19
 	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit
-	priority 68.2
+	priority 309

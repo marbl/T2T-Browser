@@ -1,4 +1,4 @@
-track methylation
+track hs1_methylation
 superTrack on
 visibility full
 shortLabel Methylation
@@ -10,76 +10,76 @@ maxHeightPixels 100:32:16
 autoScale off
 graphTypeDefault bar
 gridDefault on
-priority 51
+priority 94
 
-    track chm13cpg
-    parent methylation
+    track hs1_chm13cpg
+    parent hs1_methylation
     group reg
     shortLabel CHM13 CpG Guppy3
     longLabel  CHM13 CpG Methylation (ONT Guppy v3.6.0, Nanopolish v0.13.2)
     type bigWig
     visibility full
     viewLimits 0:1
-    priority 51
+    priority 95
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_CHM13_CpG_ont_guppy3.6.0_nanopolish0.13.2.bw
 
-    track hg002_5mC_hifi
-    parent methylation
+    track hs1_hg002_5mC_hifi
+    parent hs1_methylation
     group reg
     shortLabel HG002 5mC Revio
     longLabel  HG002 5mC Methylation (PacBio Revio, Modkit v0.1.11)
     type bigWig 0 100
     visibility full
     viewLimits 0:100
-    priority 52
+    priority 96
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_5mC_hifi_revio_modkit0.1.11.bw
     
-    track hg002cpg
-    parent methylation
+    track hs1_hg002cpg
+    parent hs1_methylation
     group reg
     shortLabel HG002 CpG Guppy6
     longLabel  HG002 CpG Methylation (ONT Guppy v6.1.2, Remora)
     type bigWig
     visibility full
     viewLimits 0:1
-    priority 53
+    priority 97
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_CpG_ont_guppy6.1.2.bw
 
-    track hg002cpgOld
-    parent methylation
+    track hs1_hg002cpgOld
+    parent hs1_methylation
     group reg
     shortLabel HG002 CpG Guppy5
     longLabel  HG002 CpG Methylation (ONT Guppy v5.0.7, Nanopolish v0.13.2)
     type bigWig
     visibility hide
     viewLimits 0:1
-    priority 54
+    priority 98
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_CpG_ont_guppy5.0.7_nanopolish0.13.2.bw
 
-    track hg002gpc
-    parent methylation
+    track hs1_hg002gpc
+    parent hs1_methylation
     group reg
     shortLabel HG002 GpC Guppy5
     longLabel  HG002 GpC Methylation (ONT Guppy v5.0.7, Nanopolish v0.13.2)
     type bigWig
     visibility dense
     viewLimits 0:1
-    priority 55
+    priority 99
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_GpC_ont_guppy5.0.7_nanopolish0.13.2.bw
 
-    track hg002gpcZ
-    parent methylation
+    track hs1_hg002gpcZ
+    parent hs1_methylation
     group reg
     shortLabel HG002 GpC Z-score
     longLabel  HG002 GpC Methylation (ONT Guppy v5.0.7, Nanopolish v0.13.2) Z-Score
     type bigWig
     visibility dense
     viewLimits -1:1
-    priority 56
+    priority 100
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/CHM13/assemblies/annotation/regulation/chm13v2.0_hg002_GpC_ont_guppy5.0.7_nanopolish0.13.2.bw
 
 
-track fire
+track hs1_fire
 compositeTrack on
 visibility full
 shortLabel FIRE
@@ -88,10 +88,10 @@ superTrack on show
 group reg
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/fire.html
 maxHeightPixels 100:32:16
-priority 60
+priority 101
 
-    track log-fdr
-    parent fire
+    track hs1_log-fdr
+    parent hs1_fire
     group reg
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/log_FDR.bw
     shortLabel CHM13 -10log10 FDR
@@ -105,10 +105,10 @@ priority 60
     yLineOnOff on
     yLineMark 13.010299956639813
     gridDefault on
-    priority 61
+    priority 102
 
-    track FDR-wide-peaks
-    parent fire
+    track hs1_FDR-wide-peaks
+    parent hs1_fire
     group reg
     shortLabel CHM13 FDR wide peaks
     longLabel Aggregated peaks closer than the size of a nucleosome based on FDR < 5%
@@ -116,10 +116,10 @@ priority 60
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/FDR-wide-peaks.bb
     visibility dense
     maxItems 100000
-    priority 62
+    priority 103
 
-    track peaks
-    parent fire
+    track hs1_peaks
+    parent hs1_fire
     group reg
     type bigNarrowPeak
     bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/FDR-FIRE-peaks.bb
@@ -127,10 +127,10 @@ priority 60
     longLabel FIRE (Fiber-seq Inferred Regulatory Elements) peaks
     visibility dense
     maxHeightPixels 50:50:1
-    priority 63
+    priority 104
 
-    track all-accessible
-    parent fire
+    track hs1_all-accessible
+    parent hs1_fire
     group reg
     shortLabel CHM13 % accessible
     longLabel  % accessible by regulatory elements by all fiber reads
@@ -142,14 +142,14 @@ priority 60
     maxItems 100000
     visibility hide
     color 0,0,0
-    priority 64
+    priority 105
 
-track T2T_Encode
+track hs1_T2T_Encode
 shortLabel T2T Encode
 longLabel T2T Encode Reanalysis
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/encode.html
 group reg
-priority 65
+priority 106
 compositeTrack on
 subGroup1 cell Cell_Line \
   22Rv1=22Rv1 \
@@ -187,1759 +187,1953 @@ visibility hide
 type bed 3
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/html/GCA_009914755.4_T2T-CHM13v2.0.encode.html
 
-  track T2T_Encode_Coverage
+  track hs1_T2T_Encode_Coverage
+  priority 107
   shortLabel Encode Coverage
   longLabel Encode Coverage
   view coverage
   visibility full
   type bigWig
-  parent T2T_Encode
+  parent hs1_T2T_Encode
   group reg
   maxHeightPixels 100:20:10
   autoScale on
   windowingFunction mean
 
-    track T2T_Encode_Coverage_22Rv1.CTCF
+    track hs1_T2T_Encode_Coverage_22Rv1_CTCF
+    priority 108
     shortLabel 22Rv1 CTCF
     longLabel 22Rv1 CTCF Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/22Rv1.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=22Rv1 ab=CTCF view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_22Rv1.Control
+    track hs1_T2T_Encode_Coverage_22Rv1_Control
+    priority 109
     shortLabel 22Rv1 Control
     longLabel 22Rv1 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/22Rv1.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=22Rv1 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_22Rv1.H3K27ac
+    track hs1_T2T_Encode_Coverage_22Rv1_H3K27ac
+    priority 110
     shortLabel 22Rv1 H3K27ac
     longLabel 22Rv1 H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/22Rv1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=22Rv1 ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_BE2C.Control
+    track hs1_T2T_Encode_Coverage_BE2C_Control
+    priority 111
     shortLabel BE2C Control
     longLabel BE2C Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/BE2C.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=BE2C ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_BE2C.H3K27me3
+    track hs1_T2T_Encode_Coverage_BE2C_H3K27me3
+    priority 112
     shortLabel BE2C H3K27me3
     longLabel BE2C H3K27me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/BE2C.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=BE2C ab=H3K27me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_BE2C.H3K36me3
+    track hs1_T2T_Encode_Coverage_BE2C_H3K36me3
+    priority 113
     shortLabel BE2C H3K36me3
     longLabel BE2C H3K36me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/BE2C.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=BE2C ab=H3K36me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_BE2C.H3K4me1
+    track hs1_T2T_Encode_Coverage_BE2C_H3K4me1
+    priority 114
     shortLabel BE2C H3K4me1
     longLabel BE2C H3K4me1 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/BE2C.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=BE2C ab=H3K4me1 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_BE2C.H3K9me3
+    track hs1_T2T_Encode_Coverage_BE2C_H3K9me3
+    priority 115
     shortLabel BE2C H3K9me3
     longLabel BE2C H3K9me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/BE2C.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=BE2C ab=H3K9me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_C4-2B.CTCF
+    track hs1_T2T_Encode_Coverage_C4-2B_CTCF
+    priority 116
     shortLabel C4-2B CTCF
     longLabel C4-2B CTCF Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/C4-2B.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=C4-2B ab=CTCF view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_C4-2B.Control
+    track hs1_T2T_Encode_Coverage_C4-2B_Control
+    priority 117
     shortLabel C4-2B Control
     longLabel C4-2B Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/C4-2B.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=C4-2B ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_C4-2B.H3K27ac
+    track hs1_T2T_Encode_Coverage_C4-2B_H3K27ac
+    priority 118
     shortLabel C4-2B H3K27ac
     longLabel C4-2B H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/C4-2B.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=C4-2B ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_Caco-2.Control
+    track hs1_T2T_Encode_Coverage_Caco-2_Control
+    priority 119
     shortLabel Caco-2 Control
     longLabel Caco-2 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/Caco-2.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=Caco-2 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_Caco-2.H3K4me1
+    track hs1_T2T_Encode_Coverage_Caco-2_H3K4me1
+    priority 120
     shortLabel Caco-2 H3K4me1
     longLabel Caco-2 H3K4me1 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/Caco-2.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=Caco-2 ab=H3K4me1 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_Caco-2.H3K9me3
+    track hs1_T2T_Encode_Coverage_Caco-2_H3K9me3
+    priority 121
     shortLabel Caco-2 H3K9me3
     longLabel Caco-2 H3K9me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/Caco-2.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=Caco-2 ab=H3K9me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HAP-1.Control
+    track hs1_T2T_Encode_Coverage_HAP-1_Control
+    priority 122
     shortLabel HAP-1 Control
     longLabel HAP-1 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HAP-1.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HAP-1 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HAP-1.H3K27ac
+    track hs1_T2T_Encode_Coverage_HAP-1_H3K27ac
+    priority 123
     shortLabel HAP-1 H3K27ac
     longLabel HAP-1 H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HAP-1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HAP-1 ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HAP-1.H3K27me3
+    track hs1_T2T_Encode_Coverage_HAP-1_H3K27me3
+    priority 124
     shortLabel HAP-1 H3K27me3
     longLabel HAP-1 H3K27me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HAP-1.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HAP-1 ab=H3K27me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HAP-1.H3K36me3
+    track hs1_T2T_Encode_Coverage_HAP-1_H3K36me3
+    priority 125
     shortLabel HAP-1 H3K36me3
     longLabel HAP-1 H3K36me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HAP-1.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HAP-1 ab=H3K36me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HAP-1.H3K4me1
+    track hs1_T2T_Encode_Coverage_HAP-1_H3K4me1
+    priority 126
     shortLabel HAP-1 H3K4me1
     longLabel HAP-1 H3K4me1 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HAP-1.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HAP-1 ab=H3K4me1 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HAP-1.H3K4me3
+    track hs1_T2T_Encode_Coverage_HAP-1_H3K4me3
+    priority 127
     shortLabel HAP-1 H3K4me3
     longLabel HAP-1 H3K4me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HAP-1.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HAP-1 ab=H3K4me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HAP-1.H3K9me3
+    track hs1_T2T_Encode_Coverage_HAP-1_H3K9me3
+    priority 128
     shortLabel HAP-1 H3K9me3
     longLabel HAP-1 H3K9me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HAP-1.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HAP-1 ab=H3K9me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HL-60.Control
+    track hs1_T2T_Encode_Coverage_HL-60_Control
+    priority 129
     shortLabel HL-60 Control
     longLabel HL-60 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HL-60.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HL-60 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_HL-60.H3K27ac
+    track hs1_T2T_Encode_Coverage_HL-60_H3K27ac
+    priority 130
     shortLabel HL-60 H3K27ac
     longLabel HL-60 H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/HL-60.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=HL-60 ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_MG63.Control
+    track hs1_T2T_Encode_Coverage_MG63_Control
+    priority 131
     shortLabel MG63 Control
     longLabel MG63 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/MG63.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=MG63 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_MG63.H3K27me3
+    track hs1_T2T_Encode_Coverage_MG63_H3K27me3
+    priority 132
     shortLabel MG63 H3K27me3
     longLabel MG63 H3K27me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/MG63.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=MG63 ab=H3K27me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_MG63.H3K36me3
+    track hs1_T2T_Encode_Coverage_MG63_H3K36me3
+    priority 133
     shortLabel MG63 H3K36me3
     longLabel MG63 H3K36me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/MG63.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=MG63 ab=H3K36me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_MG63.H3K4me3
+    track hs1_T2T_Encode_Coverage_MG63_H3K4me3
+    priority 134
     shortLabel MG63 H3K4me3
     longLabel MG63 H3K4me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/MG63.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=MG63 ab=H3K4me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_MG63.H3K9me3
+    track hs1_T2T_Encode_Coverage_MG63_H3K9me3
+    priority 135
     shortLabel MG63 H3K9me3
     longLabel MG63 H3K9me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/MG63.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=MG63 ab=H3K9me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_RWPE1.CTCF
+    track hs1_T2T_Encode_Coverage_RWPE1_CTCF
+    priority 136
     shortLabel RWPE1 CTCF
     longLabel RWPE1 CTCF Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/RWPE1.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=RWPE1 ab=CTCF view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_RWPE1.Control
+    track hs1_T2T_Encode_Coverage_RWPE1_Control
+    priority 137
     shortLabel RWPE1 Control
     longLabel RWPE1 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/RWPE1.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=RWPE1 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_RWPE1.H3K27ac
+    track hs1_T2T_Encode_Coverage_RWPE1_H3K27ac
+    priority 138
     shortLabel RWPE1 H3K27ac
     longLabel RWPE1 H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/RWPE1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=RWPE1 ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_RWPE2.CTCF
+    track hs1_T2T_Encode_Coverage_RWPE2_CTCF
+    priority 139
     shortLabel RWPE2 CTCF
     longLabel RWPE2 CTCF Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/RWPE2.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=RWPE2 ab=CTCF view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_RWPE2.Control
+    track hs1_T2T_Encode_Coverage_RWPE2_Control
+    priority 140
     shortLabel RWPE2 Control
     longLabel RWPE2 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/RWPE2.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=RWPE2 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_RWPE2.H3K27ac
+    track hs1_T2T_Encode_Coverage_RWPE2_H3K27ac
+    priority 141
     shortLabel RWPE2 H3K27ac
     longLabel RWPE2 H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/RWPE2.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=RWPE2 ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_RWPE2.H3K36me3
+    track hs1_T2T_Encode_Coverage_RWPE2_H3K36me3
+    priority 142
     shortLabel RWPE2 H3K36me3
     longLabel RWPE2 H3K36me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/RWPE2.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=RWPE2 ab=H3K36me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJCRH30.Control
+    track hs1_T2T_Encode_Coverage_SJCRH30_Control
+    priority 143
     shortLabel SJCRH30 Control
     longLabel SJCRH30 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJCRH30.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJCRH30 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJCRH30.H3K27ac
+    track hs1_T2T_Encode_Coverage_SJCRH30_H3K27ac
+    priority 144
     shortLabel SJCRH30 H3K27ac
     longLabel SJCRH30 H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJCRH30.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJCRH30 ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJCRH30.H3K27me3
+    track hs1_T2T_Encode_Coverage_SJCRH30_H3K27me3
+    priority 145
     shortLabel SJCRH30 H3K27me3
     longLabel SJCRH30 H3K27me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJCRH30.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJCRH30 ab=H3K27me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJCRH30.H3K36me3
+    track hs1_T2T_Encode_Coverage_SJCRH30_H3K36me3
+    priority 146
     shortLabel SJCRH30 H3K36me3
     longLabel SJCRH30 H3K36me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJCRH30.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJCRH30 ab=H3K36me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJCRH30.H3K4me1
+    track hs1_T2T_Encode_Coverage_SJCRH30_H3K4me1
+    priority 147
     shortLabel SJCRH30 H3K4me1
     longLabel SJCRH30 H3K4me1 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJCRH30.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJCRH30 ab=H3K4me1 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJCRH30.H3K4me3
+    track hs1_T2T_Encode_Coverage_SJCRH30_H3K4me3
+    priority 148
     shortLabel SJCRH30 H3K4me3
     longLabel SJCRH30 H3K4me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJCRH30.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJCRH30 ab=H3K4me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJCRH30.H3K9me3
+    track hs1_T2T_Encode_Coverage_SJCRH30_H3K9me3
+    priority 149
     shortLabel SJCRH30 H3K9me3
     longLabel SJCRH30 H3K9me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJCRH30.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJCRH30 ab=H3K9me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJSA1.Control
+    track hs1_T2T_Encode_Coverage_SJSA1_Control
+    priority 150
     shortLabel SJSA1 Control
     longLabel SJSA1 Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJSA1.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJSA1 ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJSA1.H3K27ac
+    track hs1_T2T_Encode_Coverage_SJSA1_H3K27ac
+    priority 151
     shortLabel SJSA1 H3K27ac
     longLabel SJSA1 H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJSA1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJSA1 ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJSA1.H3K27me3
+    track hs1_T2T_Encode_Coverage_SJSA1_H3K27me3
+    priority 152
     shortLabel SJSA1 H3K27me3
     longLabel SJSA1 H3K27me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJSA1.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJSA1 ab=H3K27me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJSA1.H3K36me3
+    track hs1_T2T_Encode_Coverage_SJSA1_H3K36me3
+    priority 153
     shortLabel SJSA1 H3K36me3
     longLabel SJSA1 H3K36me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJSA1.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJSA1 ab=H3K36me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJSA1.H3K4me3
+    track hs1_T2T_Encode_Coverage_SJSA1_H3K4me3
+    priority 154
     shortLabel SJSA1 H3K4me3
     longLabel SJSA1 H3K4me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJSA1.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJSA1 ab=H3K4me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_SJSA1.H3K9me3
+    track hs1_T2T_Encode_Coverage_SJSA1_H3K9me3
+    priority 155
     shortLabel SJSA1 H3K9me3
     longLabel SJSA1 H3K9me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/SJSA1.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=SJSA1 ab=H3K9me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_VCaP.CTCF
+    track hs1_T2T_Encode_Coverage_VCaP_CTCF
+    priority 156
     shortLabel VCaP CTCF
     longLabel VCaP CTCF Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/VCaP.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=VCaP ab=CTCF view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_VCaP.Control
+    track hs1_T2T_Encode_Coverage_VCaP_Control
+    priority 157
     shortLabel VCaP Control
     longLabel VCaP Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/VCaP.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=VCaP ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_VCaP.H3K27ac
+    track hs1_T2T_Encode_Coverage_VCaP_H3K27ac
+    priority 158
     shortLabel VCaP H3K27ac
     longLabel VCaP H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/VCaP.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=VCaP ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_brain_microvascular_endothelial_cell.Control
+    track hs1_T2T_Encode_Coverage_brain_microvascular_endothelial_cell_Control
+    priority 159
     shortLabel bmec Control
     longLabel brain_microvascular_endothelial_cell Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/brain_microvascular_endothelial_cell.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=bmec ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_brain_microvascular_endothelial_cell.H3K27ac
+    track hs1_T2T_Encode_Coverage_brain_microvascular_endothelial_cell_H3K27ac
+    priority 160
     shortLabel bmec H3K27ac
     longLabel brain_microvascular_endothelial_cell H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/brain_microvascular_endothelial_cell.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=bmec ab=H3K27ac view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_brain_microvascular_endothelial_cell.H3K27me3
+    track hs1_T2T_Encode_Coverage_brain_microvascular_endothelial_cell_H3K27me3
+    priority 161
     shortLabel bmec H3K27me3
     longLabel brain_microvascular_endothelial_cell H3K27me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/brain_microvascular_endothelial_cell.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=bmec ab=H3K27me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_brain_microvascular_endothelial_cell.H3K36me3
+    track hs1_T2T_Encode_Coverage_brain_microvascular_endothelial_cell_H3K36me3
+    priority 162
     shortLabel bmec H3K36me3
     longLabel brain_microvascular_endothelial_cell H3K36me3 Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/brain_microvascular_endothelial_cell.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=bmec ab=H3K36me3 view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_epithelial_cell_of_prostate_male.CTCF
+    track hs1_T2T_Encode_Coverage_epithelial_cell_of_prostate_male_CTCF
+    priority 163
     shortLabel ecopm CTCF
     longLabel epithelial_cell_of_prostate_male CTCF Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/epithelial_cell_of_prostate_male.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=ecopm ab=CTCF view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_epithelial_cell_of_prostate_male.Control
+    track hs1_T2T_Encode_Coverage_epithelial_cell_of_prostate_male_Control
+    priority 164
     shortLabel ecopm Control
     longLabel epithelial_cell_of_prostate_male Control Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/epithelial_cell_of_prostate_male.Control.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=ecopm ab=Control view=coverage
     type bigWig
 
-    track T2T_Encode_Coverage_epithelial_cell_of_prostate_male.H3K27ac
+    track hs1_T2T_Encode_Coverage_epithelial_cell_of_prostate_male_H3K27ac
+    priority 165
     shortLabel ecopm H3K27ac
     longLabel epithelial_cell_of_prostate_male H3K27ac Coverage
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/coverage/epithelial_cell_of_prostate_male.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Coverage
+    parent hs1_T2T_Encode_Coverage
     group reg
     subGroups cell=ecopm ab=H3K27ac view=coverage
     type bigWig
 
-  track T2T_Encode_Enrichment
+  track hs1_T2T_Encode_Enrichment
+  priority 166
   shortLabel Encode Enrichment
   longLabel Encode Enrichment
   view enrichment
   visibility full
   type bigWig
-  parent T2T_Encode
+  parent hs1_T2T_Encode
   group reg
   maxHeightPixels 100:20:10
   autoScale group
   windowingFunction mean
 
-    track T2T_Encode_Enrichment_22Rv1.CTCF
+    track hs1_T2T_Encode_Enrichment_22Rv1_CTCF
+    priority 167
     shortLabel 22Rv1 CTCF
     longLabel 22Rv1 CTCF Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/22Rv1.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=22Rv1 ab=CTCF view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_22Rv1.H3K27ac
+    track hs1_T2T_Encode_Enrichment_22Rv1_H3K27ac
+    priority 168
     shortLabel 22Rv1 H3K27ac
     longLabel 22Rv1 H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/22Rv1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=22Rv1 ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_BE2C.H3K27me3
+    track hs1_T2T_Encode_Enrichment_BE2C_H3K27me3
+    priority 169
     shortLabel BE2C H3K27me3
     longLabel BE2C H3K27me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/BE2C.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=BE2C ab=H3K27me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_BE2C.H3K36me3
+    track hs1_T2T_Encode_Enrichment_BE2C_H3K36me3
+    priority 170
     shortLabel BE2C H3K36me3
     longLabel BE2C H3K36me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/BE2C.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=BE2C ab=H3K36me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_BE2C.H3K4me1
+    track hs1_T2T_Encode_Enrichment_BE2C_H3K4me1
+    priority 171
     shortLabel BE2C H3K4me1
     longLabel BE2C H3K4me1 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/BE2C.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=BE2C ab=H3K4me1 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_BE2C.H3K9me3
+    track hs1_T2T_Encode_Enrichment_BE2C_H3K9me3
+    priority 172
     shortLabel BE2C H3K9me3
     longLabel BE2C H3K9me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/BE2C.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=BE2C ab=H3K9me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_C4-2B.CTCF
+    track hs1_T2T_Encode_Enrichment_C4-2B_CTCF
+    priority 173
     shortLabel C4-2B CTCF
     longLabel C4-2B CTCF Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/C4-2B.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=C4-2B ab=CTCF view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_C4-2B.H3K27ac
+    track hs1_T2T_Encode_Enrichment_C4-2B_H3K27ac
+    priority 174
     shortLabel C4-2B H3K27ac
     longLabel C4-2B H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/C4-2B.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=C4-2B ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_Caco-2.H3K4me1
+    track hs1_T2T_Encode_Enrichment_Caco-2_H3K4me1
+    priority 175
     shortLabel Caco-2 H3K4me1
     longLabel Caco-2 H3K4me1 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/Caco-2.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=Caco-2 ab=H3K4me1 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_Caco-2.H3K9me3
+    track hs1_T2T_Encode_Enrichment_Caco-2_H3K9me3
+    priority 176
     shortLabel Caco-2 H3K9me3
     longLabel Caco-2 H3K9me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/Caco-2.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=Caco-2 ab=H3K9me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_HAP-1.H3K27ac
+    track hs1_T2T_Encode_Enrichment_HAP-1_H3K27ac
+    priority 177
     shortLabel HAP-1 H3K27ac
     longLabel HAP-1 H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/HAP-1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=HAP-1 ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_HAP-1.H3K27me3
+    track hs1_T2T_Encode_Enrichment_HAP-1_H3K27me3
+    priority 178
     shortLabel HAP-1 H3K27me3
     longLabel HAP-1 H3K27me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/HAP-1.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=HAP-1 ab=H3K27me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_HAP-1.H3K36me3
+    track hs1_T2T_Encode_Enrichment_HAP-1_H3K36me3
+    priority 179
     shortLabel HAP-1 H3K36me3
     longLabel HAP-1 H3K36me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/HAP-1.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=HAP-1 ab=H3K36me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_HAP-1.H3K4me1
+    track hs1_T2T_Encode_Enrichment_HAP-1_H3K4me1
+    priority 180
     shortLabel HAP-1 H3K4me1
     longLabel HAP-1 H3K4me1 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/HAP-1.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=HAP-1 ab=H3K4me1 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_HAP-1.H3K4me3
+    track hs1_T2T_Encode_Enrichment_HAP-1_H3K4me3
+    priority 181
     shortLabel HAP-1 H3K4me3
     longLabel HAP-1 H3K4me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/HAP-1.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=HAP-1 ab=H3K4me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_HAP-1.H3K9me3
+    track hs1_T2T_Encode_Enrichment_HAP-1_H3K9me3
+    priority 182
     shortLabel HAP-1 H3K9me3
     longLabel HAP-1 H3K9me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/HAP-1.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=HAP-1 ab=H3K9me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_HL-60.H3K27ac
+    track hs1_T2T_Encode_Enrichment_HL-60_H3K27ac
+    priority 183
     shortLabel HL-60 H3K27ac
     longLabel HL-60 H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/HL-60.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=HL-60 ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_MG63.H3K27me3
+    track hs1_T2T_Encode_Enrichment_MG63_H3K27me3
+    priority 184
     shortLabel MG63 H3K27me3
     longLabel MG63 H3K27me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/MG63.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=MG63 ab=H3K27me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_MG63.H3K36me3
+    track hs1_T2T_Encode_Enrichment_MG63_H3K36me3
+    priority 185
     shortLabel MG63 H3K36me3
     longLabel MG63 H3K36me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/MG63.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=MG63 ab=H3K36me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_MG63.H3K4me3
+    track hs1_T2T_Encode_Enrichment_MG63_H3K4me3
+    priority 186
     shortLabel MG63 H3K4me3
     longLabel MG63 H3K4me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/MG63.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=MG63 ab=H3K4me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_MG63.H3K9me3
+    track hs1_T2T_Encode_Enrichment_MG63_H3K9me3
+    priority 187
     shortLabel MG63 H3K9me3
     longLabel MG63 H3K9me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/MG63.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=MG63 ab=H3K9me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_RWPE1.CTCF
+    track hs1_T2T_Encode_Enrichment_RWPE1_CTCF
+    priority 188
     shortLabel RWPE1 CTCF
     longLabel RWPE1 CTCF Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/RWPE1.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=RWPE1 ab=CTCF view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_RWPE1.H3K27ac
+    track hs1_T2T_Encode_Enrichment_RWPE1_H3K27ac
+    priority 189
     shortLabel RWPE1 H3K27ac
     longLabel RWPE1 H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/RWPE1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=RWPE1 ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_RWPE2.CTCF
+    track hs1_T2T_Encode_Enrichment_RWPE2_CTCF
+    priority 190
     shortLabel RWPE2 CTCF
     longLabel RWPE2 CTCF Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/RWPE2.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=RWPE2 ab=CTCF view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_RWPE2.H3K27ac
+    track hs1_T2T_Encode_Enrichment_RWPE2_H3K27ac
+    priority 191
     shortLabel RWPE2 H3K27ac
     longLabel RWPE2 H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/RWPE2.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=RWPE2 ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_RWPE2.H3K36me3
+    track hs1_T2T_Encode_Enrichment_RWPE2_H3K36me3
+    priority 192
     shortLabel RWPE2 H3K36me3
     longLabel RWPE2 H3K36me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/RWPE2.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=RWPE2 ab=H3K36me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJCRH30.H3K27ac
+    track hs1_T2T_Encode_Enrichment_SJCRH30_H3K27ac
+    priority 193
     shortLabel SJCRH30 H3K27ac
     longLabel SJCRH30 H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJCRH30.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJCRH30 ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJCRH30.H3K27me3
+    track hs1_T2T_Encode_Enrichment_SJCRH30_H3K27me3
+    priority 194
     shortLabel SJCRH30 H3K27me3
     longLabel SJCRH30 H3K27me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJCRH30.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJCRH30 ab=H3K27me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJCRH30.H3K36me3
+    track hs1_T2T_Encode_Enrichment_SJCRH30_H3K36me3
+    priority 195
     shortLabel SJCRH30 H3K36me3
     longLabel SJCRH30 H3K36me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJCRH30.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJCRH30 ab=H3K36me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJCRH30.H3K4me1
+    track hs1_T2T_Encode_Enrichment_SJCRH30_H3K4me1
+    priority 196
     shortLabel SJCRH30 H3K4me1
     longLabel SJCRH30 H3K4me1 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJCRH30.H3K4me1.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJCRH30 ab=H3K4me1 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJCRH30.H3K4me3
+    track hs1_T2T_Encode_Enrichment_SJCRH30_H3K4me3
+    priority 197
     shortLabel SJCRH30 H3K4me3
     longLabel SJCRH30 H3K4me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJCRH30.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJCRH30 ab=H3K4me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJCRH30.H3K9me3
+    track hs1_T2T_Encode_Enrichment_SJCRH30_H3K9me3
+    priority 198
     shortLabel SJCRH30 H3K9me3
     longLabel SJCRH30 H3K9me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJCRH30.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJCRH30 ab=H3K9me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJSA1.H3K27ac
+    track hs1_T2T_Encode_Enrichment_SJSA1_H3K27ac
+    priority 199
     shortLabel SJSA1 H3K27ac
     longLabel SJSA1 H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJSA1.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJSA1 ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJSA1.H3K27me3
+    track hs1_T2T_Encode_Enrichment_SJSA1_H3K27me3
+    priority 200
     shortLabel SJSA1 H3K27me3
     longLabel SJSA1 H3K27me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJSA1.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJSA1 ab=H3K27me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJSA1.H3K36me3
+    track hs1_T2T_Encode_Enrichment_SJSA1_H3K36me3
+    priority 201
     shortLabel SJSA1 H3K36me3
     longLabel SJSA1 H3K36me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJSA1.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJSA1 ab=H3K36me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJSA1.H3K4me3
+    track hs1_T2T_Encode_Enrichment_SJSA1_H3K4me3
+    priority 202
     shortLabel SJSA1 H3K4me3
     longLabel SJSA1 H3K4me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJSA1.H3K4me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJSA1 ab=H3K4me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_SJSA1.H3K9me3
+    track hs1_T2T_Encode_Enrichment_SJSA1_H3K9me3
+    priority 203
     shortLabel SJSA1 H3K9me3
     longLabel SJSA1 H3K9me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/SJSA1.H3K9me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=SJSA1 ab=H3K9me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_VCaP.CTCF
+    track hs1_T2T_Encode_Enrichment_VCaP_CTCF
+    priority 204
     shortLabel VCaP CTCF
     longLabel VCaP CTCF Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/VCaP.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=VCaP ab=CTCF view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_VCaP.H3K27ac
+    track hs1_T2T_Encode_Enrichment_VCaP_H3K27ac
+    priority 205
     shortLabel VCaP H3K27ac
     longLabel VCaP H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/VCaP.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=VCaP ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_brain_microvascular_endothelial_cell.H3K27ac
+    track hs1_T2T_Encode_Enrichment_brain_microvascular_endothelial_cell_H3K27ac
+    priority 206
     shortLabel bmec H3K27ac
     longLabel brain_microvascular_endothelial_cell H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/brain_microvascular_endothelial_cell.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=bmec ab=H3K27ac view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_brain_microvascular_endothelial_cell.H3K27me3
+    track hs1_T2T_Encode_Enrichment_brain_microvascular_endothelial_cell_H3K27me3
+    priority 207
     shortLabel bmec H3K27me3
     longLabel brain_microvascular_endothelial_cell H3K27me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/brain_microvascular_endothelial_cell.H3K27me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=bmec ab=H3K27me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_brain_microvascular_endothelial_cell.H3K36me3
+    track hs1_T2T_Encode_Enrichment_brain_microvascular_endothelial_cell_H3K36me3
+    priority 208
     shortLabel bmec H3K36me3
     longLabel brain_microvascular_endothelial_cell H3K36me3 Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/brain_microvascular_endothelial_cell.H3K36me3.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=bmec ab=H3K36me3 view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_epithelial_cell_of_prostate_male.CTCF
+    track hs1_T2T_Encode_Enrichment_epithelial_cell_of_prostate_male_CTCF
+    priority 209
     shortLabel ecopm CTCF
     longLabel epithelial_cell_of_prostate_male CTCF Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/epithelial_cell_of_prostate_male.CTCF.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=ecopm ab=CTCF view=enrichment
     type bigWig
 
-    track T2T_Encode_Enrichment_epithelial_cell_of_prostate_male.H3K27ac
+    track hs1_T2T_Encode_Enrichment_epithelial_cell_of_prostate_male_H3K27ac
+    priority 210
     shortLabel ecopm H3K27ac
     longLabel epithelial_cell_of_prostate_male H3K27ac Enrichment
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/enrichment/epithelial_cell_of_prostate_male.H3K27ac.chm13v2.0.bw
-    parent T2T_Encode_Enrichment
+    parent hs1_T2T_Encode_Enrichment
     group reg
     subGroups cell=ecopm ab=H3K27ac view=enrichment
     type bigWig
 
-  track T2T_Encode_Peaks
+  track hs1_T2T_Encode_Peaks
+  priority 211
   shortLabel Encode Peaks
   longLabel Encode Peaks
   view peaks
   visibility dense
   type bigBed 6 +
-  parent T2T_Encode
+  parent hs1_T2T_Encode
   group reg
 
-    track T2T_Encode_Peaks_22Rv1.CTCF
+    track hs1_T2T_Encode_Peaks_22Rv1_CTCF
+    priority 212
     shortLabel 22Rv1 CTCF
     longLabel 22Rv1 CTCF Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/22Rv1.CTCF.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=22Rv1 ab=CTCF view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_22Rv1.H3K27ac
+    track hs1_T2T_Encode_Peaks_22Rv1_H3K27ac
+    priority 213
     shortLabel 22Rv1 H3K27ac
     longLabel 22Rv1 H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/22Rv1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=22Rv1 ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_BE2C.H3K27me3
+    track hs1_T2T_Encode_Peaks_BE2C_H3K27me3
+    priority 214
     shortLabel BE2C H3K27me3
     longLabel BE2C H3K27me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/BE2C.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=BE2C ab=H3K27me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_BE2C.H3K36me3
+    track hs1_T2T_Encode_Peaks_BE2C_H3K36me3
+    priority 215
     shortLabel BE2C H3K36me3
     longLabel BE2C H3K36me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/BE2C.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=BE2C ab=H3K36me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_BE2C.H3K4me1
+    track hs1_T2T_Encode_Peaks_BE2C_H3K4me1
+    priority 216
     shortLabel BE2C H3K4me1
     longLabel BE2C H3K4me1 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/BE2C.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=BE2C ab=H3K4me1 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_BE2C.H3K9me3
+    track hs1_T2T_Encode_Peaks_BE2C_H3K9me3
+    priority 217
     shortLabel BE2C H3K9me3
     longLabel BE2C H3K9me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/BE2C.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=BE2C ab=H3K9me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_C4-2B.CTCF
+    track hs1_T2T_Encode_Peaks_C4-2B_CTCF
+    priority 218
     shortLabel C4-2B CTCF
     longLabel C4-2B CTCF Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/C4-2B.CTCF.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=C4-2B ab=CTCF view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_C4-2B.H3K27ac
+    track hs1_T2T_Encode_Peaks_C4-2B_H3K27ac
+    priority 219
     shortLabel C4-2B H3K27ac
     longLabel C4-2B H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/C4-2B.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=C4-2B ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_Caco-2.H3K4me1
+    track hs1_T2T_Encode_Peaks_Caco-2_H3K4me1
+    priority 220
     shortLabel Caco-2 H3K4me1
     longLabel Caco-2 H3K4me1 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/Caco-2.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=Caco-2 ab=H3K4me1 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_Caco-2.H3K9me3
+    track hs1_T2T_Encode_Peaks_Caco-2_H3K9me3
+    priority 221
     shortLabel Caco-2 H3K9me3
     longLabel Caco-2 H3K9me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/Caco-2.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=Caco-2 ab=H3K9me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_HAP-1.H3K27ac
+    track hs1_T2T_Encode_Peaks_HAP-1_H3K27ac
+    priority 222
     shortLabel HAP-1 H3K27ac
     longLabel HAP-1 H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/HAP-1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=HAP-1 ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_HAP-1.H3K27me3
+    track hs1_T2T_Encode_Peaks_HAP-1_H3K27me3
+    priority 223
     shortLabel HAP-1 H3K27me3
     longLabel HAP-1 H3K27me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/HAP-1.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=HAP-1 ab=H3K27me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_HAP-1.H3K36me3
+    track hs1_T2T_Encode_Peaks_HAP-1_H3K36me3
+    priority 224
     shortLabel HAP-1 H3K36me3
     longLabel HAP-1 H3K36me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/HAP-1.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=HAP-1 ab=H3K36me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_HAP-1.H3K4me1
+    track hs1_T2T_Encode_Peaks_HAP-1_H3K4me1
+    priority 225
     shortLabel HAP-1 H3K4me1
     longLabel HAP-1 H3K4me1 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/HAP-1.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=HAP-1 ab=H3K4me1 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_HAP-1.H3K4me3
+    track hs1_T2T_Encode_Peaks_HAP-1_H3K4me3
+    priority 226
     shortLabel HAP-1 H3K4me3
     longLabel HAP-1 H3K4me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/HAP-1.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=HAP-1 ab=H3K4me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_HAP-1.H3K9me3
+    track hs1_T2T_Encode_Peaks_HAP-1_H3K9me3
+    priority 227
     shortLabel HAP-1 H3K9me3
     longLabel HAP-1 H3K9me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/HAP-1.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=HAP-1 ab=H3K9me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_HL-60.H3K27ac
+    track hs1_T2T_Encode_Peaks_HL-60_H3K27ac
+    priority 228
     shortLabel HL-60 H3K27ac
     longLabel HL-60 H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/HL-60.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=HL-60 ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_MG63.H3K27me3
+    track hs1_T2T_Encode_Peaks_MG63_H3K27me3
+    priority 229
     shortLabel MG63 H3K27me3
     longLabel MG63 H3K27me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/MG63.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=MG63 ab=H3K27me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_MG63.H3K36me3
+    track hs1_T2T_Encode_Peaks_MG63_H3K36me3
+    priority 230
     shortLabel MG63 H3K36me3
     longLabel MG63 H3K36me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/MG63.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=MG63 ab=H3K36me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_MG63.H3K4me3
+    track hs1_T2T_Encode_Peaks_MG63_H3K4me3
+    priority 231
     shortLabel MG63 H3K4me3
     longLabel MG63 H3K4me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/MG63.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=MG63 ab=H3K4me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_MG63.H3K9me3
+    track hs1_T2T_Encode_Peaks_MG63_H3K9me3
+    priority 232
     shortLabel MG63 H3K9me3
     longLabel MG63 H3K9me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/MG63.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=MG63 ab=H3K9me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_RWPE1.CTCF
+    track hs1_T2T_Encode_Peaks_RWPE1_CTCF
+    priority 233
     shortLabel RWPE1 CTCF
     longLabel RWPE1 CTCF Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/RWPE1.CTCF.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=RWPE1 ab=CTCF view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_RWPE1.H3K27ac
+    track hs1_T2T_Encode_Peaks_RWPE1_H3K27ac
+    priority 234
     shortLabel RWPE1 H3K27ac
     longLabel RWPE1 H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/RWPE1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=RWPE1 ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_RWPE2.CTCF
+    track hs1_T2T_Encode_Peaks_RWPE2_CTCF
+    priority 235
     shortLabel RWPE2 CTCF
     longLabel RWPE2 CTCF Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/RWPE2.CTCF.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=RWPE2 ab=CTCF view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_RWPE2.H3K27ac
+    track hs1_T2T_Encode_Peaks_RWPE2_H3K27ac
+    priority 236
     shortLabel RWPE2 H3K27ac
     longLabel RWPE2 H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/RWPE2.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=RWPE2 ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_RWPE2.H3K36me3
+    track hs1_T2T_Encode_Peaks_RWPE2_H3K36me3
+    priority 237
     shortLabel RWPE2 H3K36me3
     longLabel RWPE2 H3K36me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/RWPE2.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=RWPE2 ab=H3K36me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJCRH30.H3K27ac
+    track hs1_T2T_Encode_Peaks_SJCRH30_H3K27ac
+    priority 238
     shortLabel SJCRH30 H3K27ac
     longLabel SJCRH30 H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJCRH30.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJCRH30 ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJCRH30.H3K27me3
+    track hs1_T2T_Encode_Peaks_SJCRH30_H3K27me3
+    priority 239
     shortLabel SJCRH30 H3K27me3
     longLabel SJCRH30 H3K27me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJCRH30.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJCRH30 ab=H3K27me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJCRH30.H3K36me3
+    track hs1_T2T_Encode_Peaks_SJCRH30_H3K36me3
+    priority 240
     shortLabel SJCRH30 H3K36me3
     longLabel SJCRH30 H3K36me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJCRH30.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJCRH30 ab=H3K36me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJCRH30.H3K4me1
+    track hs1_T2T_Encode_Peaks_SJCRH30_H3K4me1
+    priority 241
     shortLabel SJCRH30 H3K4me1
     longLabel SJCRH30 H3K4me1 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJCRH30.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJCRH30 ab=H3K4me1 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJCRH30.H3K4me3
+    track hs1_T2T_Encode_Peaks_SJCRH30_H3K4me3
+    priority 242
     shortLabel SJCRH30 H3K4me3
     longLabel SJCRH30 H3K4me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJCRH30.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJCRH30 ab=H3K4me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJCRH30.H3K9me3
+    track hs1_T2T_Encode_Peaks_SJCRH30_H3K9me3
+    priority 243
     shortLabel SJCRH30 H3K9me3
     longLabel SJCRH30 H3K9me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJCRH30.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJCRH30 ab=H3K9me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJSA1.H3K27ac
+    track hs1_T2T_Encode_Peaks_SJSA1_H3K27ac
+    priority 244
     shortLabel SJSA1 H3K27ac
     longLabel SJSA1 H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJSA1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJSA1 ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJSA1.H3K27me3
+    track hs1_T2T_Encode_Peaks_SJSA1_H3K27me3
+    priority 245
     shortLabel SJSA1 H3K27me3
     longLabel SJSA1 H3K27me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJSA1.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJSA1 ab=H3K27me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJSA1.H3K36me3
+    track hs1_T2T_Encode_Peaks_SJSA1_H3K36me3
+    priority 246
     shortLabel SJSA1 H3K36me3
     longLabel SJSA1 H3K36me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJSA1.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJSA1 ab=H3K36me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJSA1.H3K4me3
+    track hs1_T2T_Encode_Peaks_SJSA1_H3K4me3
+    priority 247
     shortLabel SJSA1 H3K4me3
     longLabel SJSA1 H3K4me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJSA1.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJSA1 ab=H3K4me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_SJSA1.H3K9me3
+    track hs1_T2T_Encode_Peaks_SJSA1_H3K9me3
+    priority 248
     shortLabel SJSA1 H3K9me3
     longLabel SJSA1 H3K9me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/SJSA1.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=SJSA1 ab=H3K9me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_VCaP.CTCF
+    track hs1_T2T_Encode_Peaks_VCaP_CTCF
+    priority 249
     shortLabel VCaP CTCF
     longLabel VCaP CTCF Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/VCaP.CTCF.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=VCaP ab=CTCF view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_VCaP.H3K27ac
+    track hs1_T2T_Encode_Peaks_VCaP_H3K27ac
+    priority 250
     shortLabel VCaP H3K27ac
     longLabel VCaP H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/VCaP.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=VCaP ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_brain_microvascular_endothelial_cell.H3K27ac
+    track hs1_T2T_Encode_Peaks_brain_microvascular_endothelial_cell_H3K27ac
+    priority 251
     shortLabel bmec H3K27ac
     longLabel brain_microvascular_endothelial_cell H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/brain_microvascular_endothelial_cell.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=bmec ab=H3K27ac view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_brain_microvascular_endothelial_cell.H3K27me3
+    track hs1_T2T_Encode_Peaks_brain_microvascular_endothelial_cell_H3K27me3
+    priority 252
     shortLabel bmec H3K27me3
     longLabel brain_microvascular_endothelial_cell H3K27me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/brain_microvascular_endothelial_cell.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=bmec ab=H3K27me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_brain_microvascular_endothelial_cell.H3K36me3
+    track hs1_T2T_Encode_Peaks_brain_microvascular_endothelial_cell_H3K36me3
+    priority 253
     shortLabel bmec H3K36me3
     longLabel brain_microvascular_endothelial_cell H3K36me3 Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/brain_microvascular_endothelial_cell.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=bmec ab=H3K36me3 view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_epithelial_cell_of_prostate_male.CTCF
+    track hs1_T2T_Encode_Peaks_epithelial_cell_of_prostate_male_CTCF
+    priority 254
     shortLabel ecopm CTCF
     longLabel epithelial_cell_of_prostate_male CTCF Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/epithelial_cell_of_prostate_male.CTCF.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=ecopm ab=CTCF view=peaks
     type bigBed 6 +
 
-    track T2T_Encode_Peaks_epithelial_cell_of_prostate_male.H3K27ac
+    track hs1_T2T_Encode_Peaks_epithelial_cell_of_prostate_male_H3K27ac
+    priority 255
     shortLabel ecopm H3K27ac
     longLabel epithelial_cell_of_prostate_male H3K27ac Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/peaks/epithelial_cell_of_prostate_male.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_Peaks
+    parent hs1_T2T_Encode_Peaks
     group reg
     subGroups cell=ecopm ab=H3K27ac view=peaks
     type bigBed 6 +
 
-  track T2T_Encode_LOPeaks
+  track hs1_T2T_Encode_LOPeaks
+  priority 256
   shortLabel Encode hg38 LO Peaks
   longLabel Encode hg38 liftover Peaks
   view LOpeaks
   visibility dense
   type bigBed 6 +
-  parent T2T_Encode
+  parent hs1_T2T_Encode
   group reg
 
-    track T2T_Encode_LOPeaks_22Rv1.CTCF
+    track hs1_T2T_Encode_LOPeaks_22Rv1_CTCF
+    priority 257
     shortLabel 22Rv1 CTCF hg38LO
     longLabel 22Rv1 CTCF hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/22Rv1.CTCF.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=22Rv1 ab=CTCF view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_22Rv1.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_22Rv1_H3K27ac
+    priority 258
     shortLabel 22Rv1 H3K27ac hg38LO
     longLabel 22Rv1 H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/22Rv1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=22Rv1 ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_BE2C.H3K27me3
+    track hs1_T2T_Encode_LOPeaks_BE2C_H3K27me3
+    priority 259
     shortLabel BE2C H3K27me3 hg38LO
     longLabel BE2C H3K27me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/BE2C.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=BE2C ab=H3K27me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_BE2C.H3K36me3
+    track hs1_T2T_Encode_LOPeaks_BE2C_H3K36me3
+    priority 260
     shortLabel BE2C H3K36me3 hg38LO
     longLabel BE2C H3K36me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/BE2C.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=BE2C ab=H3K36me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_BE2C.H3K4me1
+    track hs1_T2T_Encode_LOPeaks_BE2C_H3K4me1
+    priority 261
     shortLabel BE2C H3K4me1 hg38LO
     longLabel BE2C H3K4me1 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/BE2C.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=BE2C ab=H3K4me1 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_BE2C.H3K9me3
+    track hs1_T2T_Encode_LOPeaks_BE2C_H3K9me3
+    priority 262
     shortLabel BE2C H3K9me3 hg38LO
     longLabel BE2C H3K9me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/BE2C.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=BE2C ab=H3K9me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_C4-2B.CTCF
+    track hs1_T2T_Encode_LOPeaks_C4-2B_CTCF
+    priority 263
     shortLabel C4-2B CTCF hg38LO
     longLabel C4-2B CTCF hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/C4-2B.CTCF.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=C4-2B ab=CTCF view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_C4-2B.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_C4-2B_H3K27ac
+    priority 264
     shortLabel C4-2B H3K27ac hg38LO
     longLabel C4-2B H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/C4-2B.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=C4-2B ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_Caco-2.H3K4me1
+    track hs1_T2T_Encode_LOPeaks_Caco-2_H3K4me1
+    priority 265
     shortLabel Caco-2 H3K4me1 hg38LO
     longLabel Caco-2 H3K4me1 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/Caco-2.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=Caco-2 ab=H3K4me1 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_Caco-2.H3K9me3
+    track hs1_T2T_Encode_LOPeaks_Caco-2_H3K9me3
+    priority 266
     shortLabel Caco-2 H3K9me3 hg38LO
     longLabel Caco-2 H3K9me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/Caco-2.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=Caco-2 ab=H3K9me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_HAP-1.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_HAP-1_H3K27ac
+    priority 267
     shortLabel HAP-1 H3K27ac hg38LO
     longLabel HAP-1 H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/HAP-1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=HAP-1 ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_HAP-1.H3K27me3
+    track hs1_T2T_Encode_LOPeaks_HAP-1_H3K27me3
+    priority 268
     shortLabel HAP-1 H3K27me3 hg38LO
     longLabel HAP-1 H3K27me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/HAP-1.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=HAP-1 ab=H3K27me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_HAP-1.H3K36me3
+    track hs1_T2T_Encode_LOPeaks_HAP-1_H3K36me3
+    priority 269
     shortLabel HAP-1 H3K36me3 hg38LO
     longLabel HAP-1 H3K36me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/HAP-1.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=HAP-1 ab=H3K36me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_HAP-1.H3K4me1
+    track hs1_T2T_Encode_LOPeaks_HAP-1_H3K4me1
+    priority 270
     shortLabel HAP-1 H3K4me1 hg38LO
     longLabel HAP-1 H3K4me1 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/HAP-1.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=HAP-1 ab=H3K4me1 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_HAP-1.H3K4me3
+    track hs1_T2T_Encode_LOPeaks_HAP-1_H3K4me3
+    priority 271
     shortLabel HAP-1 H3K4me3 hg38LO
     longLabel HAP-1 H3K4me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/HAP-1.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=HAP-1 ab=H3K4me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_HAP-1.H3K9me3
+    track hs1_T2T_Encode_LOPeaks_HAP-1_H3K9me3
+    priority 272
     shortLabel HAP-1 H3K9me3 hg38LO
     longLabel HAP-1 H3K9me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/HAP-1.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=HAP-1 ab=H3K9me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_HL-60.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_HL-60_H3K27ac
+    priority 273
     shortLabel HL-60 H3K27ac hg38LO
     longLabel HL-60 H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/HL-60.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=HL-60 ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_MG63.H3K27me3
+    track hs1_T2T_Encode_LOPeaks_MG63_H3K27me3
+    priority 274
     shortLabel MG63 H3K27me3 hg38LO
     longLabel MG63 H3K27me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/MG63.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=MG63 ab=H3K27me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_MG63.H3K36me3
+    track hs1_T2T_Encode_LOPeaks_MG63_H3K36me3
+    priority 275
     shortLabel MG63 H3K36me3 hg38LO
     longLabel MG63 H3K36me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/MG63.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=MG63 ab=H3K36me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_MG63.H3K4me3
+    track hs1_T2T_Encode_LOPeaks_MG63_H3K4me3
+    priority 276
     shortLabel MG63 H3K4me3 hg38LO
     longLabel MG63 H3K4me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/MG63.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=MG63 ab=H3K4me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_MG63.H3K9me3
+    track hs1_T2T_Encode_LOPeaks_MG63_H3K9me3
+    priority 277
     shortLabel MG63 H3K9me3 hg38LO
     longLabel MG63 H3K9me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/MG63.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=MG63 ab=H3K9me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_RWPE1.CTCF
+    track hs1_T2T_Encode_LOPeaks_RWPE1_CTCF
+    priority 278
     shortLabel RWPE1 CTCF hg38LO
     longLabel RWPE1 CTCF hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/RWPE1.CTCF.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=RWPE1 ab=CTCF view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_RWPE1.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_RWPE1_H3K27ac
+    priority 279
     shortLabel RWPE1 H3K27ac hg38LO
     longLabel RWPE1 H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/RWPE1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=RWPE1 ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_RWPE2.CTCF
+    track hs1_T2T_Encode_LOPeaks_RWPE2_CTCF
+    priority 280
     shortLabel RWPE2 CTCF hg38LO
     longLabel RWPE2 CTCF hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/RWPE2.CTCF.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=RWPE2 ab=CTCF view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_RWPE2.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_RWPE2_H3K27ac
+    priority 281
     shortLabel RWPE2 H3K27ac hg38LO
     longLabel RWPE2 H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/RWPE2.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=RWPE2 ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_RWPE2.H3K36me3
+    track hs1_T2T_Encode_LOPeaks_RWPE2_H3K36me3
+    priority 282
     shortLabel RWPE2 H3K36me3 hg38LO
     longLabel RWPE2 H3K36me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/RWPE2.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=RWPE2 ab=H3K36me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJCRH30.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_SJCRH30_H3K27ac
+    priority 283
     shortLabel SJCRH30 H3K27ac hg38LO
     longLabel SJCRH30 H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJCRH30.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJCRH30 ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJCRH30.H3K27me3
+    track hs1_T2T_Encode_LOPeaks_SJCRH30_H3K27me3
+    priority 284
     shortLabel SJCRH30 H3K27me3 hg38LO
     longLabel SJCRH30 H3K27me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJCRH30.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJCRH30 ab=H3K27me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJCRH30.H3K36me3
+    track hs1_T2T_Encode_LOPeaks_SJCRH30_H3K36me3
+    priority 285
     shortLabel SJCRH30 H3K36me3 hg38LO
     longLabel SJCRH30 H3K36me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJCRH30.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJCRH30 ab=H3K36me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJCRH30.H3K4me1
+    track hs1_T2T_Encode_LOPeaks_SJCRH30_H3K4me1
+    priority 286
     shortLabel SJCRH30 H3K4me1 hg38LO
     longLabel SJCRH30 H3K4me1 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJCRH30.H3K4me1.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJCRH30 ab=H3K4me1 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJCRH30.H3K4me3
+    track hs1_T2T_Encode_LOPeaks_SJCRH30_H3K4me3
+    priority 287
     shortLabel SJCRH30 H3K4me3 hg38LO
     longLabel SJCRH30 H3K4me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJCRH30.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJCRH30 ab=H3K4me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJCRH30.H3K9me3
+    track hs1_T2T_Encode_LOPeaks_SJCRH30_H3K9me3
+    priority 288
     shortLabel SJCRH30 H3K9me3 hg38LO
     longLabel SJCRH30 H3K9me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJCRH30.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJCRH30 ab=H3K9me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJSA1.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_SJSA1_H3K27ac
+    priority 289
     shortLabel SJSA1 H3K27ac hg38LO
     longLabel SJSA1 H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJSA1.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJSA1 ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJSA1.H3K27me3
+    track hs1_T2T_Encode_LOPeaks_SJSA1_H3K27me3
+    priority 290
     shortLabel SJSA1 H3K27me3 hg38LO
     longLabel SJSA1 H3K27me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJSA1.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJSA1 ab=H3K27me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJSA1.H3K36me3
+    track hs1_T2T_Encode_LOPeaks_SJSA1_H3K36me3
+    priority 291
     shortLabel SJSA1 H3K36me3 hg38LO
     longLabel SJSA1 H3K36me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJSA1.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJSA1 ab=H3K36me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJSA1.H3K4me3
+    track hs1_T2T_Encode_LOPeaks_SJSA1_H3K4me3
+    priority 292
     shortLabel SJSA1 H3K4me3 hg38LO
     longLabel SJSA1 H3K4me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJSA1.H3K4me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJSA1 ab=H3K4me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_SJSA1.H3K9me3
+    track hs1_T2T_Encode_LOPeaks_SJSA1_H3K9me3
+    priority 293
     shortLabel SJSA1 H3K9me3 hg38LO
     longLabel SJSA1 H3K9me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/SJSA1.H3K9me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=SJSA1 ab=H3K9me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_VCaP.CTCF
+    track hs1_T2T_Encode_LOPeaks_VCaP_CTCF
+    priority 294
     shortLabel VCaP CTCF hg38LO
     longLabel VCaP CTCF hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/VCaP.CTCF.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=VCaP ab=CTCF view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_VCaP.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_VCaP_H3K27ac
+    priority 295
     shortLabel VCaP H3K27ac hg38LO
     longLabel VCaP H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/VCaP.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=VCaP ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_brain_microvascular_endothelial_cell.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_brain_microvascular_endothelial_cell_H3K27ac
+    priority 296
     shortLabel bmec H3K27ac hg38LO
     longLabel brain_microvascular_endothelial_cell H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/brain_microvascular_endothelial_cell.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=bmec ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_brain_microvascular_endothelial_cell.H3K27me3
+    track hs1_T2T_Encode_LOPeaks_brain_microvascular_endothelial_cell_H3K27me3
+    priority 297
     shortLabel bmec H3K27me3 hg38LO
     longLabel brain_microvascular_endothelial_cell H3K27me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/brain_microvascular_endothelial_cell.H3K27me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=bmec ab=H3K27me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_brain_microvascular_endothelial_cell.H3K36me3
+    track hs1_T2T_Encode_LOPeaks_brain_microvascular_endothelial_cell_H3K36me3
+    priority 298
     shortLabel bmec H3K36me3 hg38LO
     longLabel brain_microvascular_endothelial_cell H3K36me3 hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/brain_microvascular_endothelial_cell.H3K36me3.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=bmec ab=H3K36me3 view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_epithelial_cell_of_prostate_male.CTCF
+    track hs1_T2T_Encode_LOPeaks_epithelial_cell_of_prostate_male_CTCF
+    priority 299
     shortLabel ecopm CTCF hg38LO
     longLabel epithelial_cell_of_prostate_male CTCF hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/epithelial_cell_of_prostate_male.CTCF.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=ecopm ab=CTCF view=LOpeaks
     type bigBed 6 +
 
-    track T2T_Encode_LOPeaks_epithelial_cell_of_prostate_male.H3K27ac
+    track hs1_T2T_Encode_LOPeaks_epithelial_cell_of_prostate_male_H3K27ac
+    priority 300
     shortLabel ecopm H3K27ac hg38LO
     longLabel epithelial_cell_of_prostate_male H3K27ac hg38 liftover Macs2 Peaks
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/009/914/755/GCA_009914755.4/bbi/GCA_009914755.4_T2T-CHM13v2.0.encode/LO_peaks/epithelial_cell_of_prostate_male.H3K27ac.chm13v2.0.bb
-    parent T2T_Encode_LOPeaks
+    parent hs1_T2T_Encode_LOPeaks
     group reg
     subGroups cell=ecopm ab=H3K27ac view=LOpeaks
     type bigBed 6 +
 
-track repliSeq
+track hs1_repliSeq
 superTrack on
 visibility full
 shortLabel Repli-Seq
@@ -1951,18 +2145,20 @@ maxHeightPixels 100:32:16
 autoScale on
 graphTypeDefault bar
 gridDefault on
-priority 66
+priority 301
 
-  track repliSeq_GM12878
+  track hs1_repliSeq_GM12878
+  priority 302
   shortLabel Repli-Seq GM12878
   longLabel Replication Sequencing from GM12878, 4DN
   bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/repliSeq_GM12878_v1.bw
-  parent repliSeq
+  parent hs1_repliSeq
   group reg
 
-  track repliSeq_HFFc6
+  track hs1_repliSeq_HFFc6
+  priority 303
   shortLabel Repli-Seq HFFc6
   longLabel Replication Sequencing from HFFc6, 4DN
   bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/repliSeq_HFFc6_v1.bw
-  parent repliSeq
+  parent hs1_repliSeq
   group reg

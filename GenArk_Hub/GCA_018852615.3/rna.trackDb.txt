@@ -4,7 +4,7 @@
 # the bigBed/bigWig scripts (e.g. samtools view filtered by this haplotype's
 # contig list from chromAlias).
 
-track HG002v1.1_Kinnex
+track GCA_018852615_3_HG002v1_1_Kinnex
 group rna
 shortLabel HG002 Kinnex Iso-seq
 longLabel HG002 Kinnex Iso-seq October 2024
@@ -17,9 +17,9 @@ bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/rnaseq/PBKinnex/Oct2024/hg002_kinnex_merged_flnc.v1.1.pbmm2.bam
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/rnaseq/PBKinnex/Oct2024/kinnex_browser_description.html
-priority 5.1
+priority 57
 
-track HG002v1.1_MAS-Seq
+track GCA_018852615_3_HG002v1_1_MAS-Seq
 group rna
 shortLabel HG002 MAS-Seq
 longLabel HG002 MAS-Seq Single Cell May 2023
@@ -32,5 +32,5 @@ bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/rnaseq/PBMASSeqSC/May2023/hg002_masseq_sq2.v1.1.pbmm2.bam
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/HG002/assemblies/annotation/rnaseq/PBMASSeqSC/May2023/massq2_browser_description.html
-priority 5.2
+priority 58
 

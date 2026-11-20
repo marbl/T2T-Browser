@@ -1,5 +1,5 @@
 
-track gc5Base
+track GCA_018852605_3_gc5Base
 shortLabel GC Percent
 longLabel GC Percent in 5-Base Windows
 group genark
@@ -17,7 +17,7 @@ bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/html/GCA_018852605.2_ASM1885260v2.gc5Base
 priority 3
 
-track cpgIslands
+track GCA_018852605_3_cpgIslands
 compositeTrack on
 shortLabel CpG Islands
 longLabel CpG Islands
@@ -27,8 +27,8 @@ type bigBed 4 +
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/html/CpGIslandsTrack.html
 priority 4
 
-    track cpgIslandExt
-    parent cpgIslands off
+    track GCA_018852605_3_cpgIslandExt
+    parent GCA_018852605_3_cpgIslands off
     group genark
     shortLabel CpG Islands
     longLabel CpG Islands
@@ -36,8 +36,8 @@ priority 4
     priority 4.1
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/bbi/GCA_018852605.2_ASM1885260v2.cpgIslandExt.bb
 
-    track cpgIslandExtUnmasked
-    parent cpgIslands on
+    track GCA_018852605_3_cpgIslandExtUnmasked
+    parent GCA_018852605_3_cpgIslands on
     group genark
     shortLabel Unmasked CpG
     longLabel CpG Islands on All Sequence
@@ -45,7 +45,7 @@ priority 4
     priority 4.2
     bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/bbi/GCA_018852605.2_ASM1885260v2.cpgIslandExtUnmasked.bb
 
-track augustus
+track GCA_018852605_3_augustus
 shortLabel Augustus
 longLabel Augustus Gene Predictions
 group genark
@@ -55,7 +55,7 @@ type bigGenePred
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/bbi/GCA_018852605.2_ASM1885260v2.augustus.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/html/GCA_018852605.2_ASM1885260v2.augustus
 
-track xenoRefGene
+track GCA_018852605_3_xenoRefGene
 shortLabel RefSeq mRNAs
 longLabel RefSeq mRNAs mapped to this assembly
 group genark
@@ -71,7 +71,7 @@ searchIndex name
 searchTrix https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/ixIxx/GCA_018852605.2_ASM1885260v2.xenoRefGene.ix
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/html/GCA_018852605.2_ASM1885260v2.xenoRefGene
 
-track simpleRepeat
+track GCA_018852605_3_simpleRepeat
 shortLabel Simple Repeats
 longLabel Simple Tandem Repeats by TRF
 group genark
@@ -81,7 +81,7 @@ priority 4.3
 bigDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/bbi/GCA_018852605.2_ASM1885260v2.simpleRepeat.bb
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/html/simpleRepeatsTrack.html
 
-track repeatMasker
+track GCA_018852605_3_repeatMasker
 shortLabel RepeatMasker
 longLabel RepeatMasker Repetitive Elements
 type bigRmsk 9 +
@@ -93,7 +93,7 @@ xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2
 maxWindowToDraw 5000000
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/html/GCA_018852605.2_ASM1885260v2.repeatMasker
 
-track repeatModeler
+track GCA_018852605_3_repeatModeler
 shortLabel RepeatModeler
 longLabel RepeatModeler Repetitive Elements
 type bigRmsk 9 +
@@ -105,7 +105,7 @@ xrefDataUrl https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2
 maxWindowToDraw 5000000
 html https://hgdownload.soe.ucsc.edu/hubs/GCA/018/852/605/GCA_018852605.2/html/GCA_018852605.2_ASM1885260v2.repeatModeler
 
-track windowMasker
+track GCA_018852605_3_windowMasker
 shortLabel WM + SDust
 longLabel Genomic Intervals Masked by WindowMasker + SDust
 group genark

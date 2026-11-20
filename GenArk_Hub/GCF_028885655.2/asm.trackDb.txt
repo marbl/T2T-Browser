@@ -1,4 +1,4 @@
-track feature
+track GCF_028885655_2_feature
 shortLabel Genome Feature
 longLabel Genome Feature
 group asm
@@ -8,9 +8,9 @@ type bigBed 9
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/pattern/mPonAbe1_v2.0.GenomeFeature_v1.0.bb
 html ../html/genomeFeature.html
 mouseOverField name
-priority 11
+priority 1
 
-track gc5Base
+track GCF_028885655_2_gc5Base
 shortLabel GC Percent
 longLabel GC Percent in 5-Base Windows
 group asm
@@ -26,9 +26,9 @@ viewLimits 30:70
 type bigWig 0 100
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/pattern/mPonAbe1_v2.0.gc5Base.bw
 html ../html/gc5Base.html
-priority 12
+priority 2
 
-track microsatellites
+track GCF_028885655_2_microsatellites
 compositeTrack on
 visibility hide
 shortLabel Microsatellites
@@ -42,59 +42,59 @@ autoScale off
 alwaysZero on
 graphTypeDefault points
 gridDefault on
-priority 13
+priority 3
 
-    track microsatellites_GA
-    parent microsatellites
+    track GCF_028885655_2_microsatellites_GA
+    parent GCF_028885655_2_microsatellites
     group asm
     shortLabel GA
     longLabel GA Microsatellite Repeats
     type bigWig
     color 83,105,255
-    priority 13.1
+    priority 4
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/pattern/mPonAbe1_v2.0/mPonAbe1_v2.0.microsatellite.GA.128.bw
 
-    track microsatellites_TC
-    parent microsatellites
+    track GCF_028885655_2_microsatellites_TC
+    parent GCF_028885655_2_microsatellites
     group asm
     shortLabel TC
     longLabel TC Microsatellite Repeats
     type bigWig
     color 102,0,102
-    priority 13.2
+    priority 5
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/pattern/mPonAbe1_v2.0/mPonAbe1_v2.0.microsatellite.TC.128.bw
 
-    track microsatellites_GC
-    parent microsatellites
+    track GCF_028885655_2_microsatellites_GC
+    parent GCF_028885655_2_microsatellites
     group asm
     shortLabel GC
     longLabel GC Microsatellite Repeats
     type bigWig
     color 188,115,19
-    priority 13.3
+    priority 6
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/pattern/mPonAbe1_v2.0/mPonAbe1_v2.0.microsatellite.GC.128.bw
 
-    track microsatellites_AT
-    parent microsatellites
+    track GCF_028885655_2_microsatellites_AT
+    parent GCF_028885655_2_microsatellites
     group asm
     shortLabel AT
     longLabel AT Microsatellite Repeats
     type bigWig
     color 51,102,0
-    priority 13.4
+    priority 7
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/pattern/mPonAbe1_v2.0/mPonAbe1_v2.0.microsatellite.AT.128.bw
 
-track validation
+track GCF_028885655_2_validation
 shortLabel Validation
 longLabel Validation
 superTrack on
 visibility hide
 group asm
 html ../html/readCoverage.html
-priority 18
+priority 8
 
-    track readCoverageHiFi
-    parent validation
+    track GCF_028885655_2_readCoverageHiFi
+    parent GCF_028885655_2_validation
     group asm
     shortLabel HiFi Coverage
     longLabel HiFi primary alignment, mapped to both haplotypes
@@ -106,10 +106,10 @@ priority 18
     color 255,182,193
     type bigWig 0 130
     html ../html/readCoverage.html
-    priority 18.1
+    priority 9
 
-    track issuesHiFi
-    parent validation
+    track GCF_028885655_2_issuesHiFi
+    parent GCF_028885655_2_validation
     group asm
     shortLabel HiFi Issues
     longLabel Assembly Issues by HiFi
@@ -119,10 +119,10 @@ priority 18
     type bigBed 9
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/issues/mPonAbe1_v2.0.dip.HiFi.pri.issues.bb
     html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
-    priority 18.2
+    priority 10
 
-    track readCoverageONT
-    parent validation
+    track GCF_028885655_2_readCoverageONT
+    parent GCF_028885655_2_validation
     group asm
     shortLabel ONT Coverage
     longLabel  ONT primary alignment, mapped to both haplotypes
@@ -134,10 +134,10 @@ priority 18
     color 173,216,230
     type bigWig 0 180
     html ../html/readCoverage.html
-    priority 18.3
+    priority 11
     
-    track issuesONT
-    parent validation
+    track GCF_028885655_2_issuesONT
+    parent GCF_028885655_2_validation
     group asm
     shortLabel ONT Issues
     longLabel Assembly Issues by ONT
@@ -147,5 +147,5 @@ priority 18
     type bigBed 9
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/issues/mPonAbe1_v2.0.dip.ONT.pri.issues.bb
     html https://raw.githubusercontent.com/marbl/CHM13-issues/main/description.html
-    priority 18.4
+    priority 12
 

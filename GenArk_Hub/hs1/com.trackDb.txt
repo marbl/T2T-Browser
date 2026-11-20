@@ -1,4 +1,4 @@
-track wfmash
+track hs1_wfmash
 superTrack on show
 visibility dense
 shortLabel WFMASH
@@ -6,10 +6,10 @@ longLabel wfmash v0.13.0 16-way chain
 group compGeno
 type bigChain
 mouseOverField name
-priority 100
+priority 671
 
-	track wfmashGRCh38
-	parent wfmash
+	track hs1_wfmashGRCh38
+	parent hs1_wfmash
 	group compGeno
 	type bigChain hg38
 	shortLabel GRCh38
@@ -20,7 +20,7 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.GRCh38.bigChain.link.bb
 	otherDb hg38
 	otherTwoBitUrl https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.2bit
-	priority 101
+	priority 672
 
         # turning off HG002 mat/pat wfmash track since v1.0.1 genome is no longer in browser and we don't have alignments to v1.1
 	#track wfmashHG002mat
@@ -51,8 +51,8 @@ priority 100
 	#otherTwoBitUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/HG002/v1.0/2bit/hg002v1.0.pat.2bit
 	#priority 110
 
-	track wfmashmGorGor1mat
-	parent wfmash
+	track hs1_wfmashmGorGor1mat
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028885495.2
 	shortLabel mGorGor1#mat
@@ -63,10 +63,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1mat.bigChain.link.bb
 	otherDb GCA_028885495.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
-	priority 120
+	priority 673
 
-	track wfmashmGorGor1pat
-	parent wfmash
+	track hs1_wfmashmGorGor1pat
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028885475.2
 	shortLabel mGorGor1#pat
@@ -77,10 +77,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mGorGor1pat.bigChain.link.bb
 	otherDb GCA_028885475.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/mGorGor1_v2.0.2bit
-	priority 120
+	priority 674
 
-	track wfmashmPanPan1mat
-	parent wfmash
+	track hs1_wfmashmPanPan1mat
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028858845.2
 	shortLabel mPanPan1#mat
@@ -91,10 +91,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1mat.bigChain.link.bb
 	otherDb GCA_028858845.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
-	priority 120
+	priority 675
 
-	track wfmashmPanPan1pat
-	parent wfmash
+	track hs1_wfmashmPanPan1pat
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028858825.2
 	shortLabel mPanPan1#pat
@@ -105,10 +105,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanPan1pat.bigChain.link.bb
 	otherDb GCA_028858825.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_paniscus/mPanPan1/assembly_curated/mPanPan1_v2.0.2bit
-	priority 120
+	priority 676
 
-	track wfmashmPanTro3hap1
-	parent wfmash
+	track hs1_wfmashmPanTro3hap1
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCF_028858775.2
 	shortLabel mPanTro3#hap1
@@ -119,10 +119,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap1.bigChain.link.bb
 	otherDb GCF_028858775.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
-	priority 120
+	priority 677
 
-	track wfmashmPanTro3hap2
-	parent wfmash
+	track hs1_wfmashmPanTro3hap2
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028858805.2
 	shortLabel mPanTro3#hap2
@@ -133,10 +133,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPanTro3hap2.bigChain.link.bb
 	otherDb GCA_028858805.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pan_troglodytes/mPanTro3/assembly_curated/mPanTro3_v2.0.2bit
-	priority 120
+	priority 678
 
-	track wfmashmPonAbe1hap1
-	parent wfmash
+	track hs1_wfmashmPonAbe1hap1
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCF_028885655.2
 	shortLabel mPonAbe1#hap1
@@ -147,10 +147,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap1.bigChain.link.bb
 	otherDb GCF_028885655.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
-	priority 120
+	priority 679
 
-	track wfmashmPonAbe1hap2
-	parent wfmash
+	track hs1_wfmashmPonAbe1hap2
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028885685.2
 	shortLabel mPonAbe1#hap2
@@ -161,10 +161,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonAbe1hap2.bigChain.link.bb
 	otherDb GCA_028885685.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/mPonAbe1_v2.0.2bit
-	priority 120
+	priority 680
 
-	track wfmashmPonPyg2hap1
-	parent wfmash
+	track hs1_wfmashmPonPyg2hap1
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCF_028885625.2
 	shortLabel mPonPyg2#hap1
@@ -175,10 +175,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap1.bigChain.link.bb
 	otherDb GCF_028885625.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
-	priority 120
+	priority 681
 
-	track wfmashmPonPyg2hap2
-	parent wfmash
+	track hs1_wfmashmPonPyg2hap2
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028885525.2
 	shortLabel mPonPyg2#hap2
@@ -189,10 +189,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mPonPyg2hap2.bigChain.link.bb
 	otherDb GCA_028885525.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Pongo_pygmaeus/mPonPyg2/assembly_curated/mPonPyg2_v2.0.2bit
-	priority 120
+	priority 682
 
-	track wfmashmSymSyn1hap1
-	parent wfmash
+	track hs1_wfmashmSymSyn1hap1
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028878055.2
 	shortLabel mSymSyn1#hap1
@@ -203,10 +203,10 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap1.bigChain.link.bb
 	otherDb GCA_028878055.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
-	priority 120
+	priority 683
 
-	track wfmashmSymSyn1hap2
-	parent wfmash
+	track hs1_wfmashmSymSyn1hap2
+	parent hs1_wfmash
 	group compGeno
 	type bigChain GCA_028878085.2
 	shortLabel mSymSyn1#hap2
@@ -217,9 +217,9 @@ priority 100
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0.mSymSyn1hap2.bigChain.link.bb
 	otherDb GCA_028878085.2
 	otherTwoBitUrl https://genomeark.s3.amazonaws.com/species/Symphalangus_syndactylus/mSymSyn1/assembly_curated/mSymSyn1_v2.0.2bit
-	priority 120
+	priority 684
 
-track wfmashHPRCy1
+track hs1_wfmashHPRCy1
 superTrack on
 visibility hide
 shortLabel WFMASH-HPRCy1
@@ -228,11 +228,11 @@ group compGeno
 type bigChain
 mouseOverField name
 html https://raw.githubusercontent.com/T2T-apes/ape_pangenome/main/alignment/wfmash.html
-priority 130
+priority 685
 # 130-
 
-	track wfmashHPRCy1HG002hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG002hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG002#hap1
 	shortLabel HG002#hap1
@@ -241,10 +241,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 131
+	priority 686
 
-	track wfmashHPRCy1HG002hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG002hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG002#hap2
 	shortLabel HG002#hap2
@@ -253,10 +253,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG002hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 132
+	priority 687
 
-	track wfmashHPRCy1HG00438hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00438hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00438#hap1
 	shortLabel HG00438#hap1
@@ -265,10 +265,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 133
+	priority 688
 
-	track wfmashHPRCy1HG00438hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00438hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00438#hap2
 	shortLabel HG00438#hap2
@@ -277,10 +277,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00438hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 134
+	priority 689
 
-	track wfmashHPRCy1HG005hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG005hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG005#hap1
 	shortLabel HG005#hap1
@@ -289,10 +289,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 135
+	priority 690
 
-	track wfmashHPRCy1HG005hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG005hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG005#hap2
 	shortLabel HG005#hap2
@@ -301,10 +301,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG005hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 136
+	priority 691
 
-	track wfmashHPRCy1HG00621hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00621hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00621#hap1
 	shortLabel HG00621#hap1
@@ -313,10 +313,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 137
+	priority 692
 
-	track wfmashHPRCy1HG00621hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00621hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00621#hap2
 	shortLabel HG00621#hap2
@@ -325,10 +325,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00621hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 138
+	priority 693
 
-	track wfmashHPRCy1HG00673hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00673hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00673#hap1
 	shortLabel HG00673#hap1
@@ -337,10 +337,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 139
+	priority 694
 
-	track wfmashHPRCy1HG00673hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00673hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00673#hap2
 	shortLabel HG00673#hap2
@@ -349,10 +349,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00673hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 140
+	priority 695
 
-	track wfmashHPRCy1HG00733hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00733hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00733#hap1
 	shortLabel HG00733#hap1
@@ -361,10 +361,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 141
+	priority 696
 
-	track wfmashHPRCy1HG00733hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00733hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00733#hap2
 	shortLabel HG00733#hap2
@@ -373,10 +373,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00733hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 142
+	priority 697
 
-	track wfmashHPRCy1HG00735hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00735hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00735#hap1
 	shortLabel HG00735#hap1
@@ -385,10 +385,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 143
+	priority 698
 
-	track wfmashHPRCy1HG00735hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00735hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00735#hap2
 	shortLabel HG00735#hap2
@@ -397,10 +397,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00735hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 144
+	priority 699
 
-	track wfmashHPRCy1HG00741hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00741hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00741#hap1
 	shortLabel HG00741#hap1
@@ -409,10 +409,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 145
+	priority 700
 
-	track wfmashHPRCy1HG00741hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG00741hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG00741#hap2
 	shortLabel HG00741#hap2
@@ -421,10 +421,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG00741hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 146
+	priority 701
 
-	track wfmashHPRCy1HG01071hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01071hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01071#hap1
 	shortLabel HG01071#hap1
@@ -433,10 +433,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 147
+	priority 702
 
-	track wfmashHPRCy1HG01071hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01071hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01071#hap2
 	shortLabel HG01071#hap2
@@ -445,10 +445,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01071hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 148
+	priority 703
 
-	track wfmashHPRCy1HG01106hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01106hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01106#hap1
 	shortLabel HG01106#hap1
@@ -457,10 +457,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 149
+	priority 704
 
-	track wfmashHPRCy1HG01106hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01106hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01106#hap2
 	shortLabel HG01106#hap2
@@ -469,10 +469,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01106hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 150
+	priority 705
 
-	track wfmashHPRCy1HG01109hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01109hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01109#hap1
 	shortLabel HG01109#hap1
@@ -481,10 +481,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 151
+	priority 706
 
-	track wfmashHPRCy1HG01109hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01109hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01109#hap2
 	shortLabel HG01109#hap2
@@ -493,10 +493,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01109hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 152
+	priority 707
 
-	track wfmashHPRCy1HG01123hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01123hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01123#hap1
 	shortLabel HG01123#hap1
@@ -505,10 +505,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 153
+	priority 708
 
-	track wfmashHPRCy1HG01123hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01123hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01123#hap2
 	shortLabel HG01123#hap2
@@ -517,10 +517,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01123hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 154
+	priority 709
 
-	track wfmashHPRCy1HG01175hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01175hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01175#hap1
 	shortLabel HG01175#hap1
@@ -529,10 +529,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 155
+	priority 710
 
-	track wfmashHPRCy1HG01175hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01175hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01175#hap2
 	shortLabel HG01175#hap2
@@ -541,10 +541,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01175hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 156
+	priority 711
 
-	track wfmashHPRCy1HG01243hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01243hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01243#hap1
 	shortLabel HG01243#hap1
@@ -553,10 +553,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 157
+	priority 712
 
-	track wfmashHPRCy1HG01243hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01243hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01243#hap2
 	shortLabel HG01243#hap2
@@ -565,10 +565,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01243hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 158
+	priority 713
 
-	track wfmashHPRCy1HG01258hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01258hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01258#hap1
 	shortLabel HG01258#hap1
@@ -577,10 +577,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 159
+	priority 714
 
-	track wfmashHPRCy1HG01258hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01258hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01258#hap2
 	shortLabel HG01258#hap2
@@ -589,10 +589,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01258hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 160
+	priority 715
 
-	track wfmashHPRCy1HG01358hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01358hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01358#hap1
 	shortLabel HG01358#hap1
@@ -601,10 +601,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 161
+	priority 716
 
-	track wfmashHPRCy1HG01358hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01358hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01358#hap2
 	shortLabel HG01358#hap2
@@ -613,10 +613,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01358hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 162
+	priority 717
 
-	track wfmashHPRCy1HG01361hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01361hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01361#hap1
 	shortLabel HG01361#hap1
@@ -625,10 +625,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 163
+	priority 718
 
-	track wfmashHPRCy1HG01361hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01361hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01361#hap2
 	shortLabel HG01361#hap2
@@ -637,10 +637,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01361hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 164
+	priority 719
 
-	track wfmashHPRCy1HG01891hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01891hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01891#hap1
 	shortLabel HG01891#hap1
@@ -649,10 +649,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 165
+	priority 720
 
-	track wfmashHPRCy1HG01891hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01891hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01891#hap2
 	shortLabel HG01891#hap2
@@ -661,10 +661,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01891hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 166
+	priority 721
 
-	track wfmashHPRCy1HG01928hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01928hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01928#hap1
 	shortLabel HG01928#hap1
@@ -673,10 +673,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 167
+	priority 722
 
-	track wfmashHPRCy1HG01928hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01928hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01928#hap2
 	shortLabel HG01928#hap2
@@ -685,10 +685,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01928hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 168
+	priority 723
 
-	track wfmashHPRCy1HG01952hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01952hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01952#hap1
 	shortLabel HG01952#hap1
@@ -697,10 +697,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 169
+	priority 724
 
-	track wfmashHPRCy1HG01952hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01952hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01952#hap2
 	shortLabel HG01952#hap2
@@ -709,10 +709,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01952hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 170
+	priority 725
 
-	track wfmashHPRCy1HG01978hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01978hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01978#hap1
 	shortLabel HG01978#hap1
@@ -721,10 +721,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 171
+	priority 726
 
-	track wfmashHPRCy1HG01978hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG01978hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG01978#hap2
 	shortLabel HG01978#hap2
@@ -733,10 +733,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG01978hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 172
+	priority 727
 
-	track wfmashHPRCy1HG02055hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02055hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02055#hap1
 	shortLabel HG02055#hap1
@@ -745,10 +745,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 173
+	priority 728
 
-	track wfmashHPRCy1HG02055hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02055hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02055#hap2
 	shortLabel HG02055#hap2
@@ -757,10 +757,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02055hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 174
+	priority 729
 
-	track wfmashHPRCy1HG02080hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02080hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02080#hap1
 	shortLabel HG02080#hap1
@@ -769,10 +769,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 175
+	priority 730
 
-	track wfmashHPRCy1HG02080hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02080hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02080#hap2
 	shortLabel HG02080#hap2
@@ -781,10 +781,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02080hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 176
+	priority 731
 
-	track wfmashHPRCy1HG02109hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02109hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02109#hap1
 	shortLabel HG02109#hap1
@@ -793,10 +793,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 177
+	priority 732
 
-	track wfmashHPRCy1HG02109hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02109hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02109#hap2
 	shortLabel HG02109#hap2
@@ -805,10 +805,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02109hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 178
+	priority 733
 
-	track wfmashHPRCy1HG02145hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02145hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02145#hap1
 	shortLabel HG02145#hap1
@@ -817,10 +817,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 179
+	priority 734
 
-	track wfmashHPRCy1HG02145hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02145hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02145#hap2
 	shortLabel HG02145#hap2
@@ -829,10 +829,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02145hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 180
+	priority 735
 
-	track wfmashHPRCy1HG02148hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02148hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02148#hap1
 	shortLabel HG02148#hap1
@@ -841,10 +841,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 181
+	priority 736
 
-	track wfmashHPRCy1HG02148hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02148hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02148#hap2
 	shortLabel HG02148#hap2
@@ -853,10 +853,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02148hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 182
+	priority 737
 
-	track wfmashHPRCy1HG02257hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02257hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02257#hap1
 	shortLabel HG02257#hap1
@@ -865,10 +865,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 183
+	priority 738
 
-	track wfmashHPRCy1HG02257hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02257hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02257#hap2
 	shortLabel HG02257#hap2
@@ -877,10 +877,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02257hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 184
+	priority 739
 
-	track wfmashHPRCy1HG02486hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02486hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02486#hap1
 	shortLabel HG02486#hap1
@@ -889,10 +889,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 185
+	priority 740
 
-	track wfmashHPRCy1HG02486hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02486hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02486#hap2
 	shortLabel HG02486#hap2
@@ -901,10 +901,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02486hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 186
+	priority 741
 
-	track wfmashHPRCy1HG02559hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02559hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02559#hap1
 	shortLabel HG02559#hap1
@@ -913,10 +913,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 187
+	priority 742
 
-	track wfmashHPRCy1HG02559hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02559hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02559#hap2
 	shortLabel HG02559#hap2
@@ -925,10 +925,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02559hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 188
+	priority 743
 
-	track wfmashHPRCy1HG02572hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02572hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02572#hap1
 	shortLabel HG02572#hap1
@@ -937,10 +937,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 189
+	priority 744
 
-	track wfmashHPRCy1HG02572hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02572hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02572#hap2
 	shortLabel HG02572#hap2
@@ -949,10 +949,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02572hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 190
+	priority 745
 
-	track wfmashHPRCy1HG02622hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02622hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02622#hap1
 	shortLabel HG02622#hap1
@@ -961,10 +961,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 191
+	priority 746
 
-	track wfmashHPRCy1HG02622hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02622hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02622#hap2
 	shortLabel HG02622#hap2
@@ -973,10 +973,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02622hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 192
+	priority 747
 
-	track wfmashHPRCy1HG02630hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02630hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02630#hap1
 	shortLabel HG02630#hap1
@@ -985,10 +985,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 193
+	priority 748
 
-	track wfmashHPRCy1HG02630hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02630hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02630#hap2
 	shortLabel HG02630#hap2
@@ -997,10 +997,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02630hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 194
+	priority 749
 
-	track wfmashHPRCy1HG02717hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02717hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02717#hap1
 	shortLabel HG02717#hap1
@@ -1009,10 +1009,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 195
+	priority 750
 
-	track wfmashHPRCy1HG02717hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02717hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02717#hap2
 	shortLabel HG02717#hap2
@@ -1021,10 +1021,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02717hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 196
+	priority 751
 
-	track wfmashHPRCy1HG02723hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02723hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02723#hap1
 	shortLabel HG02723#hap1
@@ -1033,10 +1033,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 197
+	priority 752
 
-	track wfmashHPRCy1HG02723hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02723hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02723#hap2
 	shortLabel HG02723#hap2
@@ -1045,10 +1045,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02723hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 198
+	priority 753
 
-	track wfmashHPRCy1HG02818hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02818hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02818#hap1
 	shortLabel HG02818#hap1
@@ -1057,10 +1057,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 199
+	priority 754
 
-	track wfmashHPRCy1HG02818hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02818hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02818#hap2
 	shortLabel HG02818#hap2
@@ -1069,10 +1069,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02818hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 200
+	priority 755
 
-	track wfmashHPRCy1HG02886hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02886hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02886#hap1
 	shortLabel HG02886#hap1
@@ -1081,10 +1081,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 201
+	priority 756
 
-	track wfmashHPRCy1HG02886hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG02886hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG02886#hap2
 	shortLabel HG02886#hap2
@@ -1093,10 +1093,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG02886hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 202
+	priority 757
 
-	track wfmashHPRCy1HG03098hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03098hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03098#hap1
 	shortLabel HG03098#hap1
@@ -1105,10 +1105,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 203
+	priority 758
 
-	track wfmashHPRCy1HG03098hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03098hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03098#hap2
 	shortLabel HG03098#hap2
@@ -1117,10 +1117,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03098hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 204
+	priority 759
 
-	track wfmashHPRCy1HG03453hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03453hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03453#hap1
 	shortLabel HG03453#hap1
@@ -1129,10 +1129,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 205
+	priority 760
 
-	track wfmashHPRCy1HG03453hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03453hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03453#hap2
 	shortLabel HG03453#hap2
@@ -1141,10 +1141,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03453hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 206
+	priority 761
 
-	track wfmashHPRCy1HG03486hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03486hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03486#hap1
 	shortLabel HG03486#hap1
@@ -1153,10 +1153,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 207
+	priority 762
 
-	track wfmashHPRCy1HG03486hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03486hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03486#hap2
 	shortLabel HG03486#hap2
@@ -1165,10 +1165,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03486hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 208
+	priority 763
 
-	track wfmashHPRCy1HG03492hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03492hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03492#hap1
 	shortLabel HG03492#hap1
@@ -1177,10 +1177,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 209
+	priority 764
 
-	track wfmashHPRCy1HG03492hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03492hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03492#hap2
 	shortLabel HG03492#hap2
@@ -1189,10 +1189,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03492hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 210
+	priority 765
 
-	track wfmashHPRCy1HG03516hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03516hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03516#hap1
 	shortLabel HG03516#hap1
@@ -1201,10 +1201,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 211
+	priority 766
 
-	track wfmashHPRCy1HG03516hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03516hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03516#hap2
 	shortLabel HG03516#hap2
@@ -1213,10 +1213,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03516hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 212
+	priority 767
 
-	track wfmashHPRCy1HG03540hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03540hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03540#hap1
 	shortLabel HG03540#hap1
@@ -1225,10 +1225,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 213
+	priority 768
 
-	track wfmashHPRCy1HG03540hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03540hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03540#hap2
 	shortLabel HG03540#hap2
@@ -1237,10 +1237,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03540hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 214
+	priority 769
 
-	track wfmashHPRCy1HG03579hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03579hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03579#hap1
 	shortLabel HG03579#hap1
@@ -1249,10 +1249,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 215
+	priority 770
 
-	track wfmashHPRCy1HG03579hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1HG03579hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain HG03579#hap2
 	shortLabel HG03579#hap2
@@ -1261,10 +1261,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/HG03579hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 216
+	priority 771
 
-	track wfmashHPRCy1NA18906hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA18906hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA18906#hap1
 	shortLabel NA18906#hap1
@@ -1273,10 +1273,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 217
+	priority 772
 
-	track wfmashHPRCy1NA18906hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA18906hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA18906#hap2
 	shortLabel NA18906#hap2
@@ -1285,10 +1285,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA18906hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 218
+	priority 773
 
-	track wfmashHPRCy1NA19240hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA19240hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA19240#hap1
 	shortLabel NA19240#hap1
@@ -1297,10 +1297,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 219
+	priority 774
 
-	track wfmashHPRCy1NA19240hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA19240hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA19240#hap2
 	shortLabel NA19240#hap2
@@ -1309,10 +1309,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA19240hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 220
+	priority 775
 
-	track wfmashHPRCy1NA20129hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA20129hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA20129#hap1
 	shortLabel NA20129#hap1
@@ -1321,10 +1321,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 221
+	priority 776
 
-	track wfmashHPRCy1NA20129hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA20129hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA20129#hap2
 	shortLabel NA20129#hap2
@@ -1333,10 +1333,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA20129hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 222
+	priority 777
 
-	track wfmashHPRCy1NA21309hap1
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA21309hap1
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA21309#hap1
 	shortLabel NA21309#hap1
@@ -1345,10 +1345,10 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap1_to_CHM13v2.0.bigChain.link.bb
-	priority 223
+	priority 778
 
-	track wfmashHPRCy1NA21309hap2
-	parent wfmashHPRCy1
+	track hs1_wfmashHPRCy1NA21309hap2
+	parent hs1_wfmashHPRCy1
 	group compGeno
 	type bigChain NA21309#hap2
 	shortLabel NA21309#hap2
@@ -1357,13 +1357,13 @@ priority 130
 	mouseOverField name
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_CHM13v2.0.bigChain.bb
 	linkDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/wfmash_v0.13.0_HPRCy1/NA21309hap2_to_CHM13v2.0.bigChain.link.bb
-	priority 224
+	priority 779
 
 
 
 include hal.trackDb.txt
 
-track haqer
+track hs1_haqer
 shortLabel HAQERs
 longLabel Human Ancestor Quickly Evolved Regions
 group compGeno
@@ -1373,21 +1373,21 @@ type bigBed 4
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/haqer_v1.0.bb
 html https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/html/haqer.html
 mouseOverField name
-priority 500
+priority 790
 
-track phast
+track hs1_phast
 superTrack on show
 shortLabel PHAST
 longLabel Most conserved region from 2 approaches
 group compGeno
 mouseOverField name
 html https://raw.githubusercontent.com/T2T-apes/MSA/main/trackDescription_conservation.html
-priority 600
+priority 791
 
-	track cons1score
+	track hs1_cons1score
 	shortLabel Score (Approach1)
 	longLabel Approach 1 Conservation Score
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility hide
 	autoScale Off
@@ -1398,12 +1398,12 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.scores_v0.1.bw
-	priority 601
+	priority 792
 
-	track cons1elmnt
+	track hs1_cons1elmnt
 	shortLabel Conserved (Approach1)
 	longLabel Approach 1 Most Conserved Elements
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility hide
 	autoScale Off
@@ -1414,12 +1414,12 @@ priority 600
 	viewLimits -428:100000
 	type bigWig -428 100000
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach1.most_conserved_v0.1.bw
-	priority 602
+	priority 793
 
-	track cons2score
+	track hs1_cons2score
 	shortLabel Score (Approach2 v0.1)
 	longLabel Approach 2 Conservation Score v0.1
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility hide
 	autoScale Off
@@ -1430,22 +1430,22 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.1.bw
-	priority 603
+	priority 794
 
-	track cons2elmnt
+	track hs1_cons2elmnt
 	shortLabel Conserved (Approach2 v0.1)
 	longLabel Approach 2 Most Conserved Elements v0.1
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility hide
 	type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.1.bb
-	priority 604
+	priority 795
 
-	track cons2score2
+	track hs1_cons2score2
 	shortLabel Score (Approach2 v0.2)
 	longLabel Approach 2 Conservation Score v0.2
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility hide
 	autoScale Off
@@ -1456,22 +1456,22 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.2.bw
-	priority 605
+	priority 796
 
-	track cons2elmnt2
+	track hs1_cons2elmnt2
 	shortLabel Conserved (Approach2 v0.2)
 	longLabel Approach 2 Most Conserved Elements v0.2
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility hide
 	type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.2.bb
-	priority 606
+	priority 797
 
-	track cons2score3
+	track hs1_cons2score3
 	shortLabel Score (Approach2 v0.3)
 	longLabel Approach 2 Conservation Score v0.3
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility full
 	autoScale Off
@@ -1482,14 +1482,14 @@ priority 600
 	viewLimits 0:1
 	type bigWig 0 1
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.scores_v0.3.bw
-	priority 607
+	priority 798
 
-	track cons2elmnt3
+	track hs1_cons2elmnt3
 	shortLabel Conserved (Approach2 v0.3)
 	longLabel Approach 2 Most Conserved Elements v0.3
-	parent phast
+	parent hs1_phast
 	group compGeno
 	visibility dense
 	type bigBed 3
 	bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/CHM13/bbi/approach2.most_conserved_v0.3.bb
-	priority 608
+	priority 799

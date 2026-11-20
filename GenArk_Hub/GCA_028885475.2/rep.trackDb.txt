@@ -1,4 +1,4 @@
-track censat
+track GCA_028885475_2_censat
 group rep
 visibility dense
 compositeTrack on
@@ -8,10 +8,10 @@ shortLabel CenSat
 longLabel Centromeric Satellite Annotation
 html ../html/censat.html
 mouseOverField name
-priority 20
+priority 14
 
-    track censatAnn
-    parent censat
+    track GCA_028885475_2_censatAnn
+    parent GCA_028885475_2_censat
     shortLabel CenSat
     longLabel Centromeric Satellite Annotation
     group rep
@@ -20,10 +20,10 @@ priority 20
     itemRgb on
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0_CenSat_v2.0.bb
     html ../html/censat.html
-    priority 20.1
+    priority 15
 
-    track censatStrand
-    parent censat
+    track GCA_028885475_2_censatStrand
+    parent GCA_028885475_2_censat
     shortLabel CenSat Strand
     longLabel Centromeric Satellite Strand Annotation
     group rep
@@ -32,9 +32,9 @@ priority 20
     itemRgb on
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0_CenSatStrand_v2.0.bb
     html ../html/censat.html
-    priority 20.2
+    priority 16
 
-track centro
+track GCA_028885475_2_centro
 compositeTrack on
 visibility dense
 superTrack on hide
@@ -42,46 +42,46 @@ shortLabel Centromere
 longLabel Centromere Annotation
 group rep
 mouseOverField name
-priority 21
+priority 17
 
-    track cenpa
-    parent centro
+    track GCA_028885475_2_cenpa
+    parent GCA_028885475_2_centro
     group rep
     shortLabel CENP-A
     longLabel CENP-A
     type bigWig
     maxHeightPixels 100:32:8
     visibility full
-    priority 21.1
+    priority 18
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/cen/mGorGor1.CENPA.bw
     html ../html/cenp-a.html
 
-    track supFam
-    parent centro
+    track GCA_028885475_2_supFam
+    parent GCA_028885475_2_centro
     group rep
     shortLabel AS SuperFamily
     longLabel Alpha-Satellite Super Family
     type bigBed 9
     visibility dense
     itemRgb on
-    priority 21.2
+    priority 19
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/cen/mGorGor1_v2.0.SF_v1.0.bb
     html ../html/aSatSF.html
 
-    track sfStrand
-    parent centro
+    track GCA_028885475_2_sfStrand
+    parent GCA_028885475_2_centro
     group rep
     shortLabel AS Strand
     longLabel Alpha-Satellite Strand
     type bigBed 9
     visibility dense
     itemRgb on
-    priority 21.3
+    priority 20
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/cen/mGorGor1_v2.0.Strand_v1.0.bb
     html ../html/aSatStrand.html
 
-    track cenpbSite
-    parent centro
+    track GCA_028885475_2_cenpbSite
+    parent GCA_028885475_2_centro
     group rep
     shortLabel CENP-B Sites
     longLabel CENP-B Binding Sites (k-mer match)
@@ -89,11 +89,11 @@ priority 21
     visibility dense
     itemRgb on
     maxItems 100000
-    priority 21.4
+    priority 21
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/cen/mGorGor1_v2.0.cenpb_sites_v1.0.bb
     html ../html/cenp-b_sites.html
 
-track rmsk
+track GCA_028885475_2_rmsk
 shortLabel RepeatMasker
 longLabel RepeatMasker Repetitive Elements
 type bigRmsk
@@ -105,11 +105,11 @@ maxWindowToDraw 5000000
 html ../html/rmsk.html
 priority 22
 
-track segDups
+track GCA_028885475_2_segDups
 shortLabel SEDEF SegDups
 longLabel SEDEF Segmental Duplications
 group rep
-type bigBed 9 35
+type bigBed 9 +
 visibility dense
 itemRgb on
 maxItems 100000
@@ -117,7 +117,7 @@ bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/a
 html ../html/segDups.html
 priority 23
 
-track seqidyAcro
+track GCA_028885475_2_seqidyAcro
 superTrack on show
 visibility dense
 shortLabel SeqIdy (Acro)
@@ -129,107 +129,107 @@ mouseOverField name
 html ../html/seqIdy.html
 priority 24
 
-    track seqIdychr12_pat_hsa2a
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr12_pat_hsa2a
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr12_pat_hsa2a
     longLabel mGorGor1#chr12_pat_hsa2a
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr12_pat_hsa2a.bb
-    priority 24.12
+    priority 25
 
-    track seqIdychr11_pat_hsa2b
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr11_pat_hsa2b
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr11_pat_hsa2b
     longLabel mGorGor1#chr11_pat_hsa2b
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr11_pat_hsa2b.bb
-    priority 24.14
+    priority 26
 
-    track seqIdychr13_pat_hsa9
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr13_pat_hsa9
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr13_pat_hsa9
     longLabel mGorGor1#chr13_pat_hsa9
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr13_pat_hsa9.bb
-    priority 24.16
+    priority 27
 
-    track seqIdychr14_pat_hsa13
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr14_pat_hsa13
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr14_pat_hsa13
     longLabel mGorGor1#chr14_pat_hsa13
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr14_pat_hsa13.bb
-    priority 24.18
+    priority 28
 
-    track seqIdychr15_pat_hsa14
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr15_pat_hsa14
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr15_pat_hsa14
     longLabel mGorGor1#chr15_pat_hsa14
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr15_pat_hsa14.bb
-    priority 24.20
+    priority 29
 
-    track seqIdychr16_pat_hsa15
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr16_pat_hsa15
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr16_pat_hsa15
     longLabel mGorGor1#chr16_pat_hsa15
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr16_pat_hsa15.bb
-    priority 24.22
+    priority 30
 
-    track seqIdychr17_pat_hsa18
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr17_pat_hsa18
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr17_pat_hsa18
     longLabel mGorGor1#chr17_pat_hsa18
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr17_pat_hsa18.bb
-    priority 24.24
+    priority 31
 
-    track seqIdychr22_pat_hsa21
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr22_pat_hsa21
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr22_pat_hsa21
     longLabel mGorGor1#chr22_pat_hsa21
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr22_pat_hsa21.bb
-    priority 24.26
+    priority 32
 
-    track seqIdychr23_pat_hsa22
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychr23_pat_hsa22
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr23_pat_hsa22
     longLabel mGorGor1#chr23_pat_hsa22
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr23_pat_hsa22.bb
-    priority 24.28
+    priority 33
 
-    track seqIdychrY_pat_hsaY
-    parent seqidyAcro
+    track GCA_028885475_2_seqIdychrY_pat_hsaY
+    parent GCA_028885475_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chrY_pat_hsaY
     longLabel mGorGor1#chrY_pat_hsaY
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chrY_pat_hsaY.bb
-    priority 24.29
+    priority 34
 
-track seqidy
+track GCA_028885475_2_seqidy
 superTrack on hide
 visibility dense
 shortLabel SeqIdy (Non-Acro)
@@ -239,149 +239,149 @@ type bigBed 9
 itemRgb on
 mouseOverField name
 html ../html/seqIdy.html
-priority 25
+priority 35
 
-    track seqIdychr1_pat_hsa1
-    parent seqidy
+    track GCA_028885475_2_seqIdychr1_pat_hsa1
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr1_pat_hsa1
     longLabel mGorGor1#chr1_pat_hsa1
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr1_pat_hsa1.bb
-    priority 25.11
+    priority 36
 
-    track seqIdychr2_pat_hsa3
-    parent seqidy
+    track GCA_028885475_2_seqIdychr2_pat_hsa3
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr2_pat_hsa3
     longLabel mGorGor1#chr2_pat_hsa3
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr2_pat_hsa3.bb
-    priority 25.13
+    priority 37
 
-    track seqIdychr3_pat_hsa4
-    parent seqidy
+    track GCA_028885475_2_seqIdychr3_pat_hsa4
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr3_pat_hsa4
     longLabel mGorGor1#chr3_pat_hsa4
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr3_pat_hsa4.bb
-    priority 25.15
+    priority 38
 
-    track seqIdychr4_pat_hsa17x5
-    parent seqidy
+    track GCA_028885475_2_seqIdychr4_pat_hsa17x5
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr4_pat_hsa17x5
     longLabel mGorGor1#chr4_pat_hsa17x5
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr4_pat_hsa17x5.bb
-    priority 25.17
+    priority 39
 
-    track seqIdychr5_pat_hsa6
-    parent seqidy
+    track GCA_028885475_2_seqIdychr5_pat_hsa6
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr5_pat_hsa6
     longLabel mGorGor1#chr5_pat_hsa6
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr5_pat_hsa6.bb
-    priority 25.19
+    priority 40
 
-    track seqIdychr6_pat_hsa7
-    parent seqidy
+    track GCA_028885475_2_seqIdychr6_pat_hsa7
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr6_pat_hsa7
     longLabel mGorGor1#chr6_pat_hsa7
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr6_pat_hsa7.bb
-    priority 25.21
+    priority 41
 
-    track seqIdychr7_pat_hsa8
-    parent seqidy
+    track GCA_028885475_2_seqIdychr7_pat_hsa8
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr7_pat_hsa8
     longLabel mGorGor1#chr7_pat_hsa8
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr7_pat_hsa8.bb
-    priority 25.23
+    priority 42
 
-    track seqIdychr8_pat_hsa10
-    parent seqidy
+    track GCA_028885475_2_seqIdychr8_pat_hsa10
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr8_pat_hsa10
     longLabel mGorGor1#chr8_pat_hsa10
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr8_pat_hsa10.bb
-    priority 25.25
+    priority 43
 
-    track seqIdychr9_pat_hsa11
-    parent seqidy
+    track GCA_028885475_2_seqIdychr9_pat_hsa11
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr9_pat_hsa11
     longLabel mGorGor1#chr9_pat_hsa11
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr9_pat_hsa11.bb
-    priority 25.27
+    priority 44
 
-    track seqIdychr10_pat_hsa12
-    parent seqidy
+    track GCA_028885475_2_seqIdychr10_pat_hsa12
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr10_pat_hsa12
     longLabel mGorGor1#chr10_pat_hsa12
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr10_pat_hsa12.bb
-    priority 25.29
+    priority 45
 
-    track seqIdychr18_pat_hsa16
-    parent seqidy
+    track GCA_028885475_2_seqIdychr18_pat_hsa16
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr18_pat_hsa16
     longLabel mGorGor1#chr18_pat_hsa16
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr18_pat_hsa16.bb
-    priority 25.45
+    priority 46
 
-    track seqIdychr19_pat_hsa5x17
-    parent seqidy
+    track GCA_028885475_2_seqIdychr19_pat_hsa5x17
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr19_pat_hsa5x17
     longLabel mGorGor1#chr19_pat_hsa5x17
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr19_pat_hsa5x17.bb
-    priority 25.47
+    priority 47
 
-    track seqIdychr20_pat_hsa19
-    parent seqidy
+    track GCA_028885475_2_seqIdychr20_pat_hsa19
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr20_pat_hsa19
     longLabel mGorGor1#chr20_pat_hsa19
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr20_pat_hsa19.bb
-    priority 25.49
+    priority 48
 
-    track seqIdychr21_pat_hsa20
-    parent seqidy
+    track GCA_028885475_2_seqIdychr21_pat_hsa20
+    parent GCA_028885475_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr21_pat_hsa20
     longLabel mGorGor1#chr21_pat_hsa20
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/chr21_pat_hsa20.bb
-    priority 25.51
+    priority 49
 
-track seqidyCHM13
+track GCA_028885475_2_seqidyCHM13
 shortLabel SeqIdy (T2T-CHM13)
 longLabel T2T-CHM13
 type bigBed 9
@@ -391,90 +391,90 @@ mouseOverField name
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/seqIdy_v1.1/CHM13v2.0_to_mGorGor1v2.0.bb
 html ../html/seqIdy.html
 group rep
-priority 25.6
+priority 51
 
-track nonB
+track GCA_028885475_2_nonB
 superTrack on hide
 visibility dense
 shortLabel Non-B DNA
 longLabel Non-B DNA
 group rep
-priority 26
+priority 52
 html ../html/nonB.html
 
-    track nonBapr
+    track GCA_028885475_2_nonBapr
     shortLabel A-phased repeats
     longLabel A-phased repeats
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_APR.bb
-    priority 26.1
+    priority 53
 
-    track nonBdr
+    track GCA_028885475_2_nonBdr
     shortLabel Direct repeats
     longLabel Direct repeats
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_DR.bb
-    priority 26.2
+    priority 54
 
-    track nonBgq
+    track GCA_028885475_2_nonBgq
     shortLabel G-quadruplexes
     longLabel G-quadruplexes
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 4
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_GQ.bb
-    priority 26.3
+    priority 55
 
-    track nonBir
+    track GCA_028885475_2_nonBir
     shortLabel Inverted repeats
     longLabel Inverted repeats
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_IR.bb
-    priority 26.4
+    priority 56
 
-    track nonBmr
+    track GCA_028885475_2_nonBmr
     shortLabel Mirror repeats
     longLabel Mirror repeats
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_MR.bb
-    priority 26.5
+    priority 57
 
-    track nonBtr
+    track GCA_028885475_2_nonBtr
     shortLabel Triplex repeats
     longLabel Triplex repeats
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_TRI.bb
-    priority 26.6
+    priority 58
 
-    track nonBstr
+    track GCA_028885475_2_nonBstr
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_STR.bb
-    priority 26.7
+    priority 59
 
-    track nonBz
+    track GCA_028885475_2_nonBz
     shortLabel Z-DNA
     longLabel Z-DNA
-    parent nonB
+    parent GCA_028885475_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.nonB_Z.bb
-    priority 26.8
+    priority 60
 
-track numt
+track GCA_028885475_2_numt
 shortLabel NUMT
 longLabel Nuclear-Mitochondrial DNA Segment
 type bigBed 3
@@ -482,4 +482,4 @@ visibility dense
 group rep
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Gorilla_gorilla/mGorGor1/assembly_curated/repeats/mGorGor1_v2.0.numts_v1.0.bb
 html ../html/numt.html
-priority 27
+priority 61

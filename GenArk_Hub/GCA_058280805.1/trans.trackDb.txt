@@ -1,4 +1,4 @@
-track KOLF2_1Jv1_1_alt_NEURON_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_NEURON_ONTcDNA_isoform
 shortLabel NEURON.ONTcDNA.isoform
 longLabel NEURON.ONTcDNA.isoform
 group rna
@@ -11,10 +11,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_NEURON_cDNA_PAM31307.bam
-priority 61
+priority 16
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_MGL_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_MGL_ONTcDNA_isoform
 shortLabel MGL.ONTcDNA.isoform
 longLabel MGL.ONTcDNA.isoform
 group rna
@@ -27,10 +27,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_MGL_cDNA_PAM72486.bam
-priority 62
+priority 17
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_ASTRO_NYSCF_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_ASTRO_NYSCF_ONTcDNA_isoform
 shortLabel ASTRO_NYSCF.ONTcDNA.isoform
 longLabel ASTRO_NYSCF.ONTcDNA.isoform
 group rna
@@ -43,10 +43,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_NYSCF_cDNA_PAU25463.bam
-priority 63
+priority 18
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_ASTRO_IND12_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_ASTRO_IND12_ONTcDNA_isoform
 shortLabel ASTRO_IND12.ONTcDNA.isoform
 longLabel ASTRO_IND12.ONTcDNA.isoform
 group rna
@@ -59,10 +59,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU24904.bam
-priority 64
+priority 19
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_ASTRO_IND12_2_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_ASTRO_IND12_2_ONTcDNA_isoform
 shortLabel ASTRO_IND12_2.ONTcDNA.isoform
 longLabel ASTRO_IND12_2.ONTcDNA.isoform
 group rna
@@ -75,10 +75,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU24722.bam
-priority 65
+priority 20
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_ASTRO_IND12_3_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_ASTRO_IND12_3_ONTcDNA_isoform
 shortLabel ASTRO_IND12_3.ONTcDNA.isoform
 longLabel ASTRO_IND12_3.ONTcDNA.isoform
 group rna
@@ -91,10 +91,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU23737.bam
-priority 66
+priority 21
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_OLIGO_NYSCF_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_OLIGO_NYSCF_ONTcDNA_isoform
 shortLabel OLIGO_NYSCF.ONTcDNA.isoform
 longLabel OLIGO_NYSCF.ONTcDNA.isoform
 group rna
@@ -107,10 +107,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_OLIGO_NYSCF_cDNA_PAU25487.bam
-priority 67
+priority 22
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_OLIGO_NYSCF_2_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_OLIGO_NYSCF_2_ONTcDNA_isoform
 shortLabel OLIGO_NYSCF_2.ONTcDNA.isoform
 longLabel OLIGO_NYSCF_2.ONTcDNA.isoform
 group rna
@@ -123,10 +123,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_OLIGO_NYSCF_cDNA_PAU24958.bam
-priority 68
+priority 23
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_ASTRO_IND12_4_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_ASTRO_IND12_4_ONTcDNA_isoform
 shortLabel ASTRO_IND12_4.ONTcDNA.isoform
 longLabel ASTRO_IND12_4.ONTcDNA.isoform
 group rna
@@ -139,10 +139,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_ASTRO_IND12_cDNA_PAU24790.bam
-priority 69
+priority 24
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_NGN2_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_NGN2_ONTcDNA_isoform
 shortLabel NGN2.ONTcDNA.isoform
 longLabel NGN2.ONTcDNA.isoform
 group rna
@@ -155,10 +155,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_NGN2_cDNA_PAM74535.bam
-priority 70
+priority 25
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_IPS_ONTcDNA_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_IPS_ONTcDNA_isoform
 shortLabel IPS.ONTcDNA.isoform
 longLabel IPS.ONTcDNA.isoform
 group rna
@@ -171,10 +171,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_IPS_cDNA_PAM31312.bam
-priority 71
+priority 26
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_IPSC_1_HiFi_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_IPSC_1_HiFi_isoform
 shortLabel IPSC_1.HiFi.isoform
 longLabel IPSC_1.HiFi.isoform
 group rna
@@ -187,10 +187,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_KOLF_IPSC_1_HiFi.bam
-priority 72
+priority 27
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_IPSC_2_HiFi_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_IPSC_2_HiFi_isoform
 shortLabel IPSC_2.HiFi.isoform
 longLabel IPSC_2.HiFi.isoform
 group rna
@@ -203,10 +203,10 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_KOLF_IPSC_2_HiFi.bam
-priority 73
+priority 28
 html ../html/KOLF2.1Jv1.1.trans
 
-track KOLF2_1Jv1_1_alt_NEURON_HiFi_isoform
+track GCA_058280805_1_KOLF2_1Jv1_1_alt_NEURON_HiFi_isoform
 shortLabel NEURON.HiFi.isoform
 longLabel NEURON.HiFi.isoform
 group rna
@@ -219,5 +219,5 @@ showNames off
 bamColorMode gray
 bamGrayMode aliQual
 bigDataUrl https://s3-us-west-2.amazonaws.com/human-pangenomics/T2T/browser/KOLF/bbi/KOLF2.1Jv1.1_KOLF_NEURON_HiFi.bam
-priority 74
+priority 29
 html ../html/KOLF2.1Jv1.1.trans

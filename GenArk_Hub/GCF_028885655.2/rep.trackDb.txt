@@ -1,4 +1,4 @@
-track censat
+track GCF_028885655_2_censat
 group rep
 visibility dense
 compositeTrack on
@@ -8,10 +8,10 @@ shortLabel CenSat
 longLabel Centromeric Satellite Annotation
 html ../html/censat.html
 mouseOverField name
-priority 20
+priority 13
 
-    track censatAnn
-    parent censat
+    track GCF_028885655_2_censatAnn
+    parent GCF_028885655_2_censat
     shortLabel CenSat
     longLabel Centromeric Satellite Annotation
     group rep
@@ -20,10 +20,10 @@ priority 20
     itemRgb on
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0_CenSat_v2.0.bb
     html ../html/censat.html
-    priority 20.1
+    priority 14
 
-    track censatStrand
-    parent censat
+    track GCF_028885655_2_censatStrand
+    parent GCF_028885655_2_censat
     shortLabel CenSat Strand
     longLabel Centromeric Satellite Strand Annotation
     group rep
@@ -32,9 +32,9 @@ priority 20
     itemRgb on
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0_CenSatStrand_v2.0.bb
     html ../html/censat.html
-    priority 20.2
+    priority 15
 
-track centro
+track GCF_028885655_2_centro
 compositeTrack on
 visibility dense
 superTrack on show
@@ -42,46 +42,46 @@ shortLabel Centromere
 longLabel Centromere Annotation
 group rep
 mouseOverField name
-priority 21
+priority 16
 
-    track cenpa
-    parent centro
+    track GCF_028885655_2_cenpa
+    parent GCF_028885655_2_centro
     group rep
     shortLabel CENP-A
     longLabel CENP-A
     type bigWig
     maxHeightPixels 100:32:8
     visibility full
-    priority 21.1
+    priority 17
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/cen/mPonAbe1.CENPA.bw
     html ../html/cenp-a.html
 
-    track supFam
-    parent centro
+    track GCF_028885655_2_supFam
+    parent GCF_028885655_2_centro
     group rep
     shortLabel AS SuperFamily
     longLabel Alpha-Satellite Super Family
     type bigBed 9
     visibility dense
     itemRgb on
-    priority 21.2
+    priority 18
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/cen/mPonAbe1_v2.0.SF_v1.0.bb
     html ../html/aSatSF.html
 
-    track sfStrand
-    parent centro
+    track GCF_028885655_2_sfStrand
+    parent GCF_028885655_2_centro
     group rep
     shortLabel AS Strand
     longLabel Alpha-Satellite Strand
     type bigBed 9
     visibility dense
     itemRgb on
-    priority 21.3
+    priority 19
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/cen/mPonAbe1_v2.0.Strand_v1.0.bb
     html ../html/aSatStrand.html
 
-    track cenpbSite
-    parent centro
+    track GCF_028885655_2_cenpbSite
+    parent GCF_028885655_2_centro
     group rep
     shortLabel CENP-B Sites
     longLabel CENP-B Binding Sites (k-mer match)
@@ -89,11 +89,11 @@ priority 21
     visibility dense
     itemRgb on
     maxItems 100000
-    priority 21.4
+    priority 20
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/cen/mPonAbe1_v2.0.cenpb_sites_v1.0.bb
     html ../html/cenp-b_sites.html
 
-track rmsk
+track GCF_028885655_2_rmsk
 shortLabel RepeatMasker
 longLabel RepeatMasker Repetitive Elements
 type bigRmsk
@@ -103,21 +103,21 @@ bigDataUrl  https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/ass
 xrefDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.RepeatMasker_v1.2.align.bb
 maxWindowToDraw 5000000
 html ../html/rmsk.html
-priority 22
+priority 21
 
-track segDups
+track GCF_028885655_2_segDups
 shortLabel SEDEF SegDups
 longLabel SEDEF Segmental Duplications
 group rep
-type bigBed 9 35
+type bigBed 9 +
 visibility dense
 itemRgb on
 maxItems 100000
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.SD_v1.0.bb
 html ../html/segDups.html
-priority 23
+priority 22
 
-track seqidyAcro
+track GCF_028885655_2_seqidyAcro
 superTrack on show
 visibility dense
 shortLabel SeqIdy (Acro)
@@ -127,199 +127,199 @@ type bigBed 9
 itemRgb on
 mouseOverField name
 html ../html/seqIdy.html
-priority 24
+priority 23
 
-    track seqIdychr12_hap1_hsa2a
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr12_hap1_hsa2a
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr12_hap1_hsa2a
     longLabel mPonAbe1#chr12_hap1_hsa2a
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr12_hap1_hsa2a.bb
-    priority 24.22
+    priority 24
 
-    track seqIdychr12_hap2_hsa2a
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr12_hap2_hsa2a
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr12_hap2_hsa2a
     longLabel mPonAbe1#chr12_hap2_hsa2a
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr12_hap2_hsa2a.bb
-    priority 24.23
+    priority 25
 
-    track seqIdychr11_hap1_hsa2b
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr11_hap1_hsa2b
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr11_hap1_hsa2b
     longLabel mPonAbe1#chr11_hap1_hsa2b
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr11_hap1_hsa2b.bb
-    priority 24.30
+    priority 26
 
-    track seqIdychr11_hap2_hsa2b
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr11_hap2_hsa2b
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr11_hap2_hsa2b
     longLabel mPonAbe1#chr11_hap2_hsa2b
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr11_hap2_hsa2b.bb
-    priority 24.31
+    priority 27
 
-    track seqIdychr13_hap1_hsa9
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr13_hap1_hsa9
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr13_hap1_hsa9
     longLabel mPonAbe1#chr13_hap1_hsa9
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr13_hap1_hsa9.bb
-    priority 24.34
+    priority 28
 
-    track seqIdychr13_hap2_hsa9
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr13_hap2_hsa9
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr13_hap2_hsa9
     longLabel mPonAbe1#chr13_hap2_hsa9
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr13_hap2_hsa9.bb
-    priority 24.35
+    priority 29
 
-    track seqIdychr14_hap1_hsa13
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr14_hap1_hsa13
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr14_hap1_hsa13
     longLabel mPonAbe1#chr14_hap1_hsa13
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr14_hap1_hsa13.bb
-    priority 24.36
+    priority 30
 
-    track seqIdychr14_hap2_hsa13
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr14_hap2_hsa13
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr14_hap2_hsa13
     longLabel mPonAbe1#chr14_hap2_hsa13
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr14_hap2_hsa13.bb
-    priority 24.37
+    priority 31
 
-    track seqIdychr15_hap1_hsa14
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr15_hap1_hsa14
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr15_hap1_hsa14
     longLabel mPonAbe1#chr15_hap1_hsa14
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr15_hap1_hsa14.bb
-    priority 24.38
+    priority 32
 
-    track seqIdychr15_hap2_hsa14
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr15_hap2_hsa14
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr15_hap2_hsa14
     longLabel mPonAbe1#chr15_hap2_hsa14
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr15_hap2_hsa14.bb
-    priority 24.39
+    priority 33
 
-    track seqIdychr16_hap1_hsa15
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr16_hap1_hsa15
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr16_hap1_hsa15
     longLabel mPonAbe1#chr16_hap1_hsa15
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr16_hap1_hsa15.bb
-    priority 24.40
+    priority 34
 
-    track seqIdychr16_hap2_hsa15
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr16_hap2_hsa15
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr16_hap2_hsa15
     longLabel mPonAbe1#chr16_hap2_hsa15
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr16_hap2_hsa15.bb
-    priority 24.41
+    priority 35
 
-    track seqIdychr17_hap1_hsa18
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr17_hap1_hsa18
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr17_hap1_hsa18
     longLabel mPonAbe1#chr17_hap1_hsa18
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr17_hap1_hsa18.bb
-    priority 24.42
+    priority 36
 
-    track seqIdychr17_hap2_hsa18
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr17_hap2_hsa18
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr17_hap2_hsa18
     longLabel mPonAbe1#chr17_hap2_hsa18
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr17_hap2_hsa18.bb
-    priority 24.43
+    priority 37
 
-    track seqIdychr22_hap1_hsa21
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr22_hap1_hsa21
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr22_hap1_hsa21
     longLabel mPonAbe1#chr22_hap1_hsa21
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr22_hap1_hsa21.bb
-    priority 24.52
+    priority 38
 
-    track seqIdychr22_hap2_hsa21
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr22_hap2_hsa21
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr22_hap2_hsa21
     longLabel mPonAbe1#chr22_hap2_hsa21
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr22_hap2_hsa21.bb
-    priority 24.53
+    priority 39
 
-    track seqIdychr23_hap1_hsa22
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr23_hap1_hsa22
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr23_hap1_hsa22
     longLabel mPonAbe1#chr23_hap1_hsa22
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr23_hap1_hsa22.bb
-    priority 24.54
+    priority 40
 
-    track seqIdychr23_hap2_hsa22
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychr23_hap2_hsa22
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chr23_hap2_hsa22
     longLabel mPonAbe1#chr23_hap2_hsa22
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr23_hap2_hsa22.bb
-    priority 24.55
+    priority 41
 
-    track seqIdychrY_hap2_hsaY
-    parent seqidyAcro
+    track GCF_028885655_2_seqIdychrY_hap2_hsaY
+    parent GCF_028885655_2_seqidyAcro
     group rep
     type bigBed 9
     shortLabel chrY_hap2_hsaY
     longLabel mPonAbe1#chrY_hap2_hsaY
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chrY_hap2_hsaY.bb
-    priority 24.57
+    priority 42
 
-track seqidy
+track GCF_028885655_2_seqidy
 superTrack on hide
 visibility dense
 shortLabel SeqIdy (Non-Acro)
@@ -329,299 +329,299 @@ type bigBed 9
 itemRgb on
 mouseOverField name
 html ../html/seqIdy.html
-priority 25
+priority 43
 
-    track seqIdychr1_hap1_hsa1
-    parent seqidy
+    track GCF_028885655_2_seqIdychr1_hap1_hsa1
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr1_hap1_hsa1
     longLabel mPonAbe1#chr1_hap1_hsa1
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr1_hap1_hsa1.bb
-    priority 25.10
+    priority 44
 
-    track seqIdychr1_hap2_hsa1
-    parent seqidy
+    track GCF_028885655_2_seqIdychr1_hap2_hsa1
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr1_hap2_hsa1
     longLabel mPonAbe1#chr1_hap2_hsa1
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr1_hap2_hsa1.bb
-    priority 25.11
+    priority 45
 
-    track seqIdychr2_hap1_hsa3
-    parent seqidy
+    track GCF_028885655_2_seqIdychr2_hap1_hsa3
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr2_hap1_hsa3
     longLabel mPonAbe1#chr2_hap1_hsa3
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr2_hap1_hsa3.bb
-    priority 25.12
+    priority 46
 
-    track seqIdychr2_hap2_hsa3
-    parent seqidy
+    track GCF_028885655_2_seqIdychr2_hap2_hsa3
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr2_hap2_hsa3
     longLabel mPonAbe1#chr2_hap2_hsa3
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr2_hap2_hsa3.bb
-    priority 25.13
+    priority 47
 
-    track seqIdychr3_hap1_hsa4
-    parent seqidy
+    track GCF_028885655_2_seqIdychr3_hap1_hsa4
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr3_hap1_hsa4
     longLabel mPonAbe1#chr3_hap1_hsa4
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr3_hap1_hsa4.bb
-    priority 25.14
+    priority 48
 
-    track seqIdychr3_hap2_hsa4
-    parent seqidy
+    track GCF_028885655_2_seqIdychr3_hap2_hsa4
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr3_hap2_hsa4
     longLabel mPonAbe1#chr3_hap2_hsa4
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr3_hap2_hsa4.bb
-    priority 25.15
+    priority 49
 
-    track seqIdychr4_hap1_hsa5
-    parent seqidy
+    track GCF_028885655_2_seqIdychr4_hap1_hsa5
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr4_hap1_hsa5
     longLabel mPonAbe1#chr4_hap1_hsa5
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr4_hap1_hsa5.bb
-    priority 25.16
+    priority 50
 
-    track seqIdychr4_hap2_hsa5
-    parent seqidy
+    track GCF_028885655_2_seqIdychr4_hap2_hsa5
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr4_hap2_hsa5
     longLabel mPonAbe1#chr4_hap2_hsa5
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr4_hap2_hsa5.bb
-    priority 25.17
+    priority 51
 
-    track seqIdychr5_hap1_hsa6
-    parent seqidy
+    track GCF_028885655_2_seqIdychr5_hap1_hsa6
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr5_hap1_hsa6
     longLabel mPonAbe1#chr5_hap1_hsa6
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr5_hap1_hsa6.bb
-    priority 25.18
+    priority 52
 
-    track seqIdychr5_hap2_hsa6
-    parent seqidy
+    track GCF_028885655_2_seqIdychr5_hap2_hsa6
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr5_hap2_hsa6
     longLabel mPonAbe1#chr5_hap2_hsa6
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr5_hap2_hsa6.bb
-    priority 25.19
+    priority 53
 
-    track seqIdychr6_hap1_hsa7
-    parent seqidy
+    track GCF_028885655_2_seqIdychr6_hap1_hsa7
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr6_hap1_hsa7
     longLabel mPonAbe1#chr6_hap1_hsa7
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr6_hap1_hsa7.bb
-    priority 25.20
+    priority 54
 
-    track seqIdychr6_hap2_hsa7
-    parent seqidy
+    track GCF_028885655_2_seqIdychr6_hap2_hsa7
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr6_hap2_hsa7
     longLabel mPonAbe1#chr6_hap2_hsa7
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr6_hap2_hsa7.bb
-    priority 25.21
+    priority 55
 
-    track seqIdychr7_hap1_hsa8
-    parent seqidy
+    track GCF_028885655_2_seqIdychr7_hap1_hsa8
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr7_hap1_hsa8
     longLabel mPonAbe1#chr7_hap1_hsa8
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr7_hap1_hsa8.bb
-    priority 25.22
+    priority 56
 
-    track seqIdychr7_hap2_hsa8
-    parent seqidy
+    track GCF_028885655_2_seqIdychr7_hap2_hsa8
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr7_hap2_hsa8
     longLabel mPonAbe1#chr7_hap2_hsa8
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr7_hap2_hsa8.bb
-    priority 25.23
+    priority 57
 
-    track seqIdychr8_hap1_hsa10
-    parent seqidy
+    track GCF_028885655_2_seqIdychr8_hap1_hsa10
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr8_hap1_hsa10
     longLabel mPonAbe1#chr8_hap1_hsa10
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr8_hap1_hsa10.bb
-    priority 25.24
+    priority 58
 
-    track seqIdychr8_hap2_hsa10
-    parent seqidy
+    track GCF_028885655_2_seqIdychr8_hap2_hsa10
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr8_hap2_hsa10
     longLabel mPonAbe1#chr8_hap2_hsa10
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr8_hap2_hsa10.bb
-    priority 25.25
+    priority 59
 
-    track seqIdychr9_hap1_hsa11
-    parent seqidy
+    track GCF_028885655_2_seqIdychr9_hap1_hsa11
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr9_hap1_hsa11
     longLabel mPonAbe1#chr9_hap1_hsa11
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr9_hap1_hsa11.bb
-    priority 25.26
+    priority 60
 
-    track seqIdychr9_hap2_hsa11
-    parent seqidy
+    track GCF_028885655_2_seqIdychr9_hap2_hsa11
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr9_hap2_hsa11
     longLabel mPonAbe1#chr9_hap2_hsa11
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr9_hap2_hsa11.bb
-    priority 25.27
+    priority 61
 
-    track seqIdychr10_hap1_hsa12
-    parent seqidy
+    track GCF_028885655_2_seqIdychr10_hap1_hsa12
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr10_hap1_hsa12
     longLabel mPonAbe1#chr10_hap1_hsa12
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr10_hap1_hsa12.bb
-    priority 25.28
+    priority 62
 
-    track seqIdychr10_hap2_hsa12
-    parent seqidy
+    track GCF_028885655_2_seqIdychr10_hap2_hsa12
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr10_hap2_hsa12
     longLabel mPonAbe1#chr10_hap2_hsa12
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr10_hap2_hsa12.bb
-    priority 25.29
+    priority 63
 
-    track seqIdychr18_hap1_hsa16
-    parent seqidy
+    track GCF_028885655_2_seqIdychr18_hap1_hsa16
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr18_hap1_hsa16
     longLabel mPonAbe1#chr18_hap1_hsa16
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr18_hap1_hsa16.bb
-    priority 25.44
+    priority 64
 
-    track seqIdychr18_hap2_hsa16
-    parent seqidy
+    track GCF_028885655_2_seqIdychr18_hap2_hsa16
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr18_hap2_hsa16
     longLabel mPonAbe1#chr18_hap2_hsa16
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr18_hap2_hsa16.bb
-    priority 25.45
+    priority 65
 
-    track seqIdychr19_hap1_hsa17
-    parent seqidy
+    track GCF_028885655_2_seqIdychr19_hap1_hsa17
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr19_hap1_hsa17
     longLabel mPonAbe1#chr19_hap1_hsa17
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr19_hap1_hsa17.bb
-    priority 25.46
+    priority 66
 
-    track seqIdychr19_hap2_hsa17
-    parent seqidy
+    track GCF_028885655_2_seqIdychr19_hap2_hsa17
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr19_hap2_hsa17
     longLabel mPonAbe1#chr19_hap2_hsa17
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr19_hap2_hsa17.bb
-    priority 25.47
+    priority 67
 
-    track seqIdychr20_hap1_hsa19
-    parent seqidy
+    track GCF_028885655_2_seqIdychr20_hap1_hsa19
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr20_hap1_hsa19
     longLabel mPonAbe1#chr20_hap1_hsa19
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr20_hap1_hsa19.bb
-    priority 25.48
+    priority 68
 
-    track seqIdychr20_hap2_hsa19
-    parent seqidy
+    track GCF_028885655_2_seqIdychr20_hap2_hsa19
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr20_hap2_hsa19
     longLabel mPonAbe1#chr20_hap2_hsa19
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr20_hap2_hsa19.bb
-    priority 25.49
+    priority 69
 
-    track seqIdychr21_hap1_hsa20
-    parent seqidy
+    track GCF_028885655_2_seqIdychr21_hap1_hsa20
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr21_hap1_hsa20
     longLabel mPonAbe1#chr21_hap1_hsa20
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr21_hap1_hsa20.bb
-    priority 25.50
+    priority 70
 
-    track seqIdychr21_hap2_hsa20
-    parent seqidy
+    track GCF_028885655_2_seqIdychr21_hap2_hsa20
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chr21_hap2_hsa20
     longLabel mPonAbe1#chr21_hap2_hsa20
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chr21_hap2_hsa20.bb
-    priority 25.51
+    priority 71
 
-    track seqIdychrX_hap1_hsaX
-    parent seqidy
+    track GCF_028885655_2_seqIdychrX_hap1_hsaX
+    parent GCF_028885655_2_seqidy
     group rep
     type bigBed 9
     shortLabel chrX_hap1_hsaX
     longLabel mPonAbe1#chrX_hap1_hsaX
     visibility dense
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/chrX_hap1_hsaX.bb
-    priority 25.56
+    priority 72
 
-track seqidyCHM13
+track GCF_028885655_2_seqidyCHM13
 shortLabel SeqIdy (T2T-CHM13)
 longLabel T2T-CHM13
 type bigBed 9
@@ -631,90 +631,90 @@ mouseOverField name
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/seqIdy_v1.1/CHM13v2.0_to_mPonAbe1v2.0.bb
 html ../html/seqIdy.html
 group rep
-priority 25.6
+priority 73
 
-track nonB
+track GCF_028885655_2_nonB
 superTrack on hide
 visibility dense
 shortLabel Non-B DNA
 longLabel Non-B DNA
 group rep
-priority 26
+priority 74
 html ../html/nonB.html
 
-    track nonBapr
+    track GCF_028885655_2_nonBapr
     shortLabel A-phased repeats
     longLabel A-phased repeats
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_APR.bb
-    priority 26.1
+    priority 75
 
-    track nonBdr
+    track GCF_028885655_2_nonBdr
     shortLabel Direct repeats
     longLabel Direct repeats
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_DR.bb
-    priority 26.2
+    priority 76
 
-    track nonBgq
+    track GCF_028885655_2_nonBgq
     shortLabel G-quadruplexes
     longLabel G-quadruplexes
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 4
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_GQ.bb
-    priority 26.3
+    priority 77
 
-    track nonBir
+    track GCF_028885655_2_nonBir
     shortLabel Inverted repeats
     longLabel Inverted repeats
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_IR.bb
-    priority 26.4
+    priority 78
 
-    track nonBmr
+    track GCF_028885655_2_nonBmr
     shortLabel Mirror repeats
     longLabel Mirror repeats
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_MR.bb
-    priority 26.5
+    priority 79
 
-    track nonBtr
+    track GCF_028885655_2_nonBtr
     shortLabel Triplex repeats
     longLabel Triplex repeats
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_TRI.bb
-    priority 26.6
+    priority 80
 
-    track nonBstr
+    track GCF_028885655_2_nonBstr
     shortLabel Short tandem repeats
     longLabel Short tandem repeats
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_STR.bb
-    priority 26.7
+    priority 81
 
-    track nonBz
+    track GCF_028885655_2_nonBz
     shortLabel Z-DNA
     longLabel Z-DNA
-    parent nonB
+    parent GCF_028885655_2_nonB
     group rep
     type bigBed 3
     bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.nonB_Z.bb
-    priority 26.8
+    priority 82
 
-track numt
+track GCF_028885655_2_numt
 shortLabel NUMT
 longLabel Nuclear-Mitochondrial DNA Segment
 type bigBed 3
@@ -722,4 +722,4 @@ visibility dense
 group rep
 bigDataUrl https://genomeark.s3.amazonaws.com/species/Pongo_abelii/mPonAbe1/assembly_curated/repeats/mPonAbe1_v2.0.numts_v1.0.bb
 html ../html/numt.html
-priority 27
+priority 83
